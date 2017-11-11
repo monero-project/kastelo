@@ -1,0 +1,17 @@
+--- build-firmware.sh.orig	2017-11-11 22:18:59.699450025 +0100
++++ build-firmware.sh	2017-11-11 22:18:28.956310172 +0100
+@@ -8,10 +8,14 @@
+ 
+ docker build -t $IMAGE .
+ docker run -t -v $(pwd)/build:/build:z $IMAGE /bin/sh -c "\
++	git clone https://github.com/monero-project/sekura && \
+ 	git clone https://github.com/trezor/trezor-mcu && \
+ 	cd trezor-mcu && \
+ 	git checkout $TAG && \
+ 	git submodule update --init && \
++	sed -i -e 's;\(memory_protect()\);//\1;' bootloader/bootloader.c && \
++	sed -i -e 's;to trezor.io/start;hwal.getmonero.org;' firmware/layout2.c && \
++	cp ../sekura/firmware/trezour/classic/bitmaps.c gen/ && \
+ 	make -C vendor/libopencm3 && \
+ 	make -C vendor/nanopb/generator/proto && \
+ 	make -C firmware/protob && \
