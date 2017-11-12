@@ -15,4 +15,4 @@ $ git merge --no-ff pullreq
 $ git push
 ```
 
-For questions or problems, ask us on [IRC](irc://chat.freenode.net/monero-hardware/).
+For questions or problems, ask us on irc://chat.freenode.net/monero-hardware/.
