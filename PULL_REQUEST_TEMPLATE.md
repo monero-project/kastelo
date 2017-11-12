@@ -7,10 +7,12 @@ Thank you for the interest in contributing. To review and possibly merge as soon
 
 The repository maintainer will likely merge the request in the following way:
 
+```
 $ git checkout -b pullreq
 $ git pull git://github.com/<contributor>/<thisrepo>.git
 $ git checkout master
 $ git merge --no-ff pullreq
 $ git push
+```
 
 For questions or problems, ask us on [IRC](irc://chat.freenode.net/monero-hardware/).
