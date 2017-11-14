@@ -12,6 +12,7 @@ $ git checkout -b pullreq
 $ git pull git://github.com/<contributor>/<thisrepo>.git
 $ git checkout master
 $ git merge --no-ff pullreq
+$ git branch -d pullreq
 $ git push
 ```
 
