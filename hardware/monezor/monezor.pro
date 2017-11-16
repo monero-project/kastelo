@@ -1,4 +1,4 @@
-update=Út 14. listopad 2017, 15:06:36 CET
+update=St 15. listopad 2017, 17:38:59 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,11 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=monezor
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -40,3 +35,9 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=monezor
+LibName2=Oscillators
