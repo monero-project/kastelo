@@ -18,7 +18,7 @@ HWDT shall have no liability, neither jointly nor severally, for direct, indirec
 
 ## 5. SANCTIONS
 
-Users acknowledges that the DP may include technology subject to sanctions, embargoes, or export control regulations and shall undertake to ensure compliance with any applicable laws.
+Users acknowledge that the DP may include technology subject to sanctions, embargoes, or export control regulations and shall undertake to ensure compliance with any applicable laws.
 
 ## 6. CUSTOMS
 
