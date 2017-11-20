@@ -1,7 +1,13 @@
-# Sphinx Subdirectory
+# Documentation on Sphinx
 
-One paragraph of descriptive text.
+Sphinx is a documentation generator written in Python.
 
 ## Getting Started
 
-Example text to help understand contents and subdirectories.
+Install Sphinx, either from a distribution package or from PyPI with:
+
+`pip install Sphinx`
+
+Run the build
+
+`make html`
