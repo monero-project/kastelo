@@ -2,7 +2,7 @@ This is monezor hw wallet PCB repository.
 
 Actual version is 0.2.0. Julian Candy:
 
-![alt picture](https://github.com/ivanahepjuk/sekura/blob/master/hardware/mcuderive/MONEZOR_0_2_0_Julian_Candy_Edition.png)
+![alt picture](MONEZOR_0_2_0_Julian_Candy_Edition.png)
 
 
 
