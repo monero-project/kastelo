@@ -1675,4 +1675,37 @@ F 3 "" H 8600 6350 60  0001 C CNN
 	1    8600 6350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Fiducial FID1
+U 1 1 5A132752
+P 8700 5050
+F 0 "FID1" H 8700 4950 60  0000 C CNN
+F 1 "Fiducial" H 8700 5150 60  0000 C CNN
+F 2 "monezor_footprints:Fiducial_Modern_SilkscreenTop" H 8600 4950 60  0001 C CNN
+F 3 "" H 8600 4950 60  0001 C CNN
+	1    8700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID2
+U 1 1 5A132940
+P 8700 5400
+F 0 "FID2" H 8700 5300 60  0000 C CNN
+F 1 "Fiducial" H 8700 5500 60  0000 C CNN
+F 2 "monezor_footprints:Fiducial_Modern_SilkscreenTop" H 8600 5300 60  0001 C CNN
+F 3 "" H 8600 5300 60  0001 C CNN
+	1    8700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fiducial FID3
+U 1 1 5A132A0A
+P 8700 5750
+F 0 "FID3" H 8700 5650 60  0000 C CNN
+F 1 "Fiducial" H 8700 5850 60  0000 C CNN
+F 2 "monezor_footprints:Fiducial_Modern_SilkscreenTop" H 8600 5650 60  0001 C CNN
+F 3 "" H 8600 5650 60  0001 C CNN
+	1    8700 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
