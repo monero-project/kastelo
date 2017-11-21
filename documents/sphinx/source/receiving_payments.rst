@@ -1,0 +1,4 @@
+Receiving payments
+==================
+
+Vivamus auctor turpis purus, ut imperdiet nunc pretium eget. Nunc quis dignissim est, at ullamcorper elit. Vestibulum sit amet massa rhoncus, iaculis arcu a, fringilla orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean euismod scelerisque felis sed venenatis. Nulla facilisi. Quisque eget felis nec purus semper ultricies vel id ligula. Mauris id lectus non magna tincidunt sodales. Praesent porttitor justo ac lorem mollis, et sagittis ligula rhoncus. Phasellus quis vulputate nunc, id eleifend lectus. Integer eleifend, risus et luctus gravida, ipsum mi bibendum sapien, sit amet tempor erat turpis venenatis sem. Donec rhoncus leo id dolor tempus facilisis. Praesent posuere vehicula ante, vel ullamcorper ligula. Aliquam mattis lacus enim, nec accumsan dui efficitur quis. Donec ultricies laoreet est, eu ullamcorper est sagittis a. 

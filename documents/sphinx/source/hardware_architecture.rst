@@ -1,0 +1,4 @@
+Hardware architecture
+=====================
+
+Praesent sed velit vitae elit dictum cursus. Proin tincidunt pellentesque diam sit amet hendrerit. Cras convallis accumsan ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed imperdiet enim, laoreet eleifend nisi. Praesent metus mi, faucibus in semper non, gravida at metus. Cras ullamcorper vel justo vel mattis. Quisque volutpat lacus a dui imperdiet interdum. Integer fermentum feugiat mattis. Pellentesque finibus malesuada elementum. Nam quis ante orci. Duis hendrerit rutrum porta. Proin porttitor velit at pretium pharetra. Phasellus commodo iaculis risus, non convallis nisi porttitor nec. Sed sed cursus lectus. 

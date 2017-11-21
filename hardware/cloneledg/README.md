@@ -1,3 +1,7 @@
-## This is a test commit
+# Hardware Cloneledg Design
 
-Testing to see whether the pull request is working or not.
+One paragraph of descriptive text.
+
+## Getting Started
+
+Example text to help understand contents and subdirectories.
