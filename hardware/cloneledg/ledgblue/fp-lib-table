@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ledgblue_footprints)(type KiCad)(uri "$(KIPRJMOD)/ledgblue_footprints.pretty")(options "")(descr ""))
+)
