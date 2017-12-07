@@ -1,0 +1,2 @@
+# exclude file endings of assumed generated archives
+*.pdf
