@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source C:/Users/sebgus/Documents/KiCad/ledgblue/ledgblue.sch)
+    (source ledgblue/ledgblue.sch)
     (date "2017-12-03 12:28:29")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
@@ -746,7 +746,7 @@
         (pin (num 12) (name GND) (type output)))))
   (libraries
     (library (logical ledgerblue)
-      (uri C:\Users\sebgus\Documents\KiCad\ledgblue\ledgerblue.lib))
+      (uri ledgblue\ledgerblue.lib))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical regul)
