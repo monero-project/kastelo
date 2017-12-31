@@ -1,0 +1,3 @@
+[submodule "firmware/Monezor_fw/libopencm3"]
+	path = firmware/Monezor_fw/libopencm3
+	url = https://github.com/libopencm3/libopencm3

@@ -6,6 +6,9 @@ The Sekura Monero Hardware Wallet
 1. [Safe, Vault](https://en.wikipedia.org/wiki/Esperanto), a place to store valuables
 2. An open hardware Monero wallet
 
+## Are you a tester looking for FW?
+Please go to firmware/monezor and read the README there
+
 ## Disclaimers
 - No hardware available
 - Currently in the design and pre-fabrication stage
