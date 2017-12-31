@@ -2,7 +2,8 @@
 
 ABOUT THIS REPOSITORY
 
-	This is basic project for Monero HW wallet (JULIAN CANDY EDITION) development.
+	This is basic project for Monero HW wallet (JULIAN CANDY EDITION) development. HW informations for JULIAN CANDY 
+	device are in the sekura/hardware/Monezor folder.
 
 	It was established by forking and putting together files from three github repositories: 
 
