@@ -7,7 +7,7 @@ The Sekura Monero Hardware Wallet
 2. An open hardware Monero wallet
 
 # Are you a tester looking for FW?:
-please go to firmware/Monezor_fw and read README there
+Please go to firmware/Monezor_fw and read README there
 
 ## Disclaimers
 - No hardware available
