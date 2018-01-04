@@ -27,7 +27,24 @@ $ sudo apt-get install gcc-arm-none-eabi
 Once this is done, there are two separate things to build: the libopencm3 library and the firmware itself. So at first, go to the libopencm3 folder and build the library by running "make". Then, change directory to to the monezor folder.
 Run "make" here as well. This should result in the files named monezor.bin and monezor.elf. Once they are there, you can continue with uploading the binary :)
 
-### USB Rules:
+### USB Vendor and Product ID (user flash boot only)
+
+We have applied for the following VID/PID assignments:
+
+* Borken editions 0x1209/0xB0B0
+* Consumer editions 0x1209/0xC0DA
+* Developer editions 0x1209/0xD00D
+* Microchip editions 0x04D8/0x????
+
+We are provisionally using the FOSS VID/PID values:
+
+* Borken editions 0xF055/0xB0B0
+* Consumer editions 0xF055/0xC0DA
+* Developer editions 0xF055/0xD00D
+
+We have no plans to purchase our own vendor identifer from usb.org.
+
+### USB Rules
 
 Go to the UDEV rules folder:
 
@@ -45,11 +62,18 @@ Paste these lines in:
 
 \# STMicroelectronics STM Device in DFU Mode (and clones)
 SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="df11", MODE="660", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="f055", ATTR{idProduct}=="b0b0", MODE="660", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="f055", ATTR{idProduct}=="c0da", MODE="660", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="f055", ATTR{idProduct}=="d00d", MODE="660", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="b0b0", MODE="660", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="c0da", MODE="660", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="d00d", MODE="660", GROUP="plugdev"
 
 And restart your computer (or try to restart rules by this command):
 
 ```
-$ sudo udevadm trigger
+$ sudo udevadm control --reload-rules
+$ sudo udevadm trigger --action=change
 ```
 
 If you later hit some problems with uploading, please check if you have rules recognized.
