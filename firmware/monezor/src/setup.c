@@ -23,16 +23,11 @@
 #include <libopencm3/stm32/spi.h>
 #include <libopencm3/stm32/f2/rng.h>
 
+#include "setup.h"
+
 //#include "rng.h"
 //#include "layout.h"
 
-uint32_t __stack_chk_guard;
-
-void __attribute__((noreturn)) __stack_chk_fail(void)
-{
-//	layoutDialog(&bmp_icon_error, NULL, NULL, NULL, "Stack smashing", "detected.", NULL, "Please unplug", "the device.", NULL);
-	for (;;) {} // loop forever
-}
 
 void nmi_handler(void)
 {
@@ -112,7 +107,7 @@ void setupApp(void)
 	// this is to try to comply with STM32F205xx Reference manual - Section 20.3.1:
 	// "Each subsequent generated random number has to be compared with the previously generated
 	// number. The test fails if any two compared numbers are equal (continuous random number generator test)."
-	random32();
+	//random32();
 
 	// enable CSS (Clock Security System)
 	RCC_CR |= RCC_CR_CSSON;

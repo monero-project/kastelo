@@ -73,6 +73,19 @@ static bool is_debug_link = 0;
 #define OLED_MASK(x, y)   (1 << (7 - (y) % 8))
 
 
+/*
+ * Send a block of data via the SPI bus.
+ */
+inline void SPISend(uint32_t base, uint8_t *data, int len)
+{
+	delay(1);
+	for (int i = 0; i < len; i++) {
+		spi_send(base, data[i]);
+	}
+	while (!(SPI_SR(base) & SPI_SR_TXE));
+	while ((SPI_SR(base) & SPI_SR_BSY));
+}
+
 
 /*
  * Draws a white pixel at x, y
@@ -157,19 +170,6 @@ void oledInit()
 
 	oledClear();
 	oledRefresh();
-}
-
-/*
- * Send a block of data via the SPI bus.
- */
-inline void SPISend(uint32_t base, uint8_t *data, int len)
-{
-	delay(1);
-	for (int i = 0; i < len; i++) {
-		spi_send(base, data[i]);
-	}
-	while (!(SPI_SR(base) & SPI_SR_TXE));
-	while ((SPI_SR(base) & SPI_SR_BSY));
 }
 
 
