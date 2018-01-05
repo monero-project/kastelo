@@ -60,7 +60,8 @@ $ sudo nano 99-usbdfu.rules
 
 Paste these lines in:
 
-\# STMicroelectronics STM Device in DFU Mode (and clones)
+```
+# STMicroelectronics STM Device in DFU Mode (and clones)
 SUBSYSTEM=="usb", ATTR{idVendor}=="0483", ATTR{idProduct}=="df11", MODE="660", GROUP="plugdev"
 SUBSYSTEM=="usb", ATTR{idVendor}=="f055", ATTR{idProduct}=="b0b0", MODE="660", GROUP="plugdev"
 SUBSYSTEM=="usb", ATTR{idVendor}=="f055", ATTR{idProduct}=="c0da", MODE="660", GROUP="plugdev"
@@ -68,6 +69,7 @@ SUBSYSTEM=="usb", ATTR{idVendor}=="f055", ATTR{idProduct}=="d00d", MODE="660", G
 SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="b0b0", MODE="660", GROUP="plugdev"
 SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="c0da", MODE="660", GROUP="plugdev"
 SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="d00d", MODE="660", GROUP="plugdev"
+```
 
 And restart your computer (or try to restart rules by this command):
 
