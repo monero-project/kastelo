@@ -56,4 +56,6 @@ void oledFrame(int x1, int y1, int x2, int y2);
 void oledSwipeLeft(void);
 void oledSwipeRight(void);
 
+char oledConvertChar(const char c);
+
 #endif
