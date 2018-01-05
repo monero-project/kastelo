@@ -31,14 +31,14 @@ Run "make" here as well. This should result in the files named monezor.bin and m
 
 We have applied for the following VID/PID assignments:
 
-* Borken editions 0x1209/0xB0B0
+* Bootloader circuits 0x1209/0xB0B0
 * Consumer editions 0x1209/0xC0DA
 * Developer editions 0x1209/0xD00D
 * Microchip editions 0x04D8/0x????
 
 We are provisionally using the FOSS VID/PID values:
 
-* Borken editions 0xF055/0xB0B0
+* Bootloader circuits 0xF055/0xB0B0
 * Consumer editions 0xF055/0xC0DA
 * Developer editions 0xF055/0xD00D
 
