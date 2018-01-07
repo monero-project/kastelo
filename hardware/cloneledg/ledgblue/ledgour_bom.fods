@@ -1,0 +1,1905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><meta:generator>LibreOffice/5.3.5.2$Linux_X86_64 LibreOffice_project/30m0$Build-2</meta:generator><meta:initial-creator/><dc:creator/><meta:creation-date>2015-06-05T18:17:20Z</meta:creation-date><dc:date>2018-01-07T08:11:29Z</dc:date><meta:document-statistic meta:table-count="2" meta:cell-count="371" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">1693</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">60177</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">20108</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="BoM">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+       <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">BoM</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1658</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsValueHighlightingEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Arial" svg:font-family="Arial"/>
+  <style:font-face style:name="Calibri" svg:font-family="Calibri"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:paragraph-properties style:tab-stop-distance="12.5mm"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:language="de" fo:country="DE" style:font-name-asian="DejaVu Sans" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <style:style style:name="Default" style:family="table-cell" style:data-style-name="N0">
+   <style:table-cell-properties fo:background-color="transparent" style:vertical-align="automatic"/>
+   <style:text-properties fo:color="#000000" style:font-name="Calibri" fo:font-family="Calibri" fo:font-size="11pt" style:font-name-asian="Calibri" style:font-family-asian="Calibri" style:font-size-asian="11pt" style:font-name-complex="Calibri" style:font-family-complex="Calibri" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="Hyperlink" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties fo:color="#0563c1" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="16.93mm"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="45.3mm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="62.65mm"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="45.93mm"/>
+  </style:style>
+  <style:style style:name="co5" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="235.59mm"/>
+  </style:style>
+  <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="195.37mm"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="14.82mm"/>
+  </style:style>
+  <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="48.05mm"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="44.24mm"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="8.04mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="5.08mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="mp1">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ta2" style:family="table" style:master-page-name="mp2">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0"/>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties style:font-name="Arial" style:font-name-asian="Arial" style:font-name-complex="Arial"/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties style:font-name="Arial" fo:font-weight="bold" style:font-name-asian="Arial" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm"/>
+   <style:text-properties style:font-name="Arial" style:font-name-asian="Arial" style:font-name-complex="Arial"/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Hyperlink" style:data-style-name="N0">
+   <style:text-properties fo:color="#0563c1" style:font-name="Arial" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:font-name-asian="Arial" style:font-name-complex="Arial"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties style:font-name="Arial" fo:font-size="18pt" fo:font-weight="bold" style:font-name-asian="Arial" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties style:font-name="Arial" style:font-name-asian="Arial" style:font-name-complex="Arial"/>
+  </style:style>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0"/>
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties style:font-name="Arial" fo:font-size="18pt" fo:font-weight="bold" style:font-name-asian="Arial" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce16" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:text-properties style:font-name="Arial" fo:font-weight="bold" style:font-name-asian="Arial" style:font-weight-asian="bold" style:font-name-complex="Arial" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce17" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm"/>
+   <style:text-properties style:font-name="Arial" style:font-name-asian="Arial" style:font-name-complex="Arial"/>
+  </style:style>
+  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Hyperlink" style:data-style-name="N0">
+   <style:text-properties fo:color="#0563c1" style:font-name="Arial" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" style:font-name-asian="Arial" style:font-name-complex="Arial"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="7.5mm" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-bottom="2.5mm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="7.5mm" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="2.5mm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="7.5mm" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-bottom="2.5mm" fo:border="2.49pt solid #000000" fo:padding="0.18mm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="7.5mm" fo:margin-left="0mm" fo:margin-right="0mm" fo:margin-top="2.5mm" fo:border="2.49pt solid #000000" fo:padding="0.18mm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm3">
+   <style:page-layout-properties style:num-format="1" style:print-orientation="landscape" fo:margin-top="7.62mm" fo:margin-bottom="7.62mm" fo:margin-left="17.78mm" fo:margin-right="17.78mm" style:print-page-order="ttb" style:first-page-number="continue" style:scale-to="43%" style:print="charts drawings objects"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="11.43mm" fo:margin-left="17.78mm" fo:margin-right="17.78mm" fo:margin-bottom="0mm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="11.43mm" fo:margin-left="17.78mm" fo:margin-right="17.78mm" fo:margin-top="0mm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm4">
+   <style:page-layout-properties style:num-format="1" style:print-orientation="portrait" fo:margin-top="7.62mm" fo:margin-bottom="7.62mm" fo:margin-left="17.78mm" fo:margin-right="17.78mm" style:print-page-order="ttb" style:first-page-number="continue" style:scale-to="100%" style:print="charts drawings objects"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="11.43mm" fo:margin-left="17.78mm" fo:margin-right="17.78mm" fo:margin-bottom="0mm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="11.43mm" fo:margin-left="17.78mm" fo:margin-right="17.78mm" fo:margin-top="0mm"/>
+   </style:footer-style>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2018-01-07">00.00.0000</text:date>, <text:time>00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Page <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="mp1" style:page-layout-name="pm3">
+   <style:header/>
+   <style:header-left style:display="false"/>
+   <style:footer/>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="mp2" style:page-layout-name="pm4">
+   <style:header/>
+   <style:header-left style:display="false"/>
+   <style:footer/>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:case-sensitive="false" table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
+   <table:table table:name="BoM" table:style-name="ta1">
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="1016" table:default-cell-style-name="ce14"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>Ledgour BoM</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Updated: 2018-01-07</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1021"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="1017"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Package</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Designation</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Qty</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Link</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Alternative link</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C1,C2,C3,C4,C9,C13</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>0.1uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="6" calcext:value-type="float">
+      <text:p>6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/vj0805y104jxxcw1bc/vishay" xlink:type="simple">https://www.arrow.com/en/products/vj0805y104jxxcw1bc/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C5,C6,C22,C23</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/vj0805y105jxqtw1bc/vishay" xlink:type="simple">https://www.arrow.com/en/products/vj0805y105jxqtw1bc/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C7,C8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>20pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/nmc0805npo200j50trpf/nic-components" xlink:type="simple">https://www.arrow.com/en/products/nmc0805npo200j50trpf/nic-components</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C10,C14</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>4.7uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/vj0805v475zxqtw1bc/vishay" xlink:type="simple">https://www.arrow.com/en/products/vj0805v475zxqtw1bc/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C11,C12,C20</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>2.2uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="3" calcext:value-type="float">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/vj0805g225kxqtw1bc/vishay" xlink:type="simple">https://www.arrow.com/en/products/vj0805g225kxqtw1bc/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C15</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>0.015uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/cl21b153kbannnc/samsung-electro-mechanics" xlink:type="simple">https://www.arrow.com/en/products/cl21b153kbannnc/samsung-electro-mechanics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C16,C17</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>27pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/cl21c270jbannnc/samsung-electro-mechanics" xlink:type="simple">https://www.arrow.com/en/products/cl21c270jbannnc/samsung-electro-mechanics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C18,C19</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>180pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/cl21c181jbannnd/samsung-electro-mechanics" xlink:type="simple">https://www.arrow.com/en/products/cl21c181jbannnd/samsung-electro-mechanics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C21</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>39pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/cl21c390jbannnc/samsung-electro-mechanics" xlink:type="simple">https://www.arrow.com/en/products/cl21c390jbannnc/samsung-electro-mechanics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R1,R2,R14</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>10k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="3" calcext:value-type="float">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw080510k0jnea/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw080510k0jnea/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R3,R4,R5,R6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1.2k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="4" calcext:value-type="float">
+      <text:p>4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw08051k20fkea/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw08051k20fkea/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>680k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw0805680kfkea/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw0805680kfkea/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1M</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw08051m00jneahp/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw08051m00jneahp/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R9,R12,R13,R16,R17</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="5" calcext:value-type="float">
+      <text:p>5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/rca08050000zsea/vishay" xlink:type="simple">https://www.arrow.com/en/products/rca08050000zsea/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R10,R11</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw0805100kfkeb/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw0805100kfkeb/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R15</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw08051k00jnta/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw08051k00jnta/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R18</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/crcw080510r0jnea/vishay" xlink:type="simple">https://www.arrow.com/en/products/crcw080510r0jnea/vishay</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>BT1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>PINHEAD1-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>Battery</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/0901200778/molex" xlink:type="simple">https://www.arrow.com/en/products/0901200778/molex</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>L1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>PINHEAD1-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Antenna</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/0901200778/molex" xlink:type="simple">https://www.arrow.com/en/products/0901200778/molex</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>L2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>L_1206</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>10uH</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/nlcv32t-100k-pfr/tdk" xlink:type="simple">https://www.arrow.com/en/products/nlcv32t-100k-pfr/tdk</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>D1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>D_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>D_Schottky</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/sd0805s020s0r5/avx" xlink:type="simple">https://www.arrow.com/en/products/sd0805s020s0r5/avx</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SW1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>wurth436353045816</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>WURTH 436353045816</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://uk.farnell.com/wurth-elektronik/436353045816/switch-160gf-side-wte-j-bend-boss/dp/1868021" xlink:type="simple">http://uk.farnell.com/wurth-elektronik/436353045816/switch-160gf-side-wte-j-bend-boss/dp/1868021</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.digikey.com/product-detail/en/wurth-electronics-inc/436353045816/732-7062-1-ND/5225510" xlink:type="simple">https://www.digikey.com/product-detail/en/wurth-electronics-inc/436353045816/732-7062-1-ND/5225510</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SW2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>multicompMCFTE-3C-V</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SW-PB</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://uk.farnell.com/multicomp/mcfte-3c-v/switch-micro-detect-smd/dp/1316985" xlink:type="simple">http://uk.farnell.com/multicomp/mcfte-3c-v/switch-micro-detect-smd/dp/1316985</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SOT-23-5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>LD39020</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/ld39020adm30r/stmicroelectronics" xlink:type="simple">https://www.arrow.com/en/products/ld39020adm30r/stmicroelectronics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>TSSOP-8_4.4x3mm_Pitch0.65mm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STMPS2151TTR</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/stmps2151ttr/stmicroelectronics" xlink:type="simple">https://www.arrow.com/en/products/stmps2151ttr/stmicroelectronics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/ProductDetail/STMicroelectronics/STMPS2151TTR/?qs=qolwYojYp3TtdEE8TCWfkg==" xlink:type="simple">https://www.mouser.de/ProductDetail/STMicroelectronics/STMPS2151TTR/?qs=qolwYojYp3TtdEE8TCWfkg==</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>WLCSP</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>ST31G480</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>N/A to due NDA</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>LQFP-64_10x10mm_Pitch0.5mm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STM32L476RCT6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/stm32l476rct6/stmicroelectronics" xlink:type="simple">https://www.arrow.com/en/products/stm32l476rct6/stmicroelectronics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>amsAS3921</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>AMS_AS3921</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/as3921-bwlt/ams-ag" xlink:type="simple">https://www.arrow.com/en/products/as3921-bwlt/ams-ag</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/ProductDetail/ams/AS3921-BWLM/?qs=16w8nSHsg3vn3%252bCT5rH3bA==" xlink:type="simple">https://www.mouser.de/ProductDetail/ams/AS3921-BWLM/?qs=16w8nSHsg3vn3%252bCT5rH3bA==</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>DFN-12-1EP_3x3mm_Pitch0.45mm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STNS01PUR</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/stns01pur/stmicroelectronics" xlink:type="simple">https://www.arrow.com/en/products/stns01pur/stmicroelectronics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STSPBTLE-RF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SPBTLE-RF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/spbtle-rf/stmicroelectronics" xlink:type="simple">https://www.arrow.com/en/products/spbtle-rf/stmicroelectronics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/ProductDetail/STMicroelectronics/SPBTLE-RF0/?qs=Mv7BduZupUjx1Mbf4ryoAA%3D%3D" xlink:type="simple">https://www.mouser.de/ProductDetail/STMicroelectronics/SPBTLE-RF0/?qs=Mv7BduZupUjx1Mbf4ryoAA%3d%3d</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>DFN-6-1EP_2x2mm_Pitch0.5mm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STLA02PUR</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/stla02pur/stmicroelectronics" xlink:type="simple">https://www.arrow.com/en/products/stla02pur/stmicroelectronics</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/ProductDetail/STMicroelectronics/STLA02PUR/?qs=L6eUzyzWLAtrJwKaBBv23Q==" xlink:type="simple">https://www.mouser.de/ProductDetail/STMicroelectronics/STLA02PUR/?qs=L6eUzyzWLAtrJwKaBBv23Q==</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Y1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>4pin_5.0x3.2mm</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Abracon_ABM3B_8MHz</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.arrow.com/en/products/abm3b-8.000mhz-b2-t/abracon" xlink:type="simple">https://www.arrow.com/en/products/abm3b-8.000mhz-b2-t/abracon</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P1,P2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Tag Connect TC2030-IDC</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="2" calcext:value-type="float">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="http://www.tag-connect.com/TC2030-IDC" xlink:type="simple">http://www.tag-connect.com/TC2030-IDC</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>hiroseFH23-39S</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>YL035MY2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/ProductDetail/?qs=0N%252bVULUZFj%2Fgb7SvV3hxJA==" xlink:type="simple">https://www.mouser.de/ProductDetail/?qs=0N%252bVULUZFj%2fgb7SvV3hxJA==</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>wurth687-112-149-022</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>YL035MY2_TS_WURTH</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/ProductDetail/Wurth-Electronics/687112149022/?qs=a9WhcLg8qCybEd8lzi%2Fupw==" xlink:type="simple">https://www.mouser.de/ProductDetail/Wurth-Electronics/687112149022/?qs=a9WhcLg8qCybEd8lzi%2fupw==</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>J1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>USB_Micro-B</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Wuerth-629105150521</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string"><text:p><text:a xlink:href="https://www.mouser.de/productdetail/wurth-electronics/629105150521?qs=sGAEpiMZZMulM8LPOQ%252byk2Wnkghg7F8rzYbeZ9K0ijhE7azhp8rv2w==" xlink:type="simple">https://www.mouser.de/productdetail/wurth-electronics/629105150521?qs=sGAEpiMZZMulM8LPOQ%252byk2Wnkghg7F8rzYbeZ9K0ijhE7azhp8rv2w==</text:a></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="383">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="7"/>
+     <table:table-cell table:number-columns-repeated="1017"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="1048153">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Raw_BoM" table:style-name="ta2">
+    <table:table-column table:style-name="co1" table:number-columns-repeated="3" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="2" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co9" table:default-cell-style-name="ce14"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="1017" table:default-cell-style-name="ce14"/>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="8"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Description</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Value</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Qty</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>Link</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>20pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>20pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C9</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C10</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>4.7uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C11</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>2.2uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>2.2uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C13</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C14</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>4.7uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C15</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>15nF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>27pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C17</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>27pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C18</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>180pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C19</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>180pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C20</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>2.2uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C21</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>39pF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C22</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C23</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>C_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1uF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>10k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>10k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1.2k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1.2k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1.2k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1.2k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>680k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1M</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R9</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R10</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R11</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>100k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R13</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R14</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>10k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R15</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>1k</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R16</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R17</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R18</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>R_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="10" calcext:value-type="float">
+      <text:p>10</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>L1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Pin head</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>L2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>L_0805</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>10uH</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="3"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>BT1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Pin head</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>D1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Schottky diode</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SW1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>WURTH 436353045816</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SW2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Multicomp MCFTE-3C-V</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>LD39020</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STMPS2151TTR</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>ST31G480</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STM32L476RCT6</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U5</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>AMS_AS3921</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STNS01PUR</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>SPBTLE-RF</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>U8</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>STLA02PUR</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Y1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>8 MHz Crystal</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13"/>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Tag Connect</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>Tag Connect</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>YL035MY2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>P4</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>YL035MY2_TS_WURTH</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>J1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>USB_OTG</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="4"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="383">
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="8"/>
+     <table:table-cell table:number-columns-repeated="1016"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2" table:number-rows-repeated="1048128">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

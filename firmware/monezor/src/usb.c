@@ -88,8 +88,13 @@ static const struct usb_device_descriptor dev_descr = {
 	.bDeviceSubClass = 0,
 	.bDeviceProtocol = 0,
 	.bMaxPacketSize0 = 64,
+<<<<<<< HEAD
 	.idVendor = 0xF055,  //
 	.idProduct = 0xC0DA,
+=======
+	.idVendor = 0xf055,
+	.idProduct = 0xc0da,
+>>>>>>> upstream/master
 	.bcdDevice = 0x0100,
 	.iManufacturer = USB_STRING_MANUFACTURER,
 	.iProduct = USB_STRING_PRODUCT,
