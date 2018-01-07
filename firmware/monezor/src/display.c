@@ -72,18 +72,6 @@ static bool is_debug_link = 0;
 #define OLED_OFFSET(x, y) (OLED_BUFSIZE - 1 - (x) - ((y)/8)*OLED_WIDTH)
 #define OLED_MASK(x, y)   (1 << (7 - (y) % 8))
 
-/*
- * Send a block of data via the SPI bus.
- */
-inline void SPISend(uint32_t base, uint8_t *data, int len)
-{
-	delay(1);
-	for (int i = 0; i < len; i++) {
-		spi_send(base, data[i]);
-	}
-	while (!(SPI_SR(base) & SPI_SR_TXE));
-	while ((SPI_SR(base) & SPI_SR_BSY));
-}
 
 /*
  * Send a block of data via the SPI bus.
@@ -184,10 +172,7 @@ void oledInit()
 	oledRefresh();
 }
 
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 /*
  * Clears the display buffer (sets all pixels to black)
  */
@@ -288,7 +273,6 @@ char oledConvertChar(const char c) {
 	if (a >= 0xC0) return '_';
 	return 0;
 }
-
 
 int oledStringWidth(const char *text) {
 	if (!text) return 0;

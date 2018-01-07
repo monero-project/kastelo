@@ -18,7 +18,7 @@
  */
 
 
-#include "timer.h"
+#include "../inc/timer.h"
 
 #include <libopencm3/stm32/rcc.h>
 #include <libopencm3/cm3/systick.h>

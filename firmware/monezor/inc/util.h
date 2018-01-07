@@ -47,28 +47,5 @@ extern uint8_t _ram_start[], _ram_end[];
 // defined in startup.s
 extern void memset_reg(void *start, void *stop, uint32_t val);
 
-<<<<<<< Updated upstream
-=======
-/*
- * FIXME 
- * There were compiler warnings bout shadowing vector_table, I renamed it here to vector_tablee 
- * but I am not sure if it is legit..
- * 
- * */
-static inline void __attribute__((noreturn)) load_vector_table(const vector_table_t *vector_tablee)
-{
-	// Relocate vector table
-	SCB_VTOR = (uint32_t)vector_tablee;
-
-	// Set stack pointer
-	__asm__ volatile("msr msp, %0" :: "r" (vector_tablee->initial_sp_value));
-
-	// Jump to address
-	vector_tablee->reset();
-
-	// Prevent compiler from generating stack protector code (which causes CPU fault because the stack is moved)
-	for (;;);
-}
->>>>>>> Stashed changes
 
 #endif

@@ -42,7 +42,6 @@ void oledClearPixel(int x, int y);
 void oledInvertPixel(int x, int y);
 void oledDrawChar(int x, int y, char c, int zoom);
 int oledStringWidth(const char *text);
-char oledConvertChar(const char c);
 
 #define oledDrawString(x, y, text) oledDrawStringSize((x),  (y), (text), 1)
 #define oledDrawStringDouble(x, y, text) oledDrawStringSize((x),  (y), (text), 2)

@@ -22,27 +22,12 @@
 #include <libopencm3/stm32/gpio.h>
 #include <libopencm3/stm32/spi.h>
 #include <libopencm3/stm32/f2/rng.h>
-#include "setup.h"
 
 #include "setup.h"
 
 //#include "rng.h"
 //#include "layout.h"
 
-<<<<<<< Updated upstream
-=======
-uint32_t __stack_chk_guard;
-//FIXME  i added this two prototypes because of nervous compiler, not sure if it is legit?
-void nmi_handler(void);
-void __attribute__((noreturn)) __stack_chk_fail(void);
-//FIXME
-
-void __attribute__((noreturn)) __stack_chk_fail(void)
-{
-//	layoutDialog(&bmp_icon_error, NULL, NULL, NULL, "Stack smashing", "detected.", NULL, "Please unplug", "the device.", NULL);
-	for (;;) {} // loop forever
-}
->>>>>>> Stashed changes
 
 void nmi_handler(void)
 {
