@@ -25,6 +25,7 @@
 #include "usb.h"
 #include "util.h"
 
+<<<<<<< Updated upstream
 ///
 
 #include <libopencm3/stm32/gpio.h>
@@ -42,6 +43,19 @@
 	X(PRODUCT, "Monezor") \
 	X(SERIAL_NUMBER, "0101010101") \
 	X(INTERFACE_MAIN,  "XMR_HW") 
+=======
+
+#define ENDPOINT_ADDRESS_IN         (0x81)
+#define ENDPOINT_ADDRESS_OUT        (0x01)
+
+#define USB_STRINGS \
+	X(MANUFACTURER, "SatoshiLabs") \
+	X(PRODUCT, "TREZOR") \
+	X(SERIAL_NUMBER, "13113133") \
+	X(INTERFACE_MAIN,  "TREZOR Interface") \
+	X(INTERFACE_DEBUG, "TREZOR Debug Link Interface") \
+	X(INTERFACE_U2F,   "U2F Interface")
+>>>>>>> Stashed changes
 
 #define X(name, value) USB_STRING_##name,
 enum {
@@ -49,6 +63,15 @@ enum {
 	USB_STRINGS
 };
 #undef X
+<<<<<<< Updated upstream
+
+#define X(name, value) value,
+static const char *usb_strings[] = {
+	USB_STRINGS
+};
+#undef X
+=======
+>>>>>>> Stashed changes
 
 #define X(name, value) value,
 static const char *usb_strings[] = {
@@ -56,7 +79,7 @@ static const char *usb_strings[] = {
 };
 #undef X
 
-
+//tohle spolu s konfiguracnim deskriptorem posle device po pripojeni
 static const struct usb_device_descriptor dev_descr = {
 	.bLength = USB_DT_DEVICE_SIZE,
 	.bDescriptorType = USB_DT_DEVICE,
@@ -74,6 +97,7 @@ static const struct usb_device_descriptor dev_descr = {
 	.bNumConfigurations = 1,
 };
 
+<<<<<<< Updated upstream
 static const uint8_t hid_report_descriptor[] = {
 	0x06, 0x00, 0xff,  // USAGE_PAGE (Vendor Defined)	???vubec nevim co je tohle.
 	0x09, 0x01,        // USAGE (1)						0x01 znamena generic desktop
@@ -90,8 +114,35 @@ static const uint8_t hid_report_descriptor[] = {
 	0x75, 0x08,        // REPORT_SIZE (8)				paket 8 bitu
 	0x95, 0x40,        // REPORT_COUNT (64)				a bude jich max 64
 	0x91, 0x02,        // OUTPUT (Data,Var,Abs)			nastaveni?
+=======
+
+
+
+static const uint8_t hid_report_descriptor[] = {
+	0x06, 0x00, 0xff,  // USAGE_PAGE (Vendor Defined)
+	0x09, 0x01,        // USAGE (1)
+	0xa1, 0x01,        // COLLECTION (Application)
+	0x09, 0x20,        // USAGE (Input Report Data)
+	0x15, 0x00,        // LOGICAL_MINIMUM (0)
+	0x26, 0xff, 0x00,  // LOGICAL_MAXIMUM (255)
+	0x75, 0x08,        // REPORT_SIZE (8)
+	0x95, 0x40,        // REPORT_COUNT (64)
+	0x81, 0x02,        // INPUT (Data,Var,Abs)
+	0x09, 0x21,        // USAGE (Output Report Data)
+	0x15, 0x00,        // LOGICAL_MINIMUM (0)
+	0x26, 0xff, 0x00,  // LOGICAL_MAXIMUM (255)
+	0x75, 0x08,        // REPORT_SIZE (8)
+	0x95, 0x40,        // REPORT_COUNT (64)
+	0x91, 0x02,        // OUTPUT (Data,Var,Abs)
+>>>>>>> Stashed changes
 	0xc0               // END_COLLECTION
 };
+
+/*
+ *
+ * Tady se vytvori usb hid descriptor a function descriptor 
+ * 
+ */
 
 static const struct {
 	struct usb_hid_descriptor hid_descriptor;
@@ -112,7 +163,10 @@ static const struct {
 		.wDescriptorLength = sizeof(hid_report_descriptor),
 	}
 };
-
+/*
+ * Tady se vyrvori hid endpoint descriptor, tzn budemit dva endpointy,jeden in a jeden out
+ * 
+ * */
 static const struct usb_endpoint_descriptor hid_endpoints[2] = {{
 	.bLength = USB_DT_ENDPOINT_SIZE,
 	.bDescriptorType = USB_DT_ENDPOINT,
@@ -128,7 +182,11 @@ static const struct usb_endpoint_descriptor hid_endpoints[2] = {{
 	.wMaxPacketSize = 64,
 	.bInterval = 1,
 }};
-
+/*
+ * 
+ * Tady je interface descriptor
+ * 
+ * */
 static const struct usb_interface_descriptor hid_iface[] = {{
 	.bLength = USB_DT_INTERFACE_SIZE,
 	.bDescriptorType = USB_DT_INTERFACE,
@@ -149,6 +207,16 @@ static const struct usb_interface ifaces[] = {{
 	.altsetting = hid_iface,
 }};
 
+
+/*
+tohle spolu s device descrptorem posle to zarizeni po pripojeni. Konfiguracni popisuje jedno nebo vice rozhrani, kde kazde rozhrani
+je vlastne specificka funkce zarizeni. Napr klavesnice s reprakem bude poskytovat dve rozhrani, jedno pro pusteni hudby a drihe pro 
+ mackani tlacitek.
+Kazde rozhrani ma nekolik endpointu 0-15, muzou byt in i out relativne k hostu.
+Mame 4 druhy endpointu: bulk, isochronous, interrupt and control.
+* 
+
+*/
 static const struct usb_config_descriptor config = {
 	.bLength = USB_DT_CONFIGURATION_SIZE,
 	.bDescriptorType = USB_DT_CONFIGURATION,
@@ -161,12 +229,24 @@ static const struct usb_config_descriptor config = {
 	.interface = ifaces,
 };
 
+<<<<<<< Updated upstream
+=======
+/*
+
+static const char *usb_strings[] = {
+	"34c3 2017 demo i_a",
+	"XMR-HW-WALLET",
+	"11235813",
+};
+*/
+
+>>>>>>> Stashed changes
 static int hid_control_request(usbd_device *dev, struct usb_setup_data *req, uint8_t **buf, uint16_t *len, usbd_control_complete_callback *complete)
 {
 	(void)complete;
 	(void)dev;
 
-	if ((req->bmRequestType != 0x81) ||
+	if ((req->bmRequestType != ENDPOINT_ADDRESS_IN) ||
 	    (req->bRequest != USB_REQ_GET_DESCRIPTOR) ||
 	    (req->wValue != 0x2200))
 		return 0;
@@ -202,7 +282,9 @@ static uint8_t usbd_control_buffer[128];
 
 void usbInit(void)
 {
+	//posle do kompu vsechno nutne
 	usbd_dev = usbd_init(&otgfs_usb_driver, &dev_descr, &config, usb_strings, 3, usbd_control_buffer, sizeof(usbd_control_buffer));
+	//???
 	usbd_register_set_config_callback(usbd_dev, hid_set_config);
 }
 
