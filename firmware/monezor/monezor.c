@@ -21,11 +21,13 @@
 #include <libopencm3/usb/usbd.h>
 #include <libopencm3/usb/hid.h>
 #include <libopencm3/stm32/gpio.h>
-#include "inc/bitmaps.h"
-#include "inc/display.h"
-#include "inc/setup.h"
-#include "inc/usb.h"
-#include "inc/util.h"
+#include "bitmaps.h"
+#include "display.h"
+#include "setup.h"
+#include "usb.h"
+#include "util.h"
+
+
 
 
 int main(void)
@@ -52,7 +54,7 @@ int main(void)
 		
 		if (!gpio_get(GPIOC, GPIO2)){
 			oledInvert(0,0,128,64);
-			delay(1000);
+			delay(1000000);
 			oledRefresh();
 		}
 		oledClear();
