@@ -1,10 +1,10 @@
 # Ignore generated
-/fabpanel
-/fabraster
-/fabsingle
-/fabvector
-/schematic
-/release
+fabpanel
+fabraster
+fabsingle
+fabvector
+schematic
+release
 
 # Ignore backups
 *.kicad_pcb-bak
