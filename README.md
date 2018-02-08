@@ -1,7 +1,7 @@
 # Kastelo
-The Kastelo Monero Hardware Wallet
+This is the project to create an official Monero Hardware Wallet
 
-[<img width="300" src="https://github.com/CrashTestCharlie/kastelo/blob/master/documents/graphics/monerohwcolor-1024.png?raw=true" alt="Kastelo logo" />](https://github.com/monero-project/kastelo/)
+[<img width="300" src="https://taiga.getmonero.org/media/attachments/1/1/5/c/84a86744036b2e09a41ea2a21c136b044050b31cb5fe4537b6a543d7965a/kastelo-logo.jpg" alt="Kastelo logo" />](https://github.com/monero-project/kastelo/)
 
 1. [Safe, Vault](https://en.wikipedia.org/wiki/Esperanto), a place to store valuables
 2. An open hardware Monero wallet
