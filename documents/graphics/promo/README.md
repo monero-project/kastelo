@@ -4,7 +4,7 @@ The Monero Hardware Wallet
 
 ## Licenses
 
-Artists have made available promotional graphics under the Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0.)
+Artists have made available promotional graphics according to the [Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode).
 
 ## Original Files
 

@@ -6,7 +6,7 @@ The Breakneck design follows a kitchen sink model to provide features expected i
 
 ## Getting Started
 
-The Breakneck design consists of several files, some which are not tracked in revision control but are part of [releases](https://github.com/monero-project/kastelo/releases/).
+The Breakneck design consists of several files, some which are not tracked in revision control but are part of [project releases](https://github.com/monero-project/kastelo/releases/).
 
 * breakneck.pro
 * breakneck.sch
