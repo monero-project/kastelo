@@ -1,7 +1,7 @@
-# Sekura
-The Sekura Monero Hardware Wallet
+# Kastelo
+The Kastelo Monero Hardware Wallet
 
-[<img width="300" src="https://github.com/CrashTestCharlie/sekura/blob/master/documents/graphics/monerohwcolor-1024.png?raw=true" alt="Sekura logo" />](https://github.com/monero-project/sekura/)
+[<img width="300" src="https://github.com/CrashTestCharlie/kastelo/blob/master/documents/graphics/monerohwcolor-1024.png?raw=true" alt="Kastelo logo" />](https://github.com/monero-project/kastelo/)
 
 1. [Safe, Vault](https://en.wikipedia.org/wiki/Esperanto), a place to store valuables
 2. An open hardware Monero wallet
