@@ -516,11 +516,11 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Monerologo-64
+# Monerologo-mid
 #
-DEF Monerologo-64 LOGO 0 40 Y Y 1 F N
-F0 "LOGO" -800 700 50 H V C CNN
-F1 "Monerologo-64" 950 700 50 H V C CNN
+DEF Monerologo-mid LOGOMID 0 40 Y Y 1 F N
+F0 "LOGOMID" -800 700 50 H V C CNN
+F1 "Monerologo-mid" 950 700 50 H V C CNN
 F2 "" 0 350 50 H I C CIN
 F3 "Graphic-M" 0 350 50 H I C CNN
 DRAW
@@ -617,8 +617,12 @@ ENDDEF
 DEF SSD1306 DS 0 40 Y Y 1 F N
 F0 "DS" -1500 900 50 H V L CNN
 F1 "SSD1306" 1500 900 50 H V R CNN
-F2 "SSD1306" -400 200 50 H I C CIN
-F3 "" -200 -300 50 H I C CNN
+F2 "Connectors_Local:Solderpads_30_2.0x0.3mm_Pitch0.7mm" -400 200 50 H I C CIN
+F3 "http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf" -200 -300 50 H I C CNN
+$FPLIST
+ Solderpads_30_2.0x0.3mm_Pitch0.7mm
+ Solderpads_30_2.0x0.4mm_Pitch0.7mm
+$ENDFPLIST
 DRAW
 T 0 -400 50 80 0 0 0 128x64 Normal 1 C C
 T 0 1400 450 60 0 0 0 BS0~~0~~~~1~~~~0 Italic 0 R C
@@ -672,7 +676,7 @@ ENDDEF
 DEF STM32F405RGTx U 0 40 Y Y 1 L N
 F0 "U" -4200 1925 50 H V L BNN
 F1 "STM32F405RGTx" 4200 1925 50 H V R BNN
-F2 "LQFP64" 4200 1875 50 H I R TNN
+F2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" 4200 1875 50 H I R TNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 S -4200 -1900 4200 1900 0 1 10 f
