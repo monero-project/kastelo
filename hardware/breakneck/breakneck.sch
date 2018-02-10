@@ -1327,7 +1327,7 @@ U 1 1 5A7B31DF
 P 2000 1900
 F 0 "LOGO1" H 1200 2600 50  0000 C CNN
 F 1 "Monerologo-mid" H 2950 2600 50  0000 C CNN
-F 2 "" H 2000 2250 50  0001 C CIN
+F 2 "Monero_Logos:MoneroCircleCombi" H 2000 2250 50  0001 C CIN
 F 3 "Graphic-M" H 2000 2250 50  0001 C CNN
 	1    2000 1900
 	1    0    0    -1  

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source breakneck.sch)
-    (date "Fr 09 Feb 2018 23:31:18 CET")
+    (date "Sa 10 Feb 2018 23:25:07 CET")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -384,6 +384,7 @@
       (tstamp 5A7F4436))
     (comp (ref LOGO1)
       (value Monerologo-mid)
+      (footprint Monero_Logos:MoneroCircleCombi)
       (datasheet Graphic-M)
       (libsource (lib breakneck) (part Monerologo-mid))
       (sheetpath (names /) (tstamps /))
@@ -749,6 +750,7 @@
       (fields
         (field (name Reference) LOGOMID)
         (field (name Value) Monerologo-mid)
+        (field (name Footprint) Monero_Logos:MoneroCircleCombi)
         (field (name Datasheet) Graphic-M)))
     (libpart (lib breakneck) (part Polyfuse)
       (footprints
