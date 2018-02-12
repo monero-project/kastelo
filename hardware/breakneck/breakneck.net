@@ -341,7 +341,7 @@
       (tstamp 5A7C652C))
     (comp (ref DS1)
       (value SSD1306)
-      (footprint Connectors_Local:Solderpads_30_2.0x0.3mm_Pitch0.7mm)
+      (footprint Connectors_Local:Solderpads_30_2.0x0.4mm_Pitch0.7mm)
       (datasheet http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf)
       (libsource (lib breakneck) (part SSD1306))
       (sheetpath (names /) (tstamps /))
@@ -841,7 +841,7 @@
       (fields
         (field (name Reference) DS)
         (field (name Value) SSD1306)
-        (field (name Footprint) Connectors_Local:Solderpads_30_2.0x0.3mm_Pitch0.7mm)
+        (field (name Footprint) Connectors_Local:Solderpads_30_2.0x0.4mm_Pitch0.7mm)
         (field (name Datasheet) http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf))
       (pins
         (pin (num 1) (name GND) (type power_in))
@@ -991,7 +991,7 @@
         (pin (num S1) (name SHIELD) (type passive)))))
   (libraries
     (library (logical breakneck)
-      (uri /home/mschloh/Projects/monerohw/kastelogitrepo/hardware/breakneck/libraries/breakneck.lib)))
+      (uri breakneck.lib)))
   (nets
     (net (code 1) (name /RESET)
       (node (ref J10) (pin 11))

@@ -1188,7 +1188,7 @@ U 1 1 5A7DCD72
 P 6150 7950
 F 0 "DS1" H 4650 8850 50  0000 L CNN
 F 1 "SSD1306" H 7650 8850 50  0000 R CNN
-F 2 "Connectors_Local:Solderpads_30_2.0x0.3mm_Pitch0.7mm" H 5750 8150 50  0001 C CIN
+F 2 "Connectors_Local:Solderpads_30_2.0x0.4mm_Pitch0.7mm" H 5750 8150 50  0001 C CIN
 F 3 "http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf" H 5950 7650 50  0001 C CNN
 	1    6150 7950
 	1    0    0    -1  
