@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source breakneck.sch)
-    (date "Sa 16 Feb 2018 08:42:36 PST")
+    (date "Sa 16 Feb 2018 09:21:00 PST")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -513,6 +513,7 @@
       (tstamp 5A8135BC))
     (comp (ref SJ1)
       (value Solderjumper)
+      (footprint Connectors:GS2)
       (libsource (lib breakneck) (part Solderjumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A8878C7)))
