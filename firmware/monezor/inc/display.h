@@ -58,4 +58,6 @@ void oledSwipeRight(void);
 
 char oledConvertChar(const char c);
 
+void SPISend(uint32_t base, uint8_t *data, int len);
+
 #endif
