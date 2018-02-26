@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name Connectors_Local)(type KiCad)(uri ${KIPRJMOD}/connect.pretty)(options "")(descr "Local connector footprints"))
-  (lib (name Monero_Logos)(type KiCad)(uri ${KIPRJMOD}/monero.pretty)(options "")(descr "Local Monero logos"))
+  (lib (name Monero_Local)(type KiCad)(uri ${KIPRJMOD}/monerohw.pretty)(options "")(descr "Local Monero footprints"))
 )

@@ -281,7 +281,7 @@
       (tstamp 5A7919DF))
     (comp (ref J5)
       (value USB_C_Receptacle)
-      (footprint Connectors_USB:USB_C_Receptacle_Amphenol_12401610E4-2A)
+      (footprint Connectors_USB:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles)
       (libsource (lib breakneck) (part USB_C_Receptacle))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A7A8688))
