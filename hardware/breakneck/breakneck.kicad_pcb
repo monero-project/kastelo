@@ -3,7 +3,7 @@
   (general
     (links 242)
     (no_connects 108)
-    (area 87.650001 56.8 244.600001 146.625)
+    (area 99.924999 63.924999 153.415001 128.075001)
     (thickness 1.6)
     (drawings 59)
     (tracks 478)
@@ -67,7 +67,7 @@
     (pad_drill 0.8)
     (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements 7FFFF7FF)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions false)
@@ -1875,7 +1875,7 @@
     (model ${KIPRJMOD}/modules/packages3d/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
       (at (xyz 0 -0.05 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -2996,9 +2996,9 @@
     (pad 20 thru_hole oval (at 0 -48.26 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 +3V3))
     (model ${KIPRJMOD}/modules/packages3d/Pin_Headers.3dshapes/Pin_Header_Straight_1x20_Pitch2.54mm.wrl
-      (at (xyz 0 -0.95 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3068,9 +3068,9 @@
     (pad 20 thru_hole oval (at 0 -48.26 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 43 "Net-(J1-Pad20)"))
     (model ${KIPRJMOD}/modules/packages3d/Pin_Headers.3dshapes/Pin_Header_Straight_1x20_Pitch2.54mm.wrl
-      (at (xyz 0 -0.95 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3128,9 +3128,9 @@
     (pad 14 thru_hole oval (at 0 -33.02 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 +3V3))
     (model ${KIPRJMOD}/modules/packages3d/Pin_Headers.3dshapes/Pin_Header_Straight_1x14_Pitch2.54mm.wrl
-      (at (xyz 0 -0.65 0))
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -3591,13 +3591,13 @@
     )
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 56D1B4CB) (tstamp 5A7F7C21)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5A9608B4) (tstamp 5A7F7C21)
     (at 125.4 117.84)
     (descr "Mounting Hole 3mm, no annular")
     (tags "mounting hole 3mm no annular")
     (path /5A7E405D)
     (attr virtual)
-    (fp_text reference MH1 (at 0 -4) (layer F.SilkS)
+    (fp_text reference MH1 (at 0 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mountinghole-440 (at 0 4) (layer F.Fab)
@@ -3612,13 +3612,13 @@
       (net 2 GND))
   )
 
-  (module Mounting_Holes:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5A7F7C30)
+  (module Mounting_Holes:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 5A9608BD) (tstamp 5A7F7C30)
     (at 107.62 67.04)
     (descr "Mounting Hole 3mm")
     (tags "mounting hole 3mm")
     (path /5A7E413E)
     (attr virtual)
-    (fp_text reference MH2 (at 0 -4) (layer F.SilkS)
+    (fp_text reference MH2 (at 0 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mountinghole-440 (at 0 4) (layer F.Fab)
@@ -3649,13 +3649,13 @@
       (net 2 GND))
   )
 
-  (module Mounting_Holes:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 56DDBED4) (tstamp 5A7F7C3F)
+  (module Mounting_Holes:MountingHole_3mm_Pad_Via (layer F.Cu) (tedit 5A9608C4) (tstamp 5A7F7C3F)
     (at 145.72 67.04)
     (descr "Mounting Hole 3mm")
     (tags "mounting hole 3mm")
     (path /5A7E4211)
     (attr virtual)
-    (fp_text reference MH3 (at 0 -4) (layer F.SilkS)
+    (fp_text reference MH3 (at 0 -4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Mountinghole-440 (at 0 4) (layer F.Fab)
