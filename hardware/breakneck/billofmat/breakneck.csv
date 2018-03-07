@@ -36,7 +36,7 @@
 35;"TP5";"Measurement_Point_Round-TH_Small";1;"VIN";;;
 36;"TP6";"Measurement_Point_Round-TH_Small";1;"VCORE";;;
 37;"TP7";"Measurement_Point_Round-TH_Small";1;"DATA+";;;
-38;"U2";"SOT89-3_Housing";1;"MCP1703A-3302E/MB";;;
+38;"U2";"SOT23-3";1;"MCP1703A-3302E/CB";;;
 39;"Y1";"Crystal_SMD_Abracon_ABM3B-4pin_5.0x3.2mm";1;"Crystal_GND24";;;
 40;"MH1,MH2,MH3";"MountingHole_3mm";3;"Mountinghole-440";;;
 41;"TP8";"Measurement_Point_Round-TH_Small";1;"DATA-";;;
