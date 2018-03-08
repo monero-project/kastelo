@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source breakneck.sch)
-    (date "Do 08 Mär 2018 12:54:36 CET")
-    (tool "Eeschema 4.0.6+dfsg1-1")
+    (date "Do 08 Mär 2018 14:42:42 CET")
+    (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Breakneck Hardware Wallet")
