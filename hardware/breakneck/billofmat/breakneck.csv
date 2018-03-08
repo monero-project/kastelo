@@ -20,7 +20,7 @@
 19;"LOGO1";"MoneroCircleCombi";1;"Monerologo-mid";;;
 20;"Q1";"SOT-23";1;"MOSFET";;;
 21;"R1,R7,R10";"R_0805";3;"10K";;;
-22;"R3,R15";"R_0805";2;"150";;;
+22;"R2,R3,R15";"R_0805";3;"150";;;
 23;"R4";"R_0805";1;"390K";;;
 24;"R5,R6";"R_0805";2;"3.9K";;;
 25;"R8";"R_0805";1;"1.5K";;;
@@ -42,9 +42,10 @@
 41;"TP8";"Measurement_Point_Round-TH_Small";1;"DATA-";;;
 42;"TP9";"Measurement_Point_Round-TH_Small";1;"5V";;;
 43;"D5";"LED_0805";1;"RED";;;
-44;"U4";"DFN-8-1EP_2x3mm_Pitch0.5mm";1;"ATAES132A";;;
-45;"U3";"DFN-8-1EP_2x3mm_Pitch0.5mm";1;"ATECC608A";;;
-46;"J10";"Pin_Header_Straight_1x20_Pitch2.54mm";1;"CONN_WEST";;;
-47;"J1";"Pin_Header_Straight_1x20_Pitch2.54mm";1;"CONN_EAST";;;
-48;"J8";"Pin_Header_Straight_1x14_Pitch2.54mm";1;"CONN_SOUTH";;;
-49;"U1";"LQFP-64_10x10mm_Pitch0.5mm";1;"STM32F405RGTx";;;
+44;"D6";"LED_0805";1;"LED";;;
+45;"U4";"DFN-8-1EP_2x3mm_Pitch0.5mm";1;"ATAES132A";;;
+46;"U3";"DFN-8-1EP_2x3mm_Pitch0.5mm";1;"ATECC608A";;;
+47;"J10";"Pin_Header_Straight_1x20_Pitch2.54mm";1;"CONN_WEST";;;
+48;"J1";"Pin_Header_Straight_1x20_Pitch2.54mm";1;"CONN_EAST";;;
+49;"J8";"Pin_Header_Straight_1x14_Pitch2.54mm";1;"CONN_SOUTH";;;
+50;"U1";"LQFP-64_10x10mm_Pitch0.5mm";1;"STM32F405RGTx";;;
