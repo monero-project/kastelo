@@ -130,7 +130,7 @@ U 1 1 5A6B5058
 P 1050 4200
 F 0 "TP1" H 1050 4500 50  0000 C BNN
 F 1 "GLITCH" H 1050 4450 50  0000 C CNN
-F 2 "Monero_Local:Pin_Header_Straight_1x01_Pitch2.54mm" H 1050 4200 50  0001 C CNN
+F 2 "Monero_Local:Pin_Header_Angled_1x01_Pitch2.54mm" H 1050 4200 50  0001 C CNN
 F 3 "" H 1050 4200 50  0001 C CNN
 	1    1050 4200
 	1    0    0    -1  

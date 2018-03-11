@@ -41,7 +41,7 @@
       (tstamp 5A6B4F38))
     (comp (ref TP1)
       (value GLITCH)
-      (footprint Monero_Local:Pin_Header_Straight_1x01_Pitch2.54mm)
+      (footprint Monero_Local:Pin_Header_Angled_1x01_Pitch2.54mm)
       (libsource (lib breakneck) (part TEST))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6B5058))
