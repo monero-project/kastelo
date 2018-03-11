@@ -790,7 +790,7 @@ U 1 1 5A73D93D
 P 3750 3000
 F 0 "JP1" H 3750 3150 50  0000 C CNN
 F 1 "Jumper" H 3750 2920 50  0000 C CNN
-F 2 "Monero_Local:Pin_Header_Straight_1x02_Pitch2.54mm" H 3750 3000 50  0001 C CNN
+F 2 "Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm" H 3750 3000 50  0001 C CNN
 F 3 "" H 3750 3000 50  0001 C CNN
 	1    3750 3000
 	0    1    -1   0   

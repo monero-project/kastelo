@@ -215,7 +215,7 @@
       (tstamp 5A731B6D))
     (comp (ref JP1)
       (value Jumper)
-      (footprint Monero_Local:Pin_Header_Straight_1x02_Pitch2.54mm)
+      (footprint Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm)
       (libsource (lib breakneck) (part Jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A73D93D))
