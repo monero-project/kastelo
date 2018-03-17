@@ -1,4 +1,4 @@
-# RFC-HWALLET-1 DEVELOPER EDITION DISCLAIMER 20171200
+# RFC-HWALLET-1 DEVELOPER EDITION DISCLAIMER 20180300
 
 ## 1. STATUS
 
@@ -23,3 +23,7 @@ Users acknowledge that the DP may include technology subject to sanctions, embar
 ## 6. CUSTOMS
 
 The DP is intended to be used exclusively for testing to find out components’ composition, quality or other characteristics for information, or for industrial or commercial research. Users may be able to import DP free from duty, excise duty and VAT in some countries, but should consult with the appropriate local authorities on how to obtain relief. Normally, Users must completely use up or destroy goods in the course of the testing to qualify for relief.
+
+## 7. EVALUATION TOKENS
+
+Some devices may include evaluation tokens. These tokens exist in a test network (“testnet”), which is separate from the main Monero network and subject to network resets at any time. As such, said tokens do not contain any value. Testnet addresses are identified by an address prefix that start with A, B, or 9.
