@@ -1,7 +1,7 @@
 "ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Ref.";
 1;"DS1";"Solderpads_30_2.0x0.4mm_Pitch0.7mm";1;"SSD1306";;;
 2;"C1,C2";"C_0805";2;"12pF";;;
-3;"C3,C4,C7,C10,C12,C13,C14,C15,C16,C18,C20,C22";"C_0805";12;"100nF";;;
+3;"C3,C4,C7,C10,C12,C13,C14,C15,C16,C18,C20,C22,C23,C24";"C_0805";14;"100nF";;;
 4;"C5,C6";"C_0805";2;"2u2";;;
 5;"C8,C9,C11,C19,C21";"C_0805";5;"1uF";;;
 6;"C17";"C_0805";1;"2.2uF";;;
@@ -16,7 +16,7 @@
 15;"J5";"USB_C_Receptacle_Amphenol_12401610E4-2A";1;"USB_C_Receptacle";;;
 16;"J7";"Socket_Strip_Straight_1x07_Pitch2.54mm";1;"CONN_OLED";;;
 17;"J9";"Tag-Connect_TC2050-IDC-NL";1;"CONN_JTAG";;;
-18;"JP1";"Pin_Header_Straight_1x02_Pitch2.54mm";1;"Jumper";;;
+18;"JP1";"Pin_Header_Angled_1x02_Pitch2.54mm";1;"Jumper";;;
 19;"LOGO1";"MoneroCircleCombi";1;"Monerologo-mid";;;
 20;"Q1";"SOT-23";1;"MOSFET";;;
 21;"R1,R7,R10";"R_0805";3;"10K";;;
@@ -29,7 +29,7 @@
 28;"R13";"R_0805";1;"22K";;;
 29;"R14";"R_0805";1;"100";;;
 30;"SW1,SW2";"SW_SPST_PTS645";2;"SW_SPST";;;
-31;"TP1";"Pin_Header_Straight_1x01_Pitch2.54mm";1;"GLITCH";;;
+31;"TP1";"Pin_Header_Angled_1x01_Pitch2.54mm";1;"GLITCH";;;
 32;"TP2";"Measurement_Point_Round-TH_Small";1;"1V2";;;
 33;"XIN";"Measurement_Point_Round-TH_Small";1;"CRYSTIN";;;
 34;"XOUT";"Measurement_Point_Round-TH_Small";1;"CRYSTOUT";;;
@@ -49,3 +49,6 @@
 48;"J1";"Pin_Header_Straight_1x20_Pitch2.54mm";1;"CONN_EAST";;;
 49;"J8";"Pin_Header_Straight_1x14_Pitch2.54mm";1;"CONN_SOUTH";;;
 50;"U1";"LQFP-64_10x10mm_Pitch0.5mm";1;"STM32F405RGTx";;;
+51;"BT1";"Keystone_3008_1x2450-CoinCell";1;"Coincell_Clip";;;
+52;"J13";"microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5";1;"uSDHC_Receptacle";;;
+53;"U5";"ChipLED-6_2x2mm";1;"LTR-303ALS-01";;;
