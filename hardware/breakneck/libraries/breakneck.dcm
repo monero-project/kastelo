@@ -5,4 +5,10 @@ D Ambient Light Photo Sensor
 F https://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf
 $ENDCMP
 #
+$CMP BMA280
+D 14-bit digital triaxial acceleration sensor with intelligent on-chip motion-triggered interrupt controller
+K BMA280 digital triaxial acceleration sensor
+F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMA280-DS000-11.pdf
+$ENDCMP
+#
 #End Doc Library

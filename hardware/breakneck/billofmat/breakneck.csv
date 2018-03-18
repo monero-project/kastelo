@@ -1,7 +1,7 @@
 "ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Ref.";
 1;"DS1";"Solderpads_30_2.0x0.4mm_Pitch0.7mm";1;"SSD1306";;;
 2;"C1,C2";"C_0805";2;"12pF";;;
-3;"C3,C4,C7,C10,C12,C13,C14,C15,C16,C18,C20,C22,C23,C24";"C_0805";14;"100nF";;;
+3;"C3,C4,C7,C10,C12,C13,C14,C15,C16,C18,C20,C22,C23,C24,C25,C26";"C_0805";16;"100nF";;;
 4;"C5,C6";"C_0805";2;"2u2";;;
 5;"C8,C9,C11,C19,C21";"C_0805";5;"1uF";;;
 6;"C17";"C_0805";1;"2.2uF";;;
@@ -49,6 +49,7 @@
 48;"J1";"Pin_Header_Straight_1x20_Pitch2.54mm";1;"CONN_EAST";;;
 49;"J8";"Pin_Header_Straight_1x14_Pitch2.54mm";1;"CONN_SOUTH";;;
 50;"U1";"LQFP-64_10x10mm_Pitch0.5mm";1;"STM32F405RGTx";;;
-51;"BT1";"Keystone_3008_1x2450-CoinCell";1;"Coincell_Clip";;;
+51;"BT1";"Keystone_1058_1x2032-CoinCell";1;"Coincell_Clip";;;
 52;"J13";"microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5";1;"uSDHC_Receptacle";;;
 53;"U5";"ChipLED-6_2x2mm";1;"LTR-303ALS-01";;;
+54;"U6";"LGA-12_2x2mm_P0.5mm";1;"BMA280";;;
