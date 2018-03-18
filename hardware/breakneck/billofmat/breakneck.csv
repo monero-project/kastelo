@@ -6,7 +6,7 @@
 5;"C8,C9,C11,C19,C21";"C_0805";5;"1uF";;;
 6;"C17";"C_0805";1;"2.2uF";;;
 7;"D1";"LED_0805";1;"YELLOW";;;
-8;"D2,D3,D4";"D_SOD-123";3;"D_Schottky";;;
+8;"D2,D3,D4,D7";"D_SOD-123";4;"D_Schottky";;;
 9;"F1";"R_0805";1;"Polyfuse";;;
 10;"FID1,FID2";"Fiducial_1mm_Dia_2.54mm_Outer_CopperTop";2;"Fiducial-PCB";;;
 11;"FID3,FID4";"Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom";2;"Fiducial-PCB";;;
