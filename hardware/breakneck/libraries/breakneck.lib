@@ -1002,4 +1002,18 @@ X SCx 12 600 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SW_Captouch
+#
+DEF SW_Captouch C 0 40 Y Y 1 F N
+F0 "C" 0 350 60 H V C CNN
+F1 "SW_Captouch" 0 -350 60 H V C CNN
+F2 "Buttons_Switches_SMD:Captouch_Backlight_Circle_6mm" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 100 0 1 0 F
+S -300 -300 300 300 0 1 0 f
+X Captarea 1 500 -200 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 #End Library

@@ -11,4 +11,9 @@ K BMA280 digital triaxial acceleration sensor
 F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMA280-DS000-11.pdf
 $ENDCMP
 #
+$CMP SW_Captouch
+D Capacitive touch copper surface
+K Capacitive touch copper surface
+$ENDCMP
+#
 #End Doc Library
