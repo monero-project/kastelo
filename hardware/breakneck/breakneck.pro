@@ -3,7 +3,7 @@ version=1
 last_client=kicad
 [pcbnew]
 version=1
-PageLayoutDescrFile=breakneck.kicad_wks
+PageLayoutDescrFile=breakneck-black.kicad_wks
 LastNetListRead=
 PadDrill=0.762
 PadDrillOvalY=0.762
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [schematic_editor]
 version=1
-PageLayoutDescrFile=breakneck.kicad_wks
+PageLayoutDescrFile=breakneck-white.kicad_wks
 PlotDirectoryName=schematic
 SubpartIdSeparator=0
 SubpartFirstId=65
