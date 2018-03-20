@@ -3,8 +3,8 @@ fabpanel
 fabraster
 fabsingle
 fabvector
-schematic
 release
+solids
 
 # Ignore backups
 *.kicad_pcb-bak
