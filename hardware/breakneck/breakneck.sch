@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Breakneck Hardware Wallet"
 Date "2018-01-10"
-Rev "0.7.1"
+Rev "0.7.2"
 Comp "The Monero Project, Hardware Team"
 Comment1 "Copyright © 2018, The Monero Project"
 Comment2 "Fulfilling the developer edition role"
@@ -2713,7 +2713,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 3700 3500 2500
 Wire Wire Line
-	8200 2500 3500 2500
+	3500 2500 8200 2500
 Wire Wire Line
 	8200 1900 8200 2900
 Connection ~ 8200 2500
@@ -3269,4 +3269,55 @@ Wire Wire Line
 Wire Wire Line
 	14000 2200 14000 2300
 Connection ~ 14000 2300
+$Comp
+L Conn_01x30_Female J14
+U 1 1 5AB0729D
+P 6100 10300
+F 0 "J14" V 6200 11650 50  0000 C CNN
+F 1 "Conn_01x30_Female" V 6200 10300 50  0000 C CNN
+F 2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" H 6100 10300 50  0001 C CNN
+F 3 "" H 6100 10300 50  0001 C CNN
+	1    6100 10300
+	0    -1   -1   0   
+$EndComp
+Text Notes 5850 9950 0    60   ~ 0
+DS1 and J14 are equivalent\nconnector symbols. Use one.
+Wire Notes Line
+	5800 10000 5800 9700
+Wire Notes Line
+	5800 9700 7200 9700
+Wire Notes Line
+	7200 9700 7200 10000
+Wire Notes Line
+	7200 10000 5800 10000
+NoConn ~ 4700 10500
+NoConn ~ 4800 10500
+NoConn ~ 4900 10500
+NoConn ~ 5000 10500
+NoConn ~ 5100 10500
+NoConn ~ 5200 10500
+NoConn ~ 5300 10500
+NoConn ~ 5400 10500
+NoConn ~ 5500 10500
+NoConn ~ 5600 10500
+NoConn ~ 5700 10500
+NoConn ~ 5800 10500
+NoConn ~ 5900 10500
+NoConn ~ 6000 10500
+NoConn ~ 6100 10500
+NoConn ~ 6200 10500
+NoConn ~ 6300 10500
+NoConn ~ 6400 10500
+NoConn ~ 6500 10500
+NoConn ~ 6600 10500
+NoConn ~ 6700 10500
+NoConn ~ 6800 10500
+NoConn ~ 6900 10500
+NoConn ~ 7000 10500
+NoConn ~ 7100 10500
+NoConn ~ 7200 10500
+NoConn ~ 7300 10500
+NoConn ~ 7400 10500
+NoConn ~ 7500 10500
+NoConn ~ 7600 10500
 $EndSCHEMATC
