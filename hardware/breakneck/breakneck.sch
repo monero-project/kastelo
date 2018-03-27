@@ -21,7 +21,7 @@ P 8200 4900
 F 0 "U1" H 4200 6825 50  0000 L BNN
 F 1 "STM32F405RGTx" H 12200 6825 50  0000 R BNN
 F 2 "Monero_Local:LQFP-64_10x10mm_Pitch0.5mm" H 12200 6775 50  0001 R TNN
-F 3 "" H 8200 4900 50  0001 C CNN
+F 3 "http://www.st.com/en/microcontrollers/stm32f405rg.html" H 8200 4900 50  0001 C CNN
 	1    8200 4900
 	1    0    0    -1  
 $EndComp
@@ -243,7 +243,7 @@ P 15400 4550
 F 0 "J10" H 15400 5600 50  0000 C CNN
 F 1 "CONN_WEST" V 15500 4550 50  0000 C CNN
 F 2 "Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm" H 15400 4550 50  0001 C CNN
-F 3 "" H 15400 4550 50  0001 C CNN
+F 3 "http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC" H 15400 4550 50  0001 C CNN
 	1    15400 4550
 	1    0    0    -1  
 $EndComp
@@ -254,7 +254,7 @@ P 13750 7800
 F 0 "J8" V 13750 8550 50  0000 C CNN
 F 1 "CONN_SOUTH" V 13850 7800 50  0000 C CNN
 F 2 "Monero_Local:Socket_Strip_Straight_1x14_Pitch2.54mm" H 13750 7800 50  0001 C CNN
-F 3 "" H 13750 7800 50  0001 C CNN
+F 3 "http://www.sullinscorp.com/product/?pn=PPTC141LFBN-RC" H 13750 7800 50  0001 C CNN
 	1    13750 7800
 	0    1    1    0   
 $EndComp
@@ -265,7 +265,7 @@ P 2550 6150
 F 0 "J1" H 2550 7200 50  0000 C CNN
 F 1 "CONN_EAST" V 2650 6150 50  0000 C CNN
 F 2 "Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm" H 2550 6150 50  0001 C CNN
-F 3 "" H 2550 6150 50  0001 C CNN
+F 3 "http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC" H 2550 6150 50  0001 C CNN
 	1    2550 6150
 	-1   0    0    -1  
 $EndComp
@@ -276,7 +276,7 @@ P 14950 7000
 F 0 "J9" H 14950 7300 50  0000 C CNN
 F 1 "CONN_JTAG" H 14950 6700 50  0000 C CNN
 F 2 "Monero_Local:Tag-Connect_TC2050-IDC-NL" H 14950 5800 50  0001 C CNN
-F 3 "" H 14950 5800 50  0001 C CNN
+F 3 "http://www.tag-connect.com/TC2050-IDC-NL/" H 14950 5800 50  0001 C CNN
 	1    14950 7000
 	-1   0    0    -1  
 $EndComp
@@ -287,7 +287,7 @@ P 13500 3700
 F 0 "J7" H 13500 4100 50  0000 C CNN
 F 1 "CONN_OLED" V 13600 3850 50  0000 C CNN
 F 2 "Monero_Local:Socket_Strip_Straight_1x07_Pitch2.54mm" H 13500 3700 50  0001 C CNN
-F 3 "" H 13500 3700 50  0001 C CNN
+F 3 "http://www.sullinscorp.com/product/?pn=PPTC071LFBN-RC" H 13500 3700 50  0001 C CNN
 	1    13500 3700
 	1    0    0    -1  
 $EndComp
@@ -574,7 +574,7 @@ P 3200 7700
 F 0 "D2" H 3200 7800 50  0000 C CNN
 F 1 "D_Schottky" H 3200 7600 50  0000 C CNN
 F 2 "Monero_Local:D_SOD-123" H 3200 7700 50  0001 C CNN
-F 3 "" H 3200 7700 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 3200 7700 50  0001 C CNN
 	1    3200 7700
 	-1   0    0    -1  
 $EndComp
@@ -585,7 +585,7 @@ P 2850 7950
 F 0 "J3" H 2850 8100 50  0000 C CNN
 F 1 "CONN_01X02" H 2850 7800 50  0000 C CNN
 F 2 "Monero_Local:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 2850 7950 50  0001 C CNN
-F 3 "" H 2850 7950 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2850 7950 50  0001 C CNN
 	1    2850 7950
 	-1   0    0    -1  
 $EndComp
@@ -802,7 +802,7 @@ P 3600 4800
 F 0 "SW1" H 3450 4900 50  0000 C CNN
 F 1 "SW_SPST" H 3600 4700 50  0000 C CNN
 F 2 "Monero_Local:SW_SPST_PTS645" H 3600 4800 50  0001 C CNN
-F 3 "" H 3600 4800 50  0001 C CNN
+F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 3600 4800 50  0001 C CNN
 	1    3600 4800
 	1    0    0    -1  
 $EndComp
@@ -813,7 +813,7 @@ P 3600 5150
 F 0 "SW2" H 3600 5275 50  0000 C CNN
 F 1 "SW_SPST" H 3600 5050 50  0000 C CNN
 F 2 "Monero_Local:SW_SPST_PTS645" H 3600 5150 50  0001 C CNN
-F 3 "" H 3600 5150 50  0001 C CNN
+F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 3600 5150 50  0001 C CNN
 	1    3600 5150
 	1    0    0    -1  
 $EndComp
@@ -837,7 +837,7 @@ P 1850 9250
 F 0 "DNP2" H 1650 9500 50  0000 L CNN
 F 1 "ASE-xxxMHz" H 1900 9000 50  0000 L CNN
 F 2 "Monero_Local:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" H 2550 8900 50  0001 C CNN
-F 3 "" H 1750 9250 50  0001 C CNN
+F 3 "https://abracon.com/Oscillators/ASEseries.pdf" H 1750 9250 50  0001 C CNN
 	1    1850 9250
 	1    0    0    -1  
 $EndComp
@@ -982,7 +982,7 @@ P 12600 1400
 F 0 "J5" V 12049 2798 50  0000 R CNN
 F 1 "USB_C_Receptacle" V 12128 2798 50  0000 R CNN
 F 2 "Monero_Local:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 12750 1400 50  0001 C CNN
-F 3 "" H 12750 1400 50  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/pdf/124015_BRO.pdf" H 12750 1400 50  0001 C CNN
 	1    12600 1400
 	0    1    1    0   
 $EndComp
@@ -1018,7 +1018,7 @@ P 14650 2100
 F 0 "D4" H 14650 2200 50  0000 C CNN
 F 1 "D_Schottky" H 14650 2000 50  0000 C CNN
 F 2 "Monero_Local:D_SOD-123" H 14650 2100 50  0001 C CNN
-F 3 "" H 14650 2100 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 14650 2100 50  0001 C CNN
 	1    14650 2100
 	-1   0    0    -1  
 $EndComp
@@ -1029,7 +1029,7 @@ P 15050 2100
 F 0 "F1" V 14950 2100 50  0000 C CNN
 F 1 "Polyfuse" V 15150 2100 50  0000 C CNN
 F 2 "Monero_Local:R_0805" H 15100 1900 50  0001 L CNN
-F 3 "" H 15050 2100 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/mfpsmf.pdf" H 15050 2100 50  0001 C CNN
 	1    15050 2100
 	0    1    1    0   
 $EndComp
@@ -1097,7 +1097,7 @@ P 2550 4550
 F 0 "Y1" V 2939 4550 50  0000 C CNN
 F 1 "Crystal_GND24" V 2870 4550 50  0000 C CNN
 F 2 "Monero_Local:Crystal_SMD_Abracon_ABM3B-4pin_5.0x3.2mm" H 2550 4550 50  0001 C CNN
-F 3 "" H 2550 4550 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/abm3b.pdf" H 2550 4550 50  0001 C CNN
 	1    2550 4550
 	0    -1   -1   0   
 $EndComp
@@ -1351,7 +1351,7 @@ P 10100 8600
 F 0 "U3" H 9825 9025 50  0000 C CNN
 F 1 "ATECC608A" H 10300 8650 50  0000 R CNN
 F 2 "Monero_Local:DFN-8-1EP_2x3mm_Pitch0.5mm" H 10100 8175 50  0001 C CNN
-F 3 "Cryptoelement" H 10100 8550 50  0000 C CNN
+F 3 "https://www.microchip.com/atecc608a/" H 10100 8550 50  0000 C CNN
 	1    10100 8600
 	1    0    0    -1  
 $EndComp
@@ -1506,7 +1506,7 @@ P 8650 2200
 F 0 "D3" H 8650 2300 50  0000 C CNN
 F 1 "D_Schottky" H 8650 2100 50  0000 C CNN
 F 2 "Monero_Local:D_SOD-123" H 8650 2200 50  0001 C CNN
-F 3 "" H 8650 2200 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 8650 2200 50  0001 C CNN
 	1    8650 2200
 	1    0    0    -1  
 $EndComp
@@ -1685,7 +1685,7 @@ P 9300 9600
 F 0 "U4" H 9025 10025 50  0000 C CNN
 F 1 "ATAES132A" H 9500 9650 50  0000 R CNN
 F 2 "Monero_Local:DFN-8-1EP_2x3mm_Pitch0.5mm" H 9300 9175 50  0001 C CNN
-F 3 "Cryptoelement" H 9300 9550 50  0000 C CNN
+F 3 "https://www.microchip.com/ataes132a/" H 9300 9550 50  0000 C CNN
 	1    9300 9600
 	1    0    0    -1  
 $EndComp
@@ -1762,7 +1762,7 @@ P 9300 2200
 F 0 "U2" H 9450 1950 50  0000 C CNN
 F 1 "MCP1703A-3302_SOT23" H 9300 2350 50  0000 C CNN
 F 2 "Monero_Local:SOT-23" H 9350 2450 50  0001 C CNN
-F 3 "" H 9300 2150 50  0001 C CNN
+F 3 "https://www.microchip.com/mcp1703a/" H 9300 2150 50  0001 C CNN
 	1    9300 2200
 	-1   0    0    -1  
 $EndComp
@@ -1821,7 +1821,7 @@ P 3650 8300
 F 0 "BT1" H 3550 8450 50  0000 C CNN
 F 1 "Battery_Cell" H 3900 8250 50  0000 C CNN
 F 2 "Monero_Local:Keystone_3008_1x2450-CoinCell" V 3650 8360 50  0001 C CNN
-F 3 "" V 3650 8360 50  0001 C CNN
+F 3 "http://www.keyelco.com/product.cfm/product_id/786/" V 3650 8360 50  0001 C CNN
 	1    3650 8300
 	1    0    0    -1  
 $EndComp
@@ -1834,7 +1834,7 @@ P 14850 8900
 F 0 "J13" H 14200 9600 50  0000 C CNN
 F 1 "Micro_SD_Card_Det" H 15500 9600 50  0000 R CNN
 F 2 "Monero_Local:microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5" H 16900 9600 50  0001 C CNN
-F 3 "" H 14850 9000 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/products/DM3/DM3AT-SF-PEJM5/" H 14850 9000 50  0001 C CNN
 	1    14850 8900
 	1    0    0    -1  
 $EndComp
@@ -1891,7 +1891,7 @@ P 15000 2850
 F 0 "U5" H 15000 2600 60  0000 C CNN
 F 1 "LTR303ALS" H 15000 3100 60  0000 C CNN
 F 2 "Monero_Local:ChipLED-6_2x2mm" H 15000 2600 60  0001 C CNN
-F 3 "https://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf" H 15000 2500 60  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/en-global/Led/LED-Component/Detail/926/0/LTR-303ALS-01/" H 15000 2500 60  0001 C CNN
 	1    15000 2850
 	1    0    0    1   
 $EndComp
@@ -1965,7 +1965,7 @@ P 12550 8950
 F 0 "U6" H 12850 9450 50  0000 C CNN
 F 1 "BMA280" H 12250 8450 50  0000 C CNN
 F 2 "Monero_Local:LGA-12_2x2mm_P0.5mm" H 12550 8250 50  0001 C CNN
-F 3 "" H 12550 8750 50  0001 C CNN
+F 3 "https://www.bosch-sensortec.com/bst/products/all_products/bma280/" H 12550 8750 50  0001 C CNN
 	1    12550 8950
 	-1   0    0    -1  
 $EndComp
@@ -3072,7 +3072,7 @@ P 3800 7900
 F 0 "D7" H 3800 8000 50  0000 C CNN
 F 1 "D_Schottky" H 3800 7800 50  0000 C CNN
 F 2 "Monero_Local:D_SOD-123" H 3800 7900 50  0001 C CNN
-F 3 "" H 3800 7900 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 3800 7900 50  0001 C CNN
 	1    3800 7900
 	1    0    0    -1  
 $EndComp
@@ -3117,7 +3117,7 @@ P 1100 8300
 F 0 "D8" H 1100 8400 50  0000 C CNN
 F 1 "WHITE" H 1100 8200 50  0000 C CNN
 F 2 "Monero_Local:LED_0805" H 1100 8300 50  0001 C CNN
-F 3 "" H 1100 8300 50  0001 C CNN
+F 3 "http://www.dialightsignalsandcomponents.com/Product/Details/445020/5976901607F/" H 1100 8300 50  0001 C CNN
 	1    1100 8300
 	1    0    0    -1  
 $EndComp
@@ -3276,7 +3276,7 @@ P 6100 10300
 F 0 "J14" V 6200 11650 50  0000 C CNN
 F 1 "Conn_01x30_Female" V 6200 10300 50  0000 C CNN
 F 2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" H 6100 10300 50  0001 C CNN
-F 3 "" H 6100 10300 50  0001 C CNN
+F 3 "http://www.buy-display.com/download/connector/ER-CON30HT-1.pdf" H 6100 10300 50  0001 C CNN
 	1    6100 10300
 	0    -1   -1   0   
 $EndComp

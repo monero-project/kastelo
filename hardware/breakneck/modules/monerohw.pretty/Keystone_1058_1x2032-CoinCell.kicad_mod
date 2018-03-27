@@ -58,7 +58,7 @@
   (fp_circle (center 0 0) (end 10 0) (layer Dwgs.User) (width 0.15))
   (pad 1 smd rect (at -14.68 0) (size 2.54 3.51) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 14.68 0) (size 2.54 3.51) (layers F.Cu F.Paste F.Mask))
-  (model Battery_Holders.3dshapes/Keystone_1058_1x2032-CoinCell.wrl
+  (model Battery_Holders.3dshapes/Keystone_3008_1x2450-CoinCell.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
