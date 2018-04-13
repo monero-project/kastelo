@@ -4,7 +4,6 @@ fabraster
 fabsingle
 fabvector
 release
-solids
 
 # Ignore backups
 *.kicad_pcb-bak
