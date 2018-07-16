@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2018-07-15T20:32:30.755479658</meta:creation-date><dc:date>2018-07-15T21:54:58.880270236</dc:date><meta:editing-duration>PT30M5S</meta:editing-duration><meta:editing-cycles>6</meta:editing-cycles><meta:generator>LibreOffice/5.4.6.2$Linux_X86_64 LibreOffice_project/40m0$Build-2</meta:generator><meta:print-date>2018-07-15T21:46:44.633489666</meta:print-date><meta:document-statistic meta:table-count="0" meta:image-count="4" meta:object-count="0" meta:page-count="8" meta:paragraph-count="112" meta:word-count="1880" meta:character-count="11624" meta:non-whitespace-character-count="9856"/></office:meta>
+ <office:meta><meta:creation-date>2018-07-15T20:32:30.755479658</meta:creation-date><dc:date>2018-07-17T00:38:48.795267775</dc:date><meta:editing-duration>PT52M19S</meta:editing-duration><meta:editing-cycles>8</meta:editing-cycles><meta:generator>LibreOffice/5.4.6.2$Linux_X86_64 LibreOffice_project/40m0$Build-2</meta:generator><meta:print-date>2018-07-17T00:34:56.683197166</meta:print-date><meta:document-statistic meta:table-count="0" meta:image-count="4" meta:object-count="0" meta:page-count="8" meta:paragraph-count="120" meta:word-count="1852" meta:character-count="11352" meta:non-whitespace-character-count="9620"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">120</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">275</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">31265</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">25164</config:config-item>
@@ -13,12 +13,12 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">5233</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">10366</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2782</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">3551</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">120</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">275</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">31263</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">25282</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">25437</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">2</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -91,7 +91,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1479312</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1558953</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -336,6 +336,35 @@
    <style:paragraph-properties fo:margin-top="4mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" style:writing-mode="page"/>
    <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0013a3b6" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0014c022" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0015d326" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="start" style:justify-single-word="false"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0017c9a9" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0017c9a9" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0015d326" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="4mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" style:writing-mode="page"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0014c022" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="4mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" style:writing-mode="page"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0017c9a9" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0mm" fo:margin-bottom="0mm" loext:contextual-spacing="false" style:writing-mode="page"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0013a3b6" officeooo:paragraph-rsid="0017c9a9" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties officeooo:rsid="000556e6"/>
   </style:style>
@@ -353,6 +382,9 @@
   </style:style>
   <style:style style:name="T6" style:family="text">
    <style:text-properties officeooo:rsid="00169290"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties officeooo:rsid="0017c9a9"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
    <style:graphic-properties style:vertical-pos="top" style:vertical-rel="paragraph-content" style:mirror="none" fo:clip="rect(0mm, 0mm, 0mm, 0mm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
@@ -391,13 +423,7 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
    </text:sequence-decls>
    <text:p text:style-name="P26">Frequently Asked Questions (FAQ)</text:p>
-   <text:p text:style-name="P29"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A:</text:span> Yes, everything needed to hack, analyse, disassemble, create, recreate, or modify is provided (including a CERN OSH license to do so.)</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, bill of materials, gerber archive, firmware, work history, and more.</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
+   <text:p text:style-name="P29"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
    <text:p text:style-name="P16"/>
@@ -415,6 +441,15 @@
    <text:p text:style-name="P17"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
    <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
    <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P15"/>
+   <text:p text:style-name="P15"><text:span text:style-name="T3">Q:</text:span> Can I program my badge?</text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T3">A:</text:span> Yes! <text:span text:style-name="T7">With avr-gcc(1) and avrdude(1)</text:span>.</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, <text:span text:style-name="T7">and other design files</text:span>.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, everything is provided <text:span text:style-name="T7">with the</text:span> CERN OHL.</text:p>
    <text:p text:style-name="P28"><draw:frame draw:style-name="fr1" draw:name="Bild4" text:anchor-type="paragraph" svg:width="113.51mm" svg:height="37.68mm" draw:z-index="3"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABQAAAAGpCAYAAADSuJvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9i
        ZSBJbWFnZVJlYWR5ccllPAAAQ6NJREFUeNrs3U+MXVd+J/Zb6jbibtli9XSjEWM6oycObHoA
@@ -743,30 +778,33 @@
      </draw:image>
     </draw:frame>DEFCON 26 BADGE DISCLAIMER <text:span text:style-name="T5">DOCUMENT VERSION </text:span>20180700</text:p>
    <text:p text:style-name="P26">Frequently Asked Questions (FAQ)</text:p>
-   <text:p text:style-name="P29"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A:</text:span> Yes, everything needed to hack, analyse, disassemble, create, recreate, or modify is provided (including a CERN OSH license to do so.)</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, bill of materials, gerber archive, firmware, work history, and more.</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> What type of NFC is supported?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A1:</text:span> The badge is a NFC Forum Type 4 Tag.</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A2:</text:span> The chosen ICs support ISO/IEC 14443 Type A.</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A3:</text:span> The same RF as MIFARE, and 13.56 MHz RFID.</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> Does the badge have a website?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A:</text:span> Yes, <text:span text:style-name="T6">k</text:span>astelo.org/specs/</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">Q:</text:span> What is the purpose of buttons SW1 and SW2?</text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T3">A:</text:span> Defense against opportunistic data theft.</text:p>
-   <text:p text:style-name="P16"/>
-   <text:p text:style-name="P17"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> What type of NFC is supported?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A1:</text:span> The badge is a NFC Forum Type 4 Tag.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A2:</text:span> The chosen ICs support ISO/IEC 14443 Type A.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A3:</text:span> The same RF as MIFARE, and 13.56 MHz RFID.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Does the badge have a website?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, <text:span text:style-name="T6">k</text:span>astelo.org/specs/</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> What is the purpose of buttons SW1 and SW2?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Defense against opportunistic data theft.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P34"/>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">Q:</text:span> Can I program my badge?</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A:</text:span> Yes! <text:span text:style-name="T7">With avr-gcc(1) and avrdude(1)</text:span>.</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, <text:span text:style-name="T7">and other design files</text:span>.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">A:</text:span> Yes, everything is provided <text:span text:style-name="T7">with the</text:span> CERN OHL.</text:p>
    <text:p text:style-name="P28"><draw:frame draw:style-name="fr1" draw:name="Bild3" text:anchor-type="paragraph" svg:width="113.51mm" svg:height="37.68mm" draw:z-index="2"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABQAAAAGpCAYAAADSuJvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9i
        ZSBJbWFnZVJlYWR5ccllPAAAQ6NJREFUeNrs3U+MXVd+J/Zb6jbibtli9XSjEWM6oycObHoA
@@ -1095,30 +1133,33 @@
      </draw:image>
     </draw:frame>DEFCON 26 BADGE DISCLAIMER <text:span text:style-name="T5">DOCUMENT VERSION </text:span>20180700</text:p>
    <text:p text:style-name="P25">Frequently Asked Questions (FAQ)</text:p>
-   <text:p text:style-name="P30"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A:</text:span> Yes, everything needed to hack, analyse, disassemble, create, recreate, or modify is provided (including a CERN OSH license to do so.)</text:p>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, bill of materials, gerber archive, firmware, work history, and more.</text:p>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Q:</text:span> What type of NFC is supported?</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A1:</text:span> The badge is a NFC Forum Type 4 Tag.</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A2:</text:span> The chosen ICs support ISO/IEC 14443 Type A.</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A3:</text:span> The same RF as MIFARE, and 13.56 MHz RFID.</text:p>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Q:</text:span> Does the badge have a website?</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A:</text:span> Yes, <text:span text:style-name="T6">k</text:span>astelo.org/specs/</text:p>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">Q:</text:span> What is the purpose of buttons SW1 and SW2?</text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T3">A:</text:span> Defense against opportunistic data theft.</text:p>
-   <text:p text:style-name="P12"/>
-   <text:p text:style-name="P17"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> What type of NFC is supported?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A1:</text:span> The badge is a NFC Forum Type 4 Tag.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A2:</text:span> The chosen ICs support ISO/IEC 14443 Type A.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A3:</text:span> The same RF as MIFARE, and 13.56 MHz RFID.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Does the badge have a website?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, <text:span text:style-name="T6">k</text:span>astelo.org/specs/</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> What is the purpose of buttons SW1 and SW2?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Defense against opportunistic data theft.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P34"/>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">Q:</text:span> Can I program my badge?</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A:</text:span> Yes! <text:span text:style-name="T7">With avr-gcc(1) and avrdude(1)</text:span>.</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, <text:span text:style-name="T7">and other design files</text:span>.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">A:</text:span> Yes, everything is provided <text:span text:style-name="T7">with the</text:span> CERN OHL.</text:p>
    <text:p text:style-name="P28"><draw:frame draw:style-name="fr1" draw:name="Bild2" text:anchor-type="paragraph" svg:width="113.51mm" svg:height="37.68mm" draw:z-index="1"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABQAAAAGpCAYAAADSuJvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9i
        ZSBJbWFnZVJlYWR5ccllPAAAQ6NJREFUeNrs3U+MXVd+J/Zb6jbibtli9XSjEWM6oycObHoA
@@ -1447,30 +1488,33 @@
      </draw:image>
     </draw:frame>DEFCON 26 BADGE DISCLAIMER <text:span text:style-name="T5">DOCUMENT VERSION </text:span>20180700</text:p>
    <text:p text:style-name="P24">Frequently Asked Questions (FAQ)</text:p>
-   <text:p text:style-name="P31"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A:</text:span> Yes, everything needed to hack, analyse, disassemble, create, recreate, or modify is provided (including a CERN OSH license to do so.)</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, bill of materials, gerber archive, firmware, work history, and more.</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">Q:</text:span> What type of NFC is supported?</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A1:</text:span> The badge is a NFC Forum Type 4 Tag.</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A2:</text:span> The chosen ICs support ISO/IEC 14443 Type A.</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A3:</text:span> The same RF as MIFARE, and 13.56 MHz RFID.</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">Q:</text:span> Does the badge have a website?</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A:</text:span> Yes, <text:span text:style-name="T6">k</text:span>astelo.org/specs/</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">Q:</text:span> What is the purpose of buttons SW1 and SW2?</text:p>
-   <text:p text:style-name="P11"><text:span text:style-name="T3">A:</text:span> Defense against opportunistic data theft.</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P17"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T3">Q:</text:span> How can the NFC storage be accessed?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A1:</text:span> Use a phone with a NFC application.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A2:</text:span> <text:span text:style-name="T6">T</text:span>ap <text:span text:style-name="T6">the </text:span>EEPROM IC legs and hack over I2C.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> What type of NFC is supported?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A1:</text:span> The badge is a NFC Forum Type 4 Tag.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A2:</text:span> The chosen ICs support ISO/IEC 14443 Type A.</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A3:</text:span> The same RF as MIFARE, and 13.56 MHz RFID.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Does the badge have a website?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, <text:span text:style-name="T6">k</text:span>astelo.org/specs/</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> What is the purpose of buttons SW1 and SW2?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Defense against opportunistic data theft.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is a battery required?</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">1</text:span><text:span text:style-name="T3">:</text:span> Yes, but only for lights.</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A</text:span><text:span text:style-name="T4">2</text:span><text:span text:style-name="T3">:</text:span> No, the NFC circuit requires no power supply!</text:p>
+   <text:p text:style-name="P34"/>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">Q:</text:span> Can I program my badge?</text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T3">A:</text:span> Yes! <text:span text:style-name="T7">With avr-gcc(1) and avrdude(1)</text:span>.</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">Q:</text:span> Can I DIY make my own badge?</text:p>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">A:</text:span> Yes, excercise your freedom by downloading the schematic, netlist, layout, <text:span text:style-name="T7">and other design files</text:span>.</text:p>
+   <text:p text:style-name="P35"/>
+   <text:p text:style-name="P35"><text:span text:style-name="T3">Q:</text:span> Is the badge Opensource?</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T3">A:</text:span> Yes, everything is provided <text:span text:style-name="T7">with the</text:span> CERN OHL.</text:p>
    <text:p text:style-name="P27"><draw:frame draw:style-name="fr1" draw:name="Bild1" text:anchor-type="paragraph" svg:width="113.51mm" svg:height="37.68mm" draw:z-index="0"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAABQAAAAGpCAYAAADSuJvCAAAAGXRFWHRTb2Z0d2FyZQBBZG9i
        ZSBJbWFnZVJlYWR5ccllPAAAQ6NJREFUeNrs3U+MXVd+J/Zb6jbibtli9XSjEWM6oycObHoA
