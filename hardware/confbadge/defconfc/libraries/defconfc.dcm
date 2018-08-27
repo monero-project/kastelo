@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Antenna_Loop
+D Loop Antenna symbol
+K loop antenna
+$ENDCMP
+#
+$CMP M24SR16-Y
+D SO8, 2-Kbyte (16-Kbit) EEPROM, NFC ISO/IEC 14443, I2C (2,7V-5,5V)
+K 16-Kbit dynamic NFC/RFID tag with I2C and password protection
+F http://www.st.com/resource/en/datasheet/m24sr16-y.pdf
+$ENDCMP
+#
+#End Doc Library

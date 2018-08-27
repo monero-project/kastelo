@@ -1,0 +1,19 @@
+# exclude file endings of generated archives
+*.pdf
+
+# exclude all generated manufacturing archives
+fabsingle
+fabsmart*
+
+# no graphics
+graphics
+
+# exclude names of all generated graphics
+graphics/defconfcaniloop.gif
+graphics/frameforqrcode.png
+graphics/panelisation.png
+graphics/boardexplorer/*.png
+
+# exclude names of some graphics
+modules/monerohw.pretty/Brandgraphics*
+graphics/artistgraph-*

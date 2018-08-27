@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>hardware/confbadge/defconfc/defconfc.sch</source>
+    <date>Fr 29 Jun 2018 17:10:39 CEST</date>
+    <tool>Eeschema 4.0.6+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>DefcoNFC Hardware Badge</title>
+        <company>The Monero Project, Hardware Team</company>
+        <rev>1.0.0</rev>
+        <date>2018-06-22</date>
+        <source>defconfc.sch</source>
+        <comment number="1" value="Copyright © 2018, The Monero Project"/>
+        <comment number="2" value="Fulfilling the first annual village role"/>
+        <comment number="3" value="Pending quality assurance testing"/>
+        <comment number="4" value="Warning, untested prototype!"/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U3">
+      <value>ATTINY13A-SSU</value>
+      <footprint>Monero_HW:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="defconfc" part="ATTINY13A-SSU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE871D6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE87290</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8730F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8733A</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8735B</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>Monero_HW:Keystone_3034_1x2032-Coincell</footprint>
+      <libsource lib="defconfc" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE874CA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Monero_HW:R_0805</footprint>
+      <libsource lib="defconfc" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8755B</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPST</value>
+      <footprint>Monero_HW:SW_SPST_PTS645</footprint>
+      <libsource lib="defconfc" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8772D</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>Monero_HW:SW_SPST_PTS645</footprint>
+      <libsource lib="defconfc" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8ADFB</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <footprint>Monero_HW:SW_SPST_PTS645</footprint>
+      <libsource lib="defconfc" part="SW_SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8AEBA</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPDT</value>
+      <footprint>Monero_HW:SW_SPDT_CK-JS102011SAQN</footprint>
+      <libsource lib="defconfc" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE8AF07</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>M24SR16-YMN6T/2</value>
+      <footprint>Monero_HW:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.st.com/en/nfc/m24sr-series-dynamic-nfc-tags.html</datasheet>
+      <libsource lib="defconfc" part="M24SR16-YMN6T/2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE88A57</tstamp>
+    </comp>
+    <comp ref="AE1">
+      <value>Antenna_PCB</value>
+      <footprint>Monero_HW:NFCAnt</footprint>
+      <libsource lib="defconfc" part="Antenna_Loop"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE88DBD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE948BA</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE948C0</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE948C6</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE948CC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <footprint>Monero_HW:R_0805</footprint>
+      <libsource lib="defconfc" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE948D2</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9516A</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE95170</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE95176</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9517C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Monero_HW:R_0805</footprint>
+      <libsource lib="defconfc" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE95182</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE951B5</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE951BB</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE951C1</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>Monero_HW:LED_1206</footprint>
+      <libsource lib="defconfc" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE951C7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <footprint>Monero_HW:R_0805</footprint>
+      <libsource lib="defconfc" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE951CD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Monero_HW:Tag-Connect_TC2030-IDC-NL</footprint>
+      <libsource lib="defconfc" part="Conn_02x03_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE966F8</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>Graphbrand</value>
+      <footprint>Monero_HW:Brandgraphicsfront</footprint>
+      <libsource lib="defconfc" part="Graphbrand"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9B2EC</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>Graphbrand</value>
+      <footprint>Monero_HW:Brandgraphicsrear</footprint>
+      <libsource lib="defconfc" part="Graphbrand"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9B38D</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial_Passermarke</value>
+      <footprint>Monero_HW:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <libsource lib="defconfc" part="Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA3122</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial_Passermarke</value>
+      <footprint>Monero_HW:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <libsource lib="defconfc" part="Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA31C5</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial_Passermarke</value>
+      <footprint>Monero_HW:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <libsource lib="defconfc" part="Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA3226</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial_Passermarke</value>
+      <footprint>Monero_HW:Fiducial_1mm_Dia_2mm_Outer</footprint>
+      <libsource lib="defconfc" part="Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA3289</tstamp>
+    </comp>
+    <comp ref="LH1">
+      <value>Mounting-Lanyard</value>
+      <footprint>Monero_HW:LanyardHole_16mm_Pad</footprint>
+      <libsource lib="defconfc" part="DUMMY_MOUNTING-HOLE_RevE_Date22jun2010"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA3FB6</tstamp>
+    </comp>
+    <comp ref="LH2">
+      <value>Mounting-Lanyard</value>
+      <footprint>Monero_HW:LanyardHole_16mm_Pad</footprint>
+      <libsource lib="defconfc" part="DUMMY_MOUNTING-HOLE_RevE_Date22jun2010"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA4091</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>M24SR16-YMN6T/2</value>
+      <footprint>Monero_HW:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.st.com/en/nfc/m24sr-series-dynamic-nfc-tags.html</datasheet>
+      <libsource lib="defconfc" part="M24SR16-YMN6T/2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEA5368</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Monero_HW:Pin_Header_Straight_2x03_Pitch2.54mm</footprint>
+      <libsource lib="defconfc" part="Conn_02x03_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE9B792</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="defconfc" part="ATTINY13-20SSU">
+      <aliases>
+        <alias>ATTINY13A-SSU</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATTINY13-20SSU</field>
+        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5(~RESET~/ADC0/PCINT5/dW)" type="BiDi"/>
+        <pin num="2" name="PB3(CLKI/ADC3/PCINT3)" type="BiDi"/>
+        <pin num="3" name="PB4(ADC2/PCINT4)" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PB0(MOSI/AIN0/OC0A/PCINT0)" type="BiDi"/>
+        <pin num="6" name="PB1(MISO/AIN1/OC0B/INT0/PCINT1)" type="BiDi"/>
+        <pin num="7" name="PB2(SCK/ADC1/T0/PCINT2)" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="Antenna_Loop">
+      <description>Loop Antenna symbol</description>
+      <fields>
+        <field name="Reference">AE</field>
+        <field name="Value">Antenna_Loop</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="Battery_Cell">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="Conn_02x03_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="DUMMY_MOUNTING-HOLE_RevE_Date22jun2010">
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">DUMMY_MOUNTING-HOLE_RevE_Date22jun2010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Hole" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011</field>
+      </fields>
+      <pins>
+        <pin num="~" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="Graphbrand">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Graphbrand</field>
+      </fields>
+    </libpart>
+    <libpart lib="defconfc" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="M24SR16-Y">
+      <aliases>
+        <alias>M24SR16-YMN</alias>
+        <alias>M24SR16-YDW</alias>
+        <alias>M24SR16-YMC</alias>
+        <alias>M24SR16-YMN6</alias>
+        <alias>M24SR16-YMN6T</alias>
+        <alias>M24SR16-YMN6T/2</alias>
+        <alias>M24SR16-YDW6</alias>
+        <alias>M24SR16-YMC6</alias>
+      </aliases>
+      <description>SO8, 2-Kbyte (16-Kbit) EEPROM, NFC ISO/IEC 14443, I2C (2,7V-5,5V)</description>
+      <docs>http://www.st.com/resource/en/datasheet/m24sr16-y.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">M24SR16-Y</field>
+        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+        <field name="Datasheet">http://www.st.com/en/nfc/m24sr-series-dynamic-nfc-tags.html</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RFD" type="input"/>
+        <pin num="2" name="AC0" type="passive"/>
+        <pin num="3" name="AC1" type="passive"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="GPO" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="SW_SPDT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="defconfc" part="SW_SPST">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="defconfc">
+      <uri>hardware/confbadge/defconfc/libraries/defconfc.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(BT1-Pad1)">
+      <node ref="SW4" pin="2"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="6" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="7" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J1" pin="6"/>
+      <node ref="D16" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="6"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="LH2" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="LH1" pin="1"/>
+      <node ref="D14" pin="1"/>
+    </net>
+    <net code="9" name="SCK">
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="VCC">
+      <node ref="D13" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="11" name="RST">
+      <node ref="U3" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="12" name="MOSI">
+      <node ref="J1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="13" name="MISO">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D10-Pad2)">
+      <node ref="D9" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D5-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad1)">
+      <node ref="D4" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(AE1-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="AE1" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(AE1-Pad2)">
+      <node ref="SW2" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="AE1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(SW1-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D13-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="21" name="Net-(SW2-Pad2)">
+      <node ref="SW2" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="27" name="PB3">
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="28" name="Net-(FID3-Pad~)">
+      <node ref="FID3" pin="~"/>
+    </net>
+    <net code="29" name="Net-(FID4-Pad~)">
+      <node ref="FID4" pin="~"/>
+    </net>
+    <net code="30" name="Net-(FID2-Pad~)">
+      <node ref="FID2" pin="~"/>
+    </net>
+    <net code="31" name="Net-(FID1-Pad~)">
+      <node ref="FID1" pin="~"/>
+    </net>
+  </nets>
+</export>
