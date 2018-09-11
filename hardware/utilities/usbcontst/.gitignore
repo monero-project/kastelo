@@ -1,0 +1,6 @@
+# exclude file endings of generated archives
+*.pdf
+
+# exclude all generated manufacturing archives
+archives
+fabsingle
