@@ -1,0 +1,12 @@
+#### https://kicad-neoden.blogspot.com/2017/11/kicad-position-file.html
+####
+### Module positions - created on Sun Sep  9 01:21:48 2018 ###
+### Printed by Pcbnew version kicad 4.0.6+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : top
+#,Ref,Val,Package,PosX,PosY,Rot,Side
+SW1,SW_SPST,SW_SPST_K21102SP,130.0000,-68.0000,240.0000,TOP
+SW2,SW_SPST,SW_SPST_PTS645,149.7500,-67.5000,120.0000,TOP
+U1,M24SR02-YMN,SOIC-8_3.9x4.9mm_Pitch1.27mm,134.5000,-60.5000,330.0000,TOP
+U2,M24SR02-YMN,SOIC-8_3.9x4.9mm_Pitch1.27mm,145.5000,-60.5000,210.0000,TOP
+## End
