@@ -238,6 +238,22 @@ X ~ 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Badgelife_shitty_connector
+#
+DEF Badgelife_shitty_connector X 0 40 Y Y 1 F N
+F0 "X" 100 -200 60 H V C CNN
+F1 "Badgelife_shitty_connector" 0 400 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -150 250 350 -250 0 1 0 N
+X VDD 1 -350 100 200 R 50 50 1 1 I
+X GND 2 -350 -100 200 R 50 50 1 1 I
+X SCL 3 550 -100 200 L 50 50 1 1 I
+X SDA 4 550 100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # GND
 #
 DEF GND #PWR 0 0 Y Y 1 F P
