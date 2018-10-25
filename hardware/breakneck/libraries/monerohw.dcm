@@ -1,0 +1,40 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP CEC1702
+D Core: ARM Cortex-M4F, Package: WFBGA84, Flash: SPI external, Ram: 480KB, Voltage: 1.8V/3.3V, IO-pins: 65 most glitch protected
+K ARM Cortex-M4F CEC1x02
+F http://www.microchip.com/downloads/en/DeviceDoc/
+$ENDCMP
+#
+$CMP Conn_01x30_Female
+D Generic connector, single row, 01x30
+K connector
+F ~
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP MCP1755S-3302/MC
+D 300mA Low Quiscent Current LDO, 3.3V output, DFN-8 package
+K regulator linear ldo
+F https://www.microchip.com/downloads/en/DeviceDoc/25160A.pdf
+$ENDCMP
+#
+$CMP SSD1306
+D FPC .5mm pitch 30-pin connector
+K connector FPC
+F http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+$ENDCMP
+#
+#End Doc Library

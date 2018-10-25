@@ -39,4 +39,4 @@ LabSize=60
 version=1
 LibDir=libraries
 [eeschema/libraries]
-LibName1=breakneck
+LibName1=monerohw
