@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Breakneck Hardware Wallet"
 Date "2018-01-10"
-Rev "0.7.5"
+Rev "0.8.0"
 Comp "The Monero Project, Hardware Team"
 Comment1 "Copyright © 2018, The Monero Project"
 Comment2 "Fulfilling the developer edition role"
@@ -63,7 +63,7 @@ L C C5
 U 1 1 5A60703C
 P 2200 3650
 F 0 "C5" H 2225 3750 50  0000 L CNN
-F 1 "2u2" H 2225 3550 50  0000 L CNN
+F 1 "2.2uF" H 2225 3550 50  0000 L CNN
 F 2 "Monero_Local:C_0805" H 2238 3500 50  0001 C CNN
 F 3 "" H 2200 3650 50  0001 C CNN
 	1    2200 3650
@@ -140,7 +140,7 @@ L C C6
 U 1 1 5A6070DF
 P 2400 3650
 F 0 "C6" H 2425 3750 50  0000 L CNN
-F 1 "2u2" H 2425 3550 50  0000 L CNN
+F 1 "2.2uF" H 2425 3550 50  0000 L CNN
 F 2 "Monero_Local:C_0805" H 2438 3500 50  0001 C CNN
 F 3 "" H 2400 3650 50  0001 C CNN
 	1    2400 3650
@@ -981,7 +981,7 @@ U 1 1 5A7A8688
 P 12600 1400
 F 0 "J5" V 12049 2798 50  0000 R CNN
 F 1 "USB_C_Receptacle" V 12128 2798 50  0000 R CNN
-F 2 "Monero_Local:USB_C_Receptacle_Amphenol_12401610E4-2A_CircularHoles" H 12750 1400 50  0001 C CNN
+F 2 "Monero_Local:USB_C_Receptacle_Amphenol_12401610E4-2A" H 12750 1400 50  0001 C CNN
 F 3 "https://www.amphenolcanada.com/ProductSearch/pdf/124015_BRO.pdf" H 12750 1400 50  0001 C CNN
 	1    12600 1400
 	0    1    1    0   
@@ -1027,7 +1027,7 @@ L Polyfuse F1
 U 1 1 5A7B0BA9
 P 15050 2100
 F 0 "F1" V 14950 2100 50  0000 C CNN
-F 1 "Polyfuse" V 15150 2100 50  0000 C CNN
+F 1 "PTC" V 15150 2100 50  0000 C CNN
 F 2 "Monero_Local:R_0805" H 15100 1900 50  0001 L CNN
 F 3 "http://www.bourns.com/docs/Product-Datasheets/mfpsmf.pdf" H 15050 2100 50  0001 C CNN
 	1    15050 2100
@@ -3105,8 +3105,9 @@ U 1 1 5AAEF63D
 P 2100 8250
 F 0 "C27" V 2250 8200 50  0000 L CNN
 F 1 "47nF" V 1950 8150 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 2138 8100 50  0001 C CNN
+F 2 "Monero_Local:C_1206" H 2138 8100 50  0001 C CNN
 F 3 "" H 2100 8250 50  0001 C CNN
+F 4 "C0G or better" V 2100 8250 60  0001 C CNN "Feld4"
 	1    2100 8250
 	0    1    1    0   
 $EndComp
