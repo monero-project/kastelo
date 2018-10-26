@@ -39,12 +39,6 @@ K ARM Cortex-M4F CEC1x02
 F http://www.microchip.com/downloads/en/DeviceDoc/
 $ENDCMP
 #
-$CMP CP2102N-QFN24
-D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
-K uart usb bridge interface transceiver
-F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
-$ENDCMP
-#
 $CMP CP2102N-QFN28
 D Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN package
 K uart usb bridge interface transceiver

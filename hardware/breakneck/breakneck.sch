@@ -627,61 +627,6 @@ F 3 "" H 3100 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ASE-xxxMHz DNP2
-U 1 1 5A7417B6
-P 1850 9250
-F 0 "DNP2" H 1650 9500 50  0000 L CNN
-F 1 "ASE-xxxMHz" H 1900 9000 50  0000 L CNN
-F 2 "Monero_Local:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" H 2550 8900 50  0001 C CNN
-F 3 "https://abracon.com/Oscillators/ASEseries.pdf" H 1750 9250 50  0001 C CNN
-	1    1850 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L C DNP3
-U 1 1 5A74184D
-P 2550 9450
-F 0 "DNP3" H 2575 9550 50  0000 L CNN
-F 1 "15pF" H 2575 9350 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 2588 9300 50  0001 C CNN
-F 3 "" H 2550 9450 50  0001 C CNN
-	1    2550 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR034
-U 1 1 5A741977
-P 1850 9750
-F 0 "#PWR034" H 1850 9500 50  0001 C CNN
-F 1 "GND" H 1850 9600 50  0000 C CNN
-F 2 "" H 1850 9750 50  0001 C CNN
-F 3 "" H 1850 9750 50  0001 C CNN
-	1    1850 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR035
-U 1 1 5A745A9F
-P 1850 8850
-F 0 "#PWR035" H 1850 8700 50  0001 C CNN
-F 1 "+3V3" H 1850 8990 50  0000 C CNN
-F 2 "" H 1850 8850 50  0001 C CNN
-F 3 "" H 1850 8850 50  0001 C CNN
-	1    1850 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L R DNP1
-U 1 1 5A745B03
-P 1500 9050
-F 0 "DNP1" V 1420 9050 50  0000 C CNN
-F 1 "1K" V 1500 9050 50  0000 C CNN
-F 2 "Monero_Local:R_0805" V 1430 9050 50  0001 C CNN
-F 3 "" H 1500 9050 50  0001 C CNN
-	1    1500 9050
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR036
 U 1 1 5A749F11
 P 14350 3800
@@ -827,12 +772,6 @@ F 3 "https://abracon.com/Resonators/abm3b.pdf" H 2550 4550 50  0001 C CNN
 	1    2550 4550
 	0    -1   -1   0   
 $EndComp
-Text Notes 1300 10250 0    60   ~ 0
-Equivalent (but more expensive) crystal\noscillator replacement circuit. We specify\na simple nonoscillating crystal instead.
-Text Notes 2800 9300 0    60   ~ 0
-OSC_IN
-Text Notes 2800 9700 0    60   ~ 0
-OSC_OUT
 Text Label 15200 4000 2    60   ~ 0
 OSC_OUT
 Text Label 14700 3500 2    60   ~ 0
@@ -1136,8 +1075,6 @@ F 3 "" H 8500 1200 50  0000 C CNN
 $EndComp
 Text Notes 12350 8000 0    60   ~ 0
 Empty area\nfor USB-C\nconnector,\nat pin 15
-Text Notes 3150 8750 2    60   ~ 12
-External crystal
 $Comp
 L PWR_FLAG #FLG049
 U 1 1 5A7C5975
@@ -1695,14 +1632,6 @@ Wire Wire Line
 	15100 3800 15100 3500
 Wire Wire Line
 	15200 3800 15100 3800
-Wire Notes Line
-	1250 8600 1250 10300
-Wire Notes Line
-	3250 8600 1250 8600
-Wire Notes Line
-	3250 10300 3250 8600
-Wire Notes Line
-	1250 10300 3250 10300
 Wire Wire Line
 	11800 2600 11700 2600
 Connection ~ 13100 2100
@@ -1758,36 +1687,6 @@ Wire Wire Line
 	14050 3800 14050 4000
 Wire Wire Line
 	14050 4000 14050 4200
-Connection ~ 1850 8900
-Wire Wire Line
-	1500 8900 1850 8900
-Wire Wire Line
-	1850 8850 1850 8900
-Wire Wire Line
-	1850 8900 1850 8950
-Wire Wire Line
-	1500 9250 1500 9200
-Wire Wire Line
-	1550 9250 1500 9250
-Connection ~ 2550 9250
-Wire Wire Line
-	2550 9300 2550 9250
-Connection ~ 2550 9650
-Wire Wire Line
-	2550 9600 2550 9650
-Wire Wire Line
-	2150 9250 2550 9250
-Wire Wire Line
-	2550 9250 2750 9250
-Connection ~ 1850 9650
-Wire Wire Line
-	1850 9650 2550 9650
-Wire Wire Line
-	2550 9650 2750 9650
-Wire Wire Line
-	1850 9550 1850 9650
-Wire Wire Line
-	1850 9650 1850 9750
 Connection ~ 3400 4950
 Wire Wire Line
 	3100 4950 3400 4950
