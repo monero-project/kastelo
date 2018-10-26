@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:monerohw
+LIBS:breakneck-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -2204,10 +2205,10 @@ Wire Wire Line
 	14000 2200 14000 2300
 Connection ~ 14000 2300
 $Comp
-L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID?
+L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID5
 U 1 1 5BD1F324
 P 9200 1200
-F 0 "FID?" H 9200 1350 50  0000 C CNN
+F 0 "FID5" H 9200 1350 50  0000 C CNN
 F 1 "Fiducial-PCB" H 9200 1050 50  0000 C CNN
 F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 9200 1200 50  0001 C CNN
 F 3 "" H 9200 1200 50  0000 C CNN
@@ -2215,10 +2216,10 @@ F 3 "" H 9200 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID?
+L Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID6
 U 1 1 5BD1F32A
 P 9900 1200
-F 0 "FID?" H 9900 1350 50  0000 C CNN
+F 0 "FID6" H 9900 1350 50  0000 C CNN
 F 1 "Fiducial-PCB" H 9900 1050 50  0000 C CNN
 F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 9900 1200 50  0001 C CNN
 F 3 "" H 9900 1200 50  0000 C CNN
