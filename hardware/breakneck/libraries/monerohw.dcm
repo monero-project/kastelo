@@ -45,6 +45,12 @@ K uart usb bridge interface transceiver
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
+$CMP SP0503BAHTG
+D TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package
+K usb esd protection suppression transient
+F http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp05_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP Battery_Cell
 D single battery cell
 K battery cell
