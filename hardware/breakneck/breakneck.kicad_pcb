@@ -3497,7 +3497,7 @@
     (fp_text reference U2 (at 2 1 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MCP1703A-3302_SOT23 (at 0 2.5 270) (layer F.Fab)
+    (fp_text value LN6206P33M_SOT23 (at 0 2.5 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.7 -0.95) (end -0.7 1.5) (layer F.Fab) (width 0.1))
