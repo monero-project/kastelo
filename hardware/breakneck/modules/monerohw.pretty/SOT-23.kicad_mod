@@ -2,7 +2,7 @@
   (descr "SOT-23, Standard")
   (tags SOT-23)
   (attr smd)
-  (fp_text reference Q1 (at 2.5 0 90) (layer F.SilkS)
+  (fp_text reference REF** (at 2.5 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value MOSFET (at 0 2.5) (layer F.Fab)
