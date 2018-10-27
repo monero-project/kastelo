@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V5
+K POWER, PWR
+$ENDCMP
+#
 $CMP +3V3
 K POWER, PWR
 $ENDCMP
@@ -34,7 +38,7 @@ K diode Schottky
 $ENDCMP
 #
 $CMP CEC1702
-D Core: ARM Cortex-M4F, Package: WFBGA84, Flash: SPI external, Ram: 480KB, Voltage: 1.8V/3.3V, IO-pins: 65 most glitch protected
+D Core: ARM Cortex-M4F, Package: WFBGA84, Flash: SPI external, Ram: 480KB, Frequency: 48MHz, Voltage: 1.8V/3.3V, IO-pins: 65 most glitch protected
 K ARM Cortex-M4F CEC1x02
 F http://www.microchip.com/downloads/en/DeviceDoc/
 $ENDCMP
@@ -49,6 +53,18 @@ $CMP SP0503BAHTG
 D TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package
 K usb esd protection suppression transient
 F http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp05_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP LN6206P15M_SOT23
+D Low Quiescent Current LDO Regulator, 1.5V, 250 mA, Vin<=6V
+K REGULATOR LDO
+F http://www.natlinear.com/uploadfiles/2014/LN/LN6206_E.pdf
+$ENDCMP
+#
+$CMP LN6206P33M_SOT23
+D Low Quiescent Current LDO Regulator, 3.3V, 250 mA, Vin<=6V
+K REGULATOR LDO
+F http://www.natlinear.com/uploadfiles/2014/LN/LN6206_E.pdf
 $ENDCMP
 #
 $CMP Battery_Cell
