@@ -37,6 +37,12 @@ D Schottky diode
 K diode Schottky
 $ENDCMP
 #
+$CMP BAT54C
+D schottky barrier diode
+K schottky diode
+F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+$ENDCMP
+#
 $CMP CEC1702
 D Core: ARM Cortex-M4F, Package: WFBGA84, Flash: SPI external, Ram: 480KB, Frequency: 48MHz, Voltage: 1.8V/3.3V, IO-pins: 65 most glitch protected
 K ARM Cortex-M4F CEC1x02
