@@ -40,7 +40,13 @@ $ENDCMP
 $CMP CEC1702
 D Core: ARM Cortex-M4F, Package: WFBGA84, Flash: SPI external, Ram: 480KB, Frequency: 48MHz, Voltage: 1.8V/3.3V, IO-pins: 65 most glitch protected
 K ARM Cortex-M4F CEC1x02
-F http://www.microchip.com/downloads/en/DeviceDoc/
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002207C.pdf
+$ENDCMP
+#
+$CMP SST26VF064B/MF-WDFN
+D 64 Mb External Serial Quad I/O (SQI) Flash with SPI Interface in 8-Pin Package, 2.3V to 3.6V
+K serial quad spi flash storage
+F http://ww1.microchip.com/downloads/en/DeviceDoc/SST26VF064B-SST26VF064BA-Serial-Quad-IO-SQI-Flash-Memory-Data-Sheet-DS20005119H.pdf
 $ENDCMP
 #
 $CMP CP2102N-QFN28
@@ -70,6 +76,12 @@ $ENDCMP
 $CMP Battery_Cell
 D single battery cell
 K battery cell
+$ENDCMP
+#
+$CMP MIC5377YC5
+D High Performance Low Dropout LDO Regulator, Variable Voltage, Single 150 mA
+K regulator ldo
+F https://www.microchip.com/downloads/en/DeviceDoc/MIC5376-7-8-High-Performance-Low-Dropout-150mA-LDO-DS20006080A.pdf
 $ENDCMP
 #
 $CMP Micro_SD_Card_Det
