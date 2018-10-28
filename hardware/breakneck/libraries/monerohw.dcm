@@ -119,7 +119,12 @@ $ENDCMP
 $CMP Conn_01x30_Female
 D Generic connector, single row, 01x30
 K connector
-F ~
+F https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf
+$ENDCMP
+#
+$CMP CONN_02X04
+D Connector, double row, 02x04, pin header
+K connector
 $ENDCMP
 #
 $CMP CONN_02X05

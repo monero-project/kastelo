@@ -151,7 +151,7 @@ ENDDEF
 DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "D_SOD-123" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  D*SOD?123*
@@ -533,7 +533,7 @@ ENDDEF
 DEF CONN_01X02 J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Pin_Header_Straight_1x22_Pitch2.54mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
@@ -555,7 +555,7 @@ ENDDEF
 DEF CONN_01X07 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
 F1 "CONN_01X07" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Pin_Header_Straight_1x07_Pitch2.54mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
@@ -587,7 +587,7 @@ ENDDEF
 DEF CONN_01X14 J 0 40 Y N 1 F N
 F0 "J" 0 750 50 H V C CNN
 F1 "CONN_01X14" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Pin_Header_Straight_1x14_Pitch2.54mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
@@ -633,7 +633,7 @@ ENDDEF
 DEF CONN_01X20 J 0 40 Y N 1 F N
 F0 "J" 0 1050 50 H V C CNN
 F1 "CONN_01X20" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Pin_Header_Straight_1x20_Pitch2.54mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
@@ -691,8 +691,8 @@ ENDDEF
 DEF Conn_01x30_Female J 0 40 Y N 1 F N
 F0 "J" 0 1500 50 H V C CNN
 F1 "Conn_01x30_Female" 0 -1600 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F2 "Hirose_FH12F-30S-0.5SH" 0 0 50 H I C CNN
+F3 "https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_??x*mm*
  Connector*:*1x??x*mm*
@@ -793,12 +793,47 @@ X Pin_29 29 -200 -1400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_02X04
+#
+DEF CONN_02X04 J 0 1 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "CONN_02X04" 0 -250 50 H V C CNN
+F2 "Pin_Header_Straight_2x04_Pitch2.54mm" 0 -1200 50 H I C CNN
+F3 "" 0 -1200 50 H I C CNN
+$FPLIST
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+ IDC_Header_Straight_*
+$ENDFPLIST
+DRAW
+S -100 -145 -50 -155 0 1 0 N
+S -100 -45 -50 -55 0 1 0 N
+S -100 55 -50 45 0 1 0 N
+S -100 155 -50 145 0 1 0 N
+S -100 200 100 -200 0 1 0 N
+S 50 -145 100 -155 0 1 0 N
+S 50 -45 100 -55 0 1 0 N
+S 50 55 100 45 0 1 0 N
+S 50 155 100 145 0 1 0 N
+X P1 1 -250 150 150 R 50 50 1 1 P
+X P2 2 250 150 150 L 50 50 1 1 P
+X P3 3 -250 50 150 R 50 50 1 1 P
+X P4 4 250 50 150 L 50 50 1 1 P
+X P5 5 -250 -50 150 R 50 50 1 1 P
+X P6 6 250 -50 150 L 50 50 1 1 P
+X P7 7 -250 -150 150 R 50 50 1 1 P
+X P8 8 250 -150 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_02X05
 #
 DEF CONN_02X05 J 0 1 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
 F1 "CONN_02X05" 0 -300 50 H V C CNN
-F2 "" 0 -1200 50 H I C CNN
+F2 "Pin_Header_Straight_2x05_Pitch2.54mm" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_2X*
