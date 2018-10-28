@@ -1245,8 +1245,8 @@ U 1 1 5AA363F4
 P 3650 8300
 F 0 "BT1" H 3550 8450 50  0000 C CNN
 F 1 "Battery_Cell" H 3900 8250 50  0000 C CNN
-F 2 "Monero_Local:Keystone_3008_1x2450-CoinCell" V 3650 8360 50  0001 C CNN
-F 3 "http://www.keyelco.com/product.cfm/product_id/786/" V 3650 8360 50  0001 C CNN
+F 2 "Monero_Local:Keystone_3000_1x12mm-CoinCell" V 3650 8360 50  0001 C CNN
+F 3 "https://www.keyelco.com/product.cfm/product_id/777/" V 3650 8360 50  0001 C CNN
 	1    3650 8300
 	1    0    0    -1  
 $EndComp

@@ -434,7 +434,7 @@ ENDDEF
 DEF Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
 F1 "Battery_Cell" 100 0 50 H V L CNN
-F2 "Battery_Holders:Keystone_3008_1x2450-CoinCell" 0 60 50 V I C CNN
+F2 "Battery_Holders:Keystone_3000_1x12mm-CoinCell" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
 S -90 70 90 60 0 1 0 F
