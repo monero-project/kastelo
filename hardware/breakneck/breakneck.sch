@@ -3089,4 +3089,24 @@ NoConn ~ 3500 8750
 NoConn ~ 4000 8750
 Text Notes 3050 9100 0    60   ~ 0
 Not sure this pin configuration\nis correct for the SF100, sorry!
+Text Label 10800 5250 0    60   ~ 0
+OLED_~CS~
+Text Label 10800 5350 0    60   ~ 0
+OLED_~RES~
+Text Label 10800 5450 0    60   ~ 0
+OLED_DC
+Text Label 10800 5550 0    60   ~ 0
+OLED_D0
+Text Label 10800 5650 0    60   ~ 0
+OLED_D1
+Text Notes 11500 6000 1    60   ~ 0
+Good or bad choice of ADC\nport for OLED 4-pin SPI?
+Wire Notes Line
+	11300 6050 11550 6050
+Wire Notes Line
+	11550 6050 11550 4700
+Wire Notes Line
+	11550 4700 11300 4700
+Wire Notes Line
+	11300 4700 11300 6050
 $EndSCHEMATC
