@@ -3109,4 +3109,14 @@ Wire Notes Line
 	11550 4700 11300 4700
 Wire Notes Line
 	11300 4700 11300 6050
+Text Label 10800 6450 0    60   ~ 0
+JTAG_TDI
+Text Label 10800 6550 0    60   ~ 0
+JTAG_TDO
+Text Label 10800 6650 0    60   ~ 0
+JTAG_TCK
+Text Label 10800 6750 0    60   ~ 0
+JTAG_TMS
+Text Label 10800 6350 0    60   ~ 0
+JTAG_TRST
 $EndSCHEMATC
