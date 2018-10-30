@@ -1243,7 +1243,7 @@ $Comp
 L Battery_Cell BT1
 U 1 1 5AA363F4
 P 7000 2800
-F 0 "BT1" H 6600 2850 50  0000 C CNN
+F 0 "BT1" H 6900 2950 50  0000 C CNN
 F 1 "Battery_Cell" H 6750 2750 50  0000 C CNN
 F 2 "Monero_Local:Keystone_3000_1x12mm-CoinCell" V 7000 2860 50  0001 C CNN
 F 3 "https://www.keyelco.com/product.cfm/product_id/777/" V 7000 2860 50  0001 C CNN
@@ -2279,14 +2279,25 @@ F 3 "" H 8300 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
-U 1 1 5BD94220
+L C_Small C?
+U 1 1 5BD89E51
 P 7900 2850
-F 0 "C?" H 7700 2850 50  0000 L CNN
-F 1 "100nF" H 7650 2950 50  0000 L CNN
-F 2 "" H 7938 2700 50  0001 C CNN
+F 0 "C?" H 7910 2920 50  0000 L CNN
+F 1 "100nF" H 7910 2770 50  0000 L CNN
+F 2 "" H 7900 2850 50  0001 C CNN
 F 3 "" H 7900 2850 50  0001 C CNN
 	1    7900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5BD8A09F
+P 7700 2850
+F 0 "C?" H 7710 2920 50  0000 L CNN
+F 1 "470nF" H 7400 2850 50  0000 L CNN
+F 2 "" H 7700 2850 50  0001 C CNN
+F 3 "" H 7700 2850 50  0001 C CNN
+	1    7700 2850
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -3472,9 +3483,7 @@ Wire Wire Line
 	8000 3000 8200 3000
 Connection ~ 8200 3000
 Wire Wire Line
-	7900 3200 7900 3000
-Wire Wire Line
-	7900 2700 8300 2700
+	7900 3200 7900 2950
 Wire Wire Line
 	8300 2700 8300 3200
 Wire Wire Line
@@ -3495,4 +3504,15 @@ Wire Wire Line
 Wire Wire Line
 	8600 2800 8200 2800
 Connection ~ 8200 2800
+Wire Wire Line
+	7900 2750 7900 2700
+Wire Wire Line
+	7700 2700 7900 2700
+Wire Wire Line
+	7900 2700 8300 2700
+Wire Wire Line
+	7900 2950 7700 2950
+Wire Wire Line
+	7700 2750 7700 2700
+Connection ~ 7900 2700
 $EndSCHEMATC
