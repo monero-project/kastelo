@@ -259,10 +259,6 @@ F 3 "" H 13800 3900 50  0001 C CNN
 	1    13800 3900
 	1    0    0    -1  
 $EndComp
-Text Label 2200 4500 2    60   ~ 0
-OSC_IN
-Text Label 2200 4600 2    60   ~ 0
-OSC_OUT
 $Comp
 L R R14
 U 1 1 5A70DAD3
@@ -594,34 +590,23 @@ $EndComp
 $Comp
 L SW_SPST SW1
 U 1 1 5A73E8D4
-P 2000 4800
-F 0 "SW1" H 1850 4900 50  0000 C CNN
-F 1 "SW_SPST" H 2000 4700 50  0000 C CNN
-F 2 "Monero_Local:SW_SPST_PTS645" H 2000 4800 50  0001 C CNN
-F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 2000 4800 50  0001 C CNN
-	1    2000 4800
+P 2050 4600
+F 0 "SW1" H 1900 4700 50  0000 C CNN
+F 1 "SW_SPST" H 2050 4500 50  0000 C CNN
+F 2 "Monero_Local:SW_SPST_PTS645" H 2050 4600 50  0001 C CNN
+F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 2050 4600 50  0001 C CNN
+	1    2050 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_SPST SW2
 U 1 1 5A73E973
-P 2000 5150
-F 0 "SW2" H 2000 5275 50  0000 C CNN
-F 1 "SW_SPST" H 2000 5050 50  0000 C CNN
-F 2 "Monero_Local:SW_SPST_PTS645" H 2000 5150 50  0001 C CNN
-F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 2000 5150 50  0001 C CNN
-	1    2000 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR033
-U 1 1 5A73ECA5
-P 1500 4950
-F 0 "#PWR033" H 1500 4700 50  0001 C CNN
-F 1 "GND" H 1500 4800 50  0000 C CNN
-F 2 "" H 1500 4950 50  0001 C CNN
-F 3 "" H 1500 4950 50  0001 C CNN
-	1    1500 4950
+P 2050 4950
+F 0 "SW2" H 2050 5075 50  0000 C CNN
+F 1 "SW_SPST" H 2050 4850 50  0000 C CNN
+F 2 "Monero_Local:SW_SPST_PTS645" H 2050 4950 50  0001 C CNN
+F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 2050 4950 50  0001 C CNN
+	1    2050 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -733,17 +718,6 @@ F 3 "" H 10000 2300 50  0001 C CNN
 	1    10000 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Crystal_GND24 Y1
-U 1 1 5A7BBA10
-P 950 4550
-F 0 "Y1" V 1339 4550 50  0000 C CNN
-F 1 "Crystal_GND24" V 1270 4550 50  0000 C CNN
-F 2 "Monero_Local:Crystal_SMD_Abracon_ABM3B-4pin_5.0x3.2mm" H 950 4550 50  0001 C CNN
-F 3 "https://abracon.com/Resonators/abm3b.pdf" H 950 4550 50  0001 C CNN
-	1    950  4550
-	0    -1   -1   0   
-$EndComp
 Text Label 14400 4000 2    60   ~ 0
 OSC_OUT
 Text Label 13900 3500 2    60   ~ 0
@@ -751,35 +725,35 @@ OSC_IN
 $Comp
 L GND #PWR043
 U 1 1 5A7C6369
-P 1150 4900
-F 0 "#PWR043" H 1150 4650 50  0001 C CNN
-F 1 "GND" H 1150 4750 50  0000 C CNN
-F 2 "" H 1150 4900 50  0001 C CNN
-F 3 "" H 1150 4900 50  0001 C CNN
-	1    1150 4900
+P 4800 4150
+F 0 "#PWR043" H 4800 3900 50  0001 C CNN
+F 1 "GND" H 4800 4000 50  0000 C CNN
+F 2 "" H 4800 4150 50  0001 C CNN
+F 3 "" H 4800 4150 50  0001 C CNN
+	1    4800 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L C_Small C1
 U 1 1 5A7C6465
-P 1250 4400
-F 0 "C1" H 1348 4400 50  0000 L CNN
-F 1 "12pF" H 1260 4320 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 1250 4400 50  0001 C CNN
-F 3 "" H 1250 4400 50  0001 C CNN
-	1    1250 4400
-	1    0    0    -1  
+P 4800 3550
+F 0 "C1" H 4898 3550 50  0000 L CNN
+F 1 "15pF" H 4810 3470 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 4800 3550 50  0001 C CNN
+F 3 "" H 4800 3550 50  0001 C CNN
+	1    4800 3550
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C_Small C2
 U 1 1 5A7C652C
-P 1250 4700
-F 0 "C2" H 1348 4739 50  0000 L CNN
-F 1 "12pF" H 1319 4661 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 1250 4700 50  0001 C CNN
-F 3 "" H 1250 4700 50  0001 C CNN
-	1    1250 4700
-	1    0    0    -1  
+P 4800 4050
+F 0 "C2" H 4898 4089 50  0000 L CNN
+F 1 "15pF" H 4869 4011 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 4800 4050 50  0001 C CNN
+F 3 "" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	-1   0    0    -1  
 $EndComp
 $Comp
 L SSD1306 DS1
@@ -1179,40 +1153,26 @@ F 3 "" H 5350 1100 50  0001 C CNN
 	1    5350 1100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 11700 3900
-NoConn ~ 11700 4100
-NoConn ~ 11700 5500
-NoConn ~ 11700 5800
-NoConn ~ 2300 6200
-NoConn ~ 2300 6100
-NoConn ~ 2300 6000
-NoConn ~ 2300 5900
-NoConn ~ 2300 5800
-NoConn ~ 2300 5700
-NoConn ~ 2300 5600
-NoConn ~ 2300 5300
-NoConn ~ 2300 5000
-NoConn ~ 2300 4800
 $Comp
-L TEST XOUT1
+L TEST TP?
 U 1 1 5A81246C
-P 1350 4800
-F 0 "XOUT1" H 1350 5100 50  0000 C BNN
-F 1 "CRYSTOUT" H 1350 5050 50  0000 C CNN
-F 2 "Monero_Local:Measurement_Point_Round-TH_Small" H 1350 4800 50  0001 C CNN
-F 3 "" H 1350 4800 50  0001 C CNN
-	1    1350 4800
+P 5000 3950
+F 0 "TP?" H 5000 4250 50  0000 C BNN
+F 1 "CRYST2" H 5000 4200 50  0000 C CNN
+F 2 "Monero_Local:Measurement_Point_Round-TH_Small" H 5000 3950 50  0001 C CNN
+F 3 "" H 5000 3950 50  0001 C CNN
+	1    5000 3950
 	-1   0    0    1   
 $EndComp
 $Comp
-L TEST XIN1
+L TEST TP?
 U 1 1 5A812661
-P 1350 4300
-F 0 "XIN1" H 1350 4600 50  0000 C BNN
-F 1 "CRYSTIN" H 1350 4550 50  0000 C CNN
-F 2 "Monero_Local:Measurement_Point_Round-TH_Small" H 1350 4300 50  0001 C CNN
-F 3 "" H 1350 4300 50  0001 C CNN
-	1    1350 4300
+P 5000 3650
+F 0 "TP?" H 5000 3950 50  0000 C BNN
+F 1 "CRYST1" H 5000 3900 50  0000 C CNN
+F 2 "Monero_Local:Measurement_Point_Round-TH_Small" H 5000 3650 50  0001 C CNN
+F 3 "" H 5000 3650 50  0001 C CNN
+	1    5000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2864,20 +2824,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 2950 2050 2950
 Wire Wire Line
-	2300 5500 2200 5500
+	2250 5300 2250 4950
 Wire Wire Line
-	2200 5500 2200 5150
+	2250 4900 2350 5000
 Wire Wire Line
-	2200 5100 2300 5200
+	2250 4600 2250 4900
 Wire Wire Line
-	2200 4800 2200 5100
-Wire Wire Line
-	1800 4800 1800 4950
-Wire Wire Line
-	1800 4950 1800 5150
-Wire Wire Line
-	1500 4950 1800 4950
-Connection ~ 1800 4950
+	1850 4600 1850 4950
 Wire Wire Line
 	13250 3800 13250 4000
 Wire Wire Line
@@ -2945,47 +2898,6 @@ Wire Wire Line
 	14300 3800 14300 3500
 Wire Wire Line
 	14300 3500 14200 3500
-Wire Wire Line
-	950  4400 950  4300
-Wire Wire Line
-	950  4300 1250 4300
-Wire Wire Line
-	1250 4300 1350 4300
-Wire Wire Line
-	1350 4300 1600 4300
-Wire Wire Line
-	1600 4300 1600 4500
-Wire Wire Line
-	1600 4500 2300 4500
-Wire Wire Line
-	950  4700 950  4800
-Wire Wire Line
-	950  4800 1250 4800
-Wire Wire Line
-	1250 4800 1350 4800
-Wire Wire Line
-	1350 4800 1600 4800
-Wire Wire Line
-	1600 4800 1600 4600
-Wire Wire Line
-	1600 4600 2300 4600
-Wire Wire Line
-	1150 4900 1150 4550
-Wire Wire Line
-	750  4550 750  4900
-Wire Wire Line
-	750  4900 1150 4900
-Connection ~ 1250 4300
-Connection ~ 1250 4800
-Wire Wire Line
-	1250 4500 1250 4550
-Wire Wire Line
-	1250 4550 1250 4600
-Wire Wire Line
-	1250 4550 1500 4550
-Wire Wire Line
-	1500 4550 1500 4950
-Connection ~ 1250 4550
 Wire Wire Line
 	4700 10250 4700 10400
 Wire Wire Line
@@ -3172,8 +3084,6 @@ Wire Wire Line
 	5450 1200 5450 1100
 Wire Wire Line
 	5450 1100 5350 1100
-Connection ~ 1350 4800
-Connection ~ 1350 4300
 Wire Wire Line
 	1150 7000 1750 7000
 Wire Wire Line
@@ -3515,4 +3425,35 @@ Wire Wire Line
 Wire Wire Line
 	7700 2750 7700 2700
 Connection ~ 7900 2700
+Text Notes 4300 4100 1    60   ~ 0
+16pF-18pf is\nthe real value
+$Comp
+L Crystal Y?
+U 1 1 5BD8B9A9
+P 4800 3800
+F 0 "Y?" H 4800 3950 50  0000 C CNN
+F 1 "Crystal" V 4800 3550 50  0000 C CNN
+F 2 "Crystal_SMD_3215-2Pin_3.2x1.5mm" H 4800 3800 50  0001 C CNN
+F 3 "" H 4800 3800 50  0001 C CNN
+	1    4800 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 3750 5200 3750
+Wire Wire Line
+	5200 3750 5200 3650
+Wire Wire Line
+	5200 3650 4800 3650
+Wire Wire Line
+	5600 3850 5200 3850
+Wire Wire Line
+	5200 3850 5200 3950
+Wire Wire Line
+	5200 3950 4800 3950
+Wire Wire Line
+	4800 3450 4350 3450
+Wire Wire Line
+	4350 3450 4350 4150
+Wire Wire Line
+	4350 4150 4800 4150
 $EndSCHEMATC

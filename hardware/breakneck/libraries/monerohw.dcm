@@ -142,6 +142,11 @@ D Connector, double row, 02x05, pin header
 K connector
 $ENDCMP
 #
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
 $CMP GND
 K POWER, PWR
 $ENDCMP
