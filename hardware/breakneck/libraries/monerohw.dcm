@@ -106,6 +106,11 @@ D Connector, single row, 01x02, pin header
 K connector
 $ENDCMP
 #
+$CMP CONN_01X04
+D Connector, single row, 01x04, pin header
+K connector
+$ENDCMP
+#
 $CMP CONN_01X07
 D Connector, single row, 01x07, pin header
 K connector
@@ -120,6 +125,11 @@ $CMP Conn_01x30_Female
 D Generic connector, single row, 01x30
 K connector
 F https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf
+$ENDCMP
+#
+$CMP Badgelife_shitty_conn
+D Connector, double row, 02x02, pin header
+K connector
 $ENDCMP
 #
 $CMP CONN_02X04
