@@ -151,12 +151,12 @@ $EndComp
 $Comp
 L CONN_01X20 J1
 U 1 1 5A6B7F29
-P 950 6150
-F 0 "J1" H 950 7200 50  0000 C CNN
-F 1 "CONN_EAST" V 1050 6150 50  0000 C CNN
-F 2 "Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm" H 950 6150 50  0001 C CNN
-F 3 "http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC" H 950 6150 50  0001 C CNN
-	1    950  6150
+P 1250 5600
+F 0 "J1" H 1250 6650 50  0000 C CNN
+F 1 "CONN_EAST" V 1350 5600 50  0000 C CNN
+F 2 "Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm" H 1250 5600 50  0001 C CNN
+F 3 "http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC" H 1250 5600 50  0001 C CNN
+	1    1250 5600
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -323,200 +323,9 @@ F 3 "" H 13700 7500 50  0001 C CNN
 	1    13700 7500
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R3
-U 1 1 5A71C2A7
-P 2300 6650
-F 0 "R3" V 2220 6650 50  0000 C CNN
-F 1 "150" V 2300 6650 50  0000 C CNN
-F 2 "Monero_Local:R_0805" V 2230 6650 50  0001 C CNN
-F 3 "" H 2300 6650 50  0001 C CNN
-	1    2300 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D1
-U 1 1 5A71C4B6
-P 2300 6950
-F 0 "D1" H 2300 7150 50  0000 C CNN
-F 1 "YELLOW" H 2300 7068 50  0000 C CNN
-F 2 "Monero_Local:LED_0805" H 2300 6950 50  0001 C CNN
-F 3 "" H 2300 6950 50  0001 C CNN
-	1    2300 6950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR017
-U 1 1 5A71C553
-P 2300 7100
-F 0 "#PWR017" H 2300 6850 50  0001 C CNN
-F 1 "GND" H 2300 6950 50  0000 C CNN
-F 2 "" H 2300 7100 50  0001 C CNN
-F 3 "" H 2300 7100 50  0001 C CNN
-	1    2300 7100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GS2 J2
-U 1 1 5A71CC10
-P 1200 7300
-F 0 "J2" H 1300 7450 50  0000 C CNN
-F 1 "GS2" H 1300 7151 50  0000 C CNN
-F 2 "Monero_Local:GS2" V 1274 7300 50  0001 C CNN
-F 3 "" H 1200 7300 50  0001 C CNN
-	1    1200 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR018
-U 1 1 5A71CC8D
-P 1000 7500
-F 0 "#PWR018" H 1000 7350 50  0001 C CNN
-F 1 "+3V3" H 1000 7640 50  0000 C CNN
-F 2 "" H 1000 7500 50  0001 C CNN
-F 3 "" H 1000 7500 50  0001 C CNN
-	1    1000 7500
-	1    0    0    -1  
-$EndComp
-Text Notes 2750 8175 1    60   ~ 0
-CW_LED3 indicates power
-$Comp
-L GND #PWR019
-U 1 1 5A71D604
-P 1850 6700
-F 0 "#PWR019" H 1850 6450 50  0001 C CNN
-F 1 "GND" H 1850 6550 50  0000 C CNN
-F 2 "" H 1850 6700 50  0001 C CNN
-F 3 "" H 1850 6700 50  0001 C CNN
-	1    1850 6700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1150 6600
-$Comp
-L C C4
-U 1 1 5A71D825
-P 1700 6400
-F 0 "C4" H 1857 6223 50  0000 L CNN
-F 1 "100nF" H 1725 6300 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 1738 6250 50  0001 C CNN
-F 3 "" H 1700 6400 50  0001 C CNN
-	1    1700 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR020
-U 1 1 5A71D8E7
-P 1850 6400
-F 0 "#PWR020" H 1850 6150 50  0001 C CNN
-F 1 "GND" H 1850 6250 50  0000 C CNN
-F 2 "" H 1850 6400 50  0001 C CNN
-F 3 "" H 1850 6400 50  0001 C CNN
-	1    1850 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_Schottky D2
-U 1 1 5A71FC4A
-P 1600 7700
-F 0 "D2" H 1600 7800 50  0000 C CNN
-F 1 "D_Schottky" H 1600 7600 50  0000 C CNN
-F 2 "Monero_Local:D_SOD-123" H 1600 7700 50  0001 C CNN
-F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 1600 7700 50  0001 C CNN
-	1    1600 7700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 J3
-U 1 1 5A71FFE7
-P 1250 7950
-F 0 "J3" H 1250 8100 50  0000 C CNN
-F 1 "CONN_01X02" H 1250 7800 50  0000 C CNN
-F 2 "Monero_Local:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 1250 7950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1250 7950 50  0001 C CNN
-	1    1250 7950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR021
-U 1 1 5A72007C
-P 1750 8000
-F 0 "#PWR021" H 1750 7750 50  0001 C CNN
-F 1 "GND" H 1750 7850 50  0000 C CNN
-F 2 "" H 1750 8000 50  0001 C CNN
-F 3 "" H 1750 8000 50  0001 C CNN
-	1    1750 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR022
-U 1 1 5A7200CC
-P 2050 7700
-F 0 "#PWR022" H 2050 7550 50  0001 C CNN
-F 1 "+3V3" H 2050 7840 50  0000 C CNN
-F 2 "" H 2050 7700 50  0001 C CNN
-F 3 "" H 2050 7700 50  0001 C CNN
-	1    2050 7700
-	1    0    0    -1  
-$EndComp
-$Comp
-L TEST TP5
-U 1 1 5A720660
-P 1000 7900
-F 0 "TP5" H 1000 8200 50  0000 C BNN
-F 1 "VIN" H 1000 8150 50  0000 C CNN
-F 2 "Monero_Local:Measurement_Point_Round-TH_Small" H 1000 7900 50  0001 C CNN
-F 3 "" H 1000 7900 50  0001 C CNN
-	1    1000 7900
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1150 6400
-NoConn ~ 1150 6300
-$Comp
-L C C3
-U 1 1 5A721214
-P 1550 6200
-F 0 "C3" H 1575 6023 50  0000 L CNN
-F 1 "100nF" H 1575 6100 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 1588 6050 50  0001 C CNN
-F 3 "" H 1550 6200 50  0001 C CNN
-	1    1550 6200
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR023
-U 1 1 5A7212B9
-P 1850 6150
-F 0 "#PWR023" H 1850 5900 50  0001 C CNN
-F 1 "GND" H 1850 6000 50  0000 C CNN
-F 2 "" H 1850 6150 50  0001 C CNN
-F 3 "" H 1850 6150 50  0001 C CNN
-	1    1850 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C7
-U 1 1 5A725795
-P 2100 5700
-F 0 "C7" H 2000 5800 50  0000 L CNN
-F 1 "100nF" H 1859 5600 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 2138 5550 50  0001 C CNN
-F 3 "" H 2100 5700 50  0001 C CNN
-	1    2100 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR024
-U 1 1 5A725D5C
-P 2100 5850
-F 0 "#PWR024" H 2100 5600 50  0001 C CNN
-F 1 "GND" H 2100 5700 50  0000 C CNN
-F 2 "" H 2100 5850 50  0001 C CNN
-F 3 "" H 2100 5850 50  0001 C CNN
-	1    2100 5850
-	1    0    0    -1  
-$EndComp
-Text Label 1150 5300 0    60   ~ 0
-VCORE
+NoConn ~ 1450 6050
+NoConn ~ 1450 5850
+NoConn ~ 1450 5750
 $Comp
 L +3V3 #PWR028
 U 1 1 5A734368
@@ -1173,28 +982,6 @@ F 3 "" H 5000 3650 50  0001 C CNN
 	1    5000 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR063
-U 1 1 5A9C18BB
-P 1850 7400
-F 0 "#PWR063" H 1850 7150 50  0001 C CNN
-F 1 "GND" H 1850 7250 50  0000 C CNN
-F 2 "" H 1850 7400 50  0001 C CNN
-F 3 "" H 1850 7400 50  0001 C CNN
-	1    1850 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GS2 J11
-U 1 1 5A9C4882
-P 1850 7200
-F 0 "J11" H 1950 7350 50  0000 C CNN
-F 1 "GS2" H 1950 7051 50  0000 C CNN
-F 2 "Monero_Local:GS2" V 1924 7200 50  0001 C CNN
-F 3 "" H 1850 7200 50  0001 C CNN
-	1    1850 7200
-	1    0    0    -1  
-$EndComp
 Text Notes 13950 6100 0    49   ~ 0
 Chip Whisperer specifies pin\nassignment 17(PDIC) 18(PDID).
 $Comp
@@ -1208,8 +995,6 @@ F 3 "https://www.keyelco.com/product.cfm/product_id/777/" V 7000 2860 50  0001 C
 	1    7000 2800
 	1    0    0    -1  
 $EndComp
-Text Notes 1300 8450 2    60   ~ 0
-Lacks a charging circuit, to be\ndetected by CP2102N-QFN28.
 $Comp
 L Micro_SD_Card_Det J13
 U 1 1 5AA3582A
@@ -1225,17 +1010,6 @@ NoConn ~ 15650 9400
 NoConn ~ 13950 9400
 NoConn ~ 13950 9300
 NoConn ~ 13950 8500
-$Comp
-L GS2 J12
-U 1 1 5AA4869B
-P 1450 7300
-F 0 "J12" H 1550 7450 50  0000 C CNN
-F 1 "GS2" H 1550 7151 50  0000 C CNN
-F 2 "Monero_Local:GS2" V 1524 7300 50  0001 C CNN
-F 3 "" H 1450 7300 50  0001 C CNN
-	1    1450 7300
-	1    0    0    -1  
-$EndComp
 Text Notes 14250 9800 0    60   ~ 0
 Doesn't fit in the limited\nboard real estate so DNP.
 Text Label 11750 3400 0    60   ~ 0
@@ -2520,6 +2294,80 @@ F 3 "" H 3300 3950 50  0001 C CNN
 $EndComp
 Text Notes 2750 3650 0    60   ~ 0
 CEC1702 ROM Addendum\nParagraph 4.2 Interface
+$Comp
+L R R?
+U 1 1 5BDE3C2B
+P 16200 6950
+F 0 "R?" V 16280 6950 50  0000 C CNN
+F 1 "100K" V 16200 6950 50  0000 C CNN
+F 2 "" V 16130 6950 50  0001 C CNN
+F 3 "" H 16200 6950 50  0001 C CNN
+	1    16200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5BDE3D50
+P 16200 7250
+F 0 "C?" H 16225 7350 50  0000 L CNN
+F 1 "1uF" H 16225 7150 50  0000 L CNN
+F 2 "" H 16238 7100 50  0001 C CNN
+F 3 "" H 16200 7250 50  0001 C CNN
+	1    16200 7250
+	1    0    0    -1  
+$EndComp
+Text Notes 16550 7350 1    60   ~ 0
+Questionable\nrail connection
+Text Notes 14850 7900 0    60   ~ 0
+This connector probably remains\nunpopulated, as we can expose\nJTAG 2,54mm on the south connector.
+NoConn ~ 12300 7600
+NoConn ~ 12400 7600
+NoConn ~ 12500 7600
+NoConn ~ 1450 4750
+NoConn ~ 1450 4850
+NoConn ~ 1450 5050
+NoConn ~ 1450 5150
+NoConn ~ 1450 5350
+NoConn ~ 1450 5650
+NoConn ~ 1450 5950
+NoConn ~ 1450 6350
+NoConn ~ 1450 6450
+NoConn ~ 1450 6550
+$Comp
+L GND #PWR?
+U 1 1 5BDEFF94
+P 1650 4500
+F 0 "#PWR?" H 1650 4250 50  0001 C CNN
+F 1 "GND" H 1650 4350 50  0000 C CNN
+F 2 "" H 1650 4500 50  0001 C CNN
+F 3 "" H 1650 4500 50  0001 C CNN
+	1    1650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BDF0082
+P 1650 5450
+F 0 "#PWR?" H 1650 5200 50  0001 C CNN
+F 1 "GND" H 1650 5300 50  0000 C CNN
+F 2 "" H 1650 5450 50  0001 C CNN
+F 3 "" H 1650 5450 50  0001 C CNN
+	1    1650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BDF113B
+P 1650 6150
+F 0 "#PWR?" H 1650 5900 50  0001 C CNN
+F 1 "GND" H 1650 6000 50  0000 C CNN
+F 2 "" H 1650 6150 50  0001 C CNN
+F 3 "" H 1650 6150 50  0001 C CNN
+	1    1650 6150
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 6600 1    60   ~ 0
+East is mostly full of voltage manipulators,\ngood for power analysis and spike glitching.
 Wire Notes Line
 	11450 3250 10700 3250
 Wire Notes Line
@@ -2640,18 +2488,6 @@ Wire Wire Line
 Connection ~ 12800 1100
 Wire Wire Line
 	12700 1100 12900 1100
-Wire Notes Line
-	550  7950 550  8250
-Wire Notes Line
-	1150 7950 550  7950
-Wire Notes Line
-	-150 8500 -150 8250
-Wire Notes Line
-	1350 8500 -150 8500
-Wire Notes Line
-	1350 8250 1350 8500
-Wire Notes Line
-	-150 8250 1350 8250
 Connection ~ 11600 2300
 Wire Wire Line
 	11600 2200 11600 2300
@@ -2667,15 +2503,6 @@ Wire Wire Line
 	11700 5900 11750 5900
 Wire Wire Line
 	11700 3600 11750 3600
-Wire Wire Line
-	1750 7700 2050 7700
-Wire Wire Line
-	1100 7700 1450 7700
-Wire Wire Line
-	1100 7900 1100 7700
-Wire Wire Line
-	1000 7900 1100 7900
-Connection ~ 1450 7700
 Wire Wire Line
 	12500 4000 12400 4000
 Wire Wire Line
@@ -2733,82 +2560,6 @@ Wire Wire Line
 	12600 7500 11300 7500
 Wire Wire Line
 	12600 7600 12600 7500
-Connection ~ 1550 5500
-Wire Wire Line
-	1150 5500 1550 5500
-Connection ~ 1200 6000
-Wire Wire Line
-	1200 5800 1200 6000
-Wire Wire Line
-	1150 5800 1200 5800
-Connection ~ 1300 6000
-Wire Wire Line
-	1550 6000 1550 5200
-Wire Wire Line
-	1550 5200 1150 5200
-Connection ~ 1300 6700
-Wire Wire Line
-	1300 6700 1300 6000
-Wire Wire Line
-	1150 6000 1550 6000
-Connection ~ 1850 5400
-Wire Wire Line
-	1850 5400 1850 5700
-Wire Wire Line
-	1850 5700 1150 5700
-Connection ~ 1750 5400
-Wire Wire Line
-	1750 5400 1750 5600
-Wire Wire Line
-	1750 5600 1150 5600
-Wire Wire Line
-	2100 5400 2100 5550
-Wire Wire Line
-	1150 5400 2100 5400
-Connection ~ 1400 6200
-Wire Wire Line
-	1400 5900 1400 6200
-Wire Wire Line
-	1150 5900 1400 5900
-Wire Wire Line
-	1850 6100 1850 6150
-Wire Wire Line
-	1700 6100 1850 6100
-Wire Wire Line
-	1700 6200 1700 6100
-Connection ~ 1200 6700
-Wire Wire Line
-	1200 6100 1200 6700
-Wire Wire Line
-	1150 6100 1200 6100
-Wire Wire Line
-	1400 6200 1150 6200
-Connection ~ 1450 6500
-Wire Wire Line
-	1550 6500 1550 6400
-Wire Wire Line
-	1150 6500 1550 6500
-Connection ~ 1750 6700
-Wire Wire Line
-	1750 6700 1750 6800
-Wire Wire Line
-	1750 6800 1150 6800
-Wire Wire Line
-	1150 6700 1850 6700
-Wire Wire Line
-	1200 7500 1000 7500
-Wire Wire Line
-	1150 7100 1200 7100
-Wire Wire Line
-	2050 6400 2300 6400
-Wire Wire Line
-	2050 7000 2050 6400
-Wire Wire Line
-	1950 6300 2300 6300
-Wire Wire Line
-	1950 6900 1950 6300
-Wire Wire Line
-	1150 6900 1950 6900
 Wire Wire Line
 	13700 7400 13700 7500
 Wire Wire Line
@@ -3130,16 +2881,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 10450 1900 10400
 Connection ~ 11600 2100
-Wire Notes Line
-	2650 8200 2650 7000
-Wire Notes Line
-	2650 7000 2775 7000
-Wire Notes Line
-	2775 7000 2775 8200
-Wire Notes Line
-	2775 8200 2650 8200
-Wire Notes Line
-	2650 7100 2400 6950
 Wire Wire Line
 	4000 1200 3850 1200
 Wire Wire Line
@@ -3158,9 +2899,6 @@ Wire Wire Line
 	5450 1200 5450 1100
 Wire Wire Line
 	5450 1100 5350 1100
-Wire Wire Line
-	1150 7000 2050 7000
-Connection ~ 1850 7000
 Wire Notes Line
 	13900 5900 13900 6150
 Wire Notes Line
@@ -3185,20 +2923,9 @@ Wire Wire Line
 Wire Wire Line
 	12100 6000 11700 6000
 Wire Wire Line
-	1450 6500 1450 7100
-Wire Wire Line
-	1450 8000 1750 8000
-Wire Wire Line
-	1750 7000 1750 7400
-Wire Wire Line
-	1750 7400 1850 7400
-Connection ~ 1750 7000
-Wire Wire Line
 	11700 3400 11750 3400
 Wire Wire Line
 	11700 3500 11750 3500
-Wire Wire Line
-	1450 7500 1450 7900
 Wire Notes Line
 	11300 3650 11400 3650
 Wire Notes Line
@@ -3570,28 +3297,6 @@ Wire Notes Line
 	2700 3400 4000 3400
 Wire Notes Line
 	4000 3400 4000 4450
-$Comp
-L R R?
-U 1 1 5BDE3C2B
-P 16200 6950
-F 0 "R?" V 16280 6950 50  0000 C CNN
-F 1 "100K" V 16200 6950 50  0000 C CNN
-F 2 "" V 16130 6950 50  0001 C CNN
-F 3 "" H 16200 6950 50  0001 C CNN
-	1    16200 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C?
-U 1 1 5BDE3D50
-P 16200 7250
-F 0 "C?" H 16225 7350 50  0000 L CNN
-F 1 "1uF" H 16225 7150 50  0000 L CNN
-F 2 "" H 16238 7100 50  0001 C CNN
-F 3 "" H 16200 7250 50  0001 C CNN
-	1    16200 7250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15600 7100 16200 7100
 Wire Wire Line
@@ -3604,10 +3309,6 @@ Wire Wire Line
 	15900 7200 15900 7400
 Wire Wire Line
 	15900 7400 16200 7400
-Text Notes 16550 7350 1    60   ~ 0
-Questionable\nrail connection
-Text Notes 14850 7900 0    60   ~ 0
-This connector probably remains\nunpopulated, as we can expose\nJTAG 2,54mm on the south connector.
 Wire Notes Line
 	14800 7250 14800 7950
 Wire Notes Line
@@ -3616,7 +3317,35 @@ Wire Notes Line
 	16600 7950 16600 6600
 Wire Notes Line
 	16600 6600 15750 6600
-NoConn ~ 12300 7600
-NoConn ~ 12400 7600
-NoConn ~ 12500 7600
+Wire Wire Line
+	1450 4650 1450 4500
+Wire Wire Line
+	1450 4500 1650 4500
+Wire Wire Line
+	1450 4950 1550 4950
+Wire Wire Line
+	1550 4950 1550 4500
+Connection ~ 1550 4500
+Wire Wire Line
+	1450 5450 1650 5450
+Wire Wire Line
+	1450 5250 1550 5250
+Wire Wire Line
+	1550 5250 1550 5550
+Connection ~ 1550 5450
+Wire Wire Line
+	1550 5550 1450 5550
+Wire Wire Line
+	1450 6150 1650 6150
+Wire Wire Line
+	1450 6250 1550 6250
+Wire Wire Line
+	1550 6250 1550 6150
+Connection ~ 1550 6150
+Wire Notes Line
+	1100 4500 800  4500
+Wire Notes Line
+	800  4500 800  6700
+Wire Notes Line
+	800  6700 1100 6700
 $EndSCHEMATC
