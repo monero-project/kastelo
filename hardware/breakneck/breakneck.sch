@@ -418,13 +418,13 @@ F 3 "" H 4800 4050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SSD1306 DS1
+L ER-CON30 DS1
 U 1 1 5A7DCD72
 P 5950 9350
 F 0 "DS1" H 4450 10250 50  0000 L CNN
-F 1 "SSD1306" H 7450 10250 50  0000 R CNN
-F 2 "Monero_Local:Solderpads_30_2.0x0.4mm_Pitch0.7mm" H 5550 9550 50  0001 C CIN
-F 3 "http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf" H 5750 9050 50  0001 C CNN
+F 1 "ER-CON30" H 7450 10250 50  0000 R CNN
+F 2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" H 5550 9550 50  0001 C CIN
+F 3 "https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf" H 5750 9050 50  0001 C CNN
 	1    5950 9350
 	1    0    0    -1  
 $EndComp
