@@ -573,7 +573,7 @@ ENDDEF
 DEF CONN_01X02 J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
-F2 "Pin_Header_Straight_1x22_Pitch2.54mm" 0 0 50 H I C CNN
+F2 "Pin_Header_Straight_1x02_Pitch2.54mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
@@ -595,13 +595,14 @@ ENDDEF
 DEF CONN_01X04 J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "CONN_01X04" 100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
+F2 "Pin_Header_Straight_1x04_Pitch2.54mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
  Pin_Header_Angled_1X*
  Socket_Strip_Straight_1X*
  Socket_Strip_Angled_1X*
+ 10120045-401LF*
 $ENDFPLIST
 DRAW
 S -50 -145 10 -155 0 1 0 N
