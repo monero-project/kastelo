@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mschloh/Projects/monerohw/kastelogitrepo/hardware/breakneck/breakneck.sch)
-    (date "Mi 07 Nov 2018 00:34:05 CET")
+    (date "Mi 07 Nov 2018 03:09:36 CET")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -115,7 +115,7 @@
       (tstamp 5A7C652C))
     (comp (ref DS1)
       (value ER-CON30)
-      (footprint Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal)
+      (footprint Monero_Local:Eastrising_ER-CON30HT-1_01x30_P0.50mm)
       (datasheet https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf)
       (libsource (lib monerohw) (part ER-CON30))
       (sheetpath (names /) (tstamps /))
@@ -661,7 +661,7 @@
       (tstamp 5BE5F799))
     (comp (ref DS2)
       (value ER-CON24)
-      (footprint Monero_Local:Hirose_FH12F-24S-0.5SH)
+      (footprint Monero_Local:Eastrising_ER-CON24HT-1_01x24_P0.50mm)
       (datasheet https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf)
       (libsource (lib monerohw) (part ER-CON24))
       (sheetpath (names /) (tstamps /))
@@ -1184,7 +1184,7 @@
       (fields
         (field (name Reference) DS)
         (field (name Value) ER-CON24)
-        (field (name Footprint) Monero_Local:Hirose_FH12F-24S-0.5SH)
+        (field (name Footprint) Monero_Local:Hirose_FH12-24S-0.5SH_1x24_P0.50mm_Horizontal)
         (field (name Datasheet) https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf))
       (pins
         (pin (num 1) (name GND) (type power_in))
@@ -1219,7 +1219,7 @@
       (fields
         (field (name Reference) DS)
         (field (name Value) ER-CON30)
-        (field (name Footprint) Monero_Local:Hirose_FH12F-30S-0.5SH)
+        (field (name Footprint) Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal)
         (field (name Datasheet) https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf))
       (pins
         (pin (num 1) (name GND) (type power_in))

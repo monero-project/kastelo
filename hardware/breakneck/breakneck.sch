@@ -423,7 +423,7 @@ U 1 1 5A7DCD72
 P 5850 9350
 F 0 "DS1" H 4350 10250 50  0000 L CNN
 F 1 "ER-CON30" H 7350 10250 50  0000 R CNN
-F 2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" H 5450 9550 50  0001 C CIN
+F 2 "Monero_Local:Eastrising_ER-CON30HT-1_01x30_P0.50mm" H 5450 9550 50  0001 C CIN
 F 3 "https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf" H 5650 9050 50  0001 C CNN
 	1    5850 9350
 	1    0    0    -1  
@@ -2199,7 +2199,7 @@ U 1 1 5BDFC107
 P 9100 9450
 F 0 "DS2" H 7900 10350 50  0000 L CNN
 F 1 "ER-CON24" H 10300 10350 50  0000 R CNN
-F 2 "Monero_Local:Hirose_FH12F-24S-0.5SH" H 9100 10550 50  0001 C CIN
+F 2 "Monero_Local:Eastrising_ER-CON24HT-1_01x24_P0.50mm" H 9100 10550 50  0001 C CIN
 F 3 "https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf" H 9100 10450 50  0001 C CNN
 	1    9100 9450
 	1    0    0    -1  
