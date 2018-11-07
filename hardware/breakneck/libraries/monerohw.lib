@@ -953,7 +953,7 @@ ENDDEF
 DEF ER-CON24 DS 0 40 Y Y 1 F N
 F0 "DS" -1200 900 50 H V L CNN
 F1 "ER-CON24" 1200 900 50 H V R CNN
-F2 "Monero_Local:Hirose_FH12F-24S-0.5SH" 0 1100 50 H I C CIN
+F2 "Monero_Local:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal" 0 1100 50 H I C CIN
 F3 "https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf" 0 1000 50 H I C CNN
 $FPLIST
  Hirose*FH12F*24S*0.5*
@@ -1004,7 +1004,7 @@ ENDDEF
 DEF ER-CON30 DS 0 40 Y Y 1 F N
 F0 "DS" -1500 900 50 H V L CNN
 F1 "ER-CON30" 1500 900 50 H V R CNN
-F2 "Monero_Local:Hirose_FH12F-30S-0.5SH" 0 1100 50 H I C CIN
+F2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30-1MP_P0.50mm_Horizontal" 0 1100 50 H I C CIN
 F3 "https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf" 0 1000 50 H I C CNN
 $FPLIST
  Hirose*FH12F*30S*0.5*
