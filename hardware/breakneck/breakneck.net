@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/mschloh/Projects/monerohw/kastelogitrepo/hardware/breakneck/breakneck.sch)
-    (date "Do 08 Nov 2018 00:40:19 CET")
+    (source hardware/breakneck/breakneck.sch)
+    (date "Do 08 Nov 2018 01:54:00 CET")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1467,7 +1467,7 @@
         (pin (num S1) (name SHIELD) (type passive)))))
   (libraries
     (library (logical monerohw)
-      (uri /home/mschloh/Projects/monerohw/kastelogitrepo/hardware/breakneck/libraries/monerohw.lib)))
+      (uri hardware/breakneck/libraries/monerohw.lib)))
   (nets
     (net (code 1) (name "Net-(D4-Pad2)")
       (node (ref D4) (pin 2))
