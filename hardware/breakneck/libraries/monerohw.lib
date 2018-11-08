@@ -152,7 +152,7 @@ DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "D_SOD-123" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" 0 0 50 H I C CNN
 $FPLIST
  D*SOD?123*
 $ENDFPLIST

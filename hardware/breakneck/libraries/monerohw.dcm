@@ -35,6 +35,7 @@ $ENDCMP
 $CMP D_Schottky
 D Schottky diode
 K diode Schottky
+F http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf
 $ENDCMP
 #
 $CMP BAT54C
