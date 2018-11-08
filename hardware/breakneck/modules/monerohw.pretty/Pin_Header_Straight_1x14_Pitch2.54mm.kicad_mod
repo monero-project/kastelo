@@ -35,7 +35,7 @@
   (pad 12 thru_hole oval (at 0 27.94) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 13 thru_hole oval (at 0 30.48) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 14 thru_hole oval (at 0 33.02) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
-  (model Pin_Headers.3dshapes/Pin_Header_Straight_1x14_Pitch2.54mm.wrl
+  (model Pin_Headers.3dshapes/TSW-114-07-G-S.wrl
     (at (xyz 0 -0.65 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

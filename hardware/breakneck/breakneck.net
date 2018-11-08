@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mschloh/Projects/monerohw/kastelogitrepo/hardware/breakneck/breakneck.sch)
-    (date "Mi 07 Nov 2018 03:09:36 CET")
+    (date "Do 08 Nov 2018 00:40:19 CET")
     (tool "Eeschema 4.0.6+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,29 +17,29 @@
   (components
     (comp (ref J1)
       (value CONN_WEST)
-      (footprint Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm)
-      (datasheet http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC)
+      (footprint Monero_Local:Pin_Header_Straight_1x20_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (libsource (lib monerohw) (part CONN_01X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6B7E05))
     (comp (ref J5)
       (value CONN_SOUTH)
-      (footprint Monero_Local:Socket_Strip_Straight_1x14_Pitch2.54mm)
-      (datasheet http://www.sullinscorp.com/product/?pn=PPTC141LFBN-RC)
+      (footprint Monero_Local:Pin_Header_Straight_1x14_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (libsource (lib monerohw) (part CONN_01X14))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6B7E86))
     (comp (ref J6)
       (value CONN_EAST)
-      (footprint Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm)
-      (datasheet http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC)
+      (footprint Monero_Local:Pin_Header_Straight_1x20_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (libsource (lib monerohw) (part CONN_01X20))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6B7F29))
     (comp (ref J8)
       (value CONN_JTAG_TC)
       (footprint Monero_Local:Tag-Connect_TC2050-IDC-NL)
-      (datasheet http://www.tag-connect.com/TC2050-IDC-NL/)
+      (datasheet http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf)
       (libsource (lib monerohw) (part CONN_02X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A6B975F))
@@ -59,6 +59,7 @@
     (comp (ref JP1)
       (value Jumper)
       (footprint Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (libsource (lib monerohw) (part Jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A73D93D))
@@ -183,19 +184,19 @@
       (tstamp 5A7C5AD8))
     (comp (ref MH1)
       (value Mountinghole-440)
-      (footprint Monero_Local:MountingHole_3.2mm_M3_Pad_Via)
+      (footprint Monero_Local:MountingHole_3mm_Pad_Via)
       (libsource (lib monerohw) (part DUMMY_MOUNTING-HOLE_RevE_Date22jun2010))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A7E405D))
     (comp (ref MH2)
       (value Mountinghole-440)
-      (footprint Monero_Local:MountingHole_3.2mm_M3_Pad_Via)
+      (footprint Monero_Local:MountingHole_3mm_Pad_Via)
       (libsource (lib monerohw) (part DUMMY_MOUNTING-HOLE_RevE_Date22jun2010))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A7E413E))
     (comp (ref MH3)
       (value Mountinghole-440)
-      (footprint Monero_Local:MountingHole_3.2mm_M3_Pad_Via)
+      (footprint Monero_Local:MountingHole_3mm_Pad_Via)
       (libsource (lib monerohw) (part DUMMY_MOUNTING-HOLE_RevE_Date22jun2010))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A7E4211))
@@ -275,7 +276,7 @@
       (tstamp 5BD1F32A))
     (comp (ref U3)
       (value CEC1702)
-      (footprint Monero_Local:WFBGA84)
+      (footprint Monero_Local:WFBGACEC1702)
       (datasheet https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf)
       (libsource (lib monerohw) (part CEC1702))
       (sheetpath (names /) (tstamps /))
@@ -391,7 +392,7 @@
       (tstamp 5BD52F80))
     (comp (ref U5)
       (value MIC5377YC5)
-      (footprint Monero_Local:SC-70-5)
+      (footprint Monero_Local:SOT-353_SC-70-5)
       (datasheet https://www.microchip.com/downloads/en/DeviceDoc/MIC5376-7-8-High-Performance-Low-Dropout-150mA-LDO-DS20006080A.pdf)
       (libsource (lib monerohw) (part MIC5377YC5))
       (sheetpath (names /) (tstamps /))
@@ -479,13 +480,15 @@
       (tstamp 5BD611E9))
     (comp (ref J12)
       (value CONN_JTAG_6P)
-      (footprint Monero_Local:Pin_Header_Straight_2x05_Pitch2.54mm)
+      (footprint Monero_Local:Socket_Strip_Angled_2x05_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/ssq_th.pdf)
       (libsource (lib monerohw) (part CONN_02X05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD63AE3))
     (comp (ref J2)
       (value CONN_DEDI)
       (footprint Monero_Local:Pin_Header_Straight_2x04_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (libsource (lib monerohw) (part CONN_02X04))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD62650))
@@ -528,6 +531,7 @@
     (comp (ref JP2)
       (value Jumper)
       (footprint Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm)
+      (datasheet https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (libsource (lib monerohw) (part Jumper))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD9F84B))
@@ -819,14 +823,14 @@
         (pin (num 8) (name VCC) (type power_in))))
     (libpart (lib monerohw) (part BAT54C)
       (description "schottky barrier diode")
-      (docs https://www.diodes.com/assets/Datasheets/ds11005.pdf)
+      (docs http://www.vishay.com/docs/85508/bat54.pdf)
       (footprints
         (fp SOT-23*))
       (fields
         (field (name Reference) D)
         (field (name Value) BAT54C)
         (field (name Footprint) SOT-23)
-        (field (name Datasheet) https://www.diodes.com/assets/Datasheets/ds11005.pdf))
+        (field (name Datasheet) http://www.vishay.com/docs/85508/bat54.pdf))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))
@@ -877,7 +881,7 @@
       (fields
         (field (name Reference) U)
         (field (name Value) CEC1702)
-        (field (name Footprint) WFBGA84)
+        (field (name Footprint) WFBGACEC1702)
         (field (name Datasheet) https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf))
       (pins
         (pin (num A1) (name VCI_OUT) (type output))
@@ -966,6 +970,7 @@
         (pin (num K10) (name GPIO053/PWM0/GPWM0) (type BiDi))))
     (libpart (lib monerohw) (part CONN_01X04)
       (description "Connector, single row, 01x04, pin header")
+      (docs https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (footprints
         (fp Pin_Header_Straight_1X*)
         (fp Pin_Header_Angled_1X*)
@@ -975,7 +980,8 @@
       (fields
         (field (name Reference) J)
         (field (name Value) CONN_01X04)
-        (field (name Footprint) Pin_Header_Straight_1x04_Pitch2.54mm))
+        (field (name Footprint) Pin_Header_Straight_1x04_Pitch2.54mm)
+        (field (name Datasheet) https://suddendocs.samtec.com/catalog_english/tsw_th.pdf))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -983,6 +989,7 @@
         (pin (num 4) (name P4) (type passive))))
     (libpart (lib monerohw) (part CONN_01X07)
       (description "Connector, single row, 01x07, pin header")
+      (docs https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (footprints
         (fp Pin_Header_Straight_1X*)
         (fp Pin_Header_Angled_1X*)
@@ -991,7 +998,8 @@
       (fields
         (field (name Reference) J)
         (field (name Value) CONN_01X07)
-        (field (name Footprint) Pin_Header_Straight_1x07_Pitch2.54mm))
+        (field (name Footprint) Pin_Header_Straight_1x07_Pitch2.54mm)
+        (field (name Datasheet) https://suddendocs.samtec.com/catalog_english/tsw_th.pdf))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -1009,7 +1017,8 @@
       (fields
         (field (name Reference) J)
         (field (name Value) CONN_01X14)
-        (field (name Footprint) Pin_Header_Straight_1x14_Pitch2.54mm))
+        (field (name Footprint) Pin_Header_Straight_1x14_Pitch2.54mm)
+        (field (name Datasheet) https://suddendocs.samtec.com/catalog_english/tsw_th.pdf))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -1027,6 +1036,7 @@
         (pin (num 14) (name P14) (type passive))))
     (libpart (lib monerohw) (part CONN_01X20)
       (description "Connector, single row, 01x20, pin header")
+      (docs https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (footprints
         (fp Pin_Header_Straight_1X*)
         (fp Pin_Header_Angled_1X*)
@@ -1035,7 +1045,8 @@
       (fields
         (field (name Reference) J)
         (field (name Value) CONN_01X20)
-        (field (name Footprint) Pin_Header_Straight_1x20_Pitch2.54mm))
+        (field (name Footprint) Pin_Header_Straight_1x20_Pitch2.54mm)
+        (field (name Datasheet) https://suddendocs.samtec.com/catalog_english/tsw_th.pdf))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -1059,6 +1070,7 @@
         (pin (num 20) (name P20) (type passive))))
     (libpart (lib monerohw) (part CONN_02X04)
       (description "Connector, double row, 02x04, pin header")
+      (docs https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (footprints
         (fp Pin_Header_Straight_2X*)
         (fp Pin_Header_Angled_2X*)
@@ -1068,7 +1080,8 @@
       (fields
         (field (name Reference) J)
         (field (name Value) CONN_02X04)
-        (field (name Footprint) Pin_Header_Straight_2x04_Pitch2.54mm))
+        (field (name Footprint) Pin_Header_Straight_2x04_Pitch2.54mm)
+        (field (name Datasheet) https://suddendocs.samtec.com/catalog_english/tsw_th.pdf))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -1079,17 +1092,16 @@
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive))))
     (libpart (lib monerohw) (part CONN_02X05)
-      (description "Connector, double row, 02x05, pin header")
+      (description "Connector, double row, 02x05, tag connect")
+      (docs https://suddendocs.samtec.com/catalog_english/tsw_th.pdf)
       (footprints
-        (fp Pin_Header_Straight_2X*)
-        (fp Pin_Header_Angled_2X*)
         (fp Socket_Strip_Straight_2X*)
-        (fp Socket_Strip_Angled_2X*)
-        (fp IDC_Header_Straight_*))
+        (fp Socket_Strip_Angled_2X*))
       (fields
         (field (name Reference) J)
         (field (name Value) CONN_02X05)
-        (field (name Footprint) Pin_Header_Straight_2x05_Pitch2.54mm))
+        (field (name Footprint) Socket_Strip_Angled_2x05_Pitch2.54mm)
+        (field (name Datasheet) https://suddendocs.samtec.com/catalog_english/ssq_th.pdf))
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name P2) (type passive))
@@ -1184,7 +1196,7 @@
       (fields
         (field (name Reference) DS)
         (field (name Value) ER-CON24)
-        (field (name Footprint) Monero_Local:Hirose_FH12-24S-0.5SH_1x24_P0.50mm_Horizontal)
+        (field (name Footprint) Hirose_FH12-24S-0.5SH_1x24_P0.50mm_Horizontal)
         (field (name Datasheet) https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf))
       (pins
         (pin (num 1) (name GND) (type power_in))
@@ -1219,7 +1231,7 @@
       (fields
         (field (name Reference) DS)
         (field (name Value) ER-CON30)
-        (field (name Footprint) Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal)
+        (field (name Footprint) Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal)
         (field (name Datasheet) https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf))
       (pins
         (pin (num 1) (name GND) (type power_in))
@@ -1316,7 +1328,7 @@
       (fields
         (field (name Reference) U)
         (field (name Value) MIC5377YC5)
-        (field (name Footprint) SC-70-5)
+        (field (name Footprint) SOT-353_SC-70-5)
         (field (name Datasheet) https://www.microchip.com/downloads/en/DeviceDoc/MIC5376-7-8-High-Performance-Low-Dropout-150mA-LDO-DS20006080A.pdf))
       (pins
         (pin (num 1) (name VIN) (type power_in))
@@ -1351,7 +1363,7 @@
       (fields
         (field (name Reference) LOGOMID)
         (field (name Value) Monerologo-mid)
-        (field (name Footprint) Monero_Logos:MoneroCircleCombi)
+        (field (name Footprint) MoneroCircleCombi)
         (field (name Datasheet) Graphic-M)))
     (libpart (lib monerohw) (part R)
       (description Resistor)
@@ -1391,7 +1403,7 @@
       (fields
         (field (name Reference) U)
         (field (name Value) SST26VF064B/MF-WDFN)
-        (field (name Footprint) Monero_Local:DFN-S-8-1EP_6x5mm_Pitch1.27mm)
+        (field (name Footprint) DFN-S-8-1EP_6x5mm_Pitch1.27mm)
         (field (name Datasheet) https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf))
       (pins
         (pin (num 1) (name CE#) (type input))
@@ -1410,7 +1422,7 @@
       (fields
         (field (name Reference) SW)
         (field (name Value) SW_SPST)
-        (field (name Footprint) Monero_HW:SW_SPST_K21102SP)
+        (field (name Footprint) SW_SPST_K21102SP)
         (field (name Datasheet) https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf))
       (pins
         (pin (num 1) (name A) (type passive))

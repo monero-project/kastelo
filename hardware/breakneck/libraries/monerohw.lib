@@ -65,7 +65,7 @@ ENDDEF
 DEF Monerologo-mid LOGOMID 0 40 Y Y 1 F N
 F0 "LOGOMID" -800 700 50 H V C CNN
 F1 "Monerologo-mid" 950 700 50 H V C CNN
-F2 "Monero_Logos:MoneroCircleCombi" 0 950 50 H I C CIN
+F2 "MoneroCircleCombi" 0 950 50 H I C CIN
 F3 "Graphic-M" 0 1050 50 H I C CNN
 DRAW
 T 0 0 -350 80 0 0 0 Monero Normal 1 C C
@@ -171,7 +171,7 @@ DEF BAT54C D 0 40 Y Y 1 F N
 F0 "D" 25 -150 50 H V L CNN
 F1 "BAT54C" -250 125 50 H V L CNN
 F2 "SOT-23" 75 125 50 H I L CNN
-F3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" -120 250 50 H I C CNN
+F3 "http://www.vishay.com/docs/85508/bat54.pdf" -120 250 50 H I C CNN
 $FPLIST
  SOT-23*
 $ENDFPLIST
@@ -202,7 +202,7 @@ ENDDEF
 DEF CEC1702 U 0 40 Y Y 1 L N
 F0 "U" -2400 2300 50 H V L BNN
 F1 "CEC1702" 2400 2300 50 H V R BNN
-F2 "WFBGA84" 2400 2450 50 H I R TNN
+F2 "WFBGACEC1702" 2400 2450 50 H I R TNN
 F3 "https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf" 0 0 50 H I C CNN
 ALIAS CEC1702Q-B1-SX CEC1702Q-B1-SX-CN1 CEC1702Q-B1-SX-TR CEC1702Q-B2-I/SX CEC1702Q-C1-SX CEC1702Q-C2-I/SX CEC1702Q-C2-I/SX-ZZZ
 $FPLIST
@@ -302,7 +302,7 @@ ENDDEF
 DEF SST26VF064B/MF-WDFN U 0 40 Y Y 1 L N
 F0 "U" -450 550 50 H V L BNN
 F1 "SST26VF064B/MF-WDFN" 1000 550 50 H V R BNN
-F2 "Monero_Local:DFN-S-8-1EP_6x5mm_Pitch1.27mm" 1000 750 50 H I R TNN
+F2 "DFN-S-8-1EP_6x5mm_Pitch1.27mm" 1000 750 50 H I R TNN
 F3 "https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf" 0 850 50 H I C CNN
 ALIAS SST26VF064B-104I/MF SST26VF064BT-104I/MF SST26VF064B-104V/MF SST26VF064BT-104V/MF
 $FPLIST
@@ -465,7 +465,7 @@ ENDDEF
 DEF MIC5377YC5 U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
 F1 "MIC5377YC5" -150 250 50 H V L CNN
-F2 "SC-70-5" -50 350 50 H I L CNN
+F2 "SOT-353_SC-70-5" -50 350 50 H I L CNN
 F3 "https://www.microchip.com/downloads/en/DeviceDoc/MIC5376-7-8-High-Performance-Low-Dropout-150mA-LDO-DS20006080A.pdf" 0 450 50 H I C CNN
 $FPLIST
  SC-70*
@@ -540,7 +540,7 @@ ENDDEF
 DEF SW_SPST SW 0 0 Y N 1 F N
 F0 "SW" 0 125 50 H V C CNN
 F1 "SW_SPST" 0 -100 50 H V C CNN
-F2 "Monero_HW:SW_SPST_K21102SP" 0 0 50 H I C CNN
+F2 "SW_SPST_K21102SP" 0 0 50 H I C CNN
 F3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102SP-C4SC-04_C127509.pdf" 0 0 50 H I C CNN
 ALIAS K2-1102SP-C4SC-04
 DRAW
@@ -574,7 +574,7 @@ DEF CONN_01X02 J 0 40 Y N 1 F N
 F0 "J" 0 150 50 H V C CNN
 F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "Pin_Header_Straight_1x02_Pitch2.54mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
  Pin_Header_Angled_1X*
@@ -596,7 +596,7 @@ DEF CONN_01X04 J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "CONN_01X04" 100 0 50 V V C CNN
 F2 "Pin_Header_Straight_1x04_Pitch2.54mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
  Pin_Header_Angled_1X*
@@ -623,7 +623,7 @@ DEF CONN_01X07 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
 F1 "CONN_01X07" 100 0 50 V V C CNN
 F2 "Pin_Header_Straight_1x07_Pitch2.54mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
  Pin_Header_Angled_1X*
@@ -655,7 +655,7 @@ DEF CONN_01X14 J 0 40 Y N 1 F N
 F0 "J" 0 750 50 H V C CNN
 F1 "CONN_01X14" 100 0 50 V V C CNN
 F2 "Pin_Header_Straight_1x14_Pitch2.54mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
  Pin_Header_Angled_1X*
@@ -701,7 +701,7 @@ DEF CONN_01X20 J 0 40 Y N 1 F N
 F0 "J" 0 1050 50 H V C CNN
 F1 "CONN_01X20" 100 0 50 V V C CNN
 F2 "Pin_Header_Straight_1x20_Pitch2.54mm" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 0 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_1X*
  Pin_Header_Angled_1X*
@@ -775,7 +775,7 @@ DEF CONN_02X04 J 0 1 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "CONN_02X04" 0 -250 50 H V C CNN
 F2 "Pin_Header_Straight_2x04_Pitch2.54mm" 0 -1200 50 H I C CNN
-F3 "" 0 -1200 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" 0 -1200 50 H I C CNN
 $FPLIST
  Pin_Header_Straight_2X*
  Pin_Header_Angled_2X*
@@ -809,14 +809,11 @@ ENDDEF
 DEF CONN_02X05 J 0 1 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
 F1 "CONN_02X05" 0 -300 50 H V C CNN
-F2 "Pin_Header_Straight_2x05_Pitch2.54mm" 0 -1200 50 H I C CNN
-F3 "" 0 -1200 50 H I C CNN
+F2 "Socket_Strip_Angled_2x05_Pitch2.54mm" 0 -1200 50 H I C CNN
+F3 "https://suddendocs.samtec.com/catalog_english/ssq_th.pdf" 0 -1200 50 H I C CNN
 $FPLIST
- Pin_Header_Straight_2X*
- Pin_Header_Angled_2X*
  Socket_Strip_Straight_2X*
  Socket_Strip_Angled_2X*
- IDC_Header_Straight_*
 $ENDFPLIST
 DRAW
 S -100 -195 -50 -205 0 1 0 N
@@ -935,7 +932,7 @@ ENDDEF
 DEF MCP1755S-3302/MC U 0 30 Y Y 1 F N
 F0 "U" 150 -250 50 H V C CNN
 F1 "MCP1755S-3302/MC" 0 150 50 H V C CNN
-F2 "Monero_Local:DFN-8-1EP_2x3mm_Pitch0.5mm" 50 250 50 H I C CNN
+F2 "DFN-8-1EP_2x3mm_Pitch0.5mm" 50 250 50 H I C CNN
 F3 "https://www.microchip.com/downloads/en/DeviceDoc/25160A.pdf" 0 -50 50 H I C CNN
 $FPLIST
  DFN*1EP*2x3mm*Pitch0.5mm*
@@ -953,7 +950,7 @@ ENDDEF
 DEF ER-CON24 DS 0 40 Y Y 1 F N
 F0 "DS" -1200 900 50 H V L CNN
 F1 "ER-CON24" 1200 900 50 H V R CNN
-F2 "Monero_Local:Hirose_FH12-24S-0.5SH_1x24_P0.50mm_Horizontal" 0 1100 50 H I C CIN
+F2 "Hirose_FH12-24S-0.5SH_1x24_P0.50mm_Horizontal" 0 1100 50 H I C CIN
 F3 "https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf" 0 1000 50 H I C CNN
 $FPLIST
  Hirose*FH12F*24S*0.5*
@@ -1004,7 +1001,7 @@ ENDDEF
 DEF ER-CON30 DS 0 40 Y Y 1 F N
 F0 "DS" -1500 900 50 H V L CNN
 F1 "ER-CON30" 1500 900 50 H V R CNN
-F2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" 0 1100 50 H I C CIN
+F2 "Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" 0 1100 50 H I C CIN
 F3 "https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf" 0 1000 50 H I C CNN
 $FPLIST
  Hirose*FH12F*30S*0.5*

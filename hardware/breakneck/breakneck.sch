@@ -42,8 +42,8 @@ U 1 1 5A6B7E05
 P 1750 6550
 F 0 "J1" H 1750 7600 50  0000 C CNN
 F 1 "CONN_WEST" V 1850 6550 50  0000 C CNN
-F 2 "Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm" H 1750 6550 50  0001 C CNN
-F 3 "http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC" H 1750 6550 50  0001 C CNN
+F 2 "Monero_Local:Pin_Header_Straight_1x20_Pitch2.54mm" H 1750 6550 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 1750 6550 50  0001 C CNN
 	1    1750 6550
 	-1   0    0    -1  
 $EndComp
@@ -53,8 +53,8 @@ U 1 1 5A6B7E86
 P 12150 7800
 F 0 "J5" V 12150 8550 50  0000 C CNN
 F 1 "CONN_SOUTH" V 12250 7800 50  0000 C CNN
-F 2 "Monero_Local:Socket_Strip_Straight_1x14_Pitch2.54mm" H 12150 7800 50  0001 C CNN
-F 3 "http://www.sullinscorp.com/product/?pn=PPTC141LFBN-RC" H 12150 7800 50  0001 C CNN
+F 2 "Monero_Local:Pin_Header_Straight_1x14_Pitch2.54mm" H 12150 7800 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 12150 7800 50  0001 C CNN
 	1    12150 7800
 	0    1    1    0   
 $EndComp
@@ -64,8 +64,8 @@ U 1 1 5A6B7F29
 P 12250 5050
 F 0 "J6" H 12250 6100 50  0000 C CNN
 F 1 "CONN_EAST" V 12350 5050 50  0000 C CNN
-F 2 "Monero_Local:Socket_Strip_Straight_1x20_Pitch2.54mm" H 12250 5050 50  0001 C CNN
-F 3 "http://www.sullinscorp.com/product/?pn=PPTC201LFBN-RC" H 12250 5050 50  0001 C CNN
+F 2 "Monero_Local:Pin_Header_Straight_1x20_Pitch2.54mm" H 12250 5050 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 12250 5050 50  0001 C CNN
 	1    12250 5050
 	1    0    0    -1  
 $EndComp
@@ -76,7 +76,7 @@ P 13350 6950
 F 0 "J8" H 13350 7250 50  0000 C CNN
 F 1 "CONN_JTAG_TC" H 13350 6650 50  0000 C CNN
 F 2 "Monero_Local:Tag-Connect_TC2050-IDC-NL" H 13350 5750 50  0001 C CNN
-F 3 "http://www.tag-connect.com/TC2050-IDC-NL/" H 13350 5750 50  0001 C CNN
+F 3 "http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf" H 13350 5750 50  0001 C CNN
 	1    13350 6950
 	-1   0    0    -1  
 $EndComp
@@ -238,7 +238,7 @@ P 3200 2800
 F 0 "JP1" H 3200 2950 50  0000 C CNN
 F 1 "Jumper" H 3200 2720 50  0000 C CNN
 F 2 "Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm" H 3200 2800 50  0001 C CNN
-F 3 "" H 3200 2800 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 3200 2800 50  0001 C CNN
 	1    3200 2800
 	0    1    -1   0   
 $EndComp
@@ -606,7 +606,7 @@ U 1 1 5A7E405D
 P 4000 1300
 F 0 "MH1" H 4000 1500 50  0000 C CNN
 F 1 "Mountinghole-440" H 4000 1100 50  0000 C CNN
-F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 4000 1300 50  0001 C CNN
+F 2 "Monero_Local:MountingHole_3mm_Pad_Via" H 4000 1300 50  0001 C CNN
 F 3 "" H 4000 1300 50  0000 C CNN
 	1    4000 1300
 	1    0    0    -1  
@@ -617,7 +617,7 @@ U 1 1 5A7E413E
 P 4800 1300
 F 0 "MH2" H 4800 1500 50  0000 C CNN
 F 1 "Mountinghole-440" H 4800 1100 50  0000 C CNN
-F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 4800 1300 50  0001 C CNN
+F 2 "Monero_Local:MountingHole_3mm_Pad_Via" H 4800 1300 50  0001 C CNN
 F 3 "" H 4800 1300 50  0000 C CNN
 	1    4800 1300
 	1    0    0    -1  
@@ -628,7 +628,7 @@ U 1 1 5A7E4211
 P 5600 1300
 F 0 "MH3" H 5600 1500 50  0000 C CNN
 F 1 "Mountinghole-440" H 5600 1100 50  0000 C CNN
-F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 5600 1300 50  0001 C CNN
+F 2 "Monero_Local:MountingHole_3mm_Pad_Via" H 5600 1300 50  0001 C CNN
 F 3 "" H 5600 1300 50  0000 C CNN
 	1    5600 1300
 	1    0    0    -1  
@@ -825,7 +825,7 @@ U 1 1 5BD242A8
 P 8200 5600
 F 0 "U3" H 10500 7950 50  0000 L BNN
 F 1 "CEC1702" H 10600 7850 50  0000 R BNN
-F 2 "Monero_Local:WFBGA84" H 10600 8050 50  0001 R TNN
+F 2 "Monero_Local:WFBGACEC1702" H 10600 8050 50  0001 R TNN
 F 3 "https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf" H 8200 5600 50  0001 C CNN
 	1    8200 5600
 	1    0    0    -1  
@@ -1169,7 +1169,7 @@ U 1 1 5BD4F346
 P 13600 4600
 F 0 "U5" H 13300 4850 50  0000 L CNN
 F 1 "MIC5377YC5" H 13450 4850 50  0000 L CNN
-F 2 "Monero_Local:SC-70-5" H 13550 4950 50  0001 L CNN
+F 2 "Monero_Local:SOT-353_SC-70-5" H 13550 4950 50  0001 L CNN
 F 3 "https://www.microchip.com/downloads/en/DeviceDoc/MIC5376-7-8-High-Performance-Low-Dropout-150mA-LDO-DS20006080A.pdf" H 13600 5050 50  0001 C CNN
 	1    13600 4600
 	1    0    0    -1  
@@ -1401,8 +1401,8 @@ U 1 1 5BD63AE3
 P 14650 7000
 F 0 "J12" H 14650 7300 50  0000 C CNN
 F 1 "CONN_JTAG_6P" H 14650 6700 50  0000 C CNN
-F 2 "Monero_Local:Pin_Header_Straight_2x05_Pitch2.54mm" H 14650 5800 50  0001 C CNN
-F 3 "" H 14650 5800 50  0001 C CNN
+F 2 "Monero_Local:Socket_Strip_Angled_2x05_Pitch2.54mm" H 14650 5800 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/ssq_th.pdf" H 14650 5800 50  0001 C CNN
 	1    14650 7000
 	-1   0    0    -1  
 $EndComp
@@ -1458,7 +1458,7 @@ P 3350 8600
 F 0 "J2" H 3350 8850 50  0000 C CNN
 F 1 "CONN_DEDI" H 3350 8350 50  0000 C CNN
 F 2 "Monero_Local:Pin_Header_Straight_2x04_Pitch2.54mm" H 3350 7400 50  0001 C CNN
-F 3 "" H 3350 7400 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 3350 7400 50  0001 C CNN
 	1    3350 8600
 	1    0    0    -1  
 $EndComp
@@ -1708,7 +1708,7 @@ P 3800 5250
 F 0 "JP2" H 3800 5400 50  0000 C CNN
 F 1 "Jumper" H 3800 5170 50  0000 C CNN
 F 2 "Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm" H 3800 5250 50  0001 C CNN
-F 3 "" H 3800 5250 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 3800 5250 50  0001 C CNN
 	1    3800 5250
 	0    1    -1   0   
 $EndComp

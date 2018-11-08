@@ -40,7 +40,7 @@ $ENDCMP
 $CMP BAT54C
 D schottky barrier diode
 K schottky diode
-F https://www.diodes.com/assets/Datasheets/ds11005.pdf
+F http://www.vishay.com/docs/85508/bat54.pdf
 $ENDCMP
 #
 $CMP CEC1702
@@ -110,21 +110,25 @@ $ENDCMP
 $CMP CONN_01X02
 D Connector, single row, 01x02, pin header
 K connector
+F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP CONN_01X04
 D Connector, single row, 01x04, pin header
 K connector
+F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP CONN_01X07
 D Connector, single row, 01x07, pin header
 K connector
+F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP CONN_01X20
 D Connector, single row, 01x20, pin header
 K connector
+F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP Badgelife_shitty_conn
@@ -135,11 +139,19 @@ $ENDCMP
 $CMP CONN_02X04
 D Connector, double row, 02x04, pin header
 K connector
+F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
 $CMP CONN_02X05
-D Connector, double row, 02x05, pin header
+D Connector, double row, 02x05, tag connect
 K connector
+F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
+$ENDCMP
+#
+$CMP CONN_02X05_FEMALE
+D Connector, double row, 02x05, socket strip
+K connector
+F https://suddendocs.samtec.com/catalog_english/ssq_th.pdf
 $ENDCMP
 #
 $CMP Crystal
