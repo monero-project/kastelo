@@ -148,12 +148,6 @@ K connector
 F https://suddendocs.samtec.com/catalog_english/tsw_th.pdf
 $ENDCMP
 #
-$CMP CONN_02X05_FEMALE
-D Connector, double row, 02x05, socket strip
-K connector
-F https://suddendocs.samtec.com/catalog_english/ssq_th.pdf
-$ENDCMP
-#
 $CMP Crystal
 D Two pin crystal
 K quartz ceramic resonator oscillator
