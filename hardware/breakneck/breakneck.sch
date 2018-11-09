@@ -1385,7 +1385,7 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 7180 2500 50  0001 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L SST26VF064B/MF-WDFN U2
+L SST26VF064B-MF-WDFN U2
 U 1 1 5BD611E9
 P 3850 7350
 F 0 "U2" H 4250 7900 50  0000 L BNN

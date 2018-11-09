@@ -475,7 +475,7 @@
       (value SST26VF064B)
       (footprint Monero_Local:DFN-S-8-1EP_6x5mm_Pitch1.27mm)
       (datasheet https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf)
-      (libsource (lib monerohw) (part SST26VF064B/MF-WDFN))
+      (libsource (lib monerohw) (part SST26VF064B-MF-WDFN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5BD611E9))
     (comp (ref J12)
@@ -1433,7 +1433,7 @@
         (pin (num 2) (name K) (type input))
         (pin (num 3) (name K) (type input))
         (pin (num 4) (name K) (type input))))
-    (libpart (lib monerohw) (part SST26VF064B/MF-WDFN)
+    (libpart (lib monerohw) (part SST26VF064B-MF-WDFN)
       (aliases
         (alias SST26VF064B-104I/MF)
         (alias SST26VF064BT-104I/MF)
@@ -1445,7 +1445,7 @@
         (fp DFN*6x5mm*Pitch1.27mm*))
       (fields
         (field (name Reference) U)
-        (field (name Value) SST26VF064B/MF-WDFN)
+        (field (name Value) SST26VF064B-MF-WDFN)
         (field (name Footprint) DFN-S-8-1EP_6x5mm_Pitch1.27mm)
         (field (name Datasheet) https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf))
       (pins
