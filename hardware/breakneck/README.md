@@ -2,7 +2,7 @@
 
 The Breakneck design includes rich features typical of a developer edition hardware wallet.
 
-[<img height="420" src="https://taiga.getmonero.org/media/attachments/7/b/c/f/7a6bbf47a16804d3c9bc53288e3aeb4aa506cad8349f2d19438c5efce725/breakneck-sch.png" alt="Breakneck schematic" />](https://github.com/monero-project/kastelo/tree/master/hardware/breakneck/)
+[<img height="420" src="https://taiga.getmonero.org/media/attachments/1/c/0/c/e4fdc0305f75b6cabde3282dd2a5af8127cdc7bdde008b89284af38d8cef/breakneck-sch.png" alt="Breakneck schematic" />](https://github.com/monero-project/kastelo/raw/master/hardware/breakneck/schematic/breakneck-sch.pdf)
 
 ## Getting Started
 
