@@ -104,7 +104,7 @@
   (pad K10 smd circle (at 2.925 2.925) (size 0.25 0.25) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Package_BGA.3dshapes/WFBGA-84_10x10_7.0x7.0mm_Pitch0.65mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.325 0.325 0.325))
+    (scale (xyz 0.65 0.65 0.75))
     (rotate (xyz 0 0 0))
   )
 )

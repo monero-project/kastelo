@@ -1400,7 +1400,7 @@ U 1 1 5BD63AE3
 P 14650 7000
 F 0 "J12" H 14650 7300 50  0000 C CNN
 F 1 "CONN_JTAG_6P" H 14650 6700 50  0000 C CNN
-F 2 "Monero_Local:Socket_Strip_Angled_2x05_Pitch2.54mm" H 14650 5800 50  0001 C CNN
+F 2 "Monero_Local:Connector_PinSocket_2.54mm" H 14650 5800 50  0001 C CNN
 F 3 "https://suddendocs.samtec.com/catalog_english/ssq_th.pdf" H 14650 5800 50  0001 C CNN
 	1    14650 7000
 	-1   0    0    -1  
