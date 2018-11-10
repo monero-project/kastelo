@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source hardware/breakneck/breakneck.sch)
-    (date "Th 08 Nov 2018 20:56:32 CET")
+    (date "Sa 10 Nov 2018 01:19:51 CET")
     (tool "Eeschema 5.0.0+dfsg1-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -214,7 +214,7 @@
       (tstamp 5A7E43BB))
     (comp (ref FID5)
       (value Fiducial-PCB)
-      (footprint Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom)
+      (footprint Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop)
       (libsource (lib monerohw) (part Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A7E44A8))
@@ -810,7 +810,13 @@
       (datasheet https://assets.nexperia.com/documents/data-sheet/PMEG3010EGW.pdf)
       (libsource (lib monerohw) (part D_Schottky) (description "Schottky diode"))
       (sheetpath (names /) (tstamps /))
-      (tstamp 5BE4F3BE)))
+      (tstamp 5BE4F3BE))
+    (comp (ref LOGOTXT1)
+      (value Monerologo-txt)
+      (footprint MoneroTextSilk)
+      (libsource (lib monerohw) (part Monerologo-txt) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5BE9FBCE)))
   (libparts
     (libpart (lib monerohw) (part ATECC608A)
       (aliases
@@ -1228,7 +1234,8 @@
     (libpart (lib monerohw) (part Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011)
       (fields
         (field (name Reference) FID)
-        (field (name Value) Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011))
+        (field (name Value) Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011)
+        (field (name Footprint) Fiducial_1mm_Dia_2.54mm_Outer_CopperTop))
       (pins
         (pin (num ~) (name ~) (type NotConnected))))
     (libpart (lib monerohw) (part ER-CON24)
@@ -1406,8 +1413,12 @@
       (fields
         (field (name Reference) LOGOMID)
         (field (name Value) Monerologo-mid)
-        (field (name Footprint) MoneroCircleCombi)
-        (field (name Datasheet) Graphic-M)))
+        (field (name Footprint) MoneroCircleCombi)))
+    (libpart (lib monerohw) (part Monerologo-txt)
+      (fields
+        (field (name Reference) LOGOTXT)
+        (field (name Value) Monerologo-txt)
+        (field (name Footprint) MoneroTextSilk)))
     (libpart (lib monerohw) (part R)
       (description Resistor)
       (footprints
