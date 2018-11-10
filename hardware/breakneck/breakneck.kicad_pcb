@@ -65,7 +65,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFF7F)
+    (visible_elements 7FFFF77F)
     (pcbplotparams
       (layerselection 0x010fc_80000001)
       (usegerberextensions true)
@@ -581,7 +581,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E333)
-    (at 69 45)
+    (at 68 48)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7093CB)
@@ -617,7 +617,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E344)
-    (at 69 54)
+    (at 68 51)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDDB93C)
@@ -653,7 +653,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E355)
-    (at 69 51)
+    (at 68 54)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BE5F799)
@@ -689,7 +689,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E366)
-    (at 60 71.5)
+    (at 68 57)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7F2F66)
@@ -725,7 +725,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E377)
-    (at 69 48)
+    (at 68 60)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7F3398)
@@ -761,7 +761,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E388)
-    (at 69 57)
+    (at 68 63)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7C6465)
@@ -797,7 +797,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E399)
-    (at 69 39)
+    (at 68 66)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7C652C)
@@ -833,7 +833,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E3AA)
-    (at 60 81)
+    (at 68 69)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7F4389)
@@ -869,7 +869,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E3BB)
-    (at 69 33)
+    (at 68 72)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7F4436)
@@ -905,7 +905,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E3CC)
-    (at 69 42)
+    (at 68 75)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDADE7B)
@@ -941,7 +941,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E3DD)
-    (at 69 60)
+    (at 76 45)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDADFA2)
@@ -977,7 +977,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E3EE)
-    (at 69 24)
+    (at 76 48)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD867EF)
@@ -1013,7 +1013,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E3FF)
-    (at 69 30)
+    (at 76 51)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A7DE162)
@@ -1049,7 +1049,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E410)
-    (at 69 27)
+    (at 76 54)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD8A09F)
@@ -1085,7 +1085,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE6E7DF)
-    (at 69 63)
+    (at 76 57)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD89E51)
@@ -1121,7 +1121,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E432)
-    (at 60 84)
+    (at 76 60)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDFFADF)
@@ -1157,7 +1157,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E443)
-    (at 60 41.5)
+    (at 76 63)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDFFBE8)
@@ -1193,7 +1193,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E454)
-    (at 60 33)
+    (at 76 66)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDA9CBD)
@@ -1229,7 +1229,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E465)
-    (at 60 30)
+    (at 76 69)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDA9BA0)
@@ -1265,7 +1265,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E476)
-    (at 60 24)
+    (at 76 72)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BE06DB2)
@@ -1301,7 +1301,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E487)
-    (at 60 27)
+    (at 76 75)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD43749)
@@ -1337,7 +1337,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E498)
-    (at 60 38)
+    (at 84 45)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD437E6)
@@ -1373,7 +1373,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E4A9)
-    (at 60 48)
+    (at 84 48)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD3B8C8)
@@ -1409,7 +1409,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E4BA)
-    (at 60 51)
+    (at 84 51)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD4FBF0)
@@ -1445,7 +1445,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E4CB)
-    (at 60 57.5)
+    (at 84 54)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD9EF9F)
@@ -1481,7 +1481,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E4DC)
-    (at 69 36)
+    (at 84 57)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD3B9EF)
@@ -1517,7 +1517,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E4ED)
-    (at 60 61)
+    (at 84 60)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD4FCE1)
@@ -1553,7 +1553,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E4FE)
-    (at 60 54.5)
+    (at 84 63)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD4FC77)
@@ -1589,7 +1589,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E50F)
-    (at 60 87)
+    (at 84 66)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD51C69)
@@ -1625,7 +1625,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E520)
-    (at 60 68)
+    (at 84 69)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD4FD54)
@@ -1661,7 +1661,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E531)
-    (at 60 45)
+    (at 84 72)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BD51DB5)
@@ -1697,7 +1697,7 @@
   )
 
   (module Monero_Local:C_0805 (layer F.Cu) (tedit 5A93EB00) (tstamp 5BE5E542)
-    (at 60 64.5)
+    (at 84 75)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5BDE3D50)
@@ -1733,7 +1733,7 @@
   )
 
   (module Monero_Local:SOT-23 (layer F.Cu) (tedit 5A941278) (tstamp 5BE5E556)
-    (at 91 67)
+    (at 113 101)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5BD60EB4)
@@ -1808,8 +1808,8 @@
     )
   )
 
-  (module Monero_Local:LED_0805 (layer F.Cu) (tedit 5A93F173) (tstamp 5BE5E57E)
-    (at 44.5 29.5)
+  (module Monero_Local:LED_0805 (layer F.Cu) (tedit 5A93F173) (tstamp 5BE70C56)
+    (at 163 120)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5BD3AE7C)
@@ -1846,8 +1846,8 @@
     )
   )
 
-  (module Monero_Local:LED_0805 (layer F.Cu) (tedit 5A93F173) (tstamp 5BE5E593)
-    (at 44.5 33)
+  (module Monero_Local:LED_0805 (layer F.Cu) (tedit 5A93F173) (tstamp 5BE70CBB)
+    (at 163 124)
     (descr "LED 0805 smd package")
     (tags "LED led 0805 SMD smd SMT smt smdled SMDLED smtled SMTLED")
     (path /5BD3AF53)
@@ -1885,7 +1885,7 @@
   )
 
   (module Monero_Local:D_SOD-123 (layer F.Cu) (tedit 5A9406B4) (tstamp 5BE5E5AB)
-    (at 44.5 38)
+    (at 134 139)
     (descr SOD-123)
     (tags SOD-123)
     (path /5BE4F3BE)
@@ -2282,9 +2282,9 @@
     (pad 7 thru_hole oval (at 0 15.24 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KIPRJMOD}/modules/packages3d/Socket_Strips.3dshapes/Socket_Strip_Straight_1x07_Pitch2.54mm.wrl
-      (offset (xyz 0 -7.619999885559082 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (offset (xyz 0 -7.62 0))
+      (scale (xyz 1 1 0.5))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -2559,7 +2559,7 @@
   )
 
   (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE5E74E)
-    (at 83.5 87)
+    (at 157 113)
     (descr "2-pin solder bridge")
     (tags "solder bridge")
     (path /5BD6664A)
@@ -2584,8 +2584,8 @@
       (net 48 /VIN_OTP))
   )
 
-  (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE5E75C)
-    (at 79 87)
+  (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE70D5D)
+    (at 157 124)
     (descr "2-pin solder bridge")
     (tags "solder bridge")
     (path /5BD4F34D)
@@ -2611,7 +2611,7 @@
   )
 
   (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE5E76A)
-    (at 74 87)
+    (at 163 108)
     (descr "2-pin solder bridge")
     (tags "solder bridge")
     (path /5BD63527)
@@ -2637,7 +2637,7 @@
   )
 
   (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE5E952)
-    (at 69.5 87)
+    (at 157 101)
     (descr "2-pin solder bridge")
     (tags "solder bridge")
     (path /5BD51748)
@@ -2662,8 +2662,8 @@
       (net 48 /VIN_OTP))
   )
 
-  (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE5E960)
-    (at 88.5 87)
+  (module Monero_Local:GS2 (layer F.Cu) (tedit 5A9407F4) (tstamp 5BE705DA)
+    (at 161 92.64)
     (descr "2-pin solder bridge")
     (tags "solder bridge")
     (path /5BD52F80)
@@ -2749,7 +2749,7 @@
   )
 
   (module Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm (layer F.Cu) (tedit 5862ED52) (tstamp 5BE5E9C1)
-    (at 66.5 93.5)
+    (at 80 84)
     (descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x02 2.54mm single row")
     (path /5A73D93D)
@@ -2819,8 +2819,8 @@
     )
   )
 
-  (module Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm (layer F.Cu) (tedit 5862ED52) (tstamp 5BE5E9F8)
-    (at 80 93.5)
+  (module Monero_Local:Pin_Header_Angled_1x02_Pitch2.54mm (layer F.Cu) (tedit 5862ED52) (tstamp 5BE6FA27)
+    (at 80 92)
     (descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x02 2.54mm single row")
     (path /5BD9F84B)
@@ -3031,7 +3031,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EA3E)
-    (at 52.5 48.5)
+    (at 32.95 71)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BDF2B2D)
@@ -3067,7 +3067,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE6EA07)
-    (at 39 66)
+    (at 33 75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A749FDD)
@@ -3103,7 +3103,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EA60)
-    (at 46 56.5)
+    (at 39 71)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A74A078)
@@ -3139,7 +3139,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE6E60D)
-    (at 52.5 78.5)
+    (at 39 75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BDA7791)
@@ -3175,7 +3175,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EA82)
-    (at 52.5 74.5)
+    (at 39 79)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BDDB6CE)
@@ -3211,7 +3211,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EA93)
-    (at 46 60.5)
+    (at 39 83)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BDDB80B)
@@ -3247,7 +3247,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EAA4)
-    (at 52.5 32)
+    (at 39 87)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BDA7394)
@@ -3283,7 +3283,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EAB5)
-    (at 52.5 36)
+    (at 39 91)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD737C8)
@@ -3319,7 +3319,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EAC6)
-    (at 52.5 40)
+    (at 45 71)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD73E25)
@@ -3355,7 +3355,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EAD7)
-    (at 52.5 44.5)
+    (at 45 75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE5F690)
@@ -3391,7 +3391,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EAE8)
-    (at 52.5 24.5)
+    (at 45 79)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD74030)
@@ -3427,7 +3427,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EAF9)
-    (at 52.5 52.5)
+    (at 45 83)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7DE0C7)
@@ -3463,7 +3463,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB0A)
-    (at 52.5 61.5)
+    (at 45 87)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD93921)
@@ -3499,7 +3499,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB1B)
-    (at 52.5 57)
+    (at 45 91)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BE06451)
@@ -3535,7 +3535,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB2C)
-    (at 46 69.5)
+    (at 51 71)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5A7B318F)
@@ -3571,7 +3571,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB3D)
-    (at 38.5 78.5)
+    (at 51 75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5AB015F9)
@@ -3607,7 +3607,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB4E)
-    (at 52.5 70.5)
+    (at 51 79)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5AB0172A)
@@ -3643,7 +3643,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB5F)
-    (at 38.5 74.5)
+    (at 51 83)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD496EB)
@@ -3679,7 +3679,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB70)
-    (at 52.5 28.5)
+    (at 51 87)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD49A6B)
@@ -3715,7 +3715,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB81)
-    (at 46 78.5)
+    (at 51 91)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD3D334)
@@ -3751,7 +3751,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EB92)
-    (at 46 65)
+    (at 57 71)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD3D407)
@@ -3787,7 +3787,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EBA3)
-    (at 39 70)
+    (at 57 75)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD59F8A)
@@ -3823,7 +3823,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE6E963)
-    (at 46 52)
+    (at 57 79)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD5BC4C)
@@ -3859,7 +3859,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EBC5)
-    (at 46 74)
+    (at 57 83)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD5BD43)
@@ -3895,7 +3895,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EBD6)
-    (at 46 47.5)
+    (at 57 87)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BD3A3DE)
@@ -3931,7 +3931,7 @@
   )
 
   (module Monero_Local:R_0805 (layer F.Cu) (tedit 58AADA8F) (tstamp 5BE5EBE7)
-    (at 52.5 66.5)
+    (at 57 91)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5BDE3C2B)
@@ -4053,7 +4053,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC31)
-    (at 85 77)
+    (at 113 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5A812661)
@@ -4074,7 +4074,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC39)
-    (at 75 73)
+    (at 117 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5A81246C)
@@ -4095,7 +4095,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC41)
-    (at 75 77.5)
+    (at 121 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5A7C58BD)
@@ -4116,7 +4116,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC49)
-    (at 85 69)
+    (at 125 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5A7C5AD8)
@@ -4137,7 +4137,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC51)
-    (at 79.5 69.5)
+    (at 129 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5A7BE6A9)
@@ -4158,7 +4158,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC59)
-    (at 85.275001 57.155001)
+    (at 133 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BD3934F)
@@ -4179,7 +4179,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC61)
-    (at 79.5 61)
+    (at 137 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE36579)
@@ -4200,7 +4200,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC69)
-    (at 70.5 73)
+    (at 141 47)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE36694)
@@ -4221,7 +4221,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC71)
-    (at 79.5 82)
+    (at 112 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE367A5)
@@ -4242,7 +4242,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC79)
-    (at 85 53)
+    (at 117 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE368DA)
@@ -4263,7 +4263,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC81)
-    (at 79.5 65.5)
+    (at 122 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE2E17E)
@@ -4284,7 +4284,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC89)
-    (at 79.5 73.5)
+    (at 127 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE1A1EB)
@@ -4305,7 +4305,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC91)
-    (at 75 82)
+    (at 132 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE1AF43)
@@ -4326,7 +4326,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5EC99)
-    (at 79.5 77.5)
+    (at 137 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE1A2EC)
@@ -4347,7 +4347,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECA1)
-    (at 79.5 53)
+    (at 142 52)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE1A6BB)
@@ -4368,7 +4368,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECA9)
-    (at 85 73)
+    (at 112 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE1725C)
@@ -4389,7 +4389,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECB1)
-    (at 75 69)
+    (at 117 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE2E295)
@@ -4410,7 +4410,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECB9)
-    (at 79.5 57)
+    (at 122 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE2423E)
@@ -4431,7 +4431,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECC1)
-    (at 85 82)
+    (at 127 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE21393)
@@ -4452,7 +4452,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECC9)
-    (at 85.275001 61)
+    (at 132 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE21776)
@@ -4473,7 +4473,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECD1)
-    (at 70.5 77.5)
+    (at 137 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE21BD0)
@@ -4494,7 +4494,7 @@
   )
 
   (module Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm (layer F.Cu) (tedit 5A0F774F) (tstamp 5BE5ECD9)
-    (at 85 65)
+    (at 142 57)
     (descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
     (tags "test point THT pad")
     (path /5BE2218E)
@@ -4923,7 +4923,7 @@
   )
 
   (module Monero_Local:SOT-353_SC-70-5 (layer F.Cu) (tedit 585EA0FD) (tstamp 5BE5EDBA)
-    (at 91 72)
+    (at 162 113)
     (descr "SOT-353, SC-70-5")
     (path /5BD4F346)
     (attr smd)
@@ -4961,8 +4961,8 @@
     )
   )
 
-  (module Monero_Local:SOT-23 (layer F.Cu) (tedit 5A941278) (tstamp 5BE5EDCE)
-    (at 91 77)
+  (module Monero_Local:SOT-23 (layer F.Cu) (tedit 5A941278) (tstamp 5BE70607)
+    (at 162 88)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5BD4F5A5)
@@ -5000,7 +5000,7 @@
   )
 
   (module Monero_Local:SOT-23 (layer F.Cu) (tedit 5A941278) (tstamp 5BE5EDE2)
-    (at 91 82)
+    (at 162 101)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5BD4F524)
@@ -5306,10 +5306,10 @@
   (gr_line (start 197 40) (end 197 128) (angle 90) (layer Cmts.User) (width 0.5))
   (gr_line (start 169 40) (end 197 40) (angle 90) (layer Cmts.User) (width 0.5))
   (gr_line (start 169 128) (end 169 40) (angle 90) (layer Cmts.User) (width 0.5))
-  (gr_text "Rail edge\nmargin!" (at 150 60) (layer F.CrtYd)
+  (gr_text "Rail edge\nmargin!" (at 148 56) (layer F.CrtYd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "Rail edge\nmargin!" (at 103 60) (layer F.CrtYd)
+  (gr_text "Rail edge\nmargin!" (at 105 56) (layer F.CrtYd)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify right))
   )
   (gr_line (start 148.5 60) (end 148.5 132) (angle 90) (layer F.CrtYd) (width 0.2))
@@ -5376,8 +5376,8 @@
   (gr_line (start 119 66.5) (end 116 64) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 137.34 64) (end 134.34 66.5) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 119 66.5) (end 134.34 66.5) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (dimension 64 (width 0.3) (layer Dwgs.User)
-    (gr_text "64,000 mm" (at 94.15 93 270) (layer Dwgs.User)
+  (dimension 64 (width 0.3) (layer Dwgs.User) (tstamp 5BE705C9)
+    (gr_text "64,000 mm" (at 94.15 93 270) (layer Dwgs.User) (tstamp 5BE705CA)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 98 125) (xy 92.8 125)))
