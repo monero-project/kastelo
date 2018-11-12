@@ -1755,8 +1755,8 @@ F 3 "" H 7700 2500 50  0001 C CNN
 	1    7700 2500
 	1    0    0    -1  
 $EndComp
-Text Notes 4300 4100 1    60   ~ 0
-16pF-18pf is\nthe real value
+Text Notes 4300 4150 1    60   ~ 0
+Y:9pF and C:10pf\nin specification!
 $Comp
 L monerohw:Crystal Y1
 U 1 1 5BD8B9A9
