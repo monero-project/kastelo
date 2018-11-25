@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L monerohw:CONN_01X20 J6
 U 1 1 5A6B7F29
-P 12250 5050
-F 0 "J6" H 12250 6100 50  0000 C CNN
-F 1 "CONN_EAST" V 12350 5050 50  0000 C CNN
-F 2 "Monero_Local:Pin_Header_Straight_1x20_Pitch2.54mm" H 12250 5050 50  0001 C CNN
-F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 12250 5050 50  0001 C CNN
-	1    12250 5050
+P 12250 4550
+F 0 "J6" H 12250 5600 50  0000 C CNN
+F 1 "CONN_EAST" V 12350 4550 50  0000 C CNN
+F 2 "Monero_Local:Pin_Header_Straight_1x20_Pitch2.54mm" H 12250 4550 50  0001 C CNN
+F 3 "https://suddendocs.samtec.com/catalog_english/tsw_th.pdf" H 12250 4550 50  0001 C CNN
+	1    12250 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -181,9 +181,9 @@ F 3 "" H 12900 7500 50  0001 C CNN
 	1    12900 7500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 12050 5500
-NoConn ~ 12050 5300
-NoConn ~ 12050 5200
+NoConn ~ 12050 5000
+NoConn ~ 12050 4800
+NoConn ~ 12050 4700
 $Comp
 L monerohw:+3V3 #PWR08
 U 1 1 5A734368
@@ -2055,23 +2055,23 @@ This connector probably remains\nunpopulated, as we can expose\nJTAG 2,54mm on t
 NoConn ~ 11500 7600
 NoConn ~ 11600 7600
 NoConn ~ 11700 7600
-NoConn ~ 12050 4500
+NoConn ~ 12050 4000
+NoConn ~ 12050 4100
+NoConn ~ 12050 4300
 NoConn ~ 12050 4600
-NoConn ~ 12050 4800
-NoConn ~ 12050 5100
-NoConn ~ 12050 5400
+NoConn ~ 12050 4900
 $Comp
 L monerohw:GND #PWR062
 U 1 1 5BDF113B
-P 11550 5900
-F 0 "#PWR062" H 11550 5650 50  0001 C CNN
-F 1 "GND" H 11550 5750 50  0000 C CNN
-F 2 "" H 11550 5900 50  0001 C CNN
-F 3 "" H 11550 5900 50  0001 C CNN
-	1    11550 5900
+P 11550 5400
+F 0 "#PWR062" H 11550 5150 50  0001 C CNN
+F 1 "GND" H 11550 5250 50  0000 C CNN
+F 2 "" H 11550 5400 50  0001 C CNN
+F 3 "" H 11550 5400 50  0001 C CNN
+	1    11550 5400
 	1    0    0    -1  
 $EndComp
-Text Notes 12600 6050 1    60   ~ 0
+Text Notes 12600 5550 1    60   ~ 0
 East is mostly full of voltage manipulators,\ngood for power analysis and spike glitching.
 Text Label 1950 5600 0    60   ~ 0
 IO_SPARE1
@@ -2122,15 +2122,15 @@ Text Label 5600 4350 2    60   ~ 0
 CLK_FB
 Text Label 5600 5850 2    60   ~ 0
 CWLED3
-Text Label 12050 6000 2    60   ~ 0
+Text Label 12050 5500 2    60   ~ 0
 CWLED3
-Text Label 12050 5900 2    60   ~ 0
+Text Label 12050 5400 2    60   ~ 0
 PWMLED1
-Text Label 12050 5800 2    60   ~ 0
+Text Label 12050 5300 2    60   ~ 0
 PWMLED0
-Text Label 12050 4200 2    60   ~ 0
+Text Label 12050 3700 2    60   ~ 0
 SHUNTL
-Text Label 12050 4300 2    60   ~ 0
+Text Label 12050 3800 2    60   ~ 0
 SHUNTH
 Text Label 7800 3100 2    60   ~ 0
 SHUNTL
@@ -2544,11 +2544,11 @@ Wire Wire Line
 Wire Wire Line
 	12400 1050 12500 950 
 Wire Notes Line
-	12350 6150 12650 6150
+	12350 5650 12650 5650
 Wire Notes Line
-	12650 6150 12650 3950
+	12650 5650 12650 3450
 Wire Notes Line
-	12650 3950 12350 3950
+	12650 3450 12350 3450
 Wire Notes Line
 	15900 6600 15050 6600
 Wire Notes Line
@@ -3232,31 +3232,31 @@ Wire Notes Line
 Wire Wire Line
 	12100 7600 12100 7200
 Wire Wire Line
-	12050 4100 11550 4100
+	12050 3600 11550 3600
 Wire Wire Line
-	11550 4100 11550 4400
+	11550 3600 11550 3900
+Wire Wire Line
+	12050 3900 11550 3900
+Connection ~ 11550 3900
+Wire Wire Line
+	12050 4200 11550 4200
+Connection ~ 11550 4200
 Wire Wire Line
 	12050 4400 11550 4400
 Connection ~ 11550 4400
 Wire Wire Line
-	12050 4700 11550 4700
-Connection ~ 11550 4700
+	12050 4500 11550 4500
+Connection ~ 11550 4500
 Wire Wire Line
-	12050 4900 11550 4900
-Connection ~ 11550 4900
+	12050 5100 11550 5100
+Connection ~ 11550 5100
 Wire Wire Line
-	12050 5000 11550 5000
-Connection ~ 11550 5000
-Wire Wire Line
-	12050 5600 11550 5600
-Connection ~ 11550 5600
-Wire Wire Line
-	12050 5700 11550 5700
-Connection ~ 11550 5700
+	12050 5200 11550 5200
+Connection ~ 11550 5200
 Wire Notes Line
-	12350 6150 12350 5300
+	12350 5650 12350 4800
 Wire Notes Line
-	12350 3950 12350 4800
+	12350 3450 12350 4300
 Wire Wire Line
 	1950 7500 2150 7500
 Wire Wire Line
@@ -3626,7 +3626,7 @@ Connection ~ 2800 4250
 Wire Wire Line
 	2400 4850 2800 4850
 Connection ~ 2800 4850
-Text Notes 12000 5550 1    60   ~ 0
+Text Notes 12000 5050 1    60   ~ 0
 11-15 pwr
 $Comp
 L monerohw:CONN_01X02 J16
@@ -3833,17 +3833,17 @@ Wire Wire Line
 Wire Wire Line
 	8600 3000 8600 3100
 Wire Wire Line
-	11550 4400 11550 4700
+	11550 3900 11550 4200
 Wire Wire Line
-	11550 4700 11550 4900
+	11550 4200 11550 4400
 Wire Wire Line
-	11550 4900 11550 5000
+	11550 4400 11550 4500
 Wire Wire Line
-	11550 5000 11550 5600
+	11550 4500 11550 5100
 Wire Wire Line
-	11550 5600 11550 5700
+	11550 5100 11550 5200
 Wire Wire Line
-	11550 5700 11550 5900
+	11550 5200 11550 5400
 Wire Wire Line
 	2650 5900 2650 6100
 Wire Wire Line
@@ -3910,9 +3910,83 @@ U 1 1 5BE9FBCE
 P 2350 1350
 F 0 "LOGOTXT1" H 700 2100 50  0000 L CNN
 F 1 "Monerologo-txt" H 3450 2100 50  0000 L CNN
-F 2 "MoneroTextSilk" H 2350 2300 50  0001 C CIN
+F 2 "Monero_Local:MoneroTextSilk" H 2350 2300 50  0001 C CIN
 F 3 "" H 2400 1350 50  0001 C CNN
 	1    2350 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L monerohw:LED D7
+U 1 1 5BFEAD1A
+P 11750 6250
+F 0 "D7" H 11750 6050 50  0000 C CNN
+F 1 "LED" H 11750 6150 50  0000 C CNN
+F 2 "Monero_Local:LED_0805" H 11750 6250 50  0001 C CNN
+F 3 "" H 11750 6250 50  0001 C CNN
+	1    11750 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L monerohw:LED D6
+U 1 1 5BFEAEE6
+P 11750 5950
+F 0 "D6" H 11750 5750 50  0000 C CNN
+F 1 "LED" H 11750 5850 50  0000 C CNN
+F 2 "Monero_Local:LED_0805" H 11750 5950 50  0001 C CNN
+F 3 "" H 11750 5950 50  0001 C CNN
+	1    11750 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L monerohw:R R28
+U 1 1 5C0660A2
+P 11450 6250
+F 0 "R28" V 11350 6250 50  0000 C CNN
+F 1 "150" V 11450 6250 50  0000 C CNN
+F 2 "Monero_Local:R_0805" V 11380 6250 50  0001 C CNN
+F 3 "" H 11450 6250 50  0001 C CNN
+	1    11450 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L monerohw:R R27
+U 1 1 5C066294
+P 11450 5950
+F 0 "R27" V 11350 5950 50  0000 C CNN
+F 1 "150" V 11450 5950 50  0000 C CNN
+F 2 "Monero_Local:R_0805" V 11380 5950 50  0001 C CNN
+F 3 "" H 11450 5950 50  0001 C CNN
+	1    11450 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10800 6050 11300 6050
+Wire Wire Line
+	11300 6050 11300 5950
+Wire Wire Line
+	10800 6150 11300 6150
+Wire Wire Line
+	11300 6150 11300 6250
+$Comp
+L monerohw:GND #PWR0101
+U 1 1 5C34744B
+P 12100 6100
+F 0 "#PWR0101" H 12100 5850 50  0001 C CNN
+F 1 "GND" H 12200 6100 50  0000 C CNN
+F 2 "" H 12100 6100 50  0001 C CNN
+F 3 "" H 12100 6100 50  0001 C CNN
+	1    12100 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11900 5950 12000 5950
+Wire Wire Line
+	12100 5950 12100 6100
+Wire Wire Line
+	11900 6250 12000 6250
+Wire Wire Line
+	12000 6250 12000 5950
+Connection ~ 12000 5950
+Wire Wire Line
+	12000 5950 12100 5950
 $EndSCHEMATC
