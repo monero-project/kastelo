@@ -2821,7 +2821,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 4500 15400 4500
 Wire Wire Line
-	15500 4900 15500 4500
+	15500 4900 15500 4700
 Wire Wire Line
 	14000 4600 14150 4600
 Wire Wire Line
@@ -3989,4 +3989,32 @@ Wire Wire Line
 Connection ~ 12000 5950
 Wire Wire Line
 	12000 5950 12100 5950
+$Comp
+L monerohw:TEST TP25
+U 1 1 5C09AB84
+P 15600 4700
+F 0 "TP25" H 15678 4840 50  0000 L CNN
+F 1 "VOTP" H 15678 4749 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 15600 4700 50  0001 C CNN
+F 3 "" H 15600 4700 50  0001 C CNN
+	1    15600 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15600 4700 15500 4700
+Connection ~ 15500 4700
+Wire Wire Line
+	15500 4700 15500 4500
+$Comp
+L monerohw:TEST TP24
+U 1 1 5C0DA98B
+P 13950 4000
+F 0 "TP24" H 13950 4350 50  0000 C CNN
+F 1 "VOTP" H 13950 4250 50  0000 C CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 13950 4000 50  0001 C CNN
+F 3 "" H 13950 4000 50  0001 C CNN
+	1    13950 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 13950 4000
 $EndSCHEMATC
