@@ -32,6 +32,11 @@ D Resistor
 K r res resistor
 $ENDCMP
 #
+$CMP LED
+D LED generic
+K led diode
+$ENDCMP
+#
 $CMP D_Schottky
 D Schottky diode
 K diode Schottky
@@ -179,6 +184,11 @@ $ENDCMP
 $CMP SW_SPST
 D Single Pole Single Throw (SPST) switch
 K switch lever
+$ENDCMP
+#
+$CMP TestPoint
+D test point
+K test point tp
 $ENDCMP
 #
 #End Doc Library
