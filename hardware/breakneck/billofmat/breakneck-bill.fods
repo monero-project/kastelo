@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><dc:date>2018-11-25T14:19:38.404966703</dc:date><meta:editing-duration>PT45M</meta:editing-duration><meta:editing-cycles>18</meta:editing-cycles><meta:generator>LibreOffice/6.1.2.1$Linux_X86_64 LibreOffice_project/10$Build-1</meta:generator><meta:print-date>2018-02-15T07:06:54.781151374</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="402" meta:object-count="0"/></office:meta>
+ <office:meta><dc:date>2018-12-10T16:02:25.619861644</dc:date><meta:editing-duration>PT48M28S</meta:editing-duration><meta:editing-cycles>19</meta:editing-cycles><meta:generator>LibreOffice/6.1.2.1$Linux_X86_64 LibreOffice_project/10$Build-1</meta:generator><meta:print-date>2018-02-15T07:06:54.781151374</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="416" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">49628</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">26641</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">27544</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Parts order">
        <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -32,7 +32,7 @@
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Parts order</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">689</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1237</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -64,7 +64,7 @@
    <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">qAH+/21vbm9kb25uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzptb25vZG9ubgAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAyQAAAAAAAQAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9bW9ub2Rvbm4Kb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkE0AElucHV0U2xvdDpUUkFZMQBEdXBsZXg6Tm9uZQAAEgBDT01QQVRfRFVQTEVYX01PREUPAER1cGxleE1vZGU6Ok9mZg==</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">qAH+/21vbm9kb25uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzptb25vZG9ubgAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAyQAAAAAAAQAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9bW9ub2Rvbm4Kb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkE0AER1cGxleDpOb25lAElucHV0U2xvdDpUUkFZMQAAEgBDT01QQVRfRFVQTEVYX01PREUPAER1cGxleE1vZGU6Ok9mZg==</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string">monodonn</config:config-item>
    <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
@@ -212,9 +212,9 @@
    <style:text-properties fo:color="#ffffff" fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100"/>
-  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
-   <style:paragraph-properties fo:text-align="end" fo:margin-left="3.53mm"/>
+   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties fo:page-width="297mm" fo:page-height="210.01mm" style:num-format="1" style:print-orientation="landscape" fo:margin-top="9mm" fo:margin-bottom="9mm" fo:margin-left="14.99mm" fo:margin-right="14.99mm" style:shadow="none" style:writing-mode="lr-tb"/>
@@ -264,7 +264,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2018-11-25">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="14:19:27.756359115">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2018-12-10">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="15:58:57.364344053">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -281,7 +281,7 @@
     <table:table-column table:style-name="co1" table:default-cell-style-name="ce3"/>
     <table:table-column table:style-name="co2" table:default-cell-style-name="ce3"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="ce3"/>
-    <table:table-column table:style-name="co4" table:default-cell-style-name="ce2"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce6"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="ce3"/>
     <table:table-column table:style-name="co6" table:default-cell-style-name="ce3"/>
     <table:table-column table:style-name="co7" table:default-cell-style-name="ce3"/>
@@ -326,7 +326,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Keystone_3000_1x12mm-CoinCell</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -350,7 +350,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>C_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -374,7 +374,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>C_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -398,7 +398,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>C_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="12" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="12" calcext:value-type="float">
       <text:p>12</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -422,7 +422,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>C_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -446,7 +446,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>C_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="4" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
       <text:p>4</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -470,7 +470,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>SOT-23</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -494,7 +494,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>SOT-143</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -518,7 +518,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>LED_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="4" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
       <text:p>4</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -542,7 +542,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>D_SOD-123</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -566,7 +566,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Eastrising_ER-CON30HT-1_01x30_P0.50mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -590,7 +590,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Eastrising_ER-CON24HT-1_01x24_P0.50mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -614,7 +614,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Fiducial_1mm_Dia_2.54mm_Outer_CopperTop</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -632,7 +632,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="4" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
       <text:p>4</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -650,7 +650,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Pin_Header_Straight_1x20_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -674,7 +674,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Pin_Header_Straight_2x04_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -698,7 +698,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Socket_Strip_Straight_1x07_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -722,7 +722,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>USB_C_Receptacle_Amphenol_12401610E4-2A</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -746,7 +746,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Pin_Header_Straight_1x14_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -770,7 +770,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Pin_Header_Straight_1x20_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -794,7 +794,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>10120045-401LF</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -818,7 +818,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Tag-Connect_TC2050-IDC-NL</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -842,7 +842,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>GS2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="5" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="5" calcext:value-type="float">
       <text:p>5</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -860,7 +860,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Socket_Strip_Angled_2x05_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -884,7 +884,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>microSD_Card_Receptacle_Hirose_DM3AT-SF-PEJM5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -908,7 +908,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>JST_PH_B2B-PH-K_02x2.00mm_Straight</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -932,7 +932,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Pin_Header_Angled_1x02_Pitch2.54mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -956,7 +956,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>MoneroCircleCombi</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -974,7 +974,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>MountingHole_3mm_Pad_Via</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="3" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="3" calcext:value-type="float">
       <text:p>3</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -992,7 +992,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="float" office:value="0" calcext:value-type="float">
@@ -1016,7 +1016,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1040,7 +1040,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1064,7 +1064,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1088,7 +1088,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1112,7 +1112,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="4" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="4" calcext:value-type="float">
       <text:p>4</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1136,7 +1136,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="float" office:value="10" calcext:value-type="float">
@@ -1160,7 +1160,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1184,7 +1184,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="float" office:value="100" calcext:value-type="float">
@@ -1208,7 +1208,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1232,7 +1232,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1256,7 +1256,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1280,7 +1280,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1304,7 +1304,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="float" office:value="150" calcext:value-type="float">
@@ -1328,7 +1328,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="float" office:value="220" calcext:value-type="float">
@@ -1352,7 +1352,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="2" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="2" calcext:value-type="float">
       <text:p>2</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1376,7 +1376,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1400,7 +1400,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>R_0805</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1424,7 +1424,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>SW_SPST_K21102SP</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="3" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="3" calcext:value-type="float">
       <text:p>3</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1448,7 +1448,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>TestPoint_THTPad_D1.5mm_Drill0.7mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="22" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="22" calcext:value-type="float">
       <text:p>22</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1466,7 +1466,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>DFN-8-1EP_2x3mm_Pitch0.5mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1490,7 +1490,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>DFN-S-8-1EP_6x5mm_Pitch1.27mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1514,7 +1514,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>WFBGACEC1702</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1538,7 +1538,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>QFN-28-1EP_5x5mm_Pitch0.5mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1562,7 +1562,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>SOT-353_SC-70-5</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1586,7 +1586,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>SOT-23</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1610,7 +1610,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>SOT-23</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1634,7 +1634,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Badgelife-Shitty-2x2</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1658,7 +1658,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>Crystal_SMD_3215-2Pin_3.2x1.5mm</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="float" office:value="1" calcext:value-type="float">
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
       <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
@@ -1673,10 +1673,54 @@
      <table:table-cell table:style-name="Default" table:number-columns-repeated="1017"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
-     <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:number-columns-repeated="1023"/>
+     <table:table-cell table:style-name="Default" office:value-type="float" office:value="59" calcext:value-type="float">
+      <text:p>59</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Z1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Potting_Compound</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>RTV_103</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>MG Chemicals</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://www.mgchemicals.com/products/rtv-silicones/adhesives-/-sealants/rtv103/</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
     </table:table-row>
-    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048515">
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>60</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Z2</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Conformal_Coating</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Sylgard_184</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>Dow Chemical</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://consumer.dow.com/content/dam/dcc/documents/en-us/productdatasheet/11/11-31/11-3184-sylgard-184-elastomer.pdf</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="1017"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1" table:number-rows-repeated="1048514">
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">

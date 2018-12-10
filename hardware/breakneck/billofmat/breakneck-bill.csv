@@ -57,3 +57,5 @@
 56;"U7";"SOT-23";1;"LN6206P15M";"Shanghai Nanlin Electronics";"http://www.natlinear.com/uploadfiles/2014/LN/LN6206_E.pdf";
 57;"X1";"Badgelife-Shitty-2x2";1;"Badgelife_shitty";"Sullins Connector Solutions";"https://www.sullinscorp.com/product/?pn=PPTC022LFBN-RC";
 58;"Y1";"Crystal_SMD_3215-2Pin_3.2x1.5mm";1;"Crystal";"Seiko Epson Corporation";"https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf";
+59:"Z1";"Potting_Compound";1;"RTV_103";"MG Chemicals";"https://www.mgchemicals.com/products/rtv-silicones/adhesives-/-sealants/rtv103/";
+60:"Z2";"Conformal_Coating";1;"Sylgard_184";"Dow Chemical";"https://consumer.dow.com/content/dam/dcc/documents/en-us/productdatasheet/11/11-31/11-3184-sylgard-184-elastomer.pdf";
