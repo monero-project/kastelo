@@ -1,0 +1,3 @@
+Learned from 'Design and Print an Arduino Box with FreeCAD', by mathcodeprint.
+This is useful as well https://www.freecadweb.org/wiki/PartDesign_Workbench
+https://www.freecadweb.org/wiki/Manual:Preparing_models_for_3D_printing

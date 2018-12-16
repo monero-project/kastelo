@@ -1,0 +1,9 @@
+# exclude generated archives
+*.pdf
+
+# exclude manufacturing archives
+fabmesh
+fabprnt
+
+# no backups
+*.fcstd1
