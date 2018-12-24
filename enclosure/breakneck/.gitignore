@@ -2,8 +2,13 @@
 *.pdf
 
 # exclude manufacturing archives
-fabmesh
-fabprnt
+fab*
 
 # no backups
 *.fcstd1
+
+# no closed formats
+*.cdr
+
+# no support
+supporting
