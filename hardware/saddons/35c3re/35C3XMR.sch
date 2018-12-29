@@ -1,0 +1,1473 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L monerohw:35C3Logo-funny LOGOFUN1
+U 1 1 5C0D350A
+P 6400 1950
+F 0 "LOGOFUN1" H 6200 1000 50  0000 L CNN
+F 1 "35C3Logo-funny" H 6100 900 50  0000 L CNN
+F 2 "Monero_Local:35C3Funny" H 6400 2900 50  0001 C CIN
+F 3 "" H 6450 1950 50  0001 C CNN
+	1    6400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:74HCT04 U2
+U 1 1 5C0D35C4
+P 3700 6800
+F 0 "U2" V 3654 6980 50  0000 L CNN
+F 1 "74HCT04" V 3745 6980 50  0000 L CNN
+F 2 "Monero_Local:Fairchild_MicroPak-6_1.0x1.45mm_P0.5mm" H 3700 6800 50  0001 C CNN
+F 3 "" H 3700 6800 50  0001 C CNN
+	1    3700 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L monerohw:Badgelife_shitty_conn X1
+U 1 1 5C0D36BE
+P 8850 5700
+F 0 "X1" H 8950 6137 60  0000 C CNN
+F 1 "Shitty_conn" H 8950 6031 60  0000 C CNN
+F 2 "Monero_Local:Badgelife-Shitty-2x2" H 8850 5700 60  0001 C CNN
+F 3 "" H 8850 5700 60  0001 C CNN
+	1    8850 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Battery_Cell BT1
+U 1 1 5C0D3775
+P 6900 5750
+F 0 "BT1" H 7018 5846 50  0000 L CNN
+F 1 "Battery_Cell" H 7018 5755 50  0000 L CNN
+F 2 "Monero_Local:BatteryHolder_Keystone_3008_1x2450" V 6900 5810 50  0001 C CNN
+F 3 "" V 6900 5810 50  0001 C CNN
+	1    6900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C C1
+U 1 1 5C0D3839
+P 6300 6650
+F 0 "C1" H 6415 6696 50  0000 L CNN
+F 1 "47uF" H 6415 6605 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 6338 6500 50  0001 C CNN
+F 3 "" H 6300 6650 50  0001 C CNN
+	1    6300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID1
+U 1 1 5C0D3922
+P 8200 1100
+F 0 "FID1" H 8378 1191 50  0000 L CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 8378 1100 50  0000 L CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8378 1009 50  0000 L CNN
+F 3 "" H 8200 1100 50  0000 C CNN
+	1    8200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Jumper JP1
+U 1 1 5C0D39E4
+P 3300 6800
+F 0 "JP1" H 3300 6650 50  0000 C CNN
+F 1 "Jumper" H 3300 6700 50  0000 C CNN
+F 2 "Monero_Local:R_0805" H 3300 6800 50  0001 C CNN
+F 3 "" H 3300 6800 50  0001 C CNN
+	1    3300 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L monerohw:LED D1
+U 1 1 5C0D3AAB
+P 1250 1700
+F 0 "D1" H 950 1750 50  0000 C CNN
+F 1 "LED" H 950 1650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 1700 50  0001 C CNN
+F 3 "" H 1250 1700 50  0001 C CNN
+	1    1250 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:TEST TP5
+U 1 1 5C0D3C86
+P 6300 6500
+F 0 "TP5" H 6378 6640 50  0000 L CNN
+F 1 "TEST" H 6378 6549 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 6300 6500 50  0001 C CNN
+F 3 "" H 6300 6500 50  0001 C CNN
+	1    6300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:TLC555 U1
+U 1 1 5C0D3D60
+P 4900 6500
+F 0 "U1" H 4550 6950 50  0000 C CNN
+F 1 "TLC555" H 4650 6850 50  0000 C CNN
+F 2 "Monero_Local:SOIC-8_3.9x4.9mm_P1.27mm" H 4950 6250 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 5550 5950 50  0001 C CNN
+	1    4900 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D2
+U 1 1 5C0D49A6
+P 2650 1100
+F 0 "D2" H 2350 1150 50  0000 C CNN
+F 1 "LED" H 2350 1050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 1100 50  0001 C CNN
+F 3 "" H 2650 1100 50  0001 C CNN
+	1    2650 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D3
+U 1 1 5C0D4A04
+P 1250 1900
+F 0 "D3" H 950 1950 50  0000 C CNN
+F 1 "LED" H 950 1850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 1900 50  0001 C CNN
+F 3 "" H 1250 1900 50  0001 C CNN
+	1    1250 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D4
+U 1 1 5C0D4A32
+P 2650 1300
+F 0 "D4" H 2350 1350 50  0000 C CNN
+F 1 "LED" H 2350 1250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 1300 50  0001 C CNN
+F 3 "" H 2650 1300 50  0001 C CNN
+	1    2650 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D5
+U 1 1 5C0D4A62
+P 1250 2100
+F 0 "D5" H 950 2150 50  0000 C CNN
+F 1 "LED" H 950 2050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 2100 50  0001 C CNN
+F 3 "" H 1250 2100 50  0001 C CNN
+	1    1250 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D6
+U 1 1 5C0D4A94
+P 2650 1500
+F 0 "D6" H 2350 1550 50  0000 C CNN
+F 1 "LED" H 2350 1450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 1500 50  0001 C CNN
+F 3 "" H 2650 1500 50  0001 C CNN
+	1    2650 1500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D7
+U 1 1 5C0D4B02
+P 1250 2300
+F 0 "D7" H 950 2350 50  0000 C CNN
+F 1 "LED" H 950 2250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 2300 50  0001 C CNN
+F 3 "" H 1250 2300 50  0001 C CNN
+	1    1250 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D8
+U 1 1 5C0D4B38
+P 2650 1700
+F 0 "D8" H 2350 1750 50  0000 C CNN
+F 1 "LED" H 2350 1650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 1700 50  0001 C CNN
+F 3 "" H 2650 1700 50  0001 C CNN
+	1    2650 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D9
+U 1 1 5C0D4E3E
+P 1250 2500
+F 0 "D9" H 950 2550 50  0000 C CNN
+F 1 "LED" H 950 2450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 2500 50  0001 C CNN
+F 3 "" H 1250 2500 50  0001 C CNN
+	1    1250 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D10
+U 1 1 5C0D4E78
+P 2650 1900
+F 0 "D10" H 2350 1950 50  0000 C CNN
+F 1 "LED" H 2350 1850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 1900 50  0001 C CNN
+F 3 "" H 2650 1900 50  0001 C CNN
+	1    2650 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D11
+U 1 1 5C0D4EB4
+P 1250 2700
+F 0 "D11" H 950 2750 50  0000 C CNN
+F 1 "LED" H 950 2650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 2700 50  0001 C CNN
+F 3 "" H 1250 2700 50  0001 C CNN
+	1    1250 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D12
+U 1 1 5C0D4EF2
+P 2650 2100
+F 0 "D12" H 2350 2150 50  0000 C CNN
+F 1 "LED" H 2350 2050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 2100 50  0001 C CNN
+F 3 "" H 2650 2100 50  0001 C CNN
+	1    2650 2100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D13
+U 1 1 5C0D4F74
+P 1250 2900
+F 0 "D13" H 950 2950 50  0000 C CNN
+F 1 "LED" H 950 2850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 2900 50  0001 C CNN
+F 3 "" H 1250 2900 50  0001 C CNN
+	1    1250 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D14
+U 1 1 5C0D4FB6
+P 2650 2300
+F 0 "D14" H 2350 2350 50  0000 C CNN
+F 1 "LED" H 2350 2250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 2300 50  0001 C CNN
+F 3 "" H 2650 2300 50  0001 C CNN
+	1    2650 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D15
+U 1 1 5C0D4FFA
+P 1250 3100
+F 0 "D15" H 950 3150 50  0000 C CNN
+F 1 "LED" H 950 3050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 3100 50  0001 C CNN
+F 3 "" H 1250 3100 50  0001 C CNN
+	1    1250 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D16
+U 1 1 5C0D5044
+P 2650 2500
+F 0 "D16" H 2350 2550 50  0000 C CNN
+F 1 "LED" H 2350 2450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 2500 50  0001 C CNN
+F 3 "" H 2650 2500 50  0001 C CNN
+	1    2650 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D17
+U 1 1 5C0D508C
+P 1250 3300
+F 0 "D17" H 950 3350 50  0000 C CNN
+F 1 "LED" H 950 3250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 3300 50  0001 C CNN
+F 3 "" H 1250 3300 50  0001 C CNN
+	1    1250 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D18
+U 1 1 5C0D50D6
+P 2650 2700
+F 0 "D18" H 2350 2750 50  0000 C CNN
+F 1 "LED" H 2350 2650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 2700 50  0001 C CNN
+F 3 "" H 2650 2700 50  0001 C CNN
+	1    2650 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D19
+U 1 1 5C0D5122
+P 1250 3500
+F 0 "D19" H 950 3550 50  0000 C CNN
+F 1 "LED" H 950 3450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 3500 50  0001 C CNN
+F 3 "" H 1250 3500 50  0001 C CNN
+	1    1250 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D20
+U 1 1 5C0D5170
+P 2650 2900
+F 0 "D20" H 2350 2950 50  0000 C CNN
+F 1 "LED" H 2350 2850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 2900 50  0001 C CNN
+F 3 "" H 2650 2900 50  0001 C CNN
+	1    2650 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D21
+U 1 1 5C0D51C0
+P 1250 3700
+F 0 "D21" H 950 3750 50  0000 C CNN
+F 1 "LED" H 950 3650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 3700 50  0001 C CNN
+F 3 "" H 1250 3700 50  0001 C CNN
+	1    1250 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D22
+U 1 1 5C0D5212
+P 2650 3100
+F 0 "D22" H 2350 3150 50  0000 C CNN
+F 1 "LED" H 2350 3050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 3100 50  0001 C CNN
+F 3 "" H 2650 3100 50  0001 C CNN
+	1    2650 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D23
+U 1 1 5C0D53A6
+P 1250 3900
+F 0 "D23" H 950 3950 50  0000 C CNN
+F 1 "LED" H 950 3850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 3900 50  0001 C CNN
+F 3 "" H 1250 3900 50  0001 C CNN
+	1    1250 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D24
+U 1 1 5C0D53FC
+P 2650 3300
+F 0 "D24" H 2350 3350 50  0000 C CNN
+F 1 "LED" H 2350 3250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 3300 50  0001 C CNN
+F 3 "" H 2650 3300 50  0001 C CNN
+	1    2650 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D25
+U 1 1 5C0D5454
+P 1250 4100
+F 0 "D25" H 950 4150 50  0000 C CNN
+F 1 "LED" H 950 4050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 4100 50  0001 C CNN
+F 3 "" H 1250 4100 50  0001 C CNN
+	1    1250 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D26
+U 1 1 5C0D54B2
+P 2650 3500
+F 0 "D26" H 2350 3550 50  0000 C CNN
+F 1 "LED" H 2350 3450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 3500 50  0001 C CNN
+F 3 "" H 2650 3500 50  0001 C CNN
+	1    2650 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID2
+U 1 1 5C0D578A
+P 8200 1500
+F 0 "FID2" H 8378 1591 50  0000 L CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 8378 1500 50  0000 L CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 8378 1409 50  0000 L CNN
+F 3 "" H 8200 1500 50  0000 C CNN
+	1    8200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID3
+U 1 1 5C0D57F8
+P 8200 1900
+F 0 "FID3" H 8378 1991 50  0000 L CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 8378 1900 50  0000 L CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8378 1809 50  0000 L CNN
+F 3 "" H 8200 1900 50  0000 C CNN
+	1    8200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID4
+U 1 1 5C0D5868
+P 8200 2250
+F 0 "FID4" H 8378 2341 50  0000 L CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 8378 2250 50  0000 L CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 8378 2159 50  0000 L CNN
+F 3 "" H 8200 2250 50  0000 C CNN
+	1    8200 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID5
+U 1 1 5C0D58D0
+P 8200 2600
+F 0 "FID5" H 8378 2691 50  0000 L CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 8378 2600 50  0000 L CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8378 2509 50  0000 L CNN
+F 3 "" H 8200 2600 50  0000 C CNN
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID6
+U 1 1 5C0D593A
+P 8200 3000
+F 0 "FID6" H 8378 3091 50  0000 L CNN
+F 1 "Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011" H 8378 3000 50  0000 L CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 8378 2909 50  0000 L CNN
+F 3 "" H 8200 3000 50  0000 C CNN
+	1    8200 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1700 1100 1900
+Connection ~ 1100 1900
+Wire Wire Line
+	1100 1900 1100 2100
+Connection ~ 1100 2100
+Wire Wire Line
+	1100 2100 1100 2300
+Connection ~ 1100 2300
+Wire Wire Line
+	1100 2300 1100 2500
+Connection ~ 1100 2500
+Wire Wire Line
+	1100 2500 1100 2700
+Connection ~ 1100 2700
+Wire Wire Line
+	1100 2700 1100 2900
+Connection ~ 1100 2900
+Wire Wire Line
+	1100 2900 1100 3100
+Connection ~ 1100 3100
+Wire Wire Line
+	1100 3100 1100 3300
+Connection ~ 1100 3300
+Wire Wire Line
+	1100 3300 1100 3500
+Connection ~ 1100 3500
+Wire Wire Line
+	1100 3500 1100 3700
+Connection ~ 1100 3700
+Wire Wire Line
+	1100 3700 1100 3900
+Connection ~ 1100 3900
+Wire Wire Line
+	1100 3900 1100 4100
+Connection ~ 1100 4100
+Wire Wire Line
+	1100 4100 1100 4300
+Connection ~ 1100 4300
+Wire Wire Line
+	1400 1700 1400 1900
+Connection ~ 1400 1900
+Wire Wire Line
+	1400 1900 1400 2100
+Connection ~ 1400 2100
+Wire Wire Line
+	1400 2100 1400 2300
+Connection ~ 1400 2300
+Wire Wire Line
+	1400 2300 1400 2500
+Connection ~ 1400 2500
+Wire Wire Line
+	1400 2500 1400 2700
+Connection ~ 1400 2700
+Wire Wire Line
+	1400 2700 1400 2900
+Connection ~ 1400 2900
+Wire Wire Line
+	1400 2900 1400 3100
+Connection ~ 1400 3100
+Wire Wire Line
+	1400 3100 1400 3300
+Connection ~ 1400 3300
+Wire Wire Line
+	1400 3300 1400 3500
+Connection ~ 1400 3500
+Wire Wire Line
+	1400 3500 1400 3700
+Connection ~ 1400 3700
+Wire Wire Line
+	1400 3700 1400 3900
+Connection ~ 1400 3900
+Wire Wire Line
+	1400 3900 1400 4100
+Connection ~ 1400 4100
+Wire Wire Line
+	1400 4100 1400 4300
+Connection ~ 1400 4300
+$Comp
+L monerohw:LED D27
+U 1 1 5C0DA6D5
+P 1250 4300
+F 0 "D27" H 950 4350 50  0000 C CNN
+F 1 "LED" H 950 4250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 4300 50  0001 C CNN
+F 3 "" H 1250 4300 50  0001 C CNN
+	1    1250 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D28
+U 1 1 5C0DA6E1
+P 2650 3700
+F 0 "D28" H 2350 3750 50  0000 C CNN
+F 1 "LED" H 2350 3650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 3700 50  0001 C CNN
+F 3 "" H 2650 3700 50  0001 C CNN
+	1    2650 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D29
+U 1 1 5C0DA6E7
+P 1250 4500
+F 0 "D29" H 950 4550 50  0000 C CNN
+F 1 "LED" H 950 4450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 4500 50  0001 C CNN
+F 3 "" H 1250 4500 50  0001 C CNN
+	1    1250 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D30
+U 1 1 5C0DA6ED
+P 2650 3900
+F 0 "D30" H 2350 3950 50  0000 C CNN
+F 1 "LED" H 2350 3850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 3900 50  0001 C CNN
+F 3 "" H 2650 3900 50  0001 C CNN
+	1    2650 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D31
+U 1 1 5C0DA6F3
+P 1250 4700
+F 0 "D31" H 950 4750 50  0000 C CNN
+F 1 "LED" H 950 4650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 4700 50  0001 C CNN
+F 3 "" H 1250 4700 50  0001 C CNN
+	1    1250 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D32
+U 1 1 5C0DA6F9
+P 2650 4100
+F 0 "D32" H 2350 4150 50  0000 C CNN
+F 1 "LED" H 2350 4050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 4100 50  0001 C CNN
+F 3 "" H 2650 4100 50  0001 C CNN
+	1    2650 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D33
+U 1 1 5C0DA6FF
+P 1250 4900
+F 0 "D33" H 950 4950 50  0000 C CNN
+F 1 "LED" H 950 4850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 4900 50  0001 C CNN
+F 3 "" H 1250 4900 50  0001 C CNN
+	1    1250 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D34
+U 1 1 5C0DA705
+P 2650 4300
+F 0 "D34" H 2350 4350 50  0000 C CNN
+F 1 "LED" H 2350 4250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 4300 50  0001 C CNN
+F 3 "" H 2650 4300 50  0001 C CNN
+	1    2650 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D35
+U 1 1 5C0DA70B
+P 1250 5100
+F 0 "D35" H 950 5150 50  0000 C CNN
+F 1 "LED" H 950 5050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 5100 50  0001 C CNN
+F 3 "" H 1250 5100 50  0001 C CNN
+	1    1250 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D36
+U 1 1 5C0DA711
+P 2650 4500
+F 0 "D36" H 2350 4550 50  0000 C CNN
+F 1 "LED" H 2350 4450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 4500 50  0001 C CNN
+F 3 "" H 2650 4500 50  0001 C CNN
+	1    2650 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D37
+U 1 1 5C0DA717
+P 1250 5300
+F 0 "D37" H 950 5350 50  0000 C CNN
+F 1 "LED" H 950 5250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 5300 50  0001 C CNN
+F 3 "" H 1250 5300 50  0001 C CNN
+	1    1250 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D38
+U 1 1 5C0DA71D
+P 2650 4700
+F 0 "D38" H 2350 4750 50  0000 C CNN
+F 1 "LED" H 2350 4650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 4700 50  0001 C CNN
+F 3 "" H 2650 4700 50  0001 C CNN
+	1    2650 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D39
+U 1 1 5C0DA723
+P 1250 5500
+F 0 "D39" H 950 5550 50  0000 C CNN
+F 1 "LED" H 950 5450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 5500 50  0001 C CNN
+F 3 "" H 1250 5500 50  0001 C CNN
+	1    1250 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D40
+U 1 1 5C0DA729
+P 2650 4900
+F 0 "D40" H 2350 4950 50  0000 C CNN
+F 1 "LED" H 2350 4850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 4900 50  0001 C CNN
+F 3 "" H 2650 4900 50  0001 C CNN
+	1    2650 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D41
+U 1 1 5C0DA72F
+P 1250 5700
+F 0 "D41" H 950 5750 50  0000 C CNN
+F 1 "LED" H 950 5650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 5700 50  0001 C CNN
+F 3 "" H 1250 5700 50  0001 C CNN
+	1    1250 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D42
+U 1 1 5C0DA735
+P 2650 5100
+F 0 "D42" H 2350 5150 50  0000 C CNN
+F 1 "LED" H 2350 5050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 5100 50  0001 C CNN
+F 3 "" H 2650 5100 50  0001 C CNN
+	1    2650 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D43
+U 1 1 5C0DA73B
+P 1250 5900
+F 0 "D43" H 950 5950 50  0000 C CNN
+F 1 "LED" H 950 5850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 5900 50  0001 C CNN
+F 3 "" H 1250 5900 50  0001 C CNN
+	1    1250 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D44
+U 1 1 5C0DA741
+P 2650 5300
+F 0 "D44" H 2350 5350 50  0000 C CNN
+F 1 "LED" H 2350 5250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 5300 50  0001 C CNN
+F 3 "" H 2650 5300 50  0001 C CNN
+	1    2650 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D45
+U 1 1 5C0DA747
+P 1250 6100
+F 0 "D45" H 950 6150 50  0000 C CNN
+F 1 "LED" H 950 6050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 6100 50  0001 C CNN
+F 3 "" H 1250 6100 50  0001 C CNN
+	1    1250 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D46
+U 1 1 5C0DA74D
+P 2650 5500
+F 0 "D46" H 2350 5550 50  0000 C CNN
+F 1 "LED" H 2350 5450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 5500 50  0001 C CNN
+F 3 "" H 2650 5500 50  0001 C CNN
+	1    2650 5500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D47
+U 1 1 5C0DA753
+P 1250 6300
+F 0 "D47" H 950 6350 50  0000 C CNN
+F 1 "LED" H 950 6250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 6300 50  0001 C CNN
+F 3 "" H 1250 6300 50  0001 C CNN
+	1    1250 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D48
+U 1 1 5C0DA759
+P 2650 5700
+F 0 "D48" H 2350 5750 50  0000 C CNN
+F 1 "LED" H 2350 5650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 5700 50  0001 C CNN
+F 3 "" H 2650 5700 50  0001 C CNN
+	1    2650 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D49
+U 1 1 5C0DA75F
+P 1250 6500
+F 0 "D49" H 950 6550 50  0000 C CNN
+F 1 "LED" H 950 6450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 6500 50  0001 C CNN
+F 3 "" H 1250 6500 50  0001 C CNN
+	1    1250 6500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D50
+U 1 1 5C0DA765
+P 2650 5900
+F 0 "D50" H 2350 5950 50  0000 C CNN
+F 1 "LED" H 2350 5850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 5900 50  0001 C CNN
+F 3 "" H 2650 5900 50  0001 C CNN
+	1    2650 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D51
+U 1 1 5C0DA76B
+P 1250 6700
+F 0 "D51" H 950 6750 50  0000 C CNN
+F 1 "LED" H 950 6650 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 6700 50  0001 C CNN
+F 3 "" H 1250 6700 50  0001 C CNN
+	1    1250 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D52
+U 1 1 5C0DA771
+P 2650 6100
+F 0 "D52" H 2350 6150 50  0000 C CNN
+F 1 "LED" H 2350 6050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 6100 50  0001 C CNN
+F 3 "" H 2650 6100 50  0001 C CNN
+	1    2650 6100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1100 2500 1300
+Connection ~ 2500 1300
+Connection ~ 2500 1700
+Connection ~ 2500 2100
+Connection ~ 2500 2500
+Connection ~ 2500 2900
+Connection ~ 2500 3300
+Wire Wire Line
+	2500 3300 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3500 2500 3700
+Connection ~ 2500 3700
+Wire Wire Line
+	2500 3700 2500 3900
+Connection ~ 2500 3900
+Wire Wire Line
+	2500 3900 2500 4100
+Connection ~ 2500 4100
+Wire Wire Line
+	2500 4100 2500 4300
+Connection ~ 2500 4300
+Wire Wire Line
+	2500 4300 2500 4500
+Connection ~ 2500 4500
+Wire Wire Line
+	2500 4500 2500 4700
+Connection ~ 2500 4700
+Wire Wire Line
+	2500 4700 2500 4900
+Connection ~ 2500 4900
+Wire Wire Line
+	2500 4900 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5100 2500 5300
+Connection ~ 2500 5300
+Wire Wire Line
+	2500 5300 2500 5500
+Connection ~ 2500 5500
+Wire Wire Line
+	2500 5500 2500 5700
+Wire Wire Line
+	2800 1100 2800 1300
+Connection ~ 2800 1300
+Connection ~ 2800 1700
+Connection ~ 2800 2100
+Connection ~ 2800 2500
+Connection ~ 2800 2900
+Connection ~ 2800 3300
+Wire Wire Line
+	2800 3300 2800 3500
+Connection ~ 2800 3500
+Wire Wire Line
+	2800 3500 2800 3700
+Connection ~ 2800 3700
+Wire Wire Line
+	2800 3700 2800 3900
+Connection ~ 2800 3900
+Wire Wire Line
+	2800 3900 2800 4100
+Connection ~ 2800 4100
+Wire Wire Line
+	2800 4100 2800 4300
+Connection ~ 2800 4300
+Wire Wire Line
+	2800 4300 2800 4500
+Connection ~ 2800 4500
+Wire Wire Line
+	2800 4500 2800 4700
+Connection ~ 2800 4700
+Wire Wire Line
+	2800 4700 2800 4900
+Connection ~ 2800 4900
+Wire Wire Line
+	2800 4900 2800 5100
+Connection ~ 2800 5100
+Wire Wire Line
+	2800 5100 2800 5300
+Connection ~ 2800 5300
+Wire Wire Line
+	2800 5300 2800 5500
+Connection ~ 2800 5500
+Wire Wire Line
+	2800 5500 2800 5700
+Wire Wire Line
+	3700 7100 3300 7100
+Wire Wire Line
+	4400 6500 3700 6500
+Connection ~ 3700 6500
+Connection ~ 3300 6500
+Wire Wire Line
+	3300 6500 3700 6500
+Connection ~ 3300 7100
+Wire Wire Line
+	3300 7100 2900 7100
+NoConn ~ 9400 5600
+NoConn ~ 9400 5800
+$Comp
+L monerohw:GND #PWR0103
+U 1 1 5C12B7C7
+P 4900 7000
+F 0 "#PWR0103" H 4900 6750 50  0001 C CNN
+F 1 "GND" H 4905 6827 50  0000 C CNN
+F 2 "" H 4900 7000 50  0001 C CNN
+F 3 "" H 4900 7000 50  0001 C CNN
+	1    4900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:GND #PWR0104
+U 1 1 5C1302B1
+P 7300 6050
+F 0 "#PWR0104" H 7300 5800 50  0001 C CNN
+F 1 "GND" H 7305 5877 50  0000 C CNN
+F 2 "" H 7300 6050 50  0001 C CNN
+F 3 "" H 7300 6050 50  0001 C CNN
+	1    7300 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:GND #PWR0105
+U 1 1 5C13039C
+P 8500 5800
+F 0 "#PWR0105" H 8500 5550 50  0001 C CNN
+F 1 "GND" H 8505 5627 50  0000 C CNN
+F 2 "" H 8500 5800 50  0001 C CNN
+F 3 "" H 8500 5800 50  0001 C CNN
+	1    8500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:+3V3 #PWR0106
+U 1 1 5C13048E
+P 8500 5600
+F 0 "#PWR0106" H 8500 5450 50  0001 C CNN
+F 1 "+3V3" H 8515 5773 50  0000 C CNN
+F 2 "" H 8500 5600 50  0001 C CNN
+F 3 "" H 8500 5600 50  0001 C CNN
+	1    8500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:+3V3 #PWR0107
+U 1 1 5C1305BC
+P 7300 5350
+F 0 "#PWR0107" H 7300 5200 50  0001 C CNN
+F 1 "+3V3" H 7315 5523 50  0000 C CNN
+F 2 "" H 7300 5350 50  0001 C CNN
+F 3 "" H 7300 5350 50  0001 C CNN
+	1    7300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:+3V3 #PWR0108
+U 1 1 5C0D3E03
+P 4900 6100
+F 0 "#PWR0108" H 4900 5950 50  0001 C CNN
+F 1 "+3V3" H 4915 6273 50  0000 C CNN
+F 2 "" H 4900 6100 50  0001 C CNN
+F 3 "" H 4900 6100 50  0001 C CNN
+	1    4900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:GND #PWR0109
+U 1 1 5C135E3C
+P 6300 6800
+F 0 "#PWR0109" H 6300 6550 50  0001 C CNN
+F 1 "GND" H 6305 6627 50  0000 C CNN
+F 2 "" H 6300 6800 50  0001 C CNN
+F 3 "" H 6300 6800 50  0001 C CNN
+	1    6300 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6500 5600 6500
+Wire Wire Line
+	5400 6600 5600 6600
+Wire Wire Line
+	5600 6600 5600 6500
+Connection ~ 5600 6500
+$Comp
+L monerohw:R R2
+U 1 1 5C13F258
+P 6000 6350
+F 0 "R2" H 6070 6396 50  0000 L CNN
+F 1 "47,5K" H 6070 6305 50  0000 L CNN
+F 2 "Monero_Local:R_0805" V 5930 6350 50  0001 C CNN
+F 3 "" H 6000 6350 50  0001 C CNN
+	1    6000 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:R R1
+U 1 1 5C177E3F
+P 3900 6150
+F 0 "R1" H 3970 6196 50  0000 L CNN
+F 1 "10K" H 3970 6105 50  0000 L CNN
+F 2 "Monero_Local:R_0805" V 3830 6150 50  0001 C CNN
+F 3 "" H 3900 6150 50  0001 C CNN
+	1    3900 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6300 5500 6300
+Wire Wire Line
+	5500 6300 5500 6200
+$Comp
+L monerohw:+3V3 #PWR0110
+U 1 1 5C17CF98
+P 3600 6300
+F 0 "#PWR0110" H 3600 6150 50  0001 C CNN
+F 1 "+3V3" H 3615 6473 50  0000 C CNN
+F 2 "" H 3600 6300 50  0001 C CNN
+F 3 "" H 3600 6300 50  0001 C CNN
+	1    3600 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 6000 3900 5700
+Wire Wire Line
+	3900 5700 6000 5700
+Wire Wire Line
+	6000 5700 6000 6200
+$Comp
+L monerohw:TEST TP4
+U 1 1 5C186E23
+P 5600 6200
+F 0 "TP4" H 5678 6340 50  0000 L CNN
+F 1 "TEST" H 5678 6249 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 5600 6200 50  0001 C CNN
+F 3 "" H 5600 6200 50  0001 C CNN
+	1    5600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:TEST TP3
+U 1 1 5C186EC9
+P 4250 6300
+F 0 "TP3" H 4200 6650 50  0000 L CNN
+F 1 "TEST" H 4150 6550 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 4250 6300 50  0001 C CNN
+F 3 "" H 4250 6300 50  0001 C CNN
+	1    4250 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:TEST TP2
+U 1 1 5C186F6F
+P 3300 6500
+F 0 "TP2" H 3250 6850 50  0000 L CNN
+F 1 "TEST" H 3200 6750 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 3300 6500 50  0001 C CNN
+F 3 "" H 3300 6500 50  0001 C CNN
+	1    3300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:TEST TP1
+U 1 1 5C187465
+P 2900 7100
+F 0 "TP1" H 2700 7300 50  0000 L CNN
+F 1 "TEST" H 2650 7200 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_D1.5mm_Drill0.7mm" H 2900 7100 50  0001 C CNN
+F 3 "" H 2900 7100 50  0001 C CNN
+	1    2900 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6300 4400 6300
+Connection ~ 6300 6500
+Wire Wire Line
+	6000 6500 6300 6500
+Connection ~ 6000 6200
+Connection ~ 6000 6500
+Wire Wire Line
+	5600 6500 6000 6500
+Wire Wire Line
+	5600 6200 6000 6200
+Connection ~ 5600 6200
+Wire Wire Line
+	5500 6200 5600 6200
+Connection ~ 4250 6300
+Wire Wire Line
+	3900 6300 4250 6300
+Connection ~ 3900 6300
+Wire Wire Line
+	3600 6300 3900 6300
+$Comp
+L monerohw:+3V3 #PWR0111
+U 1 1 5C2345BB
+P 10500 5800
+F 0 "#PWR0111" H 10500 5650 50  0001 C CNN
+F 1 "+3V3" H 10515 5973 50  0000 C CNN
+F 2 "" H 10500 5800 50  0001 C CNN
+F 3 "" H 10500 5800 50  0001 C CNN
+	1    10500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:GND #PWR0112
+U 1 1 5C2346BC
+P 9900 5800
+F 0 "#PWR0112" H 9900 5550 50  0001 C CNN
+F 1 "GND" H 9905 5627 50  0000 C CNN
+F 2 "" H 9900 5800 50  0001 C CNN
+F 3 "" H 9900 5800 50  0001 C CNN
+	1    9900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:PWR_FLAG #FLG0101
+U 1 1 5C2347BD
+P 9900 5800
+F 0 "#FLG0101" H 9900 5875 50  0001 C CNN
+F 1 "PWR_FLAG" H 9900 5974 50  0000 C CNN
+F 2 "" H 9900 5800 50  0001 C CNN
+F 3 "" H 9900 5800 50  0001 C CNN
+	1    9900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:PWR_FLAG #FLG0102
+U 1 1 5C2348B7
+P 10500 5800
+F 0 "#FLG0102" H 10500 5875 50  0001 C CNN
+F 1 "PWR_FLAG" H 10500 5973 50  0000 C CNN
+F 2 "" H 10500 5800 50  0001 C CNN
+F 3 "" H 10500 5800 50  0001 C CNN
+	1    10500 5800
+	-1   0    0    1   
+$EndComp
+$Comp
+L monerohw:LED D53
+U 1 1 5C29A003
+P 1250 6900
+F 0 "D53" H 950 6950 50  0000 C CNN
+F 1 "LED" H 950 6850 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 6900 50  0001 C CNN
+F 3 "" H 1250 6900 50  0001 C CNN
+	1    1250 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D54
+U 1 1 5C29A0A9
+P 2650 6300
+F 0 "D54" H 2350 6350 50  0000 C CNN
+F 1 "LED" H 2350 6250 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 6300 50  0001 C CNN
+F 3 "" H 2650 6300 50  0001 C CNN
+	1    2650 6300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D55
+U 1 1 5C29A151
+P 1250 7100
+F 0 "D55" H 950 7150 50  0000 C CNN
+F 1 "LED" H 950 7050 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 1250 7100 50  0001 C CNN
+F 3 "" H 1250 7100 50  0001 C CNN
+	1    1250 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D56
+U 1 1 5C29A1FB
+P 2650 6500
+F 0 "D56" H 2350 6550 50  0000 C CNN
+F 1 "LED" H 2350 6450 50  0000 C CNN
+F 2 "Monero_Local:LED_1206" H 2650 6500 50  0001 C CNN
+F 3 "" H 2650 6500 50  0001 C CNN
+	1    2650 6500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5700 2500 5900
+Connection ~ 2500 5700
+Connection ~ 2500 5900
+Wire Wire Line
+	2500 5900 2500 6100
+Connection ~ 2500 6100
+Wire Wire Line
+	2500 6100 2500 6300
+Connection ~ 2500 6300
+Wire Wire Line
+	2500 6300 2500 6500
+Wire Wire Line
+	2800 5700 2800 5900
+Connection ~ 2800 5700
+Connection ~ 2800 5900
+Wire Wire Line
+	2800 5900 2800 6100
+Connection ~ 2800 6100
+Wire Wire Line
+	2800 6100 2800 6300
+Connection ~ 2800 6300
+Wire Wire Line
+	2800 6300 2800 6500
+Wire Wire Line
+	2800 2900 2800 3100
+Wire Wire Line
+	2800 2500 2800 2700
+Wire Wire Line
+	2800 2100 2800 2300
+Wire Wire Line
+	2800 1700 2800 1900
+Wire Wire Line
+	2800 1300 2800 1500
+Wire Wire Line
+	2500 2900 2500 3100
+Wire Wire Line
+	2500 2500 2500 2700
+Wire Wire Line
+	2500 2100 2500 2300
+Wire Wire Line
+	2500 1700 2500 1900
+Wire Wire Line
+	2500 1300 2500 1500
+Wire Wire Line
+	1400 4300 1400 4500
+Wire Wire Line
+	1100 4300 1100 4500
+Connection ~ 1400 4500
+Wire Wire Line
+	1400 4500 1400 4700
+Connection ~ 1100 4500
+Wire Wire Line
+	1100 4500 1100 4700
+Connection ~ 1400 4700
+Wire Wire Line
+	1400 4700 1400 4900
+Connection ~ 1100 4700
+Wire Wire Line
+	1100 4700 1100 4900
+Connection ~ 1400 4900
+Wire Wire Line
+	1400 4900 1400 5100
+Connection ~ 1100 4900
+Wire Wire Line
+	1100 4900 1100 5100
+Connection ~ 1400 5100
+Wire Wire Line
+	1400 5100 1400 5300
+Connection ~ 1100 5100
+Wire Wire Line
+	1100 5100 1100 5300
+Connection ~ 1400 5300
+Wire Wire Line
+	1400 5300 1400 5500
+Connection ~ 1100 5300
+Wire Wire Line
+	1100 5300 1100 5500
+Connection ~ 1400 5500
+Wire Wire Line
+	1400 5500 1400 5700
+Connection ~ 1100 5500
+Wire Wire Line
+	1100 5500 1100 5700
+Connection ~ 1400 5700
+Wire Wire Line
+	1400 5700 1400 5900
+Connection ~ 1100 5700
+Wire Wire Line
+	1100 5700 1100 5900
+Connection ~ 1400 5900
+Wire Wire Line
+	1400 5900 1400 6100
+Connection ~ 1100 5900
+Wire Wire Line
+	1100 5900 1100 6100
+Connection ~ 1400 6100
+Wire Wire Line
+	1400 6100 1400 6300
+Connection ~ 1100 6100
+Wire Wire Line
+	1100 6100 1100 6300
+Connection ~ 1400 6300
+Wire Wire Line
+	1400 6300 1400 6500
+Connection ~ 1100 6300
+Wire Wire Line
+	1100 6300 1100 6500
+Connection ~ 1400 6500
+Wire Wire Line
+	1400 6500 1400 6700
+Connection ~ 1100 6500
+Wire Wire Line
+	1100 6500 1100 6700
+Connection ~ 1400 6700
+Wire Wire Line
+	1400 6700 1400 6900
+Connection ~ 1100 6700
+Wire Wire Line
+	1100 6700 1100 6900
+Connection ~ 1400 6900
+Wire Wire Line
+	1400 6900 1400 7100
+Connection ~ 1100 6900
+Wire Wire Line
+	1100 6900 1100 7100
+Connection ~ 2800 3100
+Wire Wire Line
+	2800 3100 2800 3300
+Connection ~ 2500 3100
+Wire Wire Line
+	2500 3100 2500 3300
+Connection ~ 2800 2700
+Wire Wire Line
+	2800 2700 2800 2900
+Connection ~ 2500 2700
+Wire Wire Line
+	2500 2700 2500 2900
+Connection ~ 2800 2300
+Wire Wire Line
+	2800 2300 2800 2500
+Connection ~ 2500 2300
+Wire Wire Line
+	2500 2300 2500 2500
+Connection ~ 2800 1900
+Wire Wire Line
+	2800 1900 2800 2100
+Connection ~ 2500 1900
+Wire Wire Line
+	2500 1900 2500 2100
+Connection ~ 2800 1500
+Wire Wire Line
+	2800 1500 2800 1700
+Connection ~ 2500 1500
+Wire Wire Line
+	2500 1500 2500 1700
+$Comp
+L monerohw:C C2
+U 1 1 5C10C56A
+P 4400 6850
+F 0 "C2" H 4515 6896 50  0000 L CNN
+F 1 ",01uF" H 4515 6805 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 4438 6700 50  0001 C CNN
+F 3 "" H 4400 6850 50  0001 C CNN
+	1    4400 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6600 4400 6700
+Wire Wire Line
+	4900 6800 4900 7000
+Wire Wire Line
+	4400 7000 4900 7000
+Connection ~ 4900 7000
+$Comp
+L monerohw:Battery_Cell BT2
+U 1 1 5C121426
+P 7700 5750
+F 0 "BT2" H 7818 5846 50  0000 L CNN
+F 1 "Battery_Cell" H 7818 5755 50  0000 L CNN
+F 2 "Monero_Local:BatteryHolder_Keystone_3008_1x2450" V 7700 5810 50  0001 C CNN
+F 3 "" V 7700 5810 50  0001 C CNN
+	1    7700 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5850 6900 5950
+Wire Wire Line
+	6900 5950 7300 5950
+Wire Wire Line
+	7300 5950 7300 6050
+Wire Wire Line
+	7700 5850 7700 5950
+Wire Wire Line
+	7700 5950 7300 5950
+Connection ~ 7300 5950
+Wire Wire Line
+	6900 5550 6900 5450
+Wire Wire Line
+	6900 5450 7300 5450
+Wire Wire Line
+	7300 5450 7300 5350
+Wire Wire Line
+	7700 5550 7700 5450
+Wire Wire Line
+	7700 5450 7300 5450
+Connection ~ 7300 5450
+Wire Wire Line
+	3300 6500 2800 6500
+Connection ~ 2800 6500
+$Comp
+L monerohw:+3V3 #PWR0101
+U 1 1 5C120E7B
+P 2300 6500
+F 0 "#PWR0101" H 2300 6350 50  0001 C CNN
+F 1 "+3V3" H 2315 6673 50  0000 C CNN
+F 2 "" H 2300 6500 50  0001 C CNN
+F 3 "" H 2300 6500 50  0001 C CNN
+	1    2300 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 7100 2900 7100
+Connection ~ 1400 7100
+Connection ~ 2900 7100
+$Comp
+L monerohw:+3V3 #PWR0102
+U 1 1 5C136B40
+P 900 7100
+F 0 "#PWR0102" H 900 6950 50  0001 C CNN
+F 1 "+3V3" H 915 7273 50  0000 C CNN
+F 2 "" H 900 7100 50  0001 C CNN
+F 3 "" H 900 7100 50  0001 C CNN
+	1    900  7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6500 2500 6500
+Connection ~ 2500 6500
+Wire Wire Line
+	900  7100 1100 7100
+Connection ~ 1100 7100
+$Comp
+L monerohw:Soldfeld SF1
+U 1 1 5C10D35E
+P 8250 3450
+F 0 "SF1" H 8478 3496 50  0000 L CNN
+F 1 "Soldfeld" H 8478 3405 50  0000 L CNN
+F 2 "Monero_Local:Solderarea" H 8250 3450 50  0001 C CNN
+F 3 "" H 8250 3450 50  0001 C CNN
+	1    8250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Soldfeld SF2
+U 1 1 5C11D379
+P 8250 3850
+F 0 "SF2" H 8478 3896 50  0000 L CNN
+F 1 "Soldfeld" H 8478 3805 50  0000 L CNN
+F 2 "Monero_Local:Solderarea" H 8250 3850 50  0001 C CNN
+F 3 "" H 8250 3850 50  0001 C CNN
+	1    8250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:Soldfeld SF3
+U 1 1 5C11D435
+P 8250 4250
+F 0 "SF3" H 8478 4296 50  0000 L CNN
+F 1 "Soldfeld" H 8478 4205 50  0000 L CNN
+F 2 "Monero_Local:Solderarea" H 8250 4250 50  0001 C CNN
+F 3 "" H 8250 4250 50  0001 C CNN
+	1    8250 4250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,59 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP 74HC04
+D hex inverter
+K HCMOS not inverter
+F http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf
+$ENDCMP
+#
+$CMP Badgelife_shitty_conn
+D badgelife connector
+K header pin contacts
+$ENDCMP
+#
+$CMP Battery_Cell
+D single battery cell
+K battery cell
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP GND
+D Panel tab, single row, 3mm, mouse bites
+K panel tab
+$ENDCMP
+#
+$CMP Jumper
+D Jumper, generic, normally closed
+K jumper bridge link nc
+$ENDCMP
+#
+$CMP LED
+D LED generic
+K led diode
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP Soldfeld
+D Solder Area
+K sf solder feld
+$ENDCMP
+#
+$CMP TLC555
+D CMOS Timer
+K Timer NE555
+F http://www.ti.com/lit/ds/symlink/tlc555.pdf
+$ENDCMP
+#
+#End Doc Library
