@@ -186,9 +186,4 @@ D Single Pole Single Throw (SPST) switch
 K switch lever
 $ENDCMP
 #
-$CMP TestPoint
-D test point
-K test point tp
-$ENDCMP
-#
 #End Doc Library
