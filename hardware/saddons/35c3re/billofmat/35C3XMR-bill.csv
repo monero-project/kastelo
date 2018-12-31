@@ -1,0 +1,14 @@
+"ID";"Reference";"Footprint";"Quantity";"Value";"Manufacturer";"Datasheet";"Supplier";
+1;"C1";"0805";1;"4,7uF";"Yageo Corporation";"http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf";"https://www.arrow.com/en/products/cc0805kkx5r6bb475/yageo/";
+2;"C2";"0805";1;",01uF";"Kemet Electronics Corporation";"https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf";"https://www.arrow.com/en/products/c0805c103m5ractu/kemet-corporation/";
+3;"R1";"0805";1;"10K";"Stackpole Electronics Incorporated";"https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf";"https://www.arrow.com/en/products/rmcf0805ft10k0/stackpole-electronics/";
+4;"R2";"0805";1;"100K";"Stackpole Electronics Incorporated";"https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf";"https://www.arrow.com/en/products/rmcf0805ft100k/stackpole-electronics/";
+5;"JP1";"0805";1;"Jumper";"Yageo Corporation";"http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf";"https://www.arrow.com/en/products/rc0805fr-070rl/yageo/";
+6;"D1,D3,D5,D7,D8,D9,D11,D13,D15,D17,D19,D21,D23,D25,D27,D29,D31,D33,D35,D37,D39,D41,D43,D45,D47,D49,D51,D53,D55";"1206";28;"LEDColorA";"Dialight PLC";"http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/CBI_SMD_new/Dialight_CBI_data_599-1206_Apr2018.pdf";"https://www.arrow.com/en/products/5990240007f/dialight/";
+7;"D2,D4,D6,D8,D10,D12,D14,D16,D18,D20,D22,D24,D26,D28,D30,D32,D34,D36,D38,D40,D42,D44,D46,D48,D50,D52,D54,D56";"1206";28;"LEDColorB";"Dialight PLC";"http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/CBI_SMD_new/Dialight_CBI_data_599-1206_Apr2018.pdf";"https://www.arrow.com/en/products/5990291007f/dialight/";
+8;"U1";"SOIC8";1;"TLC555";"Texas Instruments Incorporated";"https://www.ti.com/lit/gpn/tlc555";"https://www.arrow.com/en/products/tlc555idr/texas-instruments/";
+9;"U2";"MicroPak6";1;"NC7SZ04L6X";"ON Semiconductor Corporation";"https://www.onsemi.com/pub/Collateral/NC7SZ04-D.PDF";"https://www.arrow.com/en/products/nc7sz04l6x/on-semiconductor/";
+10;"SAO1";"PinHeaderSMD2x2";1;"Shittyconn";"Samtec Incorporated";"https://suddendocs.samtec.com/catalog_english/tsm.pdf";"https://www.arrow.com/en/products/tsm-102-01-t-dv/samtec/";
+11;"BT1,BT2";"Keystone3008";2;"Batteryholder";"Keystone Electronics Corporation";"https://www.keyelco.com/product.cfm/product_id/3948/";"https://www.arrow.com/en/products/3008tr/keystone-electronics/";
+12;"CR2450-A";"Consumable";1;"Energy Supply";"Panasonic Corporation";"N/A";"https://www.cheap-batteries.com/CR2450.html";
+13;"CR2450-B";"Consumable";1;"Energy Supply";"Varta AG";"N/A";"https://www.thebatterysupplier.com/products/cr2450-lithium-button-cell-batteries-pack-of-25.html";

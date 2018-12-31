@@ -1,9 +1,9 @@
-(module LOGO (layer F.Cu)
+(module Monero_HW:QRSPEC (layer F.Cu)
   (at 0 0)
  (fp_text reference "G*" (at 0 0) (layer F.SilkS) hide
   (effects (font (thickness 0.3)))
   )
-  (fp_text value "LOGO" (at 0.75 0) (layer F.SilkS) hide
+  (fp_text value "QRSPEC" (at 0.75 0) (layer F.SilkS) hide
   (effects (font (thickness 0.3)))
   )
   (fp_poly (pts (xy 7.070039 7.070039) (xy -7.063831 7.070039) (xy -7.063831 3.215347) (xy -6.207233 3.215347) (xy -6.207233 4.224268) (xy -6.207225 4.359480) (xy -6.207191 4.482886) (xy -6.207122 4.595092)
