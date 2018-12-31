@@ -6,10 +6,10 @@ encoding utf-8
 Sheet 1 1
 Title "AStable Timer LED Badge"
 Date "2018-12-31"
-Rev "0.8.4"
+Rev "0.8.5"
 Comp "The Monero Project, Hardware Team"
 Comment1 "Copyright © 2018, The Monero Project"
-Comment2 "Releasing a protograde congress edition"
+Comment2 "Releasing a betagrade test edition"
 Comment3 "Pending quality assurance testing"
 Comment4 "Warning, untested prototype!"
 $EndDescr
@@ -58,10 +58,10 @@ F 3 "" H 8200 1100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L monerohw:Jumper JP1
+L monerohw:Jumper NC
 U 1 1 5C0D39E4
 P 3300 6800
-F 0 "JP1" H 3300 6650 50  0000 C CNN
+F 0 "NC" H 3300 6650 50  0000 C CNN
 F 1 "Jumper" H 3300 6700 50  0000 C CNN
 F 2 "Monero_Local:R_0805" H 3300 6800 50  0001 C CNN
 F 3 "" H 3300 6800 50  0001 C CNN
