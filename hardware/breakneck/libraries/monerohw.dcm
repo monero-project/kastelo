@@ -17,6 +17,12 @@ D 2-pin jumper/solder bridge
 K jumper solder bridge
 $ENDCMP
 #
+$CMP SJC2
+D Solder Jumper, 2-pole, closed/bridged
+K solder jumper SPST
+F ~
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 K cap capacitor
