@@ -192,4 +192,10 @@ D Single Pole Single Throw (SPST) switch
 K switch lever
 $ENDCMP
 #
+$CMP USB_C_Rcpt_Min
+D USB Type-C Minimised Receptacle
+K usb universal serial bus
+F http://www.usb.org/developers/docs/usb_31_033017.zip
+$ENDCMP
+#
 #End Doc Library
