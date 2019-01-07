@@ -8,6 +8,9 @@ fabsmart*
 # no graphics
 graphics
 
+# no support
+supporting
+
 # exclude names of all generated graphics
 graphics/defconfcaniloop.gif
 graphics/frameforqrcode.png
