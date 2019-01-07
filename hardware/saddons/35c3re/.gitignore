@@ -1,0 +1,8 @@
+# exclude generated manufacturing archives
+fabsingle
+
+# no support
+supporting
+
+# exclude names of some graphics
+modules/monerohw.pretty/35C3*
