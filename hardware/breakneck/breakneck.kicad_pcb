@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 170)
+    (drawings 171)
     (tracks 1350)
     (zones 0)
     (modules 103)
@@ -424,7 +424,7 @@
       (net 2 GND))
     (pad S1 thru_hole oval (at -4.13 -3.11) (size 0.8 1.4) (drill oval 0.5 1.1) (layers *.Cu *.Mask)
       (net 2 GND))
-    (model Connectors_USB.3dshapes/Amphenol_12401548E4.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Connectors_USB.3dshapes/Amphenol_12401548E4.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3792,7 +3792,7 @@
       (net 11 +3V3))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3828,7 +3828,7 @@
       (net 11 +3V3))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3948,7 +3948,7 @@
       (net 11 +3V3))
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -3984,7 +3984,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 1 0 90) (size 1 1.25) (layers B.Cu B.Paste B.Mask)
       (net 11 +3V3))
-    (model Capacitors_SMD.3dshapes/C_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Capacitors_SMD.3dshapes/C_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4088,7 +4088,7 @@
       (net 107 "Net-(D8-Pad2)"))
     (pad 1 smd rect (at -1.1 0 90) (size 1.2 1.2) (layers B.Cu B.Paste B.Mask)
       (net 2 GND))
-    (model LEDs.3dshapes/LED_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/LEDs.3dshapes/LED_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 0))
@@ -4124,7 +4124,7 @@
       (net 109 /CTCH))
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 106 "Net-(C28-Pad1)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4160,7 +4160,7 @@
       (net 110 /CTLED))
     (pad 2 smd rect (at 0.95 0 270) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 107 "Net-(D8-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4212,7 +4212,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 44 "Net-(J5-PadA5)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4248,7 +4248,7 @@
       (net 2 GND))
     (pad 2 smd rect (at 0.95 0 90) (size 0.7 1.3) (layers B.Cu B.Paste B.Mask)
       (net 47 "Net-(J5-PadB5)"))
-    (model Resistors_SMD.3dshapes/R_0805.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Resistors_SMD.3dshapes/R_0805.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4410,13 +4410,14 @@
       (net 111 /CTSMP))
     (pad 2 smd rect (at 1.5 0) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model Capacitors_SMD.3dshapes/C_1206.wrl
+    (model ${KIPRJMOD}/modules/packages3d/Capacitors_SMD.3dshapes/C_1206.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
+  (gr_poly (pts (xy 124.23 124.25) (xy 129.11 124.25) (xy 129.11 126.6) (xy 124.23 126.6)) (layer F.SilkS) (width 0.2))
   (gr_text "Bad\nBoy" (at 143.2 123.8) (layer F.SilkS)
     (effects (font (size 1.25 1.25) (thickness 0.25)))
   )
@@ -4527,8 +4528,8 @@
   (gr_text "STM32L: Bridge SJ1\nDNP Q1 nor C5-C6" (at 120.5 101.25) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left mirror))
   )
-  (gr_text BOOT0 (at 129.25 127.25) (layer F.SilkS)
-    (effects (font (size 0.75 0.75) (thickness 0.15)))
+  (gr_text BOOT-0 (at 126.71 127.125) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text ER-OLED013A1 (at 111.5 73 90) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
