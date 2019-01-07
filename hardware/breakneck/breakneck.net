@@ -1234,8 +1234,8 @@
         (pin (num B12) (name GND) (type power_in))
         (pin (num S1) (name SHIELD) (type passive)))))
   (libraries
-    (library (logical breakneck)
-      (uri libraries/breakneck.lib)))
+    (library (logical monerohw)
+      (uri libraries/monerohw.lib)))
   (nets
     (net (code 1) (name "Net-(C8-Pad2)")
       (node (ref DS1) (pin 3))

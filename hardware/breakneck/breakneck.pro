@@ -1,4 +1,4 @@
-update=Sa 10 Feb 2018 23:15:10 CET
+update=Mo 07 Jan 2019 11:32:29 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,6 +37,4 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=libraries
-[eeschema/libraries]
-LibName1=breakneck
+LibDir=
