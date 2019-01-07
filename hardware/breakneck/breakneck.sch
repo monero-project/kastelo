@@ -930,31 +930,10 @@ F 3 "" H 9700 2450 50  0001 C CNN
 	1    9700 2450
 	1    0    0    -1  
 $EndComp
-$Comp
-L monerohw:USB_C_Receptacle J5
-U 1 1 5A7A8688
-P 12600 1400
-F 0 "J5" V 12049 2798 50  0000 R CNN
-F 1 "USB_C_Receptacle" V 12128 2798 50  0000 R CNN
-F 2 "Monero_Local:USB_C_Receptacle_Amphenol_12401610E4-2A" H 12750 1400 50  0001 C CNN
-F 3 "https://www.amphenolcanada.com/ProductSearch/pdf/124015_BRO.pdf" H 12750 1400 50  0001 C CNN
-	1    12600 1400
-	0    1    1    0   
-$EndComp
 Text Label 12100 2600 0    60   ~ 0
 USB_P
 Text Label 12700 2800 2    60   ~ 0
 USB_N
-NoConn ~ 11300 2000
-NoConn ~ 11400 2000
-NoConn ~ 11600 2000
-NoConn ~ 11700 2000
-NoConn ~ 11900 2000
-NoConn ~ 12000 2000
-NoConn ~ 12200 2000
-NoConn ~ 12300 2000
-NoConn ~ 12500 2000
-NoConn ~ 12600 2000
 $Comp
 L monerohw:GND #PWR040
 U 1 1 5A7AACC7
@@ -3589,4 +3568,15 @@ Wire Wire Line
 	3100 3950 3100 4200
 Wire Wire Line
 	2300 4050 2300 3950
+$Comp
+L monerohw:USB_C_Rcpt_Min J5
+U 1 1 5A7A8688
+P 12600 1400
+F 0 "J5" V 12049 2798 50  0000 R CNN
+F 1 "USB_C_Rcpt_Min" V 12128 2798 50  0000 R CNN
+F 2 "Monero_Local:USBC_Rcpt_Min_12401610E4-2A" H 12750 1400 50  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/pdf/124015_BRO.pdf" H 12750 1400 50  0001 C CNN
+	1    12600 1400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
