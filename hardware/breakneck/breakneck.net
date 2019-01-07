@@ -7,7 +7,7 @@
       (title_block
         (title "Breakneck Hardware Wallet")
         (company "The Monero Project, Hardware Team")
-        (rev 0.8.0)
+        (rev 0.8.1)
         (date 2018-01-10)
         (source breakneck.sch)
         (comment (number 1) (value "Copyright © 2018, The Monero Project"))
