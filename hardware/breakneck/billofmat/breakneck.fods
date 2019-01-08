@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><dc:date>2019-01-08T00:13:35.281571633</dc:date><meta:editing-duration>PT1H32S</meta:editing-duration><meta:editing-cycles>19</meta:editing-cycles><meta:generator>LibreOffice/6.1.2.1$Linux_X86_64 LibreOffice_project/10$Build-1</meta:generator><meta:print-date>2018-02-15T07:06:54.781151374</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="465" meta:object-count="0"/></office:meta>
+ <office:meta><dc:date>2019-01-08T20:22:19.184023779</dc:date><meta:editing-duration>PT1H17M51S</meta:editing-duration><meta:editing-cycles>22</meta:editing-cycles><meta:generator>LibreOffice/6.1.2.1$Linux_X86_64 LibreOffice_project/10$Build-1</meta:generator><meta:print-date>2018-02-15T07:06:54.781151374</meta:print-date><meta:document-statistic meta:table-count="1" meta:cell-count="559" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -189,18 +189,21 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="35mm"/>
   </style:style>
   <style:style style:name="co4" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="79.99mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="24.99mm"/>
   </style:style>
   <style:style style:name="co5" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="190.01mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="40.01mm"/>
   </style:style>
   <style:style style:name="co6" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="192.49mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="180mm"/>
   </style:style>
   <style:style style:name="co7" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="99.99mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="192.49mm"/>
   </style:style>
   <style:style style:name="co8" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="99.99mm"/>
+  </style:style>
+  <style:style style:name="co9" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="22.58mm"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
@@ -416,7 +419,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2019-01-08">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="00:04:36.232006109">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2019-01-08">00.00.0000</text:date>, <text:time style:data-style-name="N2" text:time-value="20:10:01.995228634">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -435,15 +438,17 @@
      <table:table-column table:style-name="co2" table:default-cell-style-name="ce25"/>
     </table:table-header-columns>
     <table:table-column table:style-name="co3" table:default-cell-style-name="ce27"/>
-    <table:table-column table:style-name="co3" table:default-cell-style-name="ce29"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce29"/>
     <table:table-column table:style-name="co1" table:default-cell-style-name="ce30"/>
     <table:table-column table:style-name="co3" table:default-cell-style-name="ce32"/>
-    <table:table-column table:style-name="co4" table:default-cell-style-name="ce27"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce27"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="ce27"/>
+    <table:table-column table:style-name="co4" table:default-cell-style-name="ce27"/>
     <table:table-column table:style-name="co6" table:default-cell-style-name="ce27"/>
-    <table:table-column table:style-name="co6" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co7" table:default-cell-style-name="ce27"/>
-    <table:table-column table:style-name="co8" table:number-columns-repeated="1013" table:default-cell-style-name="ce27"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce27"/>
+    <table:table-column table:style-name="co9" table:number-columns-repeated="1011" table:default-cell-style-name="ce27"/>
     <table:table-header-rows>
      <table:table-row table:style-name="ro1">
       <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
@@ -466,6 +471,12 @@
        <text:p>Manufacturer</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+       <text:p>Partnumber</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+       <text:p>Octopartnum</text:p>
+      </table:table-cell>
+      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
        <text:p>Datasheet</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
@@ -478,7 +489,7 @@
        <text:p>Comment</text:p>
       </table:table-cell>
       <table:table-cell table:style-name="ce33"/>
-      <table:table-cell table:style-name="ce26" table:number-columns-repeated="1012"/>
+      <table:table-cell table:style-name="ce26" table:number-columns-repeated="1010"/>
      </table:table-row>
     </table:table-header-rows>
     <table:table-row table:style-name="ro1">
@@ -502,6 +513,12 @@
       <text:p>Walsin Technology Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>0805N120J500CT</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="22593714" calcext:value-type="float">
+      <text:p>22593714</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.passivecomponent.com/indexsea/ASC_General_Purpose.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
@@ -513,7 +530,7 @@
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>Must match Y1 crystal.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2" office:value-type="float" office:value="2" calcext:value-type="float">
@@ -536,6 +553,12 @@
       <text:p>Walsin Technology Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>C0805C104M5UACTU</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="97399" calcext:value-type="float">
+      <text:p>97399</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.passivecomponent.com/indexsea/ASC_General_Purpose.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
@@ -544,7 +567,7 @@
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.arrow.com/en/products/c0805c104m5uac7800/kemet-corporation/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2" office:value-type="float" office:value="3" calcext:value-type="float">
@@ -567,6 +590,12 @@
       <text:p>Samsung Electro-Mechanics Company, Limited</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>CL21B225KPFNNNE</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="9291904" calcext:value-type="float">
+      <text:p>9291904</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.samsungsem.com/global/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL21B225KPFNNNE.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
@@ -575,7 +604,7 @@
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21A225KOFNNNE_2-2uF-225-10-16V_C1731.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2" office:value-type="float" office:value="4" calcext:value-type="float">
@@ -598,6 +627,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>CC0805ZRY5V7BB105</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="42244655" calcext:value-type="float">
+      <text:p>42244655</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/UPY-GPHC_Y5V_6.3V-to-50V_8.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
@@ -606,7 +641,7 @@
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_1uF-106-10-16V_C94122.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -629,6 +664,12 @@
       <text:p>Kemet Electronics Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>C1206C473G1GECTU</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="91312357" calcext:value-type="float">
+      <text:p>91312357</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>https://content.kemet.com/datasheets/KEM_C1091_C0G_ESD.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
@@ -640,7 +681,7 @@
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part, must be C0G for capacitive touch input.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -663,6 +704,12 @@
       <text:p>Kemet Electronics Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
+      <text:p>C0805C473M3GECTU</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="float" office:value="91308838" calcext:value-type="float">
+      <text:p>91308838</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>https://content.kemet.com/datasheets/KEM_C1091_C0G_ESD.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
@@ -674,7 +721,7 @@
      <table:table-cell table:style-name="ce12" office:value-type="string" calcext:value-type="string">
       <text:p>Optional C0G part, changed design from 1206 to 0805!</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce12" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="6" calcext:value-type="float">
@@ -697,6 +744,12 @@
       <text:p>Stackpole Electronics Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RMCF0805FT10K0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="19213827" calcext:value-type="float">
+      <text:p>19213827</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -705,7 +758,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.futureelectronics.com/p/passives--resistors--fixed-resistors/rmcf0805ft10k0-stackpole-electronics-2617579/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="7" calcext:value-type="float">
@@ -728,6 +781,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-07100KL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="40025548" calcext:value-type="float">
+      <text:p>40025548</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/Pyu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -736,7 +795,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mouser.com/ProductDetail/Yageo/RC0805FR-07100KL/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="8" calcext:value-type="float">
@@ -759,6 +818,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-07150RL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="39817765" calcext:value-type="float">
+      <text:p>39817765</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -767,7 +832,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mouser.com/ProductDetail/Yageo/RC0805JR-07150RL/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="9" calcext:value-type="float">
@@ -790,6 +855,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805JR-07390KL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="40025588" calcext:value-type="float">
+      <text:p>40025588</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -798,7 +869,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.futureelectronics.com/p/passives--resistors--fixed-resistors/rc0805jr-07390kl-yageo-9907577/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="10" calcext:value-type="float">
@@ -821,6 +892,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805JR-073K9L</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="40953509" calcext:value-type="float">
+      <text:p>40953509</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -829,7 +906,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_3-9KR-3901-1_C114221.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="11" calcext:value-type="float">
@@ -852,6 +929,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-071K5L</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="55458513" calcext:value-type="float">
+      <text:p>55458513</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -860,7 +943,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1-5KR-1501-1_C114555.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="12" calcext:value-type="float">
@@ -883,6 +966,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-0722RL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="41204806" calcext:value-type="float">
+      <text:p>41204806</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -891,7 +980,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.futureelectronics.com/p/passives--resistors--fixed-resistors/rc0805fr-0722rl-yageo-3012390</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="13" calcext:value-type="float">
@@ -914,6 +1003,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-0712KL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="40025549" calcext:value-type="float">
+      <text:p>40025549</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -922,7 +1017,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_12KR-1202-1_C114556.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="14" calcext:value-type="float">
@@ -945,6 +1040,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-0722KL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="40025558" calcext:value-type="float">
+      <text:p>40025558</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -953,7 +1054,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_22KR-2202-1_C114565.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="15" calcext:value-type="float">
@@ -976,6 +1077,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805JR-07100RL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="39806595" calcext:value-type="float">
+      <text:p>39806595</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -984,7 +1091,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_100R-100R-1_C105577.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="16" calcext:value-type="float">
@@ -1007,6 +1114,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-071KL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="40025555" calcext:value-type="float">
+      <text:p>40025555</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -1015,7 +1128,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1000-1_C95781.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="17" calcext:value-type="float">
@@ -1038,6 +1151,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-072K4L</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1199448" calcext:value-type="float">
+      <text:p>1199448</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC0805_51_RoHS_L_v5.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -1046,7 +1165,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_2-4KR-2401-1_C114521.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce3" office:value-type="float" office:value="18" calcext:value-type="float">
@@ -1069,6 +1188,12 @@
       <text:p>Yageo Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
+      <text:p>RC0805FR-07510RL</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="float" office:value="1169945" calcext:value-type="float">
+      <text:p>1169945</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
@@ -1077,7 +1202,7 @@
      <table:table-cell table:style-name="ce13" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mouser.com/ProductDetail/Yageo/RC0805FR-07510RL/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce13" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce4" office:value-type="float" office:value="19" calcext:value-type="float">
@@ -1100,6 +1225,12 @@
       <text:p>Bourns, Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
+      <text:p>MF-PSMF020X-2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="float" office:value="7483437" calcext:value-type="float">
+      <text:p>7483437</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.bourns.com/docs/Product-Datasheets/mfpsmf.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
@@ -1111,7 +1242,7 @@
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
       <text:p>https://elinux.org/Polyfuses_explained</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce4" office:value-type="float" office:value="20" calcext:value-type="float">
@@ -1134,6 +1265,12 @@
       <text:p>Diodes Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
+      <text:p>B130LAW-7-F</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="float" office:value="325739" calcext:value-type="float">
+      <text:p>325739</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.diodes.com/assets/Datasheets/ds30308.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
@@ -1142,7 +1279,7 @@
      <table:table-cell table:style-name="ce14" office:value-type="string" calcext:value-type="string">
       <text:p>https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_DIODES_B130LAW-7-F_B130LAW-7-F_C129191.html</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce14" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce14" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" office:value-type="float" office:value="21" calcext:value-type="float">
@@ -1165,6 +1302,12 @@
       <text:p>Dialight PLC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>5990140007F</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="float" office:value="92690021" calcext:value-type="float">
+      <text:p>92690021</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/CBI_SMD_new/Dialight_CBI_data_599-0805_Apr2018.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
@@ -1173,7 +1316,7 @@
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mouser.com/ProductDetail/Dialight/599-0140-007F/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" office:value-type="float" office:value="22" calcext:value-type="float">
@@ -1196,6 +1339,12 @@
       <text:p>Dialight PLC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>5990110007F</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="float" office:value="92690018" calcext:value-type="float">
+      <text:p>92690018</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/CBI_SMD_new/Dialight_CBI_data_599-0805_Apr2018.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
@@ -1204,7 +1353,7 @@
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mouser.com/ProductDetail/Dialight/599-0110-007F/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
@@ -1227,6 +1376,12 @@
       <text:p>Dialight PLC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>5990181007F</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="float" office:value="92690023" calcext:value-type="float">
+      <text:p>92690023</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/CBI_SMD_new/Dialight_CBI_data_599-0805_Apr2018.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
@@ -1238,7 +1393,7 @@
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>Can be replaced with blue colour.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" office:value-type="string" calcext:value-type="string">
@@ -1261,6 +1416,12 @@
       <text:p>Dialight PLC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>5990191007F</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="float" office:value="92690024" calcext:value-type="float">
+      <text:p>92690024</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.dialightsignalsandcomponents.com/Assets/Brochures_And_Catalogs/Indication/CBI_SMD_new/Dialight_CBI_data_599-0805_Apr2018.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
@@ -1272,7 +1433,7 @@
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>Can be replaced with green colour.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce5" office:value-type="float" office:value="24" calcext:value-type="float">
@@ -1295,6 +1456,12 @@
       <text:p>Bivar, Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
+      <text:p>SM0805UWC</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="float" office:value="7866698" calcext:value-type="float">
+      <text:p>7866698</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.bivar.com/portals/0/products/SM0805UWC.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
@@ -1306,7 +1473,7 @@
      <table:table-cell table:style-name="ce15" office:value-type="string" calcext:value-type="string">
       <text:p>Can be replaced with blue colour.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce15" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="25" calcext:value-type="float">
@@ -1329,6 +1496,12 @@
       <text:p>Diodes, Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>DMG2302UK-7</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="73850182" calcext:value-type="float">
+      <text:p>73850182</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1340,7 +1513,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for voltage interrupt attack.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="26" calcext:value-type="float">
@@ -1363,6 +1536,12 @@
       <text:p>STMicroelectronics N.V.</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>STM32F405RGT6</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="20570101" calcext:value-type="float">
+      <text:p>20570101</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.st.com/resource/en/datasheet/stm32f405og.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1374,7 +1553,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>Please migrate the design to STM32L.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="27" calcext:value-type="float">
@@ -1397,6 +1576,12 @@
       <text:p>Shanghai Nanlin Electronics</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>LN6206P332MR-G</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.natlinear.com/uploadfiles/2014/LN/LN6206_E.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1405,7 +1590,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.digikey.com/product-detail/en/ablic-u-s-a-inc/S-1206B30-M3T1U/1662-1454-2-ND/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="28" calcext:value-type="float">
@@ -1428,6 +1613,12 @@
       <text:p>Microchip Technology Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>ATECC608A-MAHDA-S</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="87693656" calcext:value-type="float">
+      <text:p>87693656</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://ww1.microchip.com/downloads/en/DeviceDoc/40001977A.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1439,7 +1630,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>Secure element with cryptoaccelerator and secure storage.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="29" calcext:value-type="float">
@@ -1462,6 +1653,12 @@
       <text:p>Microchip Technology Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>ATAES132A-MAHER-T</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="77759550" calcext:value-type="float">
+      <text:p>77759550</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://ww1.microchip.com/downloads/en/DeviceDoc/ATAES132A-Data-Sheet-40002023A.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1473,7 +1670,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>Secure element with cryptoaccelerator and secure storage.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="30" calcext:value-type="float">
@@ -1496,6 +1693,12 @@
       <text:p>Lite-On Technology Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>LTR-303ALS-01</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="30504685" calcext:value-type="float">
+      <text:p>30504685</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://optoelectronics.liteon.com/upload/download/DS86-2013-0004/LTR-303ALS-01_DS_V1.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1507,7 +1710,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for intrusion detection.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="float" office:value="31" calcext:value-type="float">
@@ -1530,6 +1733,12 @@
       <text:p>Bosch Sensortec GmbH</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>BMA280</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="22219870" calcext:value-type="float">
+      <text:p>22219870</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMA280-DS000.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1541,7 +1750,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for input tap detection.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
@@ -1564,6 +1773,12 @@
       <text:p>Abracon, LLC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>ABM3B1-32.000MHZ-10-B4Y-T</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="91025380" calcext:value-type="float">
+      <text:p>91025380</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://abracon.com/Resonators/abm3b.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1575,7 +1790,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>CL=(C1*C2)/(C1+C2)+CStray... C(1|2) are 10pF or 12pF.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce6" office:value-type="string" calcext:value-type="string">
@@ -1598,6 +1813,12 @@
       <text:p>Abracon, LLC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
+      <text:p>ABM3B-32.000MHZ-B2-T</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="float" office:value="315528" calcext:value-type="float">
+      <text:p>315528</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>https://abracon.com/Resonators/abm3b.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
@@ -1609,7 +1830,7 @@
      <table:table-cell table:style-name="ce16" office:value-type="string" calcext:value-type="string">
       <text:p>C(1|2) are 26pF, modify accordingly.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce16" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce7" office:value-type="float" office:value="33" calcext:value-type="float">
@@ -1632,6 +1853,12 @@
       <text:p>C&amp;K Components, Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>PTS645SH50SMTR92LFS</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="55397151" calcext:value-type="float">
+      <text:p>55397151</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.ckswitches.com/media/1471/pts645.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1640,7 +1867,7 @@
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mouser.com/ProductDetail/CK/PTS645SH50SMTR92LFS/</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1014"/>
+     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1012"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce7" office:value-type="float" office:value="34" calcext:value-type="float">
@@ -1663,6 +1890,12 @@
       <text:p>Panasonic Electronic Components</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>ESE-11MV1T</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="15873161" calcext:value-type="float">
+      <text:p>15873161</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>https://industrial.panasonic.com/cdbs/www-data/pdf/ATB0000/ATB0000C14.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1674,7 +1907,7 @@
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for intrusion detection.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce7" office:value-type="float" office:value="35" calcext:value-type="float">
@@ -1697,6 +1930,12 @@
       <text:p>Keystone Electronics Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>1058TR</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="51988716" calcext:value-type="float">
+      <text:p>51988716</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.keyelco.com/userAssets/file/M65p4.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1708,7 +1947,7 @@
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for power supply in STM32L adaptations.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
@@ -1731,6 +1970,12 @@
       <text:p>East Rising Electronics, LTD</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>ER-CON30HT-1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.buydisplay.com/download/connector/ER-CON30HT-1.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1742,7 +1987,7 @@
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>Consider Amphenol dark plastic for PnP.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce7" office:value-type="string" calcext:value-type="string">
@@ -1765,6 +2010,12 @@
       <text:p>Amphenol Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
+      <text:p>SFV30R-4STBE1HLF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="float" office:value="90462182" calcext:value-type="float">
+      <text:p>90462182</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/flex/flexconnectors_050mm.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
@@ -1776,7 +2027,7 @@
      <table:table-cell table:style-name="ce17" office:value-type="string" calcext:value-type="string">
       <text:p>Consider Eastrising for discount price.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce17" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce8" office:value-type="float" office:value="37" calcext:value-type="float">
@@ -1799,6 +2050,12 @@
       <text:p>Amphenol Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>12401610E4#2A</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="90335555" calcext:value-type="float">
+      <text:p>90335555</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_type_c.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1810,7 +2067,7 @@
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>May be replaced with USB-B on badge adaptations.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce8" office:value-type="float" office:value="38" calcext:value-type="float">
@@ -1833,6 +2090,12 @@
       <text:p>JST Manufacturing Incorporated</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>B2B-PH-K-S(LF)(SN)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="248868" calcext:value-type="float">
+      <text:p>248868</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1844,7 +2107,7 @@
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for power supply in untethered adaptations.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce8" office:value-type="float" office:value="39" calcext:value-type="float">
@@ -1867,6 +2130,12 @@
       <text:p>Amphenol Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>68001-420HLF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="90352073" calcext:value-type="float">
+      <text:p>90352073</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1878,7 +2147,7 @@
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for side channel analysis.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce8" office:value-type="float" office:value="40" calcext:value-type="float">
@@ -1901,6 +2170,12 @@
       <text:p>Amphenol Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>68000-414HLF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="90618608" calcext:value-type="float">
+      <text:p>90618608</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1912,7 +2187,7 @@
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for side channel analysis.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce8" office:value-type="float" office:value="41" calcext:value-type="float">
@@ -1935,6 +2210,12 @@
       <text:p>Amphenol Corporation</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
+      <text:p>68001-402HLF</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="float" office:value="90333712" calcext:value-type="float">
+      <text:p>90333712</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
@@ -1946,7 +2227,7 @@
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for reset input.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce8" office:value-type="float" office:value="42" calcext:value-type="float">
@@ -1965,11 +2246,11 @@
      <table:table-cell table:style-name="ce49" office:value-type="string" calcext:value-type="string">
       <text:p>GLITCH</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="4"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="6"/>
      <table:table-cell table:style-name="ce18" office:value-type="string" calcext:value-type="string">
       <text:p>Optional part used for voltage interrupt attack.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce18" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce9" office:value-type="float" office:value="43" calcext:value-type="float">
@@ -1992,6 +2273,10 @@
       <text:p>MG Chemicals</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
+      <text:p>RTV103</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19"/>
+     <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
       <text:p>https://www.mgchemicals.com/products/rtv-silicones/adhesives-/-sealants/rtv103/</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
@@ -2003,7 +2288,7 @@
      <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
       <text:p>Optional chemical used for less expensive circuit protection.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce19" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce9" office:value-type="float" office:value="44" calcext:value-type="float">
@@ -2026,6 +2311,10 @@
       <text:p>Dow Chemical</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
+      <text:p>SYLGARD184</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce19"/>
+     <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
       <text:p>https://consumer.dow.com/content/dam/dcc/documents/en-us/productdatasheet/11/11-31/11-3184-sylgard-184-elastomer.pdf</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" table:style-name="ce19" office:value-type="string" calcext:value-type="string">
@@ -2034,7 +2323,7 @@
      <table:table-cell table:style-name="ce19" office:value-type="string" calcext:value-type="string">
       <text:p>Optional chemical used for more expensive circuit protection.</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce19" table:number-columns-repeated="1013"/>
+     <table:table-cell table:style-name="ce19" table:number-columns-repeated="1011"/>
     </table:table-row>
     <table:table-row table:style-name="ro1" table:number-rows-repeated="2">
      <table:table-cell table:number-columns-repeated="3"/>
