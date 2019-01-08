@@ -356,9 +356,9 @@
     (fp_line (start -1.1 -1.5) (end -1.1 1.45) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.1 -1.5) (end -1.1 -1.5) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.1 1.45) (end 1.1 -1.5) (layer B.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 0 -0.64 90) (size 1.27 0.97) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0 -0.64 90) (size 1.27 0.97) (layers B.Cu B.Mask)
       (net 11 +3V3))
-    (pad 1 smd rect (at 0 0.64 90) (size 1.27 0.97) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0.64 90) (size 1.27 0.97) (layers B.Cu B.Mask)
       (net 48 "Net-(J6-Pad1)"))
   )
 
@@ -382,9 +382,9 @@
     (fp_line (start -1.1 -1.5) (end -1.1 1.45) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.1 -1.5) (end -1.1 -1.5) (layer B.CrtYd) (width 0.05))
     (fp_line (start 1.1 1.45) (end 1.1 -1.5) (layer B.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 0 -0.64 90) (size 1.27 0.97) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0 -0.64 90) (size 1.27 0.97) (layers B.Cu B.Mask)
       (net 43 /BLOAD))
-    (pad 1 smd rect (at 0 0.64 90) (size 1.27 0.97) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at 0 0.64 90) (size 1.27 0.97) (layers B.Cu B.Mask)
       (net 42 "Net-(J4-Pad1)"))
   )
 
