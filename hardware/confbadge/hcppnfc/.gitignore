@@ -1,14 +1,8 @@
 # exclude file endings of generated archives
 *.pdf
 
-# exclude all generated manufacturing archives
-fab*
-
-# no archives
-archived
-
-# no support
-supporting
+# exclude fabricator approval
+faball*
 
 # exclude names of some graphics
 modules/monerohw.pretty/HCPP*

@@ -1,8 +1,7 @@
 # exclude file endings of generated archives
 *.pdf
 
-# exclude all generated manufacturing archives
-fabsingle
+# exclude fabricator approval
 fabsmart*
 
 # no graphics
