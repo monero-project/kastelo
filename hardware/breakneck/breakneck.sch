@@ -3586,12 +3586,12 @@ Text Notes 12000 5050 1    60   ~ 0
 $Comp
 L monerohw:CONN_01X02 J16
 U 1 1 5BE4F263
-P 14400 850
-F 0 "J16" H 14400 1000 50  0000 C CNN
-F 1 "CONN_JST" V 14500 850 50  0000 C CNN
-F 2 "Monero_Local:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 14400 850 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 14400 850 50  0001 C CNN
-	1    14400 850 
+P 15000 750
+F 0 "J16" H 15000 600 50  0000 C CNN
+F 1 "CONN_JST" V 15118 750 50  0000 C CNN
+F 2 "Monero_Local:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 15000 750 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 15000 750 50  0001 C CNN
+	1    15000 750 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3608,27 +3608,17 @@ $EndComp
 $Comp
 L monerohw:GND #PWR082
 U 1 1 5BE4F7AE
-P 14200 900
-F 0 "#PWR082" H 14200 650 50  0001 C CNN
-F 1 "GND" H 14200 750 50  0000 C CNN
-F 2 "" H 14200 900 50  0001 C CNN
-F 3 "" H 14200 900 50  0001 C CNN
-	1    14200 900 
+P 14800 800
+F 0 "#PWR082" H 14800 550 50  0001 C CNN
+F 1 "GND" H 14800 650 50  0000 C CNN
+F 2 "" H 14800 800 50  0001 C CNN
+F 3 "" H 14800 800 50  0001 C CNN
+	1    14800 800 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13900 800  13500 800 
 Connection ~ 13500 800 
-Text Notes 14650 950  0    60   ~ 0
-To be hooked\nto charging IC.
-Wire Notes Line
-	14600 750  14600 1000
-Wire Notes Line
-	14600 1000 15350 1000
-Wire Notes Line
-	15350 1000 15350 750 
-Wire Notes Line
-	15350 750  14600 750 
 Wire Wire Line
 	12700 6500 12700 7600
 Wire Wire Line
@@ -4024,4 +4014,42 @@ Wire Wire Line
 Wire Wire Line
 	11700 2200 11700 2300
 Connection ~ 11700 2300
+$Comp
+L monerohw:SW_SPDT SW4
+U 1 1 5C4A2E65
+P 14400 800
+F 0 "SW4" H 14500 544 50  0000 C CNN
+F 1 "SW_SPDT" H 14500 639 50  0000 C CNN
+F 2 "Monero_Local:SW_SPDT_CLSB-12A" H 14400 800 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf" H 14400 800 50  0001 C CNN
+	1    14400 800 
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14600 700  14800 700 
+NoConn ~ 14600 900 
+$Comp
+L monerohw:TEST TP26
+U 1 1 5C9CF800
+P 14200 800
+F 0 "TP26" H 14456 950 50  0000 R CNN
+F 1 "TEST" H 14287 1050 50  0000 R CNN
+F 2 "Monero_Local:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 14200 800 50  0001 C CNN
+F 3 "" H 14200 800 50  0001 C CNN
+	1    14200 800 
+	-1   0    0    1   
+$EndComp
+Connection ~ 14200 800 
+$Comp
+L monerohw:TEST TP27
+U 1 1 5C9D0894
+P 14800 700
+F 0 "TP27" H 14706 950 50  0000 L CNN
+F 1 "TEST" H 14879 850 50  0000 L CNN
+F 2 "Monero_Local:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 14800 700 50  0001 C CNN
+F 3 "" H 14800 700 50  0001 C CNN
+	1    14800 700 
+	1    0    0    -1  
+$EndComp
+Connection ~ 14800 700 
 $EndSCHEMATC
