@@ -558,57 +558,46 @@ $EndComp
 $Comp
 L monerohw:D_Schottky D2
 U 1 1 5A71FC4A
-P 3200 7700
-F 0 "D2" H 3200 7800 50  0000 C CNN
-F 1 "D_Schottky" H 3200 7600 50  0000 C CNN
-F 2 "Monero_Local:D_SOD-123" H 3200 7700 50  0001 C CNN
-F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 3200 7700 50  0001 C CNN
-	1    3200 7700
-	-1   0    0    -1  
+P 9950 2100
+F 0 "D2" H 9911 2300 50  0000 C CNN
+F 1 "D_Schottky" H 10068 2218 50  0000 C CNN
+F 2 "Monero_Local:D_SOD-123" H 9950 2100 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 9950 2100 50  0001 C CNN
+	1    9950 2100
+	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:CONN_01X02 J3
 U 1 1 5A71FFE7
-P 2850 7950
-F 0 "J3" H 2850 8100 50  0000 C CNN
-F 1 "CONN_01X02" H 2850 7800 50  0000 C CNN
-F 2 "Monero_Local:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 2850 7950 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 2850 7950 50  0001 C CNN
-	1    2850 7950
-	-1   0    0    -1  
+P 10900 2250
+F 0 "J3" H 10900 2400 50  0000 C CNN
+F 1 "CONN_01X02" H 10900 2100 50  0000 C CNN
+F 2 "Monero_Local:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 10900 2250 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 10900 2250 50  0001 C CNN
+	1    10900 2250
+	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR021
 U 1 1 5A72007C
-P 3350 8000
-F 0 "#PWR021" H 3350 7750 50  0001 C CNN
-F 1 "GND" H 3350 7850 50  0000 C CNN
-F 2 "" H 3350 8000 50  0001 C CNN
-F 3 "" H 3350 8000 50  0001 C CNN
-	1    3350 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L monerohw:+3V3 #PWR022
-U 1 1 5A7200CC
-P 3550 7900
-F 0 "#PWR022" H 3550 7750 50  0001 C CNN
-F 1 "+3V3" H 3550 8040 50  0000 C CNN
-F 2 "" H 3550 7900 50  0001 C CNN
-F 3 "" H 3550 7900 50  0001 C CNN
-	1    3550 7900
-	1    0    0    -1  
+P 10500 2300
+F 0 "#PWR021" H 10500 2050 50  0001 C CNN
+F 1 "GND" H 10500 2150 50  0000 C CNN
+F 2 "" H 10500 2300 50  0001 C CNN
+F 3 "" H 10500 2300 50  0001 C CNN
+	1    10500 2300
+	-1   0    0    -1  
 $EndComp
 $Comp
 L monerohw:TEST TP5
 U 1 1 5A720660
-P 2600 7900
-F 0 "TP5" H 2600 8200 50  0000 C BNN
-F 1 "VIN" H 2600 8150 50  0000 C CNN
-F 2 "Monero_Local:Measurement_Point_Round-TH_Small" H 2600 7900 50  0001 C CNN
-F 3 "" H 2600 7900 50  0001 C CNN
-	1    2600 7900
-	1    0    0    -1  
+P 10700 2100
+F 0 "TP5" H 10700 2400 50  0000 C BNN
+F 1 "VIN" H 10700 2350 50  0000 C CNN
+F 2 "Monero_Local:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10700 2100 50  0001 C CNN
+F 3 "" H 10700 2100 50  0001 C CNN
+	1    10700 2100
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 2750 6400
 NoConn ~ 2750 6300
@@ -616,23 +605,12 @@ $Comp
 L monerohw:C C3
 U 1 1 5A721214
 P 3150 6200
-F 0 "C3" H 3175 6023 50  0000 L CNN
-F 1 "100nF" H 3175 6100 50  0000 L CNN
+F 0 "C3" H 3024 6300 50  0000 L CNN
+F 1 "100nF" H 2894 6377 50  0000 L CNN
 F 2 "Monero_Local:C_0805" H 3188 6050 50  0001 C CNN
 F 3 "" H 3150 6200 50  0001 C CNN
 	1    3150 6200
 	0    1    1    0   
-$EndComp
-$Comp
-L monerohw:GND #PWR023
-U 1 1 5A7212B9
-P 3450 6150
-F 0 "#PWR023" H 3450 5900 50  0001 C CNN
-F 1 "GND" H 3450 6000 50  0000 C CNN
-F 2 "" H 3450 6150 50  0001 C CNN
-F 3 "" H 3450 6150 50  0001 C CNN
-	1    3450 6150
-	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:C C7
@@ -889,45 +867,45 @@ $EndComp
 $Comp
 L monerohw:+5V #PWR038
 U 1 1 5A791674
-P 9900 2200
-F 0 "#PWR038" H 9900 2050 50  0001 C CNN
-F 1 "+5V" H 9900 2340 50  0000 C CNN
-F 2 "" H 9900 2200 50  0001 C CNN
-F 3 "" H 9900 2200 50  0001 C CNN
-	1    9900 2200
+P 9700 2100
+F 0 "#PWR038" H 9700 1950 50  0001 C CNN
+F 1 "+5V" H 9700 2240 50  0000 C CNN
+F 2 "" H 9700 2100 50  0001 C CNN
+F 3 "" H 9700 2100 50  0001 C CNN
+	1    9700 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR039
 U 1 1 5A79174C
-P 9300 2700
-F 0 "#PWR039" H 9300 2450 50  0001 C CNN
-F 1 "GND" H 9300 2550 50  0000 C CNN
-F 2 "" H 9300 2700 50  0001 C CNN
-F 3 "" H 9300 2700 50  0001 C CNN
-	1    9300 2700
+P 9100 2700
+F 0 "#PWR039" H 9100 2450 50  0001 C CNN
+F 1 "GND" H 9100 2550 50  0000 C CNN
+F 2 "" H 9100 2700 50  0001 C CNN
+F 3 "" H 9100 2700 50  0001 C CNN
+	1    9100 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:C C19
 U 1 1 5A791850
-P 8900 2450
-F 0 "C19" H 8925 2550 50  0000 L CNN
-F 1 "1uF" H 8925 2350 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 8938 2300 50  0001 C CNN
-F 3 "" H 8900 2450 50  0001 C CNN
-	1    8900 2450
+P 8700 2450
+F 0 "C19" H 8725 2550 50  0000 L CNN
+F 1 "1uF" H 8725 2350 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 8738 2300 50  0001 C CNN
+F 3 "" H 8700 2450 50  0001 C CNN
+	1    8700 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:C C21
 U 1 1 5A7919DF
-P 9700 2450
-F 0 "C21" H 9725 2550 50  0000 L CNN
-F 1 "1uF" H 9725 2350 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 9738 2300 50  0001 C CNN
-F 3 "" H 9700 2450 50  0001 C CNN
-	1    9700 2450
+P 9500 2450
+F 0 "C21" H 9525 2550 50  0000 L CNN
+F 1 "1uF" H 9525 2350 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 9538 2300 50  0001 C CNN
+F 3 "" H 9500 2450 50  0001 C CNN
+	1    9500 2450
 	1    0    0    -1  
 $EndComp
 Text Label 12100 2600 0    60   ~ 0
@@ -1431,17 +1409,17 @@ Text Notes 12350 8000 0    60   ~ 0
 Empty area\nfor USB-C\nconnector,\nat pin 15
 Text Notes 3150 8750 2    60   ~ 12
 External crystal
-Text Notes 10150 2700 0    60   ~ 0
+Text Notes 10300 2950 0    60   ~ 0
 LQFP-64 pin compatible\nbetween STM32F205RET\nand STM32F405RGT MCU
 $Comp
 L monerohw:D_Schottky D3
 U 1 1 5A7909C0
-P 8650 2200
-F 0 "D3" H 8650 2300 50  0000 C CNN
-F 1 "D_Schottky" H 8650 2100 50  0000 C CNN
-F 2 "Monero_Local:D_SOD-123" H 8650 2200 50  0001 C CNN
-F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 8650 2200 50  0001 C CNN
-	1    8650 2200
+P 8450 2200
+F 0 "D3" H 8450 2300 50  0000 C CNN
+F 1 "D_Schottky" H 8450 2100 50  0000 C CNN
+F 2 "Monero_Local:D_SOD-123" H 8450 2200 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 8450 2200 50  0001 C CNN
+	1    8450 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1692,12 +1670,12 @@ $EndComp
 $Comp
 L monerohw:LN6206P33M_SOT23 U2
 U 1 1 5AA02F7D
-P 9300 2200
-F 0 "U2" H 9450 1950 50  0000 C CNN
-F 1 "LN6206P33M_SOT23" H 9300 2350 50  0000 C CNN
-F 2 "Monero_Local:SOT-23" H 9350 2450 50  0001 C CNN
-F 3 "http://www.natlinear.com/uploadfiles/2014/LN/LN6206_E.pdf" H 9300 2150 50  0001 C CNN
-	1    9300 2200
+P 9100 2200
+F 0 "U2" H 9250 1950 50  0000 C CNN
+F 1 "LN6206P33M_SOT23" H 9100 2350 50  0000 C CNN
+F 2 "Monero_Local:SOT-23" H 9150 2450 50  0001 C CNN
+F 3 "http://www.natlinear.com/uploadfiles/2014/LN/LN6206_E.pdf" H 9100 2150 50  0001 C CNN
+	1    9100 2200
 	-1   0    0    -1  
 $EndComp
 Text Notes 2250 7100 1    60   ~ 0
@@ -1751,16 +1729,14 @@ $EndComp
 $Comp
 L monerohw:Battery_Cell BT1
 U 1 1 5AA363F4
-P 3650 8300
-F 0 "BT1" H 3550 8450 50  0000 C CNN
-F 1 "Battery_Cell" H 3900 8250 50  0000 C CNN
-F 2 "Monero_Local:Keystone_3008_1x2450-CoinCell" V 3650 8360 50  0001 C CNN
-F 3 "http://www.keyelco.com/product.cfm/product_id/786/" V 3650 8360 50  0001 C CNN
-	1    3650 8300
-	1    0    0    -1  
+P 8800 1900
+F 0 "BT1" V 9036 1950 50  0000 C CNN
+F 1 "Battery_Cell" V 8950 1950 50  0000 C CNN
+F 2 "Monero_Local:Keystone_3008_1x2450-CoinCell" V 8800 1960 50  0001 C CNN
+F 3 "http://www.keyelco.com/product.cfm/product_id/786/" V 8800 1960 50  0001 C CNN
+	1    8800 1900
+	0    -1   -1   0   
 $EndComp
-Text Notes 3550 9850 1    60   ~ 0
-Lacks a charging circuit.
 $Comp
 L monerohw:Micro_SD_Card_Det J13
 U 1 1 5AA3582A
@@ -1786,12 +1762,12 @@ NoConn ~ 13950 8500
 $Comp
 L monerohw:GS2 J12
 U 1 1 5AA4869B
-P 3050 7300
-F 0 "J12" H 3150 7450 50  0000 C CNN
-F 1 "GS2" H 3150 7151 50  0000 C CNN
-F 2 "Monero_Local:GS2" V 3124 7300 50  0001 C CNN
-F 3 "" H 3050 7300 50  0001 C CNN
-	1    3050 7300
+P 3000 7300
+F 0 "J12" H 3100 7450 50  0000 C CNN
+F 1 "GS2" H 3100 7151 50  0000 C CNN
+F 2 "Monero_Local:GS2" V 3074 7300 50  0001 C CNN
+F 3 "" H 3000 7300 50  0001 C CNN
+	1    3000 7300
 	1    0    0    -1  
 $EndComp
 Text Notes 14250 9800 0    60   ~ 0
@@ -2003,8 +1979,6 @@ Text Label 12550 3500 0    60   ~ 0
 INT2
 Text Notes 13600 9700 1    60   ~ 0
 Accelerometer for tap\ndetection applications.
-Wire Wire Line
-	3050 7500 3050 7700
 Wire Notes Line
 	13400 8650 13400 9750
 Wire Notes Line
@@ -2136,20 +2110,6 @@ Wire Wire Line
 	3350 7400 3450 7400
 Wire Wire Line
 	3350 7000 3350 7400
-Wire Wire Line
-	3050 8000 3250 8000
-Wire Wire Line
-	3050 6500 3050 7100
-Wire Notes Line
-	3500 8600 3800 8400
-Wire Notes Line
-	3400 8600 3400 9900
-Wire Notes Line
-	3600 8600 3400 8600
-Wire Notes Line
-	3600 9900 3600 8600
-Wire Notes Line
-	3400 9900 3600 9900
 Connection ~ 14100 5800
 Wire Wire Line
 	12900 6000 12500 6000
@@ -2270,19 +2230,17 @@ Wire Wire Line
 	10750 10500 10750 10550
 Connection ~ 8200 2200
 Wire Wire Line
-	8500 2200 8200 2200
-Wire Wire Line
 	8000 2650 8000 2900
 Wire Notes Line
-	11350 2550 11900 2900
+	11500 2800 11900 2900
 Wire Notes Line
-	10100 2750 10100 2400
+	10250 3000 10250 2650
 Wire Notes Line
-	11350 2750 10100 2750
+	11500 3000 10250 3000
 Wire Notes Line
-	11350 2400 11350 2750
+	11500 2650 11500 3000
 Wire Notes Line
-	10100 2400 11350 2400
+	10250 2650 11500 2650
 Wire Notes Line
 	12300 8050 12300 7600
 Wire Notes Line
@@ -2560,21 +2518,21 @@ Wire Wire Line
 	11000 1100 10800 1100
 Wire Wire Line
 	10700 1300 10800 1300
-Connection ~ 9300 2600
+Connection ~ 9100 2600
 Wire Wire Line
-	8900 2600 9300 2600
-Connection ~ 8900 2200
+	8700 2600 9100 2600
+Connection ~ 8700 2200
 Wire Wire Line
-	8900 2300 8900 2200
-Connection ~ 9700 2200
+	8700 2300 8700 2200
+Connection ~ 9500 2200
 Wire Wire Line
-	9700 2300 9700 2200
+	9500 2300 9500 2200
 Wire Wire Line
-	9600 2200 9700 2200
+	9400 2200 9500 2200
 Wire Wire Line
-	8800 2200 8900 2200
+	8600 2200 8700 2200
 Wire Wire Line
-	9300 2500 9300 2600
+	9100 2500 9100 2600
 Wire Wire Line
 	14350 4000 14450 4000
 Connection ~ 14050 4200
@@ -2839,10 +2797,7 @@ Wire Wire Line
 	3350 6700 3350 6800
 Connection ~ 3350 6700
 Wire Wire Line
-	2750 6500 3050 6500
-Wire Wire Line
 	3150 6500 3150 6400
-Connection ~ 3050 6500
 Wire Wire Line
 	3000 6200 2750 6200
 Wire Wire Line
@@ -2851,15 +2806,7 @@ Wire Wire Line
 	2800 6100 2800 6700
 Connection ~ 2800 6700
 Wire Wire Line
-	3300 6200 3300 6100
-Wire Wire Line
-	3300 6100 3450 6100
-Wire Wire Line
-	3450 6100 3450 6150
-Wire Wire Line
 	2750 5900 3000 5900
-Wire Wire Line
-	3000 5900 3000 6200
 Connection ~ 3000 6200
 Wire Wire Line
 	2750 5400 3050 5400
@@ -2960,42 +2907,17 @@ Wire Wire Line
 	13300 3800 12500 3800
 Wire Wire Line
 	13300 4000 13200 4000
-Connection ~ 3050 7700
-Wire Wire Line
-	2600 7900 2700 7900
-Wire Wire Line
-	2700 7900 2700 7700
-Wire Wire Line
-	2700 7700 3050 7700
-Wire Wire Line
-	3350 7700 3450 7700
-Wire Wire Line
-	3450 7700 3450 7900
-Wire Wire Line
-	3450 7900 3550 7900
 $Comp
 L monerohw:D_Schottky D7
 U 1 1 5AAECD79
-P 3800 7900
-F 0 "D7" H 3800 8000 50  0000 C CNN
-F 1 "D_Schottky" H 3800 7800 50  0000 C CNN
-F 2 "Monero_Local:D_SOD-123" H 3800 7900 50  0001 C CNN
-F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 3800 7900 50  0001 C CNN
-	1    3800 7900
+P 8450 1900
+F 0 "D7" H 8450 2000 50  0000 C CNN
+F 1 "D_Schottky" H 8450 1800 50  0000 C CNN
+F 2 "Monero_Local:D_SOD-123" H 8450 1900 50  0001 C CNN
+F 3 "http://www.goodarksemi.com/docs/datasheets/schottky_rectifiers/B581xW.pdf" H 8450 1900 50  0001 C CNN
+	1    8450 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 8400 3250 8400
-Wire Wire Line
-	3250 8400 3250 8000
-Connection ~ 3250 8000
-Connection ~ 3550 7900
-Wire Wire Line
-	3650 8100 4050 8100
-Wire Wire Line
-	4050 8100 4050 7900
-Wire Wire Line
-	4050 7900 3950 7900
 $Comp
 L monerohw:SW_Captouch C28
 U 1 1 5AAEF0D6
@@ -3326,13 +3248,13 @@ Wire Wire Line
 Wire Wire Line
 	10800 1300 10900 1300
 Wire Wire Line
-	9300 2600 9700 2600
+	9100 2600 9500 2600
 Wire Wire Line
-	9300 2600 9300 2700
+	9100 2600 9100 2700
 Wire Wire Line
-	8900 2200 9000 2200
+	8700 2200 8800 2200
 Wire Wire Line
-	9700 2200 9900 2200
+	9500 2200 9600 2200
 Wire Wire Line
 	14050 4200 15200 4200
 Wire Wire Line
@@ -3394,8 +3316,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 6700 3450 6700
 Wire Wire Line
-	3050 6500 3150 6500
-Wire Wire Line
 	2800 6700 2900 6700
 Wire Wire Line
 	3350 5400 3450 5400
@@ -3423,12 +3343,6 @@ Wire Wire Line
 	15300 7200 15300 7300
 Wire Wire Line
 	14300 6600 15400 6600
-Wire Wire Line
-	3050 7700 3050 7900
-Wire Wire Line
-	3250 8000 3350 8000
-Wire Wire Line
-	3550 7900 3650 7900
 Wire Wire Line
 	14000 2300 14100 2300
 $Comp
@@ -3579,4 +3493,123 @@ F 3 "https://www.amphenolcanada.com/ProductSearch/pdf/124015_BRO.pdf" H 12750 14
 	1    12600 1400
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3300 6200 3450 6200
+Wire Wire Line
+	3450 6200 3450 6400
+Connection ~ 3450 6400
+$Comp
+L monerohw:+3V3 #PWR0101
+U 1 1 5C4990B1
+P 3200 7400
+F 0 "#PWR0101" H 3200 7250 50  0001 C CNN
+F 1 "+3V3" H 3200 7550 50  0000 C CNN
+F 2 "" H 3200 7400 50  0001 C CNN
+F 3 "" H 3200 7400 50  0001 C CNN
+	1    3200 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5900 3000 6200
+Wire Wire Line
+	8300 2200 8200 2200
+$Comp
+L monerohw:GND #PWR0102
+U 1 1 5C8AE0E1
+P 8900 1900
+F 0 "#PWR0102" H 8900 1650 50  0001 C CNN
+F 1 "GND" H 8900 1950 50  0000 C CNN
+F 2 "" H 8900 1900 50  0001 C CNN
+F 3 "" H 8900 1900 50  0001 C CNN
+	1    8900 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 1900 8200 1900
+Connection ~ 8200 1900
+Text Notes 9000 1825 0    60   ~ 0
+Coincell operate\nrequires STM32L
+Wire Notes Line
+	8990 1630 8990 1850
+Wire Notes Line
+	8990 1850 9770 1850
+Wire Notes Line
+	9770 1850 9770 1630
+Wire Notes Line
+	9770 1630 8990 1630
+Wire Wire Line
+	10700 2300 10500 2300
+Wire Wire Line
+	2750 6500 3000 6500
+Wire Wire Line
+	3000 7100 3000 6500
+Connection ~ 3000 6500
+Wire Wire Line
+	3000 6500 3150 6500
+Wire Wire Line
+	3000 7500 3200 7500
+Wire Wire Line
+	3200 7500 3200 7400
+Text Notes 650  8800 0    60   ~ 0
+Reverse\nmounted
+Wire Notes Line
+	600  8600 1100 8600
+Wire Notes Line
+	1100 8600 1100 8850
+Wire Notes Line
+	1100 8850 600  8850
+Wire Notes Line
+	600  8850 600  8600
+Wire Notes Line
+	1000 8600 1100 8450
+$Comp
+L monerohw:SW_SPDT SW4
+U 1 1 5D202EE7
+P 10300 2100
+F 0 "SW4" H 10300 1775 50  0000 C CNN
+F 1 "SW_SPDT" H 10300 1866 50  0000 C CNN
+F 2 "Monero_Local:SW_SPDT_CLSB-12A" H 10300 2100 50  0001 C CNN
+F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf" H 10300 2100 50  0001 C CNN
+	1    10300 2100
+	1    0    0    1   
+$EndComp
+NoConn ~ 10500 2200
+Wire Wire Line
+	10700 2200 10600 2100
+Wire Wire Line
+	10700 2100 10600 2100
+Connection ~ 10600 2100
+Wire Wire Line
+	10600 2100 10500 2000
+Wire Wire Line
+	9600 2200 9700 2100
+Wire Wire Line
+	9800 2100 9700 2100
+Text Notes 11050 2300 0    60   ~ 0
+May be 4V2,\nMCU danger!
+Wire Notes Line
+	11040 2100 11040 2320
+Wire Notes Line
+	11040 2320 11650 2320
+Wire Notes Line
+	11650 2320 11650 2100
+Wire Notes Line
+	11650 2100 11040 2100
+Connection ~ 9700 2100
+Text Notes 11025 2050 0    60   ~ 0
+No charge IC!
+Wire Notes Line
+	11020 2000 10970 2250
+$Comp
+L monerohw:TEST TP11
+U 1 1 5DF61B33
+P 10100 2100
+F 0 "TP11" H 10100 2400 50  0000 C BNN
+F 1 "3V7" H 10100 2350 50  0000 C CNN
+F 2 "Monero_Local:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 2100 50  0001 C CNN
+F 3 "" H 10100 2100 50  0001 C CNN
+	1    10100 2100
+	1    0    0    1   
+$EndComp
+Connection ~ 10100 2100
 $EndSCHEMATC

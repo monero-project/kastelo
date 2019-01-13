@@ -22,6 +22,16 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch spst OFF-ON
+$ENDCMP
+#
+$CMP SW_SPDT
+D Single Pole Double Throw (SPDT) switch
+K switch spdt ON-ON
+$ENDCMP
+#
 $CMP USB_C_Rcpt_Min
 D USB Type-C Minimised Receptacle
 K usb universal serial bus
