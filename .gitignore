@@ -8,3 +8,9 @@ release
 # Ignore backups
 *.kicad_pcb-bak
 *.bak
+
+# Ignore archived
+archives
+
+# Ignore support
+supporting
