@@ -1,5 +1,5 @@
 BASENAME=breakneck
-VERSION=0.9.1
+VERSION=0.9.2
 
 PROJDIR=.
 PKGDIR=$(PROJDIR)/release

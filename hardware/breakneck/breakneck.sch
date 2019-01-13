@@ -6,9 +6,9 @@ encoding utf-8
 Sheet 1 1
 Title "Breakneck Hardware Wallet"
 Date "2018-01-10"
-Rev "0.9.1"
+Rev "0.9.2"
 Comp "The Monero Project, Hardware Team"
-Comment1 "Copyright © 2018, The Monero Project"
+Comment1 "Copyright © 2019, The Monero Project"
 Comment2 "Fulfilling the developer edition role"
 Comment3 "Pending quality assurance testing"
 Comment4 "Warning, untested prototype!"
