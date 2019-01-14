@@ -661,7 +661,7 @@ U 1 1 5A7E458D
 P 6400 1550
 F 0 "FID2" H 6400 1700 50  0000 C CNN
 F 1 "Fiducial-PCB" H 6400 1400 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 6400 1550 50  0001 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 6400 1550 50  0001 C CNN
 F 3 "" H 6400 1550 50  0000 C CNN
 	1    6400 1550
 	1    0    0    -1  
@@ -792,7 +792,7 @@ U 1 1 5BD1F324
 P 7100 1550
 F 0 "FID4" H 7100 1700 50  0000 C CNN
 F 1 "Fiducial-PCB" H 7100 1400 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 7100 1550 50  0001 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7100 1550 50  0001 C CNN
 F 3 "" H 7100 1550 50  0000 C CNN
 	1    7100 1550
 	1    0    0    -1  
@@ -803,7 +803,7 @@ U 1 1 5BD1F32A
 P 7800 1550
 F 0 "FID6" H 7800 1700 50  0000 C CNN
 F 1 "Fiducial-PCB" H 7800 1400 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom" H 7800 1550 50  0001 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7800 1550 50  0001 C CNN
 F 3 "" H 7800 1550 50  0000 C CNN
 	1    7800 1550
 	1    0    0    -1  
