@@ -1,2 +1,5 @@
-# exclude closed for business shaded models
-SW_SPDT_CLSB-*
+# Exclude closed for business shaded models
+SW_SPDT_CLSB-*.stp
+SW_SPDT_CLSB-*.wrl
+SW_SPST_ESE11*.stp
+SW_SPST_ESE11*.wrl
