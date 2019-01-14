@@ -1,0 +1,5 @@
+# Avoid flagging date changes
+*.pro filter=kicad_project
+
+# Support clean of schematic changes
+*.sch filter=kicad_sch
