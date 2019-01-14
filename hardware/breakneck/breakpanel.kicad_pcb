@@ -19718,7 +19718,7 @@
     )
   )
 
-  (module Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperBottom (layer F.Cu) (tedit 5A80C4AF) (tstamp 5C06AE06)
+  (module Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop (layer B.Cu) (tedit 5A80C4AF) (tstamp 5C06AE06)
     (at 92 22.34 90)
     (descr "Circular Fiducial, 1mm bare copper bottom; 2.54mm keepout")
     (tags marker)
