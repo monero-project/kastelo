@@ -50,7 +50,7 @@
 49;"SW3";"SW_SPST_ESE11MV1";1;"SW_SPST";"Panasonic Electronic Components";"https://industrial.panasonic.com/cdbs/www-data/pdf/ATB0000/ATB0000C14.pdf";
 50;"SW4";"SW_SPDT_CLSB-12A";1;"SW_SPDT";"Nidec Copal Electronics Incorporated";"https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf";
 51;"TP1-TP22";"TestPoint_THTPad_D1.5mm_Drill0.7mm";22;"Testpoints (various)";;;
-52;"U1";"DFN-8-1EP_2x3mm_Pitch0.5mm";1;"ATECC608A";"Atmel Corporation";"https://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf";
+52;"U1";"DFN-8-1EP_2x3mm_Pitch0.5mm";1;"ATECC508A";"Atmel Corporation";"http://ww1.microchip.com/downloads/en/DeviceDoc/20005927A.pdf";
 53;"U2";"DFN-S-8-1EP_6x5mm_Pitch1.27mm";1;"SST26VF064B";"Microchip Technology Incorporated";"https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf";
 54;"U3";"WFBGACEC1702";1;"CEC1702";"Microchip Technology Incorporated";"https://www.microchip.com/downloads/en/DeviceDoc/00002207C.pdf";
 55;"U4";"QFN-28-1EP_5x5mm_Pitch0.5mm";1;"CP2102N";"Silicon Laboratories";"https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf";

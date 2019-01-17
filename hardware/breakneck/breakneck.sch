@@ -1947,13 +1947,13 @@ Undocumented
 Text Notes 4950 5300 0    60   ~ 0
 MC14541B
 $Comp
-L monerohw:ATECC608A U1
+L monerohw:ATECC508A U1
 U 1 1 5BDDA6A2
 P 3300 4450
 F 0 "U1" H 3025 4875 50  0000 C CNN
-F 1 "ATECC608A" H 3300 4450 50  0000 C CNN
+F 1 "ATECC508A" H 3300 4450 50  0000 C CNN
 F 2 "Monero_Local:DFN-8-1EP_2x3mm_Pitch0.5mm" H 3300 5150 50  0001 C CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 3300 5050 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005927A.pdf" H 3300 5050 50  0001 C CNN
 	1    3300 4450
 	1    0    0    -1  
 $EndComp

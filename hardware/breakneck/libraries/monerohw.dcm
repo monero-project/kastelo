@@ -73,10 +73,10 @@ K uart usb bridge interface transceiver
 F https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
 $ENDCMP
 #
-$CMP ATECC608A
+$CMP ATECC508A
 D Elliptic Curve Crypto Authenticator
 K Cryptography Authentication ECDSA FIPS186-3 ECDH FIPSSP800-56A I2C
-F https://www.microchip.com/wwwproducts/ATECC608A/
+F https://www.microchip.com/wwwproducts/ATECC508A/
 $ENDCMP
 #
 $CMP SP0503BAHTG
