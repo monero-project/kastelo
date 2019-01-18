@@ -3612,4 +3612,14 @@ F 3 "" H 10100 2100 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Connection ~ 10100 2100
+Text Notes 4100 6700 0    60   ~ 0
+TODO: Swap detect switch SW3 to MCU pin 2 (TAMP.)
+Wire Notes Line
+	4050 6570 6600 6570
+Wire Notes Line
+	6600 6570 6600 6750
+Wire Notes Line
+	6600 6750 4050 6750
+Wire Notes Line
+	4050 6750 4050 6570
 $EndSCHEMATC
