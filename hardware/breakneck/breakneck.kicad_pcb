@@ -4647,7 +4647,7 @@
       (net 11 +3V3))
   )
 
-  (gr_text "TODO: Swap pin 2 (TAMP) with\npin 24 (PC4) because PC4 is now\nconnected to a detector switch." (at 43 112) (layer Cmts.User)
+  (gr_text "TODO: Swap pin 2 (TAMP) with\npin 24 (PC4) because PC4 is now\nconnected to detector switch SW3." (at 43 112) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_poly (pts (xy 131 121.75) (xy 131 122.55) (xy 131.4 122.55) (xy 131.4 121.75)) (layer F.SilkS) (width 0.15))
