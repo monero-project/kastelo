@@ -114,3 +114,30 @@ http://openocd.org/
 Be sure to provide voltage to the board before plugging in the programmer. Connect the programmer to the JTAG port, go to the firmware/monezor folder and type `make flash`.
 
 Note: If the ST-LINK programmer is not plugged into a power supply, it holds the reset pin on the GND by default, leading to a false impression that the MCU seems to be dead :)
+
+#### Upload by J-LINK programmer
+
+A common problem may occur when using Segger programming hardware, when openocd(1) presumes that JTAG is the desired transport. A hand crafted openocd(1) command may fail reporting:
+
+```
+Error: JTAG scan chain interrogation failed: all zeroes
+Error: Check JTAG interface, timings, target power, etc.
+[...]
+Warn : Bypassing JTAG setup events due to errors
+Error: Invalid ACK (0) in DAP response
+```
+
+Because our legacy wallet integrates a STM32 MCUs (which seems to work better with SWD), a explicit configuration entry is needed:
+
+```sh
+$ openocd -f interface/jlink.cfg -c 'transport select swd' -f target/stm32<model>.cfg -c "program firmware.elf verify reset exit"
+[...]
+Info : flash size = 512kbytes
+wrote 131072 bytes from file firmware.elf in 4.561366s (28.062 KiB/s)
+** Programming Finished **
+** Verify Started **
+verified 84584 bytes in 0.629730s (131.170 KiB/s)
+** Verified OK **
+** Resetting Target **
+shutdown command invoked
+```
