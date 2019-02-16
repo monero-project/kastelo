@@ -117,7 +117,7 @@ Note: If the ST-LINK programmer is not plugged into a power supply, it holds the
 
 #### Upload by J-LINK programmer
 
-A common problem may occur when using Segger programming hardware, when openocd(1) presumes that JTAG is the desired transport. A hand crafted openocd(1) command may fail reporting:
+A common problem may occur when using Segger programming hardware, as openocd(1) presumes that JTAG is the desired transport. A hand crafted openocd(1) command may fail reporting:
 
 ```
 Error: JTAG scan chain interrogation failed: all zeroes
@@ -127,7 +127,7 @@ Warn : Bypassing JTAG setup events due to errors
 Error: Invalid ACK (0) in DAP response
 ```
 
-Because our legacy wallet integrates a STM32 MCUs (which seems to work better with SWD), a explicit configuration entry is needed:
+Because our legacy wallet integrates a STM32 MCU (which seems to work better with SWD), a explicit configuration entry is needed to force SWD transport:
 
 ```sh
 $ openocd -f interface/jlink.cfg -c 'transport select swd' -f target/stm32<model>.cfg -c "program firmware.elf verify reset exit"
