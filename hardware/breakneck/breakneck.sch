@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:breakneck-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -641,24 +642,13 @@ VCORE
 $Comp
 L monerohw:R R7
 U 1 1 5A731B6D
-P 11550 7500
-F 0 "R7" V 11470 7500 50  0000 C CNN
-F 1 "10K" V 11550 7500 50  0000 C CNN
-F 2 "Monero_Local:R_0805" V 11480 7500 50  0001 C CNN
-F 3 "" H 11550 7500 50  0001 C CNN
-	1    11550 7500
+P 3750 3550
+F 0 "R7" V 3830 3550 50  0000 C CNN
+F 1 "10K" V 3750 3550 50  0000 C CNN
+F 2 "Monero_Local:R_0805" V 3680 3550 50  0001 C CNN
+F 3 "" H 3750 3550 50  0001 C CNN
+	1    3750 3550
 	0    1    1    0   
-$EndComp
-$Comp
-L monerohw:GND #PWR?
-U 1 1 5A732046
-P 11350 7500
-F 0 "#PWR?" H 11350 7250 50  0001 C CNN
-F 1 "GND" H 11350 7350 50  0000 C CNN
-F 2 "" H 11350 7500 50  0001 C CNN
-F 3 "" H 11350 7500 50  0001 C CNN
-	1    11350 7500
-	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:+3V3 #PWR?
@@ -761,8 +751,8 @@ F 3 "" H 3100 4950 50  0001 C CNN
 	1    3100 4950
 	1    0    0    -1  
 $EndComp
-Text Notes 650  3250 0    60   ~ 0
-WARNING! Danger of internal\n1,2V GND short. Adequately\nlong glitch intervals will\ndestroy the MCU.
+Text Notes 650  3700 0    60   ~ 0
+WARNING! Danger of\ninternal 1,2V GND short.\nAdequately long glitch\nintervals will destroy MCU.
 $Comp
 L monerohw:ASE-xxxMHz DNP2
 U 1 1 5A7417B6
@@ -1409,8 +1399,6 @@ Text Notes 12350 8000 0    60   ~ 0
 Empty area\nfor USB-C\nconnector,\nat pin 15
 Text Notes 3150 8750 2    60   ~ 12
 External crystal
-Text Notes 10300 2950 0    60   ~ 0
-LQFP-64 pin compatible\nbetween STM32F205RET\nand STM32F405RGT MCU
 $Comp
 L monerohw:D_Schottky D3
 U 1 1 5A7909C0
@@ -1844,16 +1832,16 @@ I2C_SCL
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5AA83C30
-P 3250 3500
-F 0 "#PWR?" H 3250 3250 50  0001 C CNN
-F 1 "GND" H 3250 3350 50  0000 C CNN
-F 2 "" H 3250 3500 50  0001 C CNN
-F 3 "" H 3250 3500 50  0001 C CNN
-	1    3250 3500
+P 3250 3550
+F 0 "#PWR?" H 3250 3300 50  0001 C CNN
+F 1 "GND" H 3250 3400 50  0000 C CNN
+F 2 "" H 3250 3550 50  0001 C CNN
+F 3 "" H 3250 3550 50  0001 C CNN
+	1    3250 3550
 	1    0    0    -1  
 $EndComp
-Text Notes 2150 3250 0    60   ~ 0
-Dual solder jumper bridges\nselectively, allowing for\neither STM32F (VCAP) or\nSTM32L (VSS) population.
+Text Notes 2000 3250 0    60   ~ 0
+Solder jumper bridge\nselectively allows for\neither STM32F (VCAP) or\nSTM32L (VSS) population.
 $Comp
 L monerohw:Solderjumper SJ1
 U 1 1 5AA87123
@@ -1865,8 +1853,6 @@ F 3 "" H 2800 3500 60  0001 C CNN
 	1    2800 3500
 	1    0    0    -1  
 $EndComp
-Text Notes 1200 3700 0    60   ~ 0
-DNP in case\nof STM32L!
 $Comp
 L monerohw:BMA280 U6
 U 1 1 5AAE261C
@@ -2024,18 +2010,6 @@ Wire Wire Line
 	11000 9250 11000 8800
 Wire Wire Line
 	11950 9250 11000 9250
-Wire Notes Line
-	1650 3750 1900 4350
-Wire Notes Line
-	1800 3600 2050 3650
-Wire Notes Line
-	1800 3450 1150 3450
-Wire Notes Line
-	1800 3750 1800 3450
-Wire Notes Line
-	1150 3750 1800 3750
-Wire Notes Line
-	1150 3450 1150 3750
 Wire Wire Line
 	2600 3500 2600 3800
 Connection ~ 2200 3500
@@ -2045,13 +2019,13 @@ Connection ~ 2400 3500
 Wire Wire Line
 	1950 3500 2200 3500
 Wire Notes Line
-	3400 2850 3400 3300
+	3250 2850 3250 3300
 Wire Notes Line
-	2100 2850 3400 2850
+	1950 2850 3250 2850
 Wire Notes Line
-	2100 3300 2100 2850
+	1950 3300 1950 2850
 Wire Notes Line
-	3400 3300 2100 3300
+	3250 3300 1950 3300
 Connection ~ 1650 4300
 Connection ~ 1450 4300
 Wire Wire Line
@@ -2231,16 +2205,6 @@ Connection ~ 8200 2200
 Wire Wire Line
 	8000 2650 8000 2900
 Wire Notes Line
-	11500 2800 11900 2900
-Wire Notes Line
-	10250 3000 10250 2650
-Wire Notes Line
-	11500 3000 10250 3000
-Wire Notes Line
-	11500 2650 11500 3000
-Wire Notes Line
-	10250 2650 11500 2650
-Wire Notes Line
 	12300 8050 12300 7600
 Wire Notes Line
 	12900 8050 12300 8050
@@ -2411,7 +2375,7 @@ Wire Wire Line
 Wire Wire Line
 	4700 8850 4700 9000
 Wire Notes Line
-	800  3300 1050 3800
+	700  3750 900  3950
 Wire Notes Line
 	850  5550 850  7200
 Wire Notes Line
@@ -2560,13 +2524,13 @@ Wire Wire Line
 Wire Wire Line
 	1850 9550 1850 9650
 Wire Notes Line
-	2000 2850 600  2850
+	1900 3300 600  3300
 Wire Notes Line
-	2000 3300 2000 2850
+	1900 3750 1900 3300
 Wire Notes Line
-	600  3300 2000 3300
+	600  3750 1900 3750
 Wire Notes Line
-	600  2850 600  3300
+	600  3300 600  3750
 Connection ~ 3400 4950
 Wire Wire Line
 	3100 4950 3400 4950
@@ -2765,11 +2729,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 5400 12500 5400
 Wire Wire Line
-	14400 7600 14400 7400
-Wire Wire Line
-	14400 7400 14500 7400
-Wire Wire Line
-	14500 7400 14500 7500
+	14400 7600 14400 7500
 Wire Wire Line
 	2750 6900 3550 6900
 Wire Wire Line
@@ -3375,8 +3335,6 @@ Wire Wire Line
 	13100 6800 13100 7100
 Connection ~ 13100 6800
 Connection ~ 13100 7100
-Wire Wire Line
-	11350 7500 11400 7500
 $Comp
 L monerohw:R R36
 U 1 1 5CC63FCA
@@ -3399,23 +3357,18 @@ F 3 "" H 11800 7300 50  0001 C CNN
 	1    11800 7300
 	1    0    0    -1  
 $EndComp
-Connection ~ 11800 7500
-Wire Wire Line
-	11800 7500 11700 7500
 Wire Wire Line
 	12100 7100 12200 7100
-Text Notes 9750 7300 0    60   ~ 0
-BOOT(0|1) are hardwired to GND with\nweak pulldown resistors. Bridge (with a\njumper) to VCC when bootload debugging.
+Text Notes 4500 3650 0    60   ~ 0
+BOOT(0|1) are hardwired to GND\nwith weak pulldown resistors.\nBridge (with a jumper) to VCC\nfor debugging the bootloader.
 Wire Notes Line
-	9700 7350 9700 7000
+	4450 3700 4450 3250
 Wire Notes Line
-	11700 7350 9700 7350
+	6050 3700 4450 3700
 Wire Notes Line
-	11700 7000 11700 7350
+	6050 3250 6050 3700
 Wire Notes Line
-	9700 7000 11700 7000
-Wire Notes Line
-	11250 7500 11100 7350
+	4450 3250 6050 3250
 Wire Notes Line
 	12900 7900 13000 7800
 $Comp
@@ -3622,4 +3575,17 @@ Wire Wire Line
 	3900 5900 3800 5900
 Wire Wire Line
 	3800 5900 3800 5150
+Wire Notes Line
+	4450 3500 4300 3500
+Wire Wire Line
+	3250 3550 3600 3550
+Wire Wire Line
+	3250 3500 3250 3550
+Connection ~ 3250 3550
+Wire Wire Line
+	3900 3500 3900 3550
+Wire Wire Line
+	14400 7500 14500 7500
+Text Notes 13300 7020 1    47   ~ 0
+Could need\n10K -> 0R
 $EndSCHEMATC
