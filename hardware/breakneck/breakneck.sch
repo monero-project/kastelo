@@ -808,7 +808,7 @@ F 3 "" H 1500 9050 50  0001 C CNN
 	1    1500 9050
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 7150 1    60   ~ 0
+Text Notes 1200 7150 1    60   ~ 0
 WARNING: SMT oscillator circuit\ndiverges from original THT design
 $Comp
 L monerohw:+5V #PWR?
@@ -1003,7 +1003,7 @@ F 3 "https://abracon.com/Resonators/abm3b.pdf" H 2550 4550 50  0001 C CNN
 	1    2550 4550
 	0    -1   -1   0   
 $EndComp
-Text Notes 1750 7100 1    60   ~ 0
+Text Notes 1850 7100 1    60   ~ 0
 NOTE: According to STM AN2867\nsection 3.3 CL Load Capacitance,\nCL = (C1*C2) / (C1+C2) + Cstray\n...or C1, C2 = 2*CL – 2*Cstray. So\nour 10pF CL requires 12pF C1/C2.
 Text Notes 1300 10250 0    60   ~ 0
 Equivalent (but more expensive) crystal\noscillator replacement circuit. We specify\na simple nonoscillating crystal instead.
@@ -1644,17 +1644,6 @@ F 3 "" H 3450 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L monerohw:GS2 J11
-U 1 1 5A9C4882
-P 3450 7200
-F 0 "J11" H 3550 7350 50  0000 C CNN
-F 1 "GS2" H 3550 7051 50  0000 C CNN
-F 2 "Monero_Local:GS2" V 3524 7200 50  0001 C CNN
-F 3 "" H 3450 7200 50  0001 C CNN
-	1    3450 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L monerohw:LN6206P33M_SOT23 U2
 U 1 1 5AA02F7D
 P 9100 2200
@@ -2123,7 +2112,6 @@ Wire Notes Line
 	2350 7200 2350 5650
 Wire Notes Line
 	2000 7200 2350 7200
-Connection ~ 3450 7000
 Wire Wire Line
 	2750 7000 3350 7000
 Wire Wire Line
@@ -2377,23 +2365,23 @@ Wire Wire Line
 Wire Notes Line
 	700  3750 900  3950
 Wire Notes Line
-	850  5550 850  7200
+	1000 5550 1000 7200
 Wire Notes Line
-	1100 5550 850  5550
+	1250 5550 1000 5550
 Wire Notes Line
-	1100 7200 1100 5550
+	1250 7200 1250 5550
 Wire Notes Line
-	850  7200 1100 7200
+	1000 7200 1250 7200
 Wire Notes Line
 	1600 5400 2750 4700
 Wire Notes Line
-	1850 7200 1850 5400
+	1950 7200 1950 5400
 Wire Notes Line
-	1200 7200 1850 7200
+	1300 7200 1950 7200
 Wire Notes Line
-	1200 5400 1200 7200
+	1300 5400 1300 7200
 Wire Notes Line
-	1850 5400 1200 5400
+	1950 5400 1300 5400
 Connection ~ 2850 4550
 Wire Wire Line
 	3100 4550 3100 4950
@@ -3127,13 +3115,9 @@ Wire Wire Line
 Wire Wire Line
 	15400 2600 15400 2750
 Wire Wire Line
-	3350 7000 3450 7000
-Wire Wire Line
 	14100 5800 14600 5800
 Wire Wire Line
 	14050 4000 14050 4200
-Wire Wire Line
-	3450 7000 3650 7000
 Wire Wire Line
 	11150 8050 11150 7800
 Wire Wire Line
@@ -3588,4 +3572,46 @@ Wire Wire Line
 	14400 7500 14500 7500
 Text Notes 13300 7020 1    47   ~ 0
 Could need\n10K -> 0R
+Text Notes 900  7150 1    60   ~ 0
+STM32F: HSE can be 32 MHz\nSTM32L: HSE max is 24 MHz\nSTMewL: LSE 32 KHz required
+Wire Notes Line
+	600  7200 600  5750
+Wire Notes Line
+	600  5750 950  5750
+Wire Notes Line
+	950  5750 950  7200
+Wire Notes Line
+	950  7200 600  7200
+Wire Notes Line
+	600  5650 600  5600
+Wire Notes Line
+	600  5600 850  5600
+Wire Notes Line
+	850  5600 850  5650
+Wire Notes Line
+	850  5650 600  5650
+Wire Notes Line
+	900  5600 950  5600
+Wire Notes Line
+	950  5600 950  5650
+Wire Notes Line
+	950  5650 900  5650
+Wire Notes Line
+	900  5650 900  5600
+Wire Wire Line
+	3450 7000 3650 7000
+Wire Wire Line
+	3350 7000 3450 7000
+Connection ~ 3450 7000
+$Comp
+L monerohw:GS2 J11
+U 1 1 5A9C4882
+P 3450 7200
+F 0 "J11" H 3550 7350 50  0000 C CNN
+F 1 "GS2" H 3550 7051 50  0000 C CNN
+F 2 "Monero_Local:GS2" V 3524 7200 50  0001 C CNN
+F 3 "" H 3450 7200 50  0001 C CNN
+	1    3450 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
