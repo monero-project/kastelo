@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:breakneck-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -468,34 +467,34 @@ $EndComp
 $Comp
 L monerohw:R R3
 U 1 1 5A71C2A7
-P 3500 7700
-F 0 "R3" V 3420 7700 50  0000 C CNN
-F 1 "150" V 3500 7700 50  0000 C CNN
-F 2 "Monero_Local:R_0805" V 3430 7700 50  0001 C CNN
-F 3 "" H 3500 7700 50  0001 C CNN
-	1    3500 7700
+P 3200 7700
+F 0 "R3" V 3120 7700 50  0000 C CNN
+F 1 "150" V 3200 7700 50  0000 C CNN
+F 2 "Monero_Local:R_0805" V 3130 7700 50  0001 C CNN
+F 3 "" H 3200 7700 50  0001 C CNN
+	1    3200 7700
 	0    1    1    0   
 $EndComp
 $Comp
 L monerohw:LED D1
 U 1 1 5A71C4B6
-P 3200 7700
-F 0 "D1" H 3200 7800 50  0000 C CNN
-F 1 "YELLOW" H 3200 7550 50  0000 C CNN
-F 2 "Monero_Local:LED_0805" H 3200 7700 50  0001 C CNN
-F 3 "" H 3200 7700 50  0001 C CNN
-	1    3200 7700
+P 2900 7700
+F 0 "D1" H 2900 7800 50  0000 C CNN
+F 1 "YELLOW" H 2900 7550 50  0000 C CNN
+F 2 "Monero_Local:LED_0805" H 2900 7700 50  0001 C CNN
+F 3 "" H 2900 7700 50  0001 C CNN
+	1    2900 7700
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A71C553
-P 2850 7700
-F 0 "#PWR?" H 2850 7450 50  0001 C CNN
-F 1 "GND" H 2850 7550 50  0000 C CNN
-F 2 "" H 2850 7700 50  0001 C CNN
-F 3 "" H 2850 7700 50  0001 C CNN
-	1    2850 7700
+P 2550 7700
+F 0 "#PWR?" H 2550 7450 50  0001 C CNN
+F 1 "GND" H 2550 7550 50  0000 C CNN
+F 2 "" H 2550 7700 50  0001 C CNN
+F 3 "" H 2550 7700 50  0001 C CNN
+	1    2550 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -520,8 +519,8 @@ F 3 "" H 2600 7500 50  0001 C CNN
 	1    2600 7500
 	1    0    0    -1  
 $EndComp
-Text Notes 3700 8050 2    60   ~ 0
-CW_LED3 indicates power
+Text Notes 3250 8050 2    60   ~ 0
+CW_LED3 power
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A71D604
@@ -999,7 +998,7 @@ P 2550 4550
 F 0 "Y1" V 2850 4550 50  0000 C CNN
 F 1 "Crystal_GND24" V 2750 4550 50  0000 C CNN
 F 2 "Monero_Local:Crystal_SMD_Abracon_ABM3B-4pin_5.0x3.2mm" H 2550 4550 50  0001 C CNN
-F 3 "https://abracon.com/Resonators/abm3b.pdf" H 2550 4550 50  0001 C CNN
+F 3 "https://www.abracon.com/Resonators/abm3b.pdf" H 2550 4550 50  0001 C CNN
 	1    2550 4550
 	0    -1   -1   0   
 $EndComp
@@ -2142,7 +2141,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1200 4350 1200
 Wire Notes Line
-	3750 8100 2500 8100
+	3300 8100 2500 8100
 Connection ~ 14150 2100
 Wire Wire Line
 	11450 10550 11450 10500
@@ -3551,17 +3550,17 @@ Connection ~ 3350 5400
 Wire Wire Line
 	3900 5500 3650 5500
 Wire Wire Line
-	3650 5500 3650 7700
+	3650 5500 3650 7000
 Wire Wire Line
-	3050 7700 2850 7700
+	2750 7700 2550 7700
 Wire Notes Line
 	3250 10300 3250 8600
 Wire Notes Line
 	2500 8100 2500 7950
 Wire Notes Line
-	2500 7950 3750 7950
+	2500 7950 3300 7950
 Wire Notes Line
-	3750 7950 3750 8100
+	3300 7950 3300 8100
 Wire Wire Line
 	3450 5400 3900 5400
 Wire Wire Line
@@ -3579,4 +3578,85 @@ Connection ~ 3100 4900
 Wire Wire Line
 	3100 4900 3100 4950
 Connection ~ 3400 4900
+Wire Wire Line
+	3650 7000 3350 7000
+Wire Wire Line
+	3350 7000 3350 7700
+Wire Wire Line
+	3900 6400 3750 6400
+$Comp
+L monerohw:C_Small C29
+U 1 1 5E7F15FC
+P 3450 7800
+F 0 "C29" H 3542 7846 50  0000 L CNN
+F 1 "4.3pF" H 3542 7755 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 3450 7800 50  0001 C CNN
+F 3 "" H 3450 7800 50  0001 C CNN
+	1    3450 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C_Small C30
+U 1 1 5E7F1790
+P 3850 7800
+F 0 "C30" H 3942 7846 50  0000 L CNN
+F 1 "4.3pF" H 3942 7755 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 3850 7800 50  0001 C CNN
+F 3 "" H 3850 7800 50  0001 C CNN
+	1    3850 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:GND #PWR?
+U 1 1 5E839EC3
+P 3650 8100
+F 0 "#PWR?" H 3650 7850 50  0001 C CNN
+F 1 "GND" H 3655 7927 50  0000 C CNN
+F 2 "" H 3650 8100 50  0001 C CNN
+F 3 "" H 3650 8100 50  0001 C CNN
+	1    3650 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7900 3450 8000
+Wire Wire Line
+	3450 8000 3650 8000
+Wire Wire Line
+	3650 8000 3650 8100
+Wire Wire Line
+	3750 6400 3750 7100
+Wire Wire Line
+	3450 7100 3750 7100
+Wire Wire Line
+	3900 6500 3850 6500
+Wire Wire Line
+	3850 6500 3850 7500
+Wire Wire Line
+	3850 7500 3800 7500
+$Comp
+L monerohw:Crystal Y2
+U 1 1 5C8618F8
+P 3650 7500
+F 0 "Y2" H 3650 7768 50  0000 C CNN
+F 1 "Crystal" H 3650 7677 50  0000 C CNN
+F 2 "Monero_Local:Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm" H 3650 7500 50  0001 C CNN
+F 3 "https://www.abracon.com/Resonators/abs25.pdf" H 3650 7500 50  0001 C CNN
+	1    3650 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7100 3450 7500
+Wire Wire Line
+	3500 7500 3450 7500
+Connection ~ 3450 7500
+Wire Wire Line
+	3450 7500 3450 7700
+Wire Wire Line
+	3850 7500 3850 7700
+Connection ~ 3850 7500
+Wire Wire Line
+	3850 7900 3850 8000
+Wire Wire Line
+	3850 8000 3650 8000
+Connection ~ 3650 8000
 $EndSCHEMATC

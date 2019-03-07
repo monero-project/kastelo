@@ -2,7 +2,7 @@
   (descr "Abracon Miniature Ceramic Smd Crystal ABM3B http://www.abracon.com/Resonators/abm3b.pdf, 5.0x3.2mm^2 package")
   (tags "SMD SMT crystal")
   (attr smd)
-  (fp_text reference Y1 (at 0 2.5) (layer F.SilkS)
+  (fp_text reference Y* (at 0 2.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value Crystal_GND24 (at 0 2.8) (layer F.Fab)

@@ -2,7 +2,7 @@
   (descr "THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm")
   (tags "test point THT pad rectangle square")
   (attr virtual)
-  (fp_text reference REF** (at 0 -1.448) (layer F.SilkS)
+  (fp_text reference REF* (at 0 -1.448) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value TestPoint_THTPad_1.0x1.0mm_Drill0.5mm (at 0 1.55) (layer F.Fab)
