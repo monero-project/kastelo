@@ -721,23 +721,23 @@ $EndComp
 $Comp
 L monerohw:SW_SPST SW1
 U 1 1 5A73E8D4
-P 3600 4800
-F 0 "SW1" H 3600 4769 39  0000 C CNN
-F 1 "SW_SPST" H 3600 4702 39  0000 C CNN
-F 2 "Monero_Local:SW_SPST_PTS645" H 3600 4800 50  0001 C CNN
-F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 3600 4800 50  0001 C CNN
-	1    3600 4800
+P 3600 4900
+F 0 "SW1" H 3600 4869 39  0000 C CNN
+F 1 "SW_SPST" H 3600 5000 39  0000 C CNN
+F 2 "Monero_Local:SW_SPST_PTS645" H 3600 4900 50  0001 C CNN
+F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 3600 4900 50  0001 C CNN
+	1    3600 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:SW_SPST SW2
 U 1 1 5A73E973
-P 3600 5150
-F 0 "SW2" H 3600 5119 39  0000 C CNN
-F 1 "SW_SPST" H 3600 5052 39  0000 C CNN
-F 2 "Monero_Local:SW_SPST_PTS645" H 3600 5150 50  0001 C CNN
-F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 3600 5150 50  0001 C CNN
-	1    3600 5150
+P 3600 5300
+F 0 "SW2" H 3600 5250 39  0000 C CNN
+F 1 "SW_SPST" H 3600 5400 39  0000 C CNN
+F 2 "Monero_Local:SW_SPST_PTS645" H 3600 5300 50  0001 C CNN
+F 3 "https://www.ckswitches.com/products/switches/product-details/Tactile/PTS645/PTS645SM43SMTR92LFS/" H 3600 5300 50  0001 C CNN
+	1    3600 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1552,7 +1552,6 @@ NoConn ~ 3900 6000
 NoConn ~ 3900 5800
 NoConn ~ 3900 5700
 NoConn ~ 3900 5600
-NoConn ~ 3900 5300
 NoConn ~ 3900 5000
 NoConn ~ 3900 4800
 $Comp
@@ -2358,7 +2357,7 @@ Wire Notes Line
 	1950 5400 1300 5400
 Connection ~ 2850 4550
 Wire Wire Line
-	3100 4550 3100 4950
+	3100 4550 3100 4900
 Wire Wire Line
 	2850 4550 3100 4550
 Wire Wire Line
@@ -2491,15 +2490,6 @@ Wire Notes Line
 	600  3750 1900 3750
 Wire Notes Line
 	600  3300 600  3750
-Connection ~ 3400 4950
-Wire Wire Line
-	3100 4950 3400 4950
-Wire Wire Line
-	3400 4800 3400 4950
-Wire Wire Line
-	3800 4800 3800 5100
-Wire Wire Line
-	3800 5100 3900 5200
 Wire Wire Line
 	3750 2700 3900 2700
 Wire Wire Line
@@ -2728,7 +2718,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 5700 2750 5700
 Wire Wire Line
-	3450 5400 3450 5550
+	3450 5500 3450 5550
 Wire Wire Line
 	3150 6000 2900 6000
 Wire Wire Line
@@ -2873,8 +2863,6 @@ F 3 "" H 3600 4200 50  0001 C CNN
 	1    3600 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 5300 3300 4200
 $Comp
 L monerohw:+3V3 #PWR?
 U 1 1 5AAFA03E
@@ -3172,8 +3160,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 9650 1850 9750
 Wire Wire Line
-	3400 4950 3400 5150
-Wire Wire Line
 	8200 2500 8200 2650
 Wire Wire Line
 	8200 2650 8400 2650
@@ -3359,11 +3345,7 @@ Connection ~ 3450 5550
 Wire Wire Line
 	3450 5550 3450 5700
 Wire Wire Line
-	3900 5400 3600 5400
-Wire Wire Line
-	3600 5400 3600 5300
-Wire Wire Line
-	3600 5300 3300 5300
+	3450 5400 3300 5250
 Wire Wire Line
 	2200 3800 2300 3800
 Connection ~ 2300 3800
@@ -3520,7 +3502,7 @@ Wire Notes Line
 Wire Wire Line
 	3900 5900 3800 5900
 Wire Wire Line
-	3800 5900 3800 5150
+	3800 5900 3800 5300
 Wire Notes Line
 	4450 3500 4300 3500
 Wire Wire Line
@@ -3564,7 +3546,7 @@ NoConn ~ 2750 7000
 Wire Wire Line
 	3050 5400 3350 5400
 Wire Wire Line
-	3350 5400 3450 5400
+	3350 5400 3450 5500
 Connection ~ 3350 5400
 Wire Wire Line
 	3900 5500 3650 5500
@@ -3580,4 +3562,21 @@ Wire Notes Line
 	2500 7950 3750 7950
 Wire Notes Line
 	3750 7950 3750 8100
+Wire Wire Line
+	3450 5400 3900 5400
+Wire Wire Line
+	3900 5300 3800 5200
+NoConn ~ 3900 5200
+Wire Wire Line
+	3800 5200 3800 4900
+Wire Wire Line
+	3300 5250 3300 4200
+Wire Wire Line
+	3400 4900 3400 5300
+Wire Wire Line
+	3100 4900 3400 4900
+Connection ~ 3100 4900
+Wire Wire Line
+	3100 4900 3100 4950
+Connection ~ 3400 4900
 $EndSCHEMATC
