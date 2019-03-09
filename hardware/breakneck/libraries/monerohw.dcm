@@ -16,12 +16,6 @@ D Capacitive touch copper surface
 K Capacitive touch copper surface
 $ENDCMP
 #
-$CMP Conn_01x30_Female
-D Generic connector, single row, 01x30
-K connector
-F ~
-$ENDCMP
-#
 $CMP SW_SPST
 D Single Pole Single Throw (SPST) switch
 K switch spst OFF-ON

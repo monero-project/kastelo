@@ -755,56 +755,56 @@ WARNING! Danger of\ninternal 1,2V GND short.\nAdequately long glitch\nintervals 
 $Comp
 L monerohw:ASE-xxxMHz DNP2
 U 1 1 5A7417B6
-P 1850 9250
-F 0 "DNP2" H 1650 9500 50  0000 L CNN
-F 1 "ASE-xxxMHz" H 1900 9000 50  0000 L CNN
-F 2 "Monero_Local:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" H 2550 8900 50  0001 C CNN
-F 3 "https://abracon.com/Oscillators/ASEseries.pdf" H 1750 9250 50  0001 C CNN
-	1    1850 9250
+P -1600 3950
+F 0 "DNP2" H -1800 4200 50  0000 L CNN
+F 1 "ASE-xxxMHz" H -1550 3700 50  0000 L CNN
+F 2 "Monero_Local:Oscillator_SMD_Abracon_ASV-4pin_7.0x5.1mm" H -900 3600 50  0001 C CNN
+F 3 "https://abracon.com/Oscillators/ASEseries.pdf" H -1700 3950 50  0001 C CNN
+	1    -1600 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:C DNP3
 U 1 1 5A74184D
-P 2550 9450
-F 0 "DNP3" H 2575 9550 50  0000 L CNN
-F 1 "15pF" H 2575 9350 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 2588 9300 50  0001 C CNN
-F 3 "" H 2550 9450 50  0001 C CNN
-	1    2550 9450
+P -900 4150
+F 0 "DNP3" H -875 4250 50  0000 L CNN
+F 1 "15pF" H -875 4050 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H -862 4000 50  0001 C CNN
+F 3 "" H -900 4150 50  0001 C CNN
+	1    -900 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A741977
-P 1850 9750
-F 0 "#PWR?" H 1850 9500 50  0001 C CNN
-F 1 "GND" H 1850 9600 50  0000 C CNN
-F 2 "" H 1850 9750 50  0001 C CNN
-F 3 "" H 1850 9750 50  0001 C CNN
-	1    1850 9750
+P -1600 4450
+F 0 "#PWR?" H -1600 4200 50  0001 C CNN
+F 1 "GND" H -1600 4300 50  0000 C CNN
+F 2 "" H -1600 4450 50  0001 C CNN
+F 3 "" H -1600 4450 50  0001 C CNN
+	1    -1600 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:+3V3 #PWR?
 U 1 1 5A745A9F
-P 1850 8850
-F 0 "#PWR?" H 1850 8700 50  0001 C CNN
-F 1 "+3V3" H 1850 8990 50  0000 C CNN
-F 2 "" H 1850 8850 50  0001 C CNN
-F 3 "" H 1850 8850 50  0001 C CNN
-	1    1850 8850
+P -1600 3550
+F 0 "#PWR?" H -1600 3400 50  0001 C CNN
+F 1 "+3V3" H -1600 3690 50  0000 C CNN
+F 2 "" H -1600 3550 50  0001 C CNN
+F 3 "" H -1600 3550 50  0001 C CNN
+	1    -1600 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:R DNP1
 U 1 1 5A745B03
-P 1500 9050
-F 0 "DNP1" V 1420 9050 50  0000 C CNN
-F 1 "1K" V 1500 9050 50  0000 C CNN
-F 2 "Monero_Local:R_0805" V 1430 9050 50  0001 C CNN
-F 3 "" H 1500 9050 50  0001 C CNN
-	1    1500 9050
+P -1950 3750
+F 0 "DNP1" V -2030 3750 50  0000 C CNN
+F 1 "1K" V -1950 3750 50  0000 C CNN
+F 2 "Monero_Local:R_0805" V -2020 3750 50  0001 C CNN
+F 3 "" H -1950 3750 50  0001 C CNN
+	1    -1950 3750
 	1    0    0    -1  
 $EndComp
 Text Notes 1200 7150 1    60   ~ 0
@@ -1004,11 +1004,11 @@ F 3 "https://www.abracon.com/Resonators/abm3b.pdf" H 2550 4550 50  0001 C CNN
 $EndComp
 Text Notes 1850 7100 1    60   ~ 0
 NOTE: According to STM AN2867\nsection 3.3 CL Load Capacitance,\nCL = (C1*C2) / (C1+C2) + Cstray\n...or C1, C2 = 2*CL – 2*Cstray. So\nour 10pF CL requires 12pF C1/C2.
-Text Notes 1300 10250 0    60   ~ 0
+Text Notes -2150 4950 0    60   ~ 0
 Equivalent (but more expensive) crystal\noscillator replacement circuit. We specify\na simple nonoscillating crystal instead.
-Text Notes 2800 9300 0    60   ~ 0
+Text Notes -650 4000 0    60   ~ 0
 OSC_IN
-Text Notes 2800 9700 0    60   ~ 0
+Text Notes -650 4400 0    60   ~ 0
 OSC_OUT
 Text Label 15200 4000 2    60   ~ 0
 OSC_OUT
@@ -1050,53 +1050,53 @@ $EndComp
 $Comp
 L monerohw:SSD1306 DS1
 U 1 1 5A7DCD72
-P 6150 7950
-F 0 "DS1" H 4650 8850 50  0000 L CNN
-F 1 "SSD1306" H 7650 8850 50  0000 R CNN
-F 2 "Monero_Local:Solderpads_30_2.0x0.4mm_Pitch0.7mm" H 5750 8150 50  0001 C CIN
-F 3 "http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf" H 5950 7650 50  0001 C CNN
-	1    6150 7950
+P 6450 7950
+F 0 "DS1" H 4950 8850 50  0000 L CNN
+F 1 "SSD1306" H 7950 8850 50  0000 R CNN
+F 2 "Monero_Local:Eastrising_ER-CON30HT-1_01x30_P0.50mm" H 6050 8150 50  0001 C CIN
+F 3 "http://www.buydisplay.com/download/manual/ER-OLED0.91-1_Series_Datasheet.pdf" H 6250 7650 50  0001 C CNN
+	1    6450 7950
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A7DCF6E
-P 7700 9500
-F 0 "#PWR?" H 7700 9250 50  0001 C CNN
-F 1 "GND" H 7700 9350 50  0000 C CNN
-F 2 "" H 7700 9500 50  0001 C CNN
-F 3 "" H 7700 9500 50  0001 C CNN
-	1    7700 9500
+P 8000 9500
+F 0 "#PWR?" H 8000 9250 50  0001 C CNN
+F 1 "GND" H 8000 9350 50  0000 C CNN
+F 2 "" H 8000 9500 50  0001 C CNN
+F 3 "" H 8000 9500 50  0001 C CNN
+	1    8000 9500
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:R R4
 U 1 1 5A7DE0C7
-P 7350 9400
-F 0 "R4" V 7430 9400 50  0000 C CNN
-F 1 "390K" V 7350 9400 50  0000 C CNN
-F 2 "Monero_Local:R_0805" V 7280 9400 50  0001 C CNN
-F 3 "" H 7350 9400 50  0001 C CNN
-	1    7350 9400
+P 7650 9400
+F 0 "R4" V 7730 9400 50  0000 C CNN
+F 1 "390K" V 7650 9400 50  0000 C CNN
+F 2 "Monero_Local:R_0805" V 7580 9400 50  0001 C CNN
+F 3 "" H 7650 9400 50  0001 C CNN
+	1    7650 9400
 	0    1    1    0   
 $EndComp
 $Comp
 L monerohw:C C17
 U 1 1 5A7DE162
-P 7450 9200
-F 0 "C17" H 7475 9300 50  0000 L CNN
-F 1 "2.2uF" H 7475 9100 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 7488 9050 50  0001 C CNN
-F 3 "" H 7450 9200 50  0001 C CNN
-	1    7450 9200
+P 7750 9200
+F 0 "C17" H 7775 9300 50  0000 L CNN
+F 1 "2.2uF" H 7775 9100 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 7788 9050 50  0001 C CNN
+F 3 "" H 7750 9200 50  0001 C CNN
+	1    7750 9200
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 7700 8850
 NoConn ~ 7400 8850
+NoConn ~ 7300 8850
+NoConn ~ 7200 8850
 NoConn ~ 7100 8850
 NoConn ~ 7000 8850
-NoConn ~ 6900 8850
-NoConn ~ 6800 8850
-NoConn ~ 6700 8850
 Text Label 12500 4000 0    60   ~ 0
 OLED_D1
 Text Label 12500 3800 0    60   ~ 0
@@ -1107,83 +1107,83 @@ Text Label 13000 5100 2    60   ~ 0
 OLED_~RES~
 Text Label 12800 3400 0    60   ~ 0
 OLED_~CS~
-Text Label 6500 9100 3    60   ~ 0
+Text Label 6800 9100 3    60   ~ 0
 OLED_D1
-Text Label 6400 9100 3    60   ~ 0
+Text Label 6700 9100 3    60   ~ 0
 OLED_D0
-Text Label 6100 9100 3    60   ~ 0
+Text Label 6400 9100 3    60   ~ 0
 OLED_DC
-Text Label 6000 9100 3    60   ~ 0
+Text Label 6300 9100 3    60   ~ 0
 OLED_~RES~
-Text Label 5900 9100 3    60   ~ 0
+Text Label 6200 9100 3    60   ~ 0
 OLED_~CS~
+NoConn ~ 6900 8850
 NoConn ~ 6600 8850
-NoConn ~ 6300 8850
-NoConn ~ 6200 8850
+NoConn ~ 6500 8850
 $Comp
 L monerohw:C_Small C8
 U 1 1 5A7F2F66
-P 4800 9200
-F 0 "C8" H 4657 9270 50  0000 L CNN
-F 1 "1uF" H 4657 9120 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 4800 9200 50  0001 C CNN
-F 3 "" H 4800 9200 50  0001 C CNN
-	1    4800 9200
+P 5100 9200
+F 0 "C8" H 4957 9270 50  0000 L CNN
+F 1 "1uF" H 4957 9120 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 5100 9200 50  0001 C CNN
+F 3 "" H 5100 9200 50  0001 C CNN
+	1    5100 9200
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:C_Small C9
 U 1 1 5A7F3398
-P 5000 9450
-F 0 "C9" H 4857 9520 50  0000 L CNN
-F 1 "1uF" H 4857 9370 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 5000 9450 50  0001 C CNN
-F 3 "" H 5000 9450 50  0001 C CNN
-	1    5000 9450
+P 5300 9450
+F 0 "C9" H 5157 9520 50  0000 L CNN
+F 1 "1uF" H 5157 9370 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 5300 9450 50  0001 C CNN
+F 3 "" H 5300 9450 50  0001 C CNN
+	1    5300 9450
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:C_Small C10
 U 1 1 5A7F4389
-P 5200 9600
-F 0 "C10" H 5210 9670 50  0000 L CNN
-F 1 "100nF" H 5210 9520 50  0000 L CNN
-F 2 "Monero_Local:C_0805" H 5200 9600 50  0001 C CNN
-F 3 "" H 5200 9600 50  0001 C CNN
-	1    5200 9600
-	1    0    0    -1  
-$EndComp
-$Comp
-L monerohw:C_Small C11
-U 1 1 5A7F4436
 P 5500 9600
-F 0 "C11" H 5510 9670 50  0000 L CNN
-F 1 "1uF" H 5510 9520 50  0000 L CNN
+F 0 "C10" H 5510 9670 50  0000 L CNN
+F 1 "100nF" H 5510 9520 50  0000 L CNN
 F 2 "Monero_Local:C_0805" H 5500 9600 50  0001 C CNN
 F 3 "" H 5500 9600 50  0001 C CNN
 	1    5500 9600
 	1    0    0    -1  
 $EndComp
 $Comp
+L monerohw:C_Small C11
+U 1 1 5A7F4436
+P 5800 9600
+F 0 "C11" H 5810 9670 50  0000 L CNN
+F 1 "1uF" H 5810 9520 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 5800 9600 50  0001 C CNN
+F 3 "" H 5800 9600 50  0001 C CNN
+	1    5800 9600
+	1    0    0    -1  
+$EndComp
+$Comp
 L monerohw:+3V3 #PWR?
 U 1 1 5A7F44F7
-P 5350 9300
-F 0 "#PWR?" H 5350 9150 50  0001 C CNN
-F 1 "+3V3" H 5350 9440 50  0000 C CNN
-F 2 "" H 5350 9300 50  0001 C CNN
-F 3 "" H 5350 9300 50  0001 C CNN
-	1    5350 9300
+P 5650 9300
+F 0 "#PWR?" H 5650 9150 50  0001 C CNN
+F 1 "+3V3" H 5650 9440 50  0000 C CNN
+F 2 "" H 5650 9300 50  0001 C CNN
+F 3 "" H 5650 9300 50  0001 C CNN
+	1    5650 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A7F4587
-P 5350 9900
-F 0 "#PWR?" H 5350 9650 50  0001 C CNN
-F 1 "GND" H 5350 9750 50  0000 C CNN
-F 2 "" H 5350 9900 50  0001 C CNN
-F 3 "" H 5350 9900 50  0001 C CNN
-	1    5350 9900
+P 5650 9900
+F 0 "#PWR?" H 5650 9650 50  0001 C CNN
+F 1 "GND" H 5650 9750 50  0000 C CNN
+F 2 "" H 5650 9900 50  0001 C CNN
+F 3 "" H 5650 9900 50  0001 C CNN
+	1    5650 9900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1396,7 +1396,7 @@ F 3 "" H 9300 1200 50  0000 C CNN
 $EndComp
 Text Notes 12350 8000 0    60   ~ 0
 Empty area\nfor USB-C\nconnector,\nat pin 15
-Text Notes 3150 8750 2    60   ~ 12
+Text Notes -300 3450 2    60   ~ 12
 External crystal
 $Comp
 L monerohw:D_Schottky D3
@@ -2252,88 +2252,88 @@ Wire Wire Line
 	1050 4500 1450 4500
 Wire Wire Line
 	1450 4200 1450 4300
-Connection ~ 5350 9800
+Connection ~ 5650 9800
 Wire Wire Line
-	5500 9800 5500 9700
+	5800 9800 5800 9700
 Wire Wire Line
-	5350 9800 5350 9900
+	5650 9800 5650 9900
 Wire Wire Line
-	5200 9800 5350 9800
+	5500 9800 5650 9800
 Wire Wire Line
-	5200 9700 5200 9800
+	5500 9700 5500 9800
+Connection ~ 5800 9400
 Connection ~ 5500 9400
-Connection ~ 5200 9400
-Connection ~ 5350 9400
+Connection ~ 5650 9400
+Wire Wire Line
+	5800 8850 5800 9400
+Wire Wire Line
+	5650 9400 5650 9300
+Wire Wire Line
+	5500 9400 5650 9400
 Wire Wire Line
 	5500 8850 5500 9400
 Wire Wire Line
-	5350 9400 5350 9300
+	5400 9550 5400 8850
 Wire Wire Line
-	5200 9400 5350 9400
+	5300 9550 5400 9550
 Wire Wire Line
-	5200 8850 5200 9400
+	5300 8850 5300 9350
 Wire Wire Line
-	5100 9550 5100 8850
+	5200 9300 5200 8850
 Wire Wire Line
-	5000 9550 5100 9550
+	5100 9300 5200 9300
 Wire Wire Line
-	5000 8850 5000 9350
+	5100 8850 5100 9100
 Wire Wire Line
-	4900 9300 4900 8850
+	6200 8850 6200 9100
 Wire Wire Line
-	4800 9300 4900 9300
-Wire Wire Line
-	4800 8850 4800 9100
-Wire Wire Line
-	5900 8850 5900 9100
-Wire Wire Line
-	6000 8850 6000 9100
-Wire Wire Line
-	6100 8850 6100 9100
+	6300 8850 6300 9100
 Wire Wire Line
 	6400 8850 6400 9100
 Wire Wire Line
-	6500 8850 6500 9100
+	6700 8850 6700 9100
+Wire Wire Line
+	6800 8850 6800 9100
 Wire Wire Line
 	12800 3700 12500 3700
 Wire Wire Line
 	12800 3400 12800 3700
 Wire Wire Line
 	13300 3400 12800 3400
-Connection ~ 7700 9200
+Connection ~ 8000 9200
 Wire Wire Line
-	7600 9200 7700 9200
+	7900 9200 8000 9200
 Wire Wire Line
-	7300 8850 7300 9200
-Connection ~ 7700 9400
+	7600 8850 7600 9200
+Connection ~ 8000 9400
 Wire Wire Line
-	7700 9400 7500 9400
+	8000 9400 7800 9400
 Wire Wire Line
-	7200 8850 7200 9400
-Connection ~ 7600 9000
+	7500 8850 7500 9400
+Connection ~ 7900 9000
 Wire Wire Line
-	7600 9000 7600 8850
-Connection ~ 7500 9000
+	7900 9000 7900 8850
+Connection ~ 7800 9000
 Wire Wire Line
-	7500 9000 7500 8850
-Connection ~ 5800 9000
+	7800 9000 7800 8850
+Connection ~ 6100 9000
 Wire Wire Line
-	5800 9000 5800 8850
+	6100 9000 6100 8850
+Connection ~ 6000 9000
+Wire Wire Line
+	6000 9000 6000 8850
+Connection ~ 5900 9000
+Wire Wire Line
+	5900 9000 5900 8850
 Connection ~ 5700 9000
 Wire Wire Line
-	5700 9000 5700 8850
-Connection ~ 5600 9000
+	5700 8850 5700 9000
 Wire Wire Line
-	5600 9000 5600 8850
-Connection ~ 5400 9000
+	8000 9000 8000 9200
 Wire Wire Line
-	5400 8850 5400 9000
+	5000 9000 5700 9000
 Wire Wire Line
-	7700 9000 7700 9200
-Wire Wire Line
-	4700 9000 5400 9000
-Wire Wire Line
-	4700 8850 4700 9000
+	5000 8850 5000 9000
 Wire Notes Line
 	700  3750 900  3950
 Wire Notes Line
@@ -2392,11 +2392,11 @@ Wire Wire Line
 Wire Wire Line
 	15200 3800 15100 3800
 Wire Notes Line
-	1250 8600 1250 10300
+	-2200 3300 -2200 5000
 Wire Notes Line
-	3250 8600 1250 8600
+	-200 3300 -2200 3300
 Wire Notes Line
-	1250 10300 3250 10300
+	-2200 5000 -200 5000
 Wire Notes Line
 	15350 1150 14200 1150
 Wire Notes Line
@@ -2459,28 +2459,28 @@ Wire Wire Line
 Connection ~ 14050 4200
 Wire Wire Line
 	14050 3800 14050 4000
-Connection ~ 1850 8900
+Connection ~ -1600 3600
 Wire Wire Line
-	1500 8900 1850 8900
+	-1950 3600 -1600 3600
 Wire Wire Line
-	1850 8850 1850 8900
+	-1600 3550 -1600 3600
 Wire Wire Line
-	1500 9250 1500 9200
+	-1950 3950 -1950 3900
 Wire Wire Line
-	1550 9250 1500 9250
-Connection ~ 2550 9250
+	-1900 3950 -1950 3950
+Connection ~ -900 3950
 Wire Wire Line
-	2550 9300 2550 9250
-Connection ~ 2550 9650
+	-900 4000 -900 3950
+Connection ~ -900 4350
 Wire Wire Line
-	2550 9600 2550 9650
+	-900 4300 -900 4350
 Wire Wire Line
-	2150 9250 2550 9250
-Connection ~ 1850 9650
+	-1300 3950 -900 3950
+Connection ~ -1600 4350
 Wire Wire Line
-	1850 9650 2550 9650
+	-1600 4350 -900 4350
 Wire Wire Line
-	1850 9550 1850 9650
+	-1600 4250 -1600 4350
 Wire Notes Line
 	1900 3300 600  3300
 Wire Notes Line
@@ -2993,57 +2993,6 @@ Wire Wire Line
 Wire Wire Line
 	14000 2200 14000 2300
 Connection ~ 14000 2300
-$Comp
-L monerohw:Conn_01x30_Female J14
-U 1 1 5AB0729D
-P 6100 10300
-F 0 "J14" V 6200 11650 50  0000 C CNN
-F 1 "Conn_01x30_Female" V 6200 10300 50  0000 C CNN
-F 2 "Monero_Local:Hirose_FH12-30S-0.5SH_1x30_P0.50mm_Horizontal" H 6100 10300 50  0001 C CNN
-F 3 "http://www.buy-display.com/download/connector/ER-CON30HT-1.pdf" H 6100 10300 50  0001 C CNN
-	1    6100 10300
-	0    -1   -1   0   
-$EndComp
-Text Notes 5850 9950 0    60   ~ 0
-DS1 and J14 are equivalent\nconnector symbols. Use one.
-Wire Notes Line
-	5800 10000 5800 9700
-Wire Notes Line
-	5800 9700 7200 9700
-Wire Notes Line
-	7200 9700 7200 10000
-Wire Notes Line
-	7200 10000 5800 10000
-NoConn ~ 4700 10500
-NoConn ~ 4800 10500
-NoConn ~ 4900 10500
-NoConn ~ 5000 10500
-NoConn ~ 5100 10500
-NoConn ~ 5200 10500
-NoConn ~ 5300 10500
-NoConn ~ 5400 10500
-NoConn ~ 5500 10500
-NoConn ~ 5600 10500
-NoConn ~ 5700 10500
-NoConn ~ 5800 10500
-NoConn ~ 5900 10500
-NoConn ~ 6000 10500
-NoConn ~ 6100 10500
-NoConn ~ 6200 10500
-NoConn ~ 6300 10500
-NoConn ~ 6400 10500
-NoConn ~ 6500 10500
-NoConn ~ 6600 10500
-NoConn ~ 6700 10500
-NoConn ~ 6800 10500
-NoConn ~ 6900 10500
-NoConn ~ 7000 10500
-NoConn ~ 7100 10500
-NoConn ~ 7200 10500
-NoConn ~ 7300 10500
-NoConn ~ 7400 10500
-NoConn ~ 7500 10500
-NoConn ~ 7600 10500
 Wire Wire Line
 	12450 8250 12650 8250
 Wire Wire Line
@@ -3101,29 +3050,29 @@ Wire Wire Line
 Wire Wire Line
 	1450 4500 1650 4500
 Wire Wire Line
-	5350 9800 5500 9800
+	5650 9800 5800 9800
+Wire Wire Line
+	5800 9400 5800 9500
 Wire Wire Line
 	5500 9400 5500 9500
 Wire Wire Line
-	5200 9400 5200 9500
+	5650 9400 5800 9400
 Wire Wire Line
-	5350 9400 5500 9400
+	8000 9200 8000 9400
 Wire Wire Line
-	7700 9200 7700 9400
+	8000 9400 8000 9500
 Wire Wire Line
-	7700 9400 7700 9500
+	7900 9000 8000 9000
 Wire Wire Line
-	7600 9000 7700 9000
+	7800 9000 7900 9000
 Wire Wire Line
-	7500 9000 7600 9000
+	6100 9000 7800 9000
 Wire Wire Line
-	5800 9000 7500 9000
+	6000 9000 6100 9000
 Wire Wire Line
-	5700 9000 5800 9000
+	5900 9000 6000 9000
 Wire Wire Line
-	5600 9000 5700 9000
-Wire Wire Line
-	5400 9000 5600 9000
+	5700 9000 5900 9000
 Wire Wire Line
 	2850 4550 2850 4600
 Wire Wire Line
@@ -3151,13 +3100,13 @@ Wire Wire Line
 Wire Wire Line
 	14050 4200 15200 4200
 Wire Wire Line
-	1850 8900 1850 8950
+	-1600 3600 -1600 3650
 Wire Wire Line
-	2550 9250 2750 9250
+	-900 3950 -700 3950
 Wire Wire Line
-	2550 9650 2750 9650
+	-900 4350 -700 4350
 Wire Wire Line
-	1850 9650 1850 9750
+	-1600 4350 -1600 4450
 Wire Wire Line
 	8200 2500 8200 2650
 Wire Wire Line
@@ -3554,7 +3503,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 7700 2550 7700
 Wire Notes Line
-	3250 10300 3250 8600
+	-200 5000 -200 3300
 Wire Notes Line
 	2500 8100 2500 7950
 Wire Notes Line
@@ -3659,4 +3608,175 @@ Wire Wire Line
 Wire Wire Line
 	3850 8000 3650 8000
 Connection ~ 3650 8000
+$Comp
+L monerohw:ER-CON24 DS2
+U 1 1 5C90362C
+P 3000 9650
+F 0 "DS2" H 1800 10550 50  0000 L CNN
+F 1 "ER-CON24" H 3800 10550 50  0000 L CNN
+F 2 "Monero_Local:Eastrising_ER-CON24HT-1_01x24_P0.50mm" H 3000 10750 50  0001 C CIN
+F 3 "https://www.buydisplay.com/download/connector/ER-CON24HT-1.pdf" H 3000 10650 50  0001 C CNN
+	1    3000 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:GND #PWR?
+U 1 1 5CACF9C9
+P 1850 10950
+F 0 "#PWR?" H 1850 10700 50  0001 C CNN
+F 1 "GND" H 1855 10777 50  0000 C CNN
+F 2 "" H 1850 10950 50  0001 C CNN
+F 3 "" H 1850 10950 50  0001 C CNN
+	1    1850 10950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 10550 1850 10650
+Wire Wire Line
+	1950 10550 1950 10650
+Wire Wire Line
+	1950 10650 1850 10650
+Connection ~ 1850 10650
+Wire Wire Line
+	1850 10650 1850 10950
+Wire Wire Line
+	2050 10550 2050 10650
+Wire Wire Line
+	2050 10650 1950 10650
+Connection ~ 1950 10650
+Wire Wire Line
+	2350 10550 2350 10650
+Wire Wire Line
+	2350 10650 2050 10650
+Connection ~ 2050 10650
+Wire Wire Line
+	2450 10550 2450 10650
+Wire Wire Line
+	2450 10650 2350 10650
+Connection ~ 2350 10650
+$Comp
+L monerohw:GND #PWR?
+U 1 1 5CCA2F2B
+P 4450 10950
+F 0 "#PWR?" H 4450 10700 50  0001 C CNN
+F 1 "GND" H 4455 10777 50  0000 C CNN
+F 2 "" H 4450 10950 50  0001 C CNN
+F 3 "" H 4450 10950 50  0001 C CNN
+	1    4450 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C_Small C31
+U 1 1 5CCFDE81
+P 4050 10750
+F 0 "C31" H 4142 10796 50  0000 L CNN
+F 1 "2.2uF" H 4142 10705 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 4050 10750 50  0001 C CNN
+F 3 "" H 4050 10750 50  0001 C CNN
+	1    4050 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C_Small C32
+U 1 1 5CD00BD6
+P 3950 10950
+F 0 "C32" H 3824 10950 50  0000 R CNN
+F 1 "4.7uF" H 3824 10850 50  0000 R CNN
+F 2 "Monero_Local:C_0805" H 3950 10950 50  0001 C CNN
+F 3 "" H 3950 10950 50  0001 C CNN
+	1    3950 10950
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:R_Small R16
+U 1 1 5CD0131F
+P 3850 10750
+F 0 "R16" H 3791 10796 50  0000 R CNN
+F 1 "390K" H 3791 10705 50  0000 R CNN
+F 2 "Monero_Local:R_0805" H 3850 10750 50  0001 C CNN
+F 3 "" H 3850 10750 50  0001 C CNN
+	1    3850 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 10550 4150 10650
+Wire Wire Line
+	4150 10650 4450 10650
+Wire Wire Line
+	4450 10650 4450 10850
+Wire Wire Line
+	4050 10550 4050 10650
+Wire Wire Line
+	4050 10850 4250 10850
+Connection ~ 4450 10850
+Wire Wire Line
+	4450 10850 4450 10950
+Wire Wire Line
+	3950 11050 4250 11050
+Wire Wire Line
+	4250 11050 4250 10850
+Connection ~ 4250 10850
+Wire Wire Line
+	4250 10850 4450 10850
+Wire Wire Line
+	3950 10550 3950 10850
+Wire Wire Line
+	3850 10850 3850 11050
+Wire Wire Line
+	3850 11050 3950 11050
+Connection ~ 3950 11050
+Wire Wire Line
+	3850 10550 3850 10650
+NoConn ~ 3750 10550
+NoConn ~ 3650 10550
+NoConn ~ 3550 10550
+NoConn ~ 3450 10550
+NoConn ~ 3350 10550
+NoConn ~ 3250 10550
+Text Label 3050 10550 3    50   ~ 0
+OLED_D0
+Text Label 3150 10550 3    50   ~ 0
+OLED_D1
+NoConn ~ 2950 10550
+NoConn ~ 2850 10550
+Text Label 2650 10550 3    50   ~ 0
+OLED_~RES~
+Text Label 2750 10550 3    50   ~ 0
+OLED_DC
+Text Label 2550 10550 3    50   ~ 0
+OLED_~CS~
+$Comp
+L monerohw:+3V3 #PWR?
+U 1 1 5D60B8D7
+P 2350 11150
+F 0 "#PWR?" H 2350 11000 50  0001 C CNN
+F 1 "+3V3" H 2365 11323 50  0000 C CNN
+F 2 "" H 2350 11150 50  0001 C CNN
+F 3 "" H 2350 11150 50  0001 C CNN
+	1    2350 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C_Small C33
+U 1 1 5D60BA63
+P 2150 10850
+F 0 "C33" H 2058 10896 50  0000 R CNN
+F 1 "1uF" H 2058 10805 50  0000 R CNN
+F 2 "Monero_Local:C_0805" H 2150 10850 50  0001 C CNN
+F 3 "" H 2150 10850 50  0001 C CNN
+	1    2150 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 10550 2250 10750
+Wire Wire Line
+	2250 11150 2350 11150
+Wire Wire Line
+	2150 10750 2250 10750
+Connection ~ 2250 10750
+Wire Wire Line
+	2250 10750 2250 11150
+Wire Wire Line
+	2150 10950 1850 10950
+Connection ~ 1850 10950
 $EndSCHEMATC
