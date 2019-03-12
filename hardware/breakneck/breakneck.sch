@@ -588,17 +588,6 @@ F 3 "" H 10500 2300 50  0001 C CNN
 	1    10500 2300
 	-1   0    0    -1  
 $EndComp
-$Comp
-L monerohw:TEST TP5
-U 1 1 5A720660
-P 10700 2100
-F 0 "TP5" H 10700 2400 50  0000 C BNN
-F 1 "VIN" H 10700 2350 50  0000 C CNN
-F 2 "Monero_Local:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10700 2100 50  0001 C CNN
-F 3 "" H 10700 2100 50  0001 C CNN
-	1    10700 2100
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 2750 6400
 NoConn ~ 2750 6300
 $Comp
@@ -3400,31 +3389,22 @@ F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf" H 10300
 $EndComp
 NoConn ~ 10500 2200
 Wire Wire Line
-	10700 2200 10600 2100
-Wire Wire Line
-	10700 2100 10600 2100
-Connection ~ 10600 2100
-Wire Wire Line
-	10600 2100 10500 2000
-Wire Wire Line
 	9600 2200 9700 2100
 Wire Wire Line
 	9800 2100 9700 2100
-Text Notes 11050 2300 0    60   ~ 0
+Text Notes 11250 2300 0    60   ~ 0
 May be 4V2,\nMCU danger!
 Wire Notes Line
-	11040 2100 11040 2320
+	11240 2100 11240 2320
 Wire Notes Line
-	11040 2320 11650 2320
+	11240 2320 11850 2320
 Wire Notes Line
-	11650 2320 11650 2100
+	11850 2320 11850 2100
 Wire Notes Line
-	11650 2100 11040 2100
+	11850 2100 11240 2100
 Connection ~ 9700 2100
-Text Notes 11025 2050 0    60   ~ 0
+Text Notes 11225 2050 0    60   ~ 0
 No charge IC!
-Wire Notes Line
-	11020 2000 10970 2250
 $Comp
 L monerohw:TEST TP11
 U 1 1 5DF61B33
@@ -3779,4 +3759,8 @@ Wire Wire Line
 Wire Wire Line
 	2150 10950 1850 10950
 Connection ~ 1850 10950
+Wire Wire Line
+	10500 2000 10700 2200
+Wire Notes Line
+	11200 2000 11000 2250
 $EndSCHEMATC
