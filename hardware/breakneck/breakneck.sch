@@ -1178,12 +1178,12 @@ $EndComp
 $Comp
 L monerohw:Monerologo-mid LOGO1
 U 1 1 5A7B31DF
-P 2000 1900
-F 0 "LOGO1" H 1200 2600 50  0000 C CNN
-F 1 "Monerologo-mid" H 2950 2600 50  0000 C CNN
-F 2 "Monero_Local:MoneroCircleCombi" H 2000 2250 50  0001 C CIN
-F 3 "Graphic-M" H 2000 2250 50  0001 C CNN
-	1    2000 1900
+P 1800 1700
+F 0 "LOGO1" H 1000 2400 50  0000 C CNN
+F 1 "Monerologo-mid" H 2750 2400 50  0000 C CNN
+F 2 "Monero_Local:MoneroCircleCombi" H 1800 2050 50  0001 C CIN
+F 3 "Graphic-M" H 1800 2050 50  0001 C CNN
+	1    1800 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1309,78 +1309,78 @@ Secure firmware bootstrap\nvia Monero Project secret
 $Comp
 L monerohw:DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH1
 U 1 1 5A7E405D
-P 4500 1200
-F 0 "MH1" H 4500 1400 50  0000 C CNN
-F 1 "Mountinghole-440" H 4500 1000 50  0000 C CNN
-F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 4500 1200 50  0001 C CNN
-F 3 "" H 4500 1200 50  0000 C CNN
-	1    4500 1200
+P 3700 1500
+F 0 "MH1" H 3700 1700 50  0000 C CNN
+F 1 "Mountinghole-440" H 3700 1300 50  0000 C CNN
+F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 3700 1500 50  0001 C CNN
+F 3 "" H 3700 1500 50  0000 C CNN
+	1    3700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH2
 U 1 1 5A7E413E
-P 5300 1200
-F 0 "MH2" H 5300 1400 50  0000 C CNN
-F 1 "Mountinghole-440" H 5300 1000 50  0000 C CNN
-F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 5300 1200 50  0001 C CNN
-F 3 "" H 5300 1200 50  0000 C CNN
-	1    5300 1200
+P 4500 1500
+F 0 "MH2" H 4500 1700 50  0000 C CNN
+F 1 "Mountinghole-440" H 4500 1300 50  0000 C CNN
+F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0000 C CNN
+	1    4500 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:DUMMY_MOUNTING-HOLE_RevE_Date22jun2010 MH3
 U 1 1 5A7E4211
-P 6100 1200
-F 0 "MH3" H 6100 1400 50  0000 C CNN
-F 1 "Mountinghole-440" H 6100 1000 50  0000 C CNN
-F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 6100 1200 50  0001 C CNN
-F 3 "" H 6100 1200 50  0000 C CNN
-	1    6100 1200
+P 5300 1500
+F 0 "MH3" H 5300 1700 50  0000 C CNN
+F 1 "Mountinghole-440" H 5300 1300 50  0000 C CNN
+F 2 "Monero_Local:MountingHole_3.2mm_M3_Pad_Via" H 5300 1500 50  0001 C CNN
+F 3 "" H 5300 1500 50  0000 C CNN
+	1    5300 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID1
 U 1 1 5A7E42F6
-P 6900 1200
-F 0 "FID1" H 6900 1350 50  0000 C CNN
-F 1 "Fiducial-PCB" H 6900 1050 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 6900 1200 50  0001 C CNN
-F 3 "" H 6900 1200 50  0000 C CNN
-	1    6900 1200
+P 3700 900
+F 0 "FID1" H 3700 1050 50  0000 C CNN
+F 1 "Fiducial-PCB" H 3700 750 50  0000 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 3700 900 50  0001 C CNN
+F 3 "" H 3700 900 50  0000 C CNN
+	1    3700 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID2
 U 1 1 5A7E43BB
-P 7700 1200
-F 0 "FID2" H 7700 1350 50  0000 C CNN
-F 1 "Fiducial-PCB" H 7700 1050 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 7700 1200 50  0001 C CNN
-F 3 "" H 7700 1200 50  0000 C CNN
-	1    7700 1200
+P 4300 900
+F 0 "FID2" H 4300 1050 50  0000 C CNN
+F 1 "Fiducial-PCB" H 4300 750 50  0000 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 4300 900 50  0001 C CNN
+F 3 "" H 4300 900 50  0000 C CNN
+	1    4300 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID3
 U 1 1 5A7E44A8
-P 8500 1200
-F 0 "FID3" H 8500 1350 50  0000 C CNN
-F 1 "Fiducial-PCB" H 8500 1050 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 8500 1200 50  0001 C CNN
-F 3 "" H 8500 1200 50  0000 C CNN
-	1    8500 1200
+P 4900 900
+F 0 "FID3" H 4900 1050 50  0000 C CNN
+F 1 "Fiducial-PCB" H 4900 750 50  0000 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 4900 900 50  0001 C CNN
+F 3 "" H 4900 900 50  0000 C CNN
+	1    4900 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:Dummy_FIDUCIAL_Passermarke_Type1_RevE_Date16Nov2011 FID4
 U 1 1 5A7E458D
-P 9300 1200
-F 0 "FID4" H 9300 1350 50  0000 C CNN
-F 1 "Fiducial-PCB" H 9300 1050 50  0000 C CNN
-F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 9300 1200 50  0001 C CNN
-F 3 "" H 9300 1200 50  0000 C CNN
-	1    9300 1200
+P 5500 900
+F 0 "FID4" H 5500 1050 50  0000 C CNN
+F 1 "Fiducial-PCB" H 5500 750 50  0000 C CNN
+F 2 "Monero_Local:Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" H 5500 900 50  0001 C CNN
+F 3 "" H 5500 900 50  0000 C CNN
+	1    5500 900 
 	1    0    0    -1  
 $EndComp
 Text Notes 12350 8000 0    60   ~ 0
@@ -1500,34 +1500,34 @@ $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A7CAF1C
-P 4250 1100
-F 0 "#PWR?" H 4250 850 50  0001 C CNN
-F 1 "GND" H 4250 950 50  0000 C CNN
-F 2 "" H 4250 1100 50  0001 C CNN
-F 3 "" H 4250 1100 50  0001 C CNN
-	1    4250 1100
+P 3450 1400
+F 0 "#PWR?" H 3450 1150 50  0001 C CNN
+F 1 "GND" H 3450 1250 50  0000 C CNN
+F 2 "" H 3450 1400 50  0001 C CNN
+F 3 "" H 3450 1400 50  0001 C CNN
+	1    3450 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A7CB1E6
-P 5050 1100
-F 0 "#PWR?" H 5050 850 50  0001 C CNN
-F 1 "GND" H 5050 950 50  0000 C CNN
-F 2 "" H 5050 1100 50  0001 C CNN
-F 3 "" H 5050 1100 50  0001 C CNN
-	1    5050 1100
+P 4250 1400
+F 0 "#PWR?" H 4250 1150 50  0001 C CNN
+F 1 "GND" H 4250 1250 50  0000 C CNN
+F 2 "" H 4250 1400 50  0001 C CNN
+F 3 "" H 4250 1400 50  0001 C CNN
+	1    4250 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L monerohw:GND #PWR?
 U 1 1 5A7CB296
-P 5850 1100
-F 0 "#PWR?" H 5850 850 50  0001 C CNN
-F 1 "GND" H 5850 950 50  0000 C CNN
-F 2 "" H 5850 1100 50  0001 C CNN
-F 3 "" H 5850 1100 50  0001 C CNN
-	1    5850 1100
+P 5050 1400
+F 0 "#PWR?" H 5050 1150 50  0001 C CNN
+F 1 "GND" H 5050 1250 50  0000 C CNN
+F 2 "" H 5050 1400 50  0001 C CNN
+F 3 "" H 5050 1400 50  0001 C CNN
+	1    5050 1400
 	1    0    0    -1  
 $EndComp
 NoConn ~ 12500 3900
@@ -2112,23 +2112,23 @@ Wire Wire Line
 	9300 7950 9300 9100
 Connection ~ 2950 4800
 Wire Wire Line
-	5950 1100 5850 1100
+	5150 1400 5050 1400
 Wire Wire Line
-	5950 1200 5950 1100
+	5150 1500 5150 1400
 Wire Wire Line
-	6100 1200 5950 1200
+	5300 1500 5150 1500
 Wire Wire Line
-	5150 1100 5050 1100
+	4350 1400 4250 1400
 Wire Wire Line
-	5150 1200 5150 1100
+	4350 1500 4350 1400
 Wire Wire Line
-	5300 1200 5150 1200
+	4500 1500 4350 1500
 Wire Wire Line
-	4350 1100 4250 1100
+	3550 1400 3450 1400
 Wire Wire Line
-	4350 1200 4350 1100
+	3550 1500 3550 1400
 Wire Wire Line
-	4500 1200 4350 1200
+	3700 1500 3550 1500
 Wire Notes Line
 	3300 8100 2500 8100
 Connection ~ 14150 2100
@@ -2489,7 +2489,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 2500 8200 2500
 Wire Wire Line
-	8200 1900 8200 2200
+	8200 1900 8200 2050
 Connection ~ 8200 2500
 Wire Wire Line
 	8000 2650 8200 2650
@@ -3341,16 +3341,16 @@ $EndComp
 Wire Wire Line
 	8300 1900 8200 1900
 Connection ~ 8200 1900
-Text Notes 9000 1825 0    60   ~ 0
+Text Notes 9050 1825 0    60   ~ 0
 Coincell operate\nrequires STM32L
 Wire Notes Line
-	8990 1630 8990 1850
+	9040 1630 9040 1850
 Wire Notes Line
-	8990 1850 9770 1850
+	9040 1850 9820 1850
 Wire Notes Line
-	9770 1850 9770 1630
+	9820 1850 9820 1630
 Wire Notes Line
-	9770 1630 8990 1630
+	9820 1630 9040 1630
 Wire Wire Line
 	10700 2300 10500 2300
 Wire Wire Line
@@ -3380,8 +3380,8 @@ $Comp
 L monerohw:SW_SPDT SW4
 U 1 1 5D202EE7
 P 10300 2100
-F 0 "SW4" H 10300 1775 50  0000 C CNN
-F 1 "SW_SPDT" H 10300 1866 50  0000 C CNN
+F 0 "SW4" H 10300 1800 50  0000 C CNN
+F 1 "SW_SPDT" H 10389 1900 50  0000 C CNN
 F 2 "Monero_Local:SW_SPDT_CLSB-12A" H 10300 2100 50  0001 C CNN
 F 3 "https://www.nidec-copal-electronics.com/e/catalog/switch/cl-sb.pdf" H 10300 2100 50  0001 C CNN
 	1    10300 2100
@@ -3392,19 +3392,17 @@ Wire Wire Line
 	9600 2200 9700 2100
 Wire Wire Line
 	9800 2100 9700 2100
-Text Notes 11250 2300 0    60   ~ 0
+Text Notes 10400 2800 0    60   ~ 0
 May be 4V2,\nMCU danger!
 Wire Notes Line
-	11240 2100 11240 2320
+	10390 2600 10390 2820
 Wire Notes Line
-	11240 2320 11850 2320
+	10390 2820 11000 2820
 Wire Notes Line
-	11850 2320 11850 2100
+	11000 2820 11000 2600
 Wire Notes Line
-	11850 2100 11240 2100
+	11000 2600 10390 2600
 Connection ~ 9700 2100
-Text Notes 11225 2050 0    60   ~ 0
-No charge IC!
 $Comp
 L monerohw:TEST TP11
 U 1 1 5DF61B33
@@ -3761,6 +3759,139 @@ Wire Wire Line
 Connection ~ 1850 10950
 Wire Wire Line
 	10500 2000 10700 2200
-Wire Notes Line
-	11200 2000 11000 2250
+$Comp
+L monerohw:MCP73831-2-OT U7
+U 1 1 5CA29EC4
+P 9150 950
+F 0 "U7" H 9268 1300 50  0000 C CNN
+F 1 "MCP73831-2-OT" H 9550 1200 50  0000 C CNN
+F 2 "Monero_Local:SOT-23-5" H 9200 700 50  0001 L CIN
+F 3 "" H 9000 900 50  0001 C CNN
+	1    9150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C C35
+U 1 1 5CA2A064
+P 9850 1000
+F 0 "C35" H 9965 1046 50  0000 L CNN
+F 1 "4.7uF" H 9965 955 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 9888 850 50  0001 C CNN
+F 3 "" H 9850 1000 50  0001 C CNN
+	1    9850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:C C34
+U 1 1 5CA2A222
+P 8500 800
+F 0 "C34" H 8615 846 50  0000 L CNN
+F 1 "4.7uF" H 8615 755 50  0000 L CNN
+F 2 "Monero_Local:C_0805" H 8538 650 50  0001 C CNN
+F 3 "" H 8500 800 50  0001 C CNN
+	1    8500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:R R17
+U 1 1 5CA2A3BE
+P 8750 1200
+F 0 "R17" H 8553 1246 50  0000 L CNN
+F 1 "2K" H 8593 1155 50  0000 L CNN
+F 2 "Monero_Local:R_0805" V 8680 1200 50  0001 C CNN
+F 3 "" H 8750 1200 50  0001 C CNN
+	1    8750 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:R R18
+U 1 1 5CA2A550
+P 9550 1200
+F 0 "R18" H 9620 1246 50  0000 L CNN
+F 1 "470" H 9620 1155 50  0000 L CNN
+F 2 "Monero_Local:R_0805" V 9480 1200 50  0001 C CNN
+F 3 "" H 9550 1200 50  0001 C CNN
+	1    9550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L monerohw:LED D9
+U 1 1 5CA2A6EA
+P 8250 1000
+F 0 "D9" V 8288 921 50  0000 R CNN
+F 1 "LED" V 8197 921 50  0000 R CNN
+F 2 "Monero_Local:LED_0805" H 8250 1000 50  0001 C CNN
+F 3 "" H 8250 1000 50  0001 C CNN
+	1    8250 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L monerohw:GND #PWR?
+U 1 1 5CDD92A9
+P 9150 1250
+F 0 "#PWR?" H 9150 1000 50  0001 C CNN
+F 1 "GND" H 9300 1250 50  0000 C CNN
+F 2 "" H 9150 1250 50  0001 C CNN
+F 3 "" H 9150 1250 50  0001 C CNN
+	1    9150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 1350 8950 1350
+Wire Wire Line
+	8950 1350 8950 1250
+Wire Wire Line
+	8950 1250 9150 1250
+Connection ~ 9150 1250
+Wire Wire Line
+	9150 650  8500 650 
+Wire Wire Line
+	8250 1150 8250 1450
+Wire Wire Line
+	8250 1450 9550 1450
+Wire Wire Line
+	9550 1450 9550 1350
+Wire Wire Line
+	9550 850  9850 850 
+$Comp
+L monerohw:GND #PWR?
+U 1 1 5D0E7B04
+P 9850 1150
+F 0 "#PWR?" H 9850 900 50  0001 C CNN
+F 1 "GND" H 9855 977 50  0000 C CNN
+F 2 "" H 9850 1150 50  0001 C CNN
+F 3 "" H 9850 1150 50  0001 C CNN
+	1    9850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 950  8500 1350
+Wire Wire Line
+	8500 1350 8750 1350
+Connection ~ 8750 1350
+Wire Wire Line
+	8500 650  8250 650 
+Wire Wire Line
+	8250 650  8250 850 
+Connection ~ 8500 650 
+Wire Wire Line
+	8200 2050 8050 2050
+Wire Wire Line
+	8050 2050 8050 650 
+Wire Wire Line
+	8050 650  8250 650 
+Connection ~ 8200 2050
+Wire Wire Line
+	8200 2050 8200 2200
+Connection ~ 8250 650 
+Wire Wire Line
+	10700 2200 10700 1850
+Wire Wire Line
+	10300 850  9850 850 
+Connection ~ 10700 2200
+Connection ~ 9850 850 
+Wire Wire Line
+	10700 1850 10300 1450
+Wire Wire Line
+	10300 1450 10300 850 
 $EndSCHEMATC
