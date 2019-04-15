@@ -3440,8 +3440,8 @@ Wire Wire Line
 	3900 3500 3900 3550
 Wire Wire Line
 	14400 7500 14500 7500
-Text Notes 13300 7020 1    47   ~ 0
-Could need\n10K -> 0R
+Text Notes 13400 7050 1    39   ~ 0
+Could need\n10K -> 0R\n510 -> 0R\nSTM AN4488
 Text Notes 900  7150 1    60   ~ 0
 STM32F: HSE can be 32 MHz\nSTM32L: HSE max is 24 MHz\nSTMewL: LSE 32 KHz required
 Wire Notes Line
