@@ -7,10 +7,10 @@
       (title_block
         (title "HCPP NFC Hardware Badge")
         (company "The Monero Project Hardware Team")
-        (rev 0.8)
-        (date 2018-09-02)
+        (rev 0.8.1)
+        (date 2019-04-16)
         (source hcppnfc.sch)
-        (comment (number 1) (value "Copyright © 2018, The Monero Project"))
+        (comment (number 1) (value "Copyright © 2019, The Monero Project"))
         (comment (number 2) (value "Fulfilling the fourth annual conference badge"))
         (comment (number 3) (value "Pending quality assurance testing"))
         (comment (number 4) (value "Warning, untested prototype!")))))

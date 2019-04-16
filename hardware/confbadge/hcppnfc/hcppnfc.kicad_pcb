@@ -15,10 +15,10 @@
   (page A4)
   (title_block
     (title "HCPP NFC Hardware Badge")
-    (date 2018-09-02)
-    (rev 0.8)
+    (date 2019-04-16)
+    (rev 0.8.1)
     (company "The Monero Project, Hardware Team")
-    (comment 1 "Copyright © 2018, The Monero Project")
+    (comment 1 "Copyright © 2019, The Monero Project")
     (comment 2 "Fulfilling the fourth annual conference badge")
     (comment 3 "Pending quality assurance testing")
     (comment 4 "Warning, untested prototype!")

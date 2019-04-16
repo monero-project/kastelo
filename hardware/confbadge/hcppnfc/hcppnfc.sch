@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HCPP NFC Hardware Badge"
-Date "2018-09-02"
-Rev "0.8"
+Date "2019-04-16"
+Rev "0.8.1"
 Comp "The Monero Project Hardware Team"
-Comment1 "Copyright © 2018, The Monero Project"
+Comment1 "Copyright © 2019, The Monero Project"
 Comment2 "Fulfilling the fourth annual conference badge"
 Comment3 "Pending quality assurance testing"
 Comment4 "Warning, untested prototype!"
