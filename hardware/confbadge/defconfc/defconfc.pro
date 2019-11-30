@@ -26,11 +26,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=libraries
-[eeschema/libraries]
-LibName1=libraries/defconfc
 [schematic_editor]
 version=1
 PageLayoutDescrFile=defconfc-white.kicad_wks
@@ -41,3 +36,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=
