@@ -1,0 +1,20 @@
+Considerations before generating position placement manufacturing files
+-----------------------------------------------------------------------
+All panel boards must be in the same rotation, for the placement machine.
+If panel boards are rotated, rotate single board before generating pos.
+
+A) Mark drill and position origin on lower left corner for top layer.
+B) Move top layer manufacturing file in safety before regenerating bottom.
+C) Mark drill and position origin on lower right corner for bottom layer.
+D) Move safety top layer manufacturing file back to original file name.
+E) Optionally combine top and bottom layers, using care with T/B fields.
+
+Ensure that fiducials are in the generated placement files, use smt.
+Import to new project in placement machine, do not mirror bottom.
+Create a separate placement project for each (top|bottom) layer.
+Rearrange parts list to reflect speed optimised board area order.
+Move fiducials to bottom of list and delete jumpers and graphics.
+Set all nonplacement parts (fiducials and DNP items) to skip.
+Copy fiducial positions to marker array and consider values.
+
+Finally, reencode character data from LF to CRLF EOL endings.
